@@ -19,23 +19,23 @@ addons:
       - curl
 
 before_script:
-  # env
   - export TZ=Asia/Shanghai
   - git config --global user.name "travis-ci"
   - git config --global user.email "travis-ci@github.com"
   - git config --global log.date iso
-  
-  - mkdir chnroute
 
 script:
+  - mkdir chnroute
   - pushd chnroute
   - curl 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt
   - popd
 
 after_success:
-  - pushd chnroute
-  - git init
-  - git add .
+  - git clone https://github.com/pexcn/daily.git -b gh-pages upload --depth 5
+  - pushd upload
+  - rm -r *
+  - cp ../chnroute/* .
+  - git add --all
   - git commit -m "`date +'%Y-%m-%d %T'`"
   - git push --quiet "https://${token}@github.com/pexcn/daily.git" HEAD:gh-pages
   - popd
