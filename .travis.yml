@@ -1,14 +1,17 @@
 dist: trusty
 sudo: false
 
-language: bash
+notifications:
+  email: false
 
 branches:
   only:
     - master
 
-notifications:
-  email: false
+language: bash
+
+env:
+  secure: "U4S7PKECmegpzEoHwblNnRQ4Wgzn7fE4nYv+GGbumxd98z71RcoKBJP0hQg9zxHRFQdPmUid9sRPW7P6E2HPwPVCeWjTkntWMFcF2PZr9fW/beO31LUe5R+0KS7BaKl2IVrHJeSURpOtv3RMJRzo838WfzuiSlD5EumJ23+2e0GDjcoREWw+p3f7cDi8De4PUoVN1atig2ZN/Y6Gr8JNSbAAjUj2ECd/BQRRrIxe/ri/7dHs5Uot9gPbG2VNCAi+srla9fSLUrtXYRY5k3uI9FyCb2yu8MIW0IeiJrx06onYd6F3pJ49QxJfsRJtFEa3FMmMBE2U4XlnTq/pMdcVgCqle4KSK2G0WQ4oU7l3Fbk9qqTVHOZIJQBPkSQUbBeQ1MBSiWR0O6t0AVbNDsWaO/PFb2Y8qQWiJC9XVCZ+t6xE/InUyX/kom1NuEd86GhESpr6lxGImJ4WIlUYZ37eWI9vZBqwKp1yVzMEmIUkld4/no6/IWtWcdxYVsI62aZNUtHuHFelGaR3tC2M3w+SoEfcciXM++4gcUHyBqZTRmkAsCbdxB4ag7IZG83Ij0GcfSyDc3UVU//A6Q4e7E1py1GsTssVTrbcfV3Xwzd9rroyXlMo1c6ACMV1nT5MInBrxxykySJ/qkPKPfTtcFUik5HLcp/xhhJlfaQOha7ZFgA="
 
 addons:
   apt:
@@ -16,14 +19,23 @@ addons:
       - curl
 
 before_script:
-- mkdir chnroute
+  # env
+  - export TZ=Asia/Shanghai
+  - git config --global user.name "travis-ci"
+  - git config --global user.email "travis-ci@github.com"
+  - git config --global log.date iso
+  
+  - mkdir chnroute
 
 script:
-- pushd chnroute
-- curl 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt
-- popd
+  - pushd chnroute
+  - curl 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt
+  - popd
 
 after_success:
-- pushd chnroute
-- ls -al
-- popd
+  - pushd chnroute
+  - git init
+  - git add .
+  - git commit -m "`date +'%Y-%m-%d %T'`"
+  - git push --quiet "https://${token}@github.com/pexcn/daily.git" HEAD:gh-pages
+  - popd
