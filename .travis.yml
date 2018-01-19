@@ -33,10 +33,10 @@ script:
   
   # dnsmasq rules
   - mkdir -p dist/dnsmasq
-  - echo -e "\n# easylistchina+easylist: `date +'%Y-%m-%d %T'`\n" >> adblock.conf
+  - echo -e "\n# easylistchina+easylist - `date +'%Y-%m-%d %T'`\n" >> adblock.conf
   - curl https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' >> adblock.conf
   - echo -e "\n" >> adblock.conf
-  - echo -e "\n# ABP-FX: `date +'%Y-%m-%d %T'`\n" >> adblock.conf
+  - echo -e "\n# ABP-FX - `date +'%Y-%m-%d %T'`\n" >> adblock.conf
   - curl https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' >> adblock.conf
   - popd
 
