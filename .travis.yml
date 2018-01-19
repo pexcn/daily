@@ -25,8 +25,8 @@ before_script:
   - git config --global log.date iso
 
 script:
-  - mkdir chnroute
-  - pushd chnroute
+  - mkdir -p dist/chnroute
+  - pushd dist/chnroute
   - curl 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt
   - popd
 
@@ -34,7 +34,7 @@ after_success:
   - git clone https://github.com/pexcn/daily.git -b gh-pages upload --depth 5
   - pushd upload
   - rm -r *
-  - cp ../chnroute/* .
+  - cp -r ../dist/* .
   - git add --all
   - git commit -m "`date +'%Y-%m-%d %T'`"
   - git push --quiet "https://${token}@github.com/pexcn/daily.git" HEAD:gh-pages
