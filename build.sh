@@ -8,16 +8,18 @@ function setup() {
 }
 
 function build() {
+	echo "Current directory: $PWD"
+
 	# chnroute
-	mkdir -p dist/chnroute
-	pushd dist/chnroute
+	mkdir -p build/chnroute
+	pushd build/chnroute
 	> chnroute.txt
 	curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt
 	popd
 
 	# dnsmasq rules
-	mkdir -p dist/dnsmasq
-	pushd dist/dnsmasq
+	mkdir -p build/dnsmasq
+	pushd build/dnsmasq
 	> adblock.conf
 	echo -e "#\n# easylistchina+easylist - `date +'%Y-%m-%d %T'`\n#" >> adblock.conf
 	curl -kL https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' >> adblock.conf
@@ -34,9 +36,9 @@ function release() {
 	git clone https://github.com/pexcn/daily.git -b gh-pages release --depth 5
 	pushd release
 	rm -r *
-	cp -r ../dist/* .
+	cp -r ../build/* .
 	git add --all
-	git commit -m "`date +'%Y-%m-%d %T'`"
+	git commit -m "[AUTO BUILD] `date +'%Y-%m-%d %T'`"
 	git push --quiet "https://${token}@github.com/pexcn/daily.git" HEAD:gh-pages
 	popd
 }
