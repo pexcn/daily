@@ -8,8 +8,6 @@ function setup() {
 }
 
 function build() {
-	echo "Current directory: $PWD"
-
 	# chnroute
 	mkdir -p build/chnroute
 	pushd build/chnroute
