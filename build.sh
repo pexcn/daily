@@ -2,8 +2,8 @@
 
 function setup() {
 	export TZ=Asia/Shanghai
-	git config --global user.name "travis-ci"
-	git config --global user.email "travis-ci@github.com"
+	git config --global user.name "Travis CI"
+	git config --global user.email "travis.ci.build@gmail.com"
 	git config --global log.date iso
 }
 
