@@ -36,7 +36,7 @@ function release() {
 	rm -r *
 	cp -r ../build/* .
 	git add --all
-	git commit -m "[AUTO BUILD] `date +'%Y-%m-%d %T'`"
+	git commit -m "[AUTO BUILD] `date +'%Y-%m-%d %T'`" || echo "INFO: UP TO DATE"
 	git push --quiet "https://${token}@github.com/pexcn/daily.git" HEAD:gh-pages
 	popd
 }
