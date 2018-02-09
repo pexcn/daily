@@ -11,7 +11,6 @@ function build() {
     # chnroute
     mkdir -p build/chnroute
     pushd build/chnroute
-    > chnroute.txt.tmp
     curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt.tmp
     mv chnroute.txt.tmp chnroute.txt
     popd
@@ -19,7 +18,6 @@ function build() {
     # dnsmasq rules
     mkdir -p build/dnsmasq
     pushd build/dnsmasq
-    > adblock.conf.tmp
     echo -e "#\n# easylistchina+easylist\n#" >> adblock.conf.tmp
     curl -kL https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' >> adblock.conf.tmp
     echo -e "\n\n" >> adblock.conf.tmp
