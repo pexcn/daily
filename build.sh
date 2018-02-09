@@ -11,22 +11,24 @@ function build() {
     # chnroute
     mkdir -p build/chnroute
     pushd build/chnroute
-    > chnroute.txt
-    curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt
+    > chnroute.txt.tmp
+    curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt.tmp
+    mv chnroute.txt.tmp chnroute.txt
     popd
 
     # dnsmasq rules
     mkdir -p build/dnsmasq
     pushd build/dnsmasq
-    > adblock.conf
-    echo -e "#\n# easylistchina+easylist\n#" >> adblock.conf
-    curl -kL https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' >> adblock.conf
-    echo -e "\n\n" >> adblock.conf
-    echo -e "#\n# ABP-FX\n#" >> adblock.conf
-    curl -kL https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' >> adblock.conf
-    echo -e "\n\n" >> adblock.conf
-    echo -e "#\n# custom rules\n#" >> adblock.conf
-    curl -kL https://pexcn.github.io/dnsmasq-rules/rules.conf >> adblock.conf
+    > adblock.conf.tmp
+    echo -e "#\n# easylistchina+easylist\n#" >> adblock.conf.tmp
+    curl -kL https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' >> adblock.conf.tmp
+    echo -e "\n\n" >> adblock.conf.tmp
+    echo -e "#\n# ABP-FX\n#" >> adblock.conf.tmp
+    curl -kL https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' >> adblock.conf.tmp
+    echo -e "\n\n" >> adblock.conf.tmp
+    echo -e "#\n# custom rules\n#" >> adblock.conf.tmp
+    curl -kL https://pexcn.github.io/dnsmasq-rules/rules.conf >> adblock.conf.tmp
+    mv adblock.conf.tmp adblock.conf
     popd
 }
 
@@ -37,7 +39,7 @@ function release() {
     cp -r ../build/* .
     git add --all
     git commit -m "[AUTO BUILD] `date +'%Y-%m-%d %T'`" || echo "INFO: UP TO DATE"
-    git push --quiet "https://${token}@github.com/pexcn/daily.git" HEAD:gh-pages
+    git push --quiet "https://${token}@github.com/pexcn/daily.git" gh-pages
     popd
 }
 
