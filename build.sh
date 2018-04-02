@@ -1,4 +1,4 @@
-#!/bin/bash -xe
+#!/bin/bash -e
 
 function setup_env() {
   export TZ=Asia/Shanghai
