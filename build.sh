@@ -24,7 +24,8 @@ function build_chnroute() {
   mkdir -p build/chnroute
   pushd build/chnroute
   curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt.tmp
-  cat chnroute.txt.tmp | ../cidrmerge/cidrmerge > chnroute.txt && rm chnroute.txt.tmp
+  curl -kL https://github.com/17mon/china_ip_list/raw/master/china_ip_list.txt > chnroute_ipip.txt.tmp
+  cat chnroute.txt.tmp chnroute_ipip.txt.tmp | ../cidrmerge/cidrmerge > chnroute.txt && rm chnroute.txt.tmp chnroute_ipip.txt.tmp
   popd
 
   # ipv6 chnroute
