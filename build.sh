@@ -1,20 +1,42 @@
 #!/bin/bash -xe
 
-function setup() {
+function setup_env() {
   export TZ=Asia/Shanghai
   git config --global user.name "Travis CI"
   git config --global user.email "travis.ci.build@gmail.com"
   git config --global log.date iso
 }
 
-function build() {
-  # chnroute
+function prepare_env() {
+  # cidrmerge
+  mkdir -p build
+  pushd build
+  curl -kL https://sourceforge.net/projects/cidrmerge/files/latest/download -o cidrmerge.tar.gz
+  tar zxvf cidrmerge.tar.gz && rm cidrmerge.tar.gz
+  pushd cidrmerge
+  make
+  popd
+  popd
+}
+
+function build_chnroute() {
+  # ipv4 chnroute
   mkdir -p build/chnroute
   pushd build/chnroute
   curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt.tmp
-  mv chnroute.txt.tmp chnroute.txt
+  cat chnroute.txt.tmp | ../cidrmerge/cidrmerge > chnroute.txt && rm chnroute.txt.tmp
   popd
 
+  # ipv6 chnroute
+  mkdir -p build/chnroute
+  pushd build/chnroute
+  curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv6 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute_v6.txt.tmp
+  mv chnroute_v6.txt.tmp chnroute_v6.txt
+  popd
+}
+
+# TODO: write it pretty
+function build_dnsmasq_rules() {
   # dnsmasq rules
   mkdir -p build/dnsmasq
   pushd build/dnsmasq
@@ -30,6 +52,13 @@ function build() {
   popd
 }
 
+function clean_up() {
+  # remove unused files
+  pushd build
+  rm -r cidrmerge
+  popd
+}
+
 function release() {
   git clone https://github.com/pexcn/daily.git -b gh-pages release --depth 5
   pushd release
@@ -41,6 +70,11 @@ function release() {
   popd
 }
 
-setup
-build
+setup_env
+prepare_env
+
+build_chnroute
+build_dnsmasq_rules
+
+clean_up
 release
