@@ -8,13 +8,16 @@ function setup_env() {
 }
 
 function prepare_env() {
+  mkdir -p bin depends
+  PATH=$PATH:bin
+
   # cidrmerge
-  mkdir -p build
-  pushd build
+  pushd depends
   curl -kL https://sourceforge.net/projects/cidrmerge/files/latest/download -o cidrmerge.tar.gz
   tar zxvf cidrmerge.tar.gz && rm cidrmerge.tar.gz
   pushd cidrmerge
   make
+  mv cidrmerge ../../bin/
   popd
   popd
 }
@@ -25,7 +28,7 @@ function build_chnroute() {
   pushd build/chnroute
   curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt.tmp
   curl -kL https://github.com/17mon/china_ip_list/raw/master/china_ip_list.txt > chnroute_ipip.txt.tmp
-  cat chnroute.txt.tmp chnroute_ipip.txt.tmp | ../cidrmerge/cidrmerge > chnroute.txt && rm chnroute.txt.tmp chnroute_ipip.txt.tmp
+  cat chnroute.txt.tmp chnroute_ipip.txt.tmp | cidrmerge > chnroute.txt && rm chnroute.txt.tmp chnroute_ipip.txt.tmp
   popd
 
   # ipv6 chnroute
@@ -55,9 +58,7 @@ function build_dnsmasq_rules() {
 
 function clean_up() {
   # remove unused files
-  pushd build
-  rm -r cidrmerge
-  popd
+  rm -r depends
 }
 
 function release() {
