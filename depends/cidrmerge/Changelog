@@ -1,0 +1,61 @@
+1.5.3
+- fixed broken check on expansion array validity
+- added support for DOS and MAC line separators
+1.5.2
+- test and code cleanup for 64bit platforms
+- changed TONETMASK macro to improve speed
+- TIMESTAMP functionality now print milliseconds instead of seconds (program is too fast! :-) )
+- finalized support for UNIX_IO. Compile - time flag now honored properly (disabled by default)
+- various minor bug fixes
+- changed makefile to be as optimized as possible but to generate binary running on (almost) any architecture
+- using integer 32bit definition in sensible places, to be sure to always produce correct result
+1.5.1
+- Bugfix: in the not usual case of one blacklist network having multiple subnetworks in whitelist only the first one was considered. As a result, not all whitelistd IP were removed from blacklist. Bug introduced in 1.5.0.
+1.5.0
+- Changed the expansion policy to use an additional array. This avoid "memmove" fuction usage. Very effective in case of huge number of expansions to perform
+- Since in some architecture accessing char could be slower that accessing int, added define "CHAR_PREFIX" (enabled by default) to control whether or not use a char for prefix field into entry struct
+- removed timestamping by default (TIMESTAMP define)
+1.1.1
+- some minor code cleanup
+- commented and improved makefile: now there are optional features commented out for safeness that can impruve memore usage and speed, but they need to be tested on target machine. One of this is to really enable memory optimization introduced in 1.1.0.
+1.1.0
+- Optimized output function dropping printf usage and using pre compiled array
+- Minor input speed optimization
+- Introduced -D INLINE define to instruct compiler to use inline C++ primitive for some fuction (please remove it in case of compiler issues)
+- changed apply_whitelist function in a way that will use less memory and cpu in case of huge network expansion. Limitation on size of network to expand no more neccessary.
+- changed data structure to use less memory (37% less).
+1.0.0
+- New project started based on Optimize 2.5.1
+
+Optimize
+2.5.1
+- Refuse to run if integer size is not 32 bits
+- Protect from too big network expansion (network <=4) appling whitelist, that can cause program to segfault
+- Corrected array memmove problem that was causing one network to be lost each expansion
+- Renamed defined variable and moved to makefile
+- Changed makefile to be easyest to modify/configure
+2.5.0
+- Introduced "OPTIMIZED_SORT" compile-time flag to use a very optimized sorting routine (thanks to Michael Tokarev). On my pc sorting 8M networks now take 2 secs instead of 17!
+- Corrected a bug in conflicts resolution (introduced in 2.4.0) that could cause some blacklisted IPs to be lost in case of whitelisted subnetworks
+- Rewritten input function (again!) to be faster and more readable.
+- Changed output function to be faster (-20% of total exectution time during my testing whith 8M networks)
+- Introduced "TIMESTAMP" compile-time flag to produce timestamp.out output with function-level profiling informations
+2.4.1
+- Changed makefile to work on solaris whithout warnings
+2.4.0
+- Input Parsing function rewritten. Added logic to handle space characters as carriage returns
+- Library function prototypes changed to be more flexible (now auto sorting is an option): please check header file to see what's new
+- Corrected bug in whitelisting that could cause whitelisted hosts to be produced in output
+- Rationalized whitelist function (shorter and better I hope :-) )
+2.3.2
+- Adding support for * in input lines (examples: 10.*, 10.20.*, etc)
+2.3.1
+- Enforce syntax cheking in order to refuse all lines with letters into.
+2.3.0
+- Adding support for not cidr compliant line in input files. Support: "X" "X.Y" "X.Y.Z" "X.Y.Z.N". Those lines are threated using full network range.
+2.2.1
+- Splitted library compilation from main executable: to have the library, now is necessary to use the "make lib" makefile commandZ
+
+2.2.0
+- First public release
+

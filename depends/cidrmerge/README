@@ -1,0 +1,66 @@
+1 PURPOSE OF THE PROJECT
+
+Purpose of this program is to export a library and a program to realize the CIDR optimization.
+CIDR optimization means given the input A find out an equivalen output B that contains the as small as possible number of lines.
+Additionally program/library can apply a whitelist to the input CIDR: that means that taken and input CIDR A and a whitelist CIDR B the output C will be the optimized version of A minus all networks contained by B.
+
+The program has been widely used for blacklist optimization: you can put together many blacklist, apply your own whitelist and obtain the optimized version of input files. It works perfectly in conjunction with rbldns (http://cr.yp.to/djbdns/rbldns.html). Many big ISP are currently using it.
+
+It can be used under certain conditions for reducing number of lines of ACLs or routing tables.
+
+Performances
+The alghoritm in both optimization cases (with and without whitelist) is executed with the N*log(N) complexity due to sorting alghoritm. The sort is realized using C qsort function. Memory usage depends on operations performed and it can be quite high in case of nasty blacklist/whitelist combination. Anyway has been proven to support millions network as input without any big trouble.
+
+Usage
+cidrmerge -h|-v|[whitelist file] [NOOPTIMIZE]
+-v		Print version number and exit
+-h		Print small help hints and exit
+[whitelist file] CIDR format file containing whitelist 
+[NOOPTIMIZE] will apply the whitelist but will not cidrmerge the output. Useful for debug purposes
+
+Return code: 0 on success, > 0 in case of error
+
+Optimization Example
+A (Taken from standard input)
+10.1.1.0/24
+10.1.1.1/32
+192.1.4.5/32
+192.1.4.4/32
+B
+10.1.1.0/24
+192.1.4.3/31
+
+Whitelist Example
+A (Taken from standard input)
+10.1.1.0/24
+10.1.1.1/32
+192.1.4.5/32
+192.1.4.4/32
+B (read as input file)
+192.1.4.4/32
+10.1.1.128/31
+C
+10.1.1.0/25
+10.1.1.130/31
+10.1.1.132/30
+10.1.1.136/29
+10.1.1.144/28
+10.1.1.160/27
+10.1.1.192/26
+10.1.1.1/32
+192.1.4.5/32
+
+
+2 PROJECT COMPONENTS
+
+This programs consist of some part
+- the optimization library: The library offer core functionality that can be used by programmers to build their own programs. It can be used as shared library or statically linked
+- the optimization program: an implementaton that read CIDR formatted lines and output CIDR formatted lines, using core library function accordingly
+- two utility script: one to convert network form addresses (network/netmask) to CIDR called netmasktocidr.pl and the opposite, called cidrtonetmask.pl
+
+BUILD
+A C compiler is needed (tested with gcc 2.95, 3.2 and 3.3). Simply type make will work in most cases. In case gcc is not into path, please modify makefile accordingly.
+To compile shared library, please use "make lib".
+
+AUTHOR
+Daniele Depetrini (depetrini@libero.it)
