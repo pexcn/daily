@@ -4,8 +4,7 @@ sudo: false
 language: bash
 
 branches:
-  only:
-    - master
+  only: master
 
 notifications:
   email: false
@@ -15,14 +14,13 @@ env:
 
 deploy:
   provider: pages
-  local-dir: gh-pages
+  local-dir: dist
   target-branch: gh-pages
   keep-history: true
   skip-cleanup: true
-  verbose: true
   github-token: ${token}
   on:
     branch: master
 
 script:
-  - curl -kL https://github.com/pexcn/daily/raw/master/build.sh | bash -e
+  - curl -kL https://github.com/pexcn/daily/raw/master/generate.sh | bash -e

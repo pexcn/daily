@@ -1,8 +1,9 @@
 #!/bin/bash -e
 
 function prepare_env() {
+  # add to $PATH
   mkdir -p bin
-  PATH=$PATH:bin
+  PATH=$PATH:$TRAVIS_BUILD_DIR/bin
 
   # cidrmerge
   pushd depends/cidrmerge
@@ -17,7 +18,7 @@ function build_chnroute() {
   pushd build/chnroute
   curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt.tmp
   curl -kL https://github.com/17mon/china_ip_list/raw/master/china_ip_list.txt > chnroute_ipip.txt.tmp
-  cat chnroute.txt.tmp chnroute_ipip.txt.tmp | cidrmerge > chnroute.txt && rm chnroute.txt.tmp chnroute_ipip.txt.tmp
+  cat chnroute.txt.tmp chnroute_ipip.txt.tmp | cidrmerge > chnroute.txt
   popd
 
   # ipv6 chnroute
@@ -46,13 +47,13 @@ function build_dnsmasq_rules() {
 }
 
 function clean_up() {
-  # remove unused files
-  rm -r depends
+  rm build/chnroute/chnroute.txt.tmp
+  rm build/chnroute/chnroute_ipip.txt.tmp
 }
 
-function release() {
-  mkdir -p gh-pages
-  cp -r ../build/* gh-pages
+function dist_release() {
+  mkdir -p dist
+  cp -r build/* dist
 }
 
 prepare_env
@@ -61,4 +62,4 @@ build_chnroute
 build_dnsmasq_rules
 
 clean_up
-release
+dist_release
