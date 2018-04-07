@@ -1,4 +1,4 @@
-# Daily build
+# Daily
 
 [![Build Status](https://travis-ci.org/pexcn/daily.svg?branch=master)](https://travis-ci.org/pexcn/daily)
 
@@ -7,6 +7,8 @@
 See [https://github.com/pexcn/MyNote/tree/master/Notes/OpenWrt](https://github.com/pexcn/MyNote/tree/master/Notes/OpenWrt).
 
 ## TODO
+
+* Use makefile instead manually copy to bin
 
 ```bash
 # Full
