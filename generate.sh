@@ -6,7 +6,7 @@ function prepare_env() {
   PATH=$PATH:$TRAVIS_BUILD_DIR/bin
 
   # cidrmerge
-  pushd depends/cidrmerge
+  pushd tools/cidrmerge
   make
   mv cidrmerge ../../bin/
   popd
