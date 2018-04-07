@@ -1,12 +1,5 @@
 #!/bin/bash -e
 
-function setup_env() {
-  export TZ=Asia/Shanghai
-  git config --global user.name "Travis CI"
-  git config --global user.email "travis.ci.build@gmail.com"
-  git config --global log.date iso
-}
-
 function prepare_env() {
   mkdir -p bin
   PATH=$PATH:bin
@@ -58,17 +51,10 @@ function clean_up() {
 }
 
 function release() {
-  git clone https://github.com/pexcn/daily.git -b gh-pages release --depth 5
-  pushd release
-  rm -r *
-  cp -r ../build/* .
-  git add --all
-  git commit -m "[AUTO BUILD] `date +'%Y-%m-%d %T'`" || echo "INFO: UP TO DATE"
-  git push --quiet "https://${token}@github.com/pexcn/daily.git" gh-pages
-  popd
+  mkdir -p gh-pages
+  cp -r ../build/* gh-pages
 }
 
-setup_env
 prepare_env
 
 build_chnroute
