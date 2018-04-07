@@ -8,17 +8,13 @@ function setup_env() {
 }
 
 function prepare_env() {
-  mkdir -p bin depends
+  mkdir -p bin
   PATH=$PATH:bin
 
   # cidrmerge
-  pushd depends
-  curl -kL https://sourceforge.net/projects/cidrmerge/files/latest/download -o cidrmerge.tar.gz
-  tar zxvf cidrmerge.tar.gz && rm cidrmerge.tar.gz
-  pushd cidrmerge
+  pushd depends/cidrmerge
   make
   mv cidrmerge ../../bin/
-  popd
   popd
 }
 
