@@ -35,15 +35,18 @@ function build_dnsmasq_rules() {
   pushd build/dnsmasq
   curl -kL https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' > easylistchina.conf.tmp
   curl -kL https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' > abp-fx.conf.tmp
-  cat easylistchina.conf.tmp abp-fx.conf.tmp | sort | uniq > adblock.conf
+  curl -kL "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext" | grep -E '^127.0.0.1' | awk '{printf "address=/%s/127.0.0.1\n",$2}' > yoyo.conf.tmp
+  cat easylistchina.conf.tmp abp-fx.conf.tmp yoyo.conf.tmp | sort | uniq > adblock.conf
   popd
 }
 
 function clean_up() {
   rm build/chnroute/chnroute.txt.tmp
   rm build/chnroute/chnroute_ipip.txt.tmp
+
   rm build/dnsmasq/easylistchina.conf.tmp
   rm build/dnsmasq/abp-fx.conf.tmp
+  rm build/dnsmasq/yoyo.conf.tmp
 }
 
 function dist_release() {
