@@ -61,6 +61,11 @@ function gen_whitelist_pac() {
   sed -i 's/server=\//"/g' china_domain_list.tmp
   sed -i 's/\/114.114.114.114/":1,/g' china_domain_list.tmp
 
+  # Remove comments, these domains can be directly connected in China
+  sed -i 's/#//g' china_domain_list.tmp
+  # If above domains cannot be connected in China, should be remove include '#' lines
+  #sed -i '/#/d' china_domain_list.tmp
+
   # Remove last "," character
   # Reference: https://stackoverflow.com/questions/3576139/sed-remove-string-only-in-the-last-line-of-the-file
   sed -i '$ s/":1,/":1/g' china_domain_list.tmp
