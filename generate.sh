@@ -13,27 +13,27 @@ function prepare_env() {
 }
 
 # chnroute
-function build_chnroute() {
+function gen_chnroute() {
   # ipv4 chnroute
-  mkdir -p build/chnroute
-  pushd build/chnroute
+  mkdir -p gen/chnroute
+  pushd gen/chnroute
   curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt.tmp
   curl -kL https://github.com/17mon/china_ip_list/raw/master/china_ip_list.txt > chnroute_ipip.txt.tmp
   cat chnroute.txt.tmp chnroute_ipip.txt.tmp | cidrmerge > chnroute.txt
   popd
 
   # ipv6 chnroute
-  mkdir -p build/chnroute
-  pushd build/chnroute
+  mkdir -p gen/chnroute
+  pushd gen/chnroute
   curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv6 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute_v6.txt.tmp
   mv chnroute_v6.txt.tmp chnroute_v6.txt
   popd
 }
 
 # dnsmasq rules
-function build_dnsmasq_rules() {
-  mkdir -p build/dnsmasq
-  pushd build/dnsmasq
+function gen_dnsmasq_rules() {
+  mkdir -p gen/dnsmasq
+  pushd gen/dnsmasq
 
   # normal
   curl -kL https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' > easylistchina.conf.tmp
@@ -50,24 +50,24 @@ function build_dnsmasq_rules() {
 }
 
 function clean_up() {
-  rm build/chnroute/chnroute.txt.tmp
-  rm build/chnroute/chnroute_ipip.txt.tmp
+  rm gen/chnroute/chnroute.txt.tmp
+  rm gen/chnroute/chnroute_ipip.txt.tmp
 
-  rm build/dnsmasq/easylistchina.conf.tmp
-  rm build/dnsmasq/abp-fx.conf.tmp
-  rm build/dnsmasq/yoyo.conf.tmp
-  rm build/dnsmasq/adaway.conf.tmp
+  rm gen/dnsmasq/easylistchina.conf.tmp
+  rm gen/dnsmasq/abp-fx.conf.tmp
+  rm gen/dnsmasq/yoyo.conf.tmp
+  rm gen/dnsmasq/adaway.conf.tmp
 }
 
 function dist_release() {
   mkdir -p dist
-  cp -r build/* dist
+  cp -r gen/* dist
 }
 
 prepare_env
 
-build_chnroute
-build_dnsmasq_rules
+gen_chnroute
+gen_dnsmasq_rules
 
 clean_up
 dist_release
