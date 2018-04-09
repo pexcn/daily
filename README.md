@@ -8,6 +8,7 @@ This script can be automatically generate something every day.
 
 * `chnroute.txt` is the routing table for ChinaDNS.
 * `adblock.conf` is dnsmasq advertising blocking rules.
+* 'whitelist.pac' is the gfw whitelist pac list.
 
 ### OpenWRT
 
