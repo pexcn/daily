@@ -56,7 +56,6 @@ function gen_whitelist_pac() {
   pushd gen/pac
 
   curl -kL https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf > china_domain_list.tmp
-  cp ../../template/whitelist.pac whitelist.pac.tmp
 
   sed -i 's/server=\//"/g' china_domain_list.tmp
   sed -i 's/\/114.114.114.114/":1,/g' china_domain_list.tmp
@@ -70,7 +69,7 @@ function gen_whitelist_pac() {
   # Reference: https://stackoverflow.com/questions/3576139/sed-remove-string-only-in-the-last-line-of-the-file
   sed -i '$ s/":1,/":1/g' china_domain_list.tmp
 
-  sed 's/CHINA_DOMAIN_LIST_PLACEHOLDER/cat china_domain_list.tmp/e' whitelist.pac.tmp > whitelist.pac
+  sed 's/CHINA_DOMAIN_LIST_PLACEHOLDER/cat china_domain_list.tmp/e' ../../template/whitelist.pac > whitelist.pac
   popd
 }
 
@@ -84,7 +83,6 @@ function clean_up() {
   rm gen/dnsmasq/adaway.conf.tmp
 
   rm gen/pac/china_domain_list.tmp
-  rm gen/pac/whitelist.pac.tmp
 }
 
 function dist_release() {
