@@ -87,7 +87,8 @@ function clean_up() {
 
 function dist_release() {
   mkdir -p dist
-  cp -r gen/* dist
+  cp -r gen/* dist/
+  cp README.md dist/
 }
 
 prepare_env
