@@ -1,10 +1,6 @@
 #!/bin/bash -e
 
 function prepare_env() {
-  # add to $PATH
-  mkdir -p bin
-  PATH=$PATH:$TRAVIS_BUILD_DIR/bin
-
   # cidrmerge
   pushd tools/cidrmerge
   make
