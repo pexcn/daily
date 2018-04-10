@@ -65,6 +65,8 @@ function gen_whitelist_pac() {
   sed -i '$ s/":1,/":1/g' china_domain_list.tmp
 
   sed 's/__CHINA_DOMAIN_LIST_PLACEHOLDER__/cat china_domain_list.tmp/e' ../../template/whitelist.pac > whitelist.pac
+
+  sed -i "1i//\n// Update: $(date +'%Y-%m-%d %T')\n//\n" whitelist.pac
   popd
 }
 
