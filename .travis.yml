@@ -26,4 +26,4 @@ deploy:
     branch: master
 
 script:
-  - curl -kL https://github.com/pexcn/daily/raw/master/generate.sh | bash -e
+  - curl -kL 'https://github.com/pexcn/daily/raw/master/generate.sh' | bash -e

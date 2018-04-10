@@ -15,7 +15,7 @@ function gen_chnroute() {
   mkdir -p gen/chnroute
   pushd gen/chnroute
   curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt.tmp
-  curl -kL https://github.com/17mon/china_ip_list/raw/master/china_ip_list.txt > chnroute_ipip.txt.tmp
+  curl -kL 'https://github.com/17mon/china_ip_list/raw/master/china_ip_list.txt' > chnroute_ipip.txt.tmp
   cat chnroute.txt.tmp chnroute_ipip.txt.tmp | cidrmerge > chnroute.txt
   popd
 
@@ -33,12 +33,12 @@ function gen_dnsmasq_rules() {
   pushd gen/dnsmasq
 
   # normal
-  curl -kL https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' > easylistchina.conf.tmp
-  curl -kL https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' > abp-fx.conf.tmp
-  curl -kL "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext" | grep -E '^127.0.0.1' | awk '{printf "address=/%s/127.0.0.1\n",$2}' > yoyo.conf.tmp
+  curl -kL 'https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt' | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' > easylistchina.conf.tmp
+  curl -kL 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt' | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' > abp-fx.conf.tmp
+  curl -kL 'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext' | grep -E '^127.0.0.1' | awk '{printf "address=/%s/127.0.0.1\n",$2}' > yoyo.conf.tmp
 
   # full
-  curl -kL https://hosts-file.net/ad_servers.txt | grep -E '^127.0.0.1' | awk '{printf "address=/%s/127.0.0.1\n",$2}' > adaway.conf.tmp
+  curl -kL 'https://hosts-file.net/ad_servers.txt' | grep -E '^127.0.0.1' | awk '{printf "address=/%s/127.0.0.1\n",$2}' > adaway.conf.tmp
 
   cat easylistchina.conf.tmp abp-fx.conf.tmp yoyo.conf.tmp | sort | uniq > adblock.conf
   cat easylistchina.conf.tmp abp-fx.conf.tmp yoyo.conf.tmp adaway.conf.tmp | sort | uniq > adblock_full.conf
@@ -52,7 +52,7 @@ function gen_whitelist_pac() {
   mkdir -p gen/pac
   pushd gen/pac
 
-  curl -kL https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf > china_domain_list.tmp
+  curl -kL 'https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf' > china_domain_list.tmp
 
   sed -i 's/server=\//"/g' china_domain_list.tmp
   sed -i 's/\/114.114.114.114/":1,/g' china_domain_list.tmp
