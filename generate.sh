@@ -35,7 +35,7 @@ function gen_dnsmasq_rules() {
   curl -kL 'https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt' | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' > easylistchina.conf.tmp
   curl -kL 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt' | grep ^\|\|[^\*]*\^$ | sed -e 's:||:address\=\/:' -e 's:\^:/127\.0\.0\.1:' > abp-fx.conf.tmp
   curl -kL 'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext' | grep -E '^127.0.0.1' | awk '{printf "address=/%s/127.0.0.1\n",$2}' > yoyo.conf.tmp
-  curl -kL 'https://hosts-file.net/ad_servers.txt' | grep -E '^127.0.0.1' | awk '{printf "address=/%s/127.0.0.1\n",$2}' > adaway.conf.tmp
+  curl -kL 'https://hosts-file.net/ad_servers.txt' | sed  $'s/\r$//' | grep -E '^127.0.0.1' | awk '{printf "address=/%s/127.0.0.1\n",$2}' > adaway.conf.tmp
 
   cat easylistchina.conf.tmp abp-fx.conf.tmp yoyo.conf.tmp | sort | uniq > adblock.conf
   cat easylistchina.conf.tmp abp-fx.conf.tmp yoyo.conf.tmp adaway.conf.tmp | sort | uniq > adblock_full.conf
