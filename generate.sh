@@ -69,7 +69,7 @@ function gen_whitelist_pac() {
   # Reference: https://stackoverflow.com/questions/3576139/sed-remove-string-only-in-the-last-line-of-the-file
   sed -i '$ s/":1,/":1/g' china_domain_list.tmp
 
-  sed 's/CHINA_DOMAIN_LIST_PLACEHOLDER/cat china_domain_list.tmp/e' ../../template/whitelist.pac > whitelist.pac
+  sed 's/__CHINA_DOMAIN_LIST_PLACEHOLDER__/cat china_domain_list.tmp/e' ../../template/whitelist.pac > whitelist.pac
   popd
 }
 
