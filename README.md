@@ -8,7 +8,7 @@ This script can be automatically generate something every day.
 
 * [`chnroute.txt`](https://pexcn.github.io/daily/chnroute/chnroute.txt) is the routing table for ChinaDNS.
 * [`adblock.conf`](https://pexcn.github.io/daily/dnsmasq/adblock.conf) is dnsmasq advertising blocking rules.
-* [`whitelist.pac`](https://pexcn.github.io/daily/pac/whitelist.conf) is the gfw whitelist pac list.
+* [`whitelist.pac`](https://pexcn.github.io/daily/pac/whitelist.pac) is the gfw whitelist pac list.
 
 ### OpenWRT
 
