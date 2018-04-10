@@ -17,6 +17,7 @@ function gen_chnroute() {
   curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt.tmp
   curl -kL 'https://github.com/17mon/china_ip_list/raw/master/china_ip_list.txt' > chnroute_ipip.txt.tmp
   cat chnroute.txt.tmp chnroute_ipip.txt.tmp | cidrmerge > chnroute.txt
+  sed -i "1i#\n# Update: $(date +'%Y-%m-%d %T')\n#\n" chnroute.txt
   popd
 
   # ipv6 chnroute
@@ -24,6 +25,7 @@ function gen_chnroute() {
   pushd gen/chnroute
   curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv6 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute_v6.txt.tmp
   mv chnroute_v6.txt.tmp chnroute_v6.txt
+  sed -i "1i#\n# Update: $(date +'%Y-%m-%d %T')\n#\n" chnroute_v6.txt
   popd
 }
 
