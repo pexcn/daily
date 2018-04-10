@@ -8,7 +8,8 @@ function prepare_env() {
   # cidrmerge
   pushd tools/cidrmerge
   make
-  mv cidrmerge ../../bin/
+  install -d ../../bin/
+  install cidrmerge ../../bin/
   popd
 }
 
