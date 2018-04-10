@@ -1,5 +1,3 @@
-// Update: __UPDATE_DATE_YYYY_MM_DD_HH_MM_SS__
-
 var proxy = "SOCKS5 127.0.0.1:1080;";
 var direct = "DIRECT;";
 
