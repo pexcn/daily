@@ -14,8 +14,8 @@ env:
 install:
   - pushd tools/cidrmerge
   - make
-  - install -d /usr/bin/
-  - install cidrmerge /usr/bin/
+  - sudo install -d /usr/bin/
+  - sudo install cidrmerge /usr/bin/
   - popd
 
 before_script:
