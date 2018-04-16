@@ -1,14 +1,5 @@
 #!/bin/bash -e
 
-function prepare_env() {
-  # cidrmerge
-  pushd tools/cidrmerge
-  make
-  install -d ../../bin/
-  install cidrmerge ../../bin/
-  popd
-}
-
 # chnroute
 function gen_chnroute() {
   # ipv4 chnroute
@@ -83,11 +74,8 @@ function clean_up() {
 }
 
 function dist_release() {
-  mkdir -p dist
-  cp -r gen/* dist/
+  cp -r gen dist
 }
-
-prepare_env
 
 gen_chnroute
 gen_dnsmasq_rules
