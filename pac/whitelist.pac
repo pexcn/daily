@@ -1,5 +1,5 @@
 //
-// Update: 2018-04-24 00:35:07
+// Update: 2018-04-25 00:36:20
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -5220,6 +5220,7 @@ var china_domains = {
 "86fm.com":1,
 "86fuwuwang.com":1,
 "86game.com":1,
+"86hh.com":1,
 "86hr.com":1,
 "86hud.com":1,
 "86jixiao.com":1,
@@ -7014,6 +7015,7 @@ var china_domains = {
 "ankangwang.com":1,
 "ankerjiedian.com":1,
 "anlibaby.com":1,
+"anlogic.com":1,
 "ann5.net":1,
 "ann9.com":1,
 "annangela.moe":1,
@@ -7273,6 +7275,7 @@ var china_domains = {
 "appvipshop.com":1,
 "appvv.com":1,
 "appwen.com":1,
+"appwuhan.com":1,
 "appxzz.com":1,
 "appyao.com":1,
 "appying.com":1,
@@ -14422,6 +14425,7 @@ var china_domains = {
 "dyrt168.com":1,
 "dyshoufa.com":1,
 "dyt0.cc":1,
+"dyt4.cc":1,
 "dyteam.com":1,
 "dytj365.com":1,
 "dytt.com":1,
@@ -19939,6 +19943,7 @@ var china_domains = {
 "iccessh.org":1,
 "iccgame.com":1,
 "iccgame.net":1,
+"iccsz.com":1,
 "icdn2.com":1,
 "iceinto.com":1,
 "icewingcc.com":1,
@@ -30258,6 +30263,7 @@ var china_domains = {
 "rqiao.net":1,
 "rqyoo.com":1,
 "rr-sc.com":1,
+"rraimeili.com":1,
 "rrbt.org":1,
 "rrcimg.com":1,
 "rree.com":1,
@@ -34107,6 +34113,7 @@ var china_domains = {
 "tuiberry.com":1,
 "tuicool.com":1,
 "tuidc.com":1,
+"tuidove.com":1,
 "tuidragon.com":1,
 "tuifeiapi.com":1,
 "tuifish.com":1,
@@ -34216,6 +34223,7 @@ var china_domains = {
 "tvhomeimg.com":1,
 "tvhuan.com":1,
 "tvjianshen.com":1,
+"tvkoudai.com":1,
 "tvkuai.com":1,
 "tvlele.com":1,
 "tvmao.com":1,
