@@ -1,5 +1,5 @@
 //
-// Update: 2018-04-29 00:37:51
+// Update: 2018-04-30 00:38:40
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -16293,6 +16293,7 @@ var china_domains = {
 "fuchaoqun.com":1,
 "fuckdouban.com":1,
 "fuckingdata.com":1,
+"fuckqq.com":1,
 "fucms.com":1,
 "fudanmed.com":1,
 "fudanpress.com":1,
@@ -25985,6 +25986,7 @@ var china_domains = {
 "migucloud.com":1,
 "miguvideo.com":1,
 "mihayo.com":1,
+"mihayou.com":1,
 "mihoyo.com":1,
 "mihtool.com":1,
 "mihua.net":1,
