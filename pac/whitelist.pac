@@ -1,5 +1,5 @@
 //
-// Update: 2018-04-30 00:38:40
+// Update: 2018-05-01 00:39:17
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -2213,6 +2213,7 @@ var china_domains = {
 "2zzt.com":1,
 "3-5-78.com":1,
 "3000.com":1,
+"300033.info":1,
 "3000idc.com":1,
 "3001.net":1,
 "300113.com":1,
@@ -3104,6 +3105,7 @@ var china_domains = {
 "5000pk.com":1,
 "500173.com":1,
 "50018.com":1,
+"500boss.com":1,
 "500cache.com":1,
 "500d.me":1,
 "500efuma.com":1,
@@ -10954,6 +10956,7 @@ var china_domains = {
 "chinr.net":1,
 "chint.com":1,
 "chiphell.com":1,
+"chiplayout.net":1,
 "chipspark.com":1,
 "chiq-cloud.com":1,
 "chire.com":1,
@@ -14211,6 +14214,7 @@ var china_domains = {
 "dtxmw.com":1,
 "dtxn.net":1,
 "dtxww.com":1,
+"dtysky.moe":1,
 "dtyzg.com":1,
 "du114.com":1,
 "du175.com":1,
@@ -14457,6 +14461,7 @@ var china_domains = {
 "dyplk.com":1,
 "dyqc.com":1,
 "dyrt168.com":1,
+"dysfz.cc":1,
 "dyshoufa.com":1,
 "dyt0.cc":1,
 "dyt4.cc":1,
@@ -27078,6 +27083,7 @@ var china_domains = {
 "neitui.com":1,
 "neitui.me":1,
 "neiyicun.net":1,
+"nekohand.moe":1,
 "nekonazo.com":1,
 "nenew.net":1,
 "nengzuo.com":1,
