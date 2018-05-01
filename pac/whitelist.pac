@@ -1,5 +1,5 @@
 //
-// Update: 2018-05-01 00:39:17
+// Update: 2018-05-02 00:39:38
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -1615,6 +1615,7 @@ var china_domains = {
 "19where.com":1,
 "19yxw.com":1,
 "19zhan.com":1,
+"1biqu.com":1,
 "1cae.com":1,
 "1caifu.com":1,
 "1cbn.com":1,
@@ -9251,6 +9252,7 @@ var china_domains = {
 "bw8848.com":1,
 "bwchinese.com":1,
 "bwdc007.com":1,
+"bwghost.com":1,
 "bwhgsb.com":1,
 "bwie.net":1,
 "bwptl.com":1,
@@ -12760,6 +12762,7 @@ var china_domains = {
 "dadags.com":1,
 "dadajiasu.com":1,
 "dadao.net":1,
+"dadaochaotian5200.com":1,
 "dadaojiayuan.com":1,
 "dadayou.com":1,
 "dadclab.com":1,
@@ -16001,6 +16004,7 @@ var china_domains = {
 "fjzzled.com":1,
 "fkcaijing.com":1,
 "fkku194.com":1,
+"fkogs.com":1,
 "fktong.com":1,
 "fkw.com":1,
 "fkw100.com":1,
@@ -21529,6 +21533,7 @@ var china_domains = {
 "jiankong2008.com":1,
 "jiankongbao.com":1,
 "jiankongmf.com":1,
+"jianlaixiaoshuo.com":1,
 "jianlc.com":1,
 "jianli-sky.com":1,
 "jianliao.com":1,
@@ -24759,6 +24764,7 @@ var china_domains = {
 "longshangrc.com":1,
 "longshenzhanji.com":1,
 "longtaihui.com":1,
+"longtaitouxiaoshuo.com":1,
 "longtaiwj.com":1,
 "longtengwang.com":1,
 "longtugame.com":1,
@@ -38700,6 +38706,7 @@ var china_domains = {
 "yeswedo.cc":1,
 "yesxia.com":1,
 "yetang.com":1,
+"yetianzi.com":1,
 "yetibizhi86.com":1,
 "yetu.net":1,
 "yewuyuan.com":1,
@@ -39671,6 +39678,7 @@ var china_domains = {
 "yuanyintang.com":1,
 "yuanyouhandan.com":1,
 "yuanz.cc":1,
+"yuanzun5200.com":1,
 "yuaoart.com":1,
 "yuapt.com":1,
 "yublue.com":1,
