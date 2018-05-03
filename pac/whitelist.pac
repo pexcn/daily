@@ -1,5 +1,5 @@
 //
-// Update: 2018-05-03 00:40:01
+// Update: 2018-05-04 00:40:08
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -29147,6 +29147,7 @@ var china_domains = {
 "qhyedu.com":1,
 "qi-che.com":1,
 "qi-wen.com":1,
+"qi1game.com":1,
 "qiak.com":1,
 "qian10.net":1,
 "qianbao666.com":1,
@@ -29879,6 +29880,7 @@ var china_domains = {
 "qushixi.net":1,
 "qusu.org":1,
 "qutingting.com":1,
+"qutoutiao.net":1,
 "qutouwang.com":1,
 "qutu.com":1,
 "qutuw.com":1,
@@ -38123,6 +38125,7 @@ var china_domains = {
 "xrender.com":1,
 "xrfood.com":1,
 "xrkcdn.com":1,
+"xrkygs.com":1,
 "xrpmoon.com":1,
 "xrtju.pw":1,
 "xruinv.com":1,
@@ -39612,6 +39615,7 @@ var china_domains = {
 "yqxs8.com":1,
 "yqysp.com":1,
 "yreenchan.com":1,
+"yrjiank.com":1,
 "yrkj8.com":1,
 "yrksd.com":1,
 "yrom.net":1,
@@ -39632,6 +39636,7 @@ var china_domains = {
 "ys900.com":1,
 "ysali.com":1,
 "ysba.cc":1,
+"yscjzsj.com":1,
 "yse360.cc":1,
 "ysedu.com":1,
 "yseeker.com":1,
