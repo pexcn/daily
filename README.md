@@ -6,9 +6,9 @@ This script can be automatically generate something every day.
 
 ## Usage
 
-* [`chnroute.txt`](https://pexcn.github.io/daily/chnroute/chnroute.txt) is the routing table for ChinaDNS.
-* [`adblock.conf`](https://pexcn.github.io/daily/dnsmasq/adblock.conf) is dnsmasq advertising blocking rules.
-* [`whitelist.pac`](https://pexcn.github.io/daily/pac/whitelist.pac) is the gfw whitelist pac list.
+* [`chnroute.txt`](https://pexcn.me/daily/chnroute/chnroute.txt) is the routing table for ChinaDNS.
+* [`adblock.conf`](https://pexcn.me/daily/dnsmasq/adblock.conf) is dnsmasq advertising blocking rules.
+* [`whitelist.pac`](https://pexcn.me/daily/pac/whitelist.pac) is the gfw whitelist pac list.
 
 ### OpenWRT
 
@@ -17,7 +17,7 @@ Add script in `/root/update/chinadns.sh`
 ```bash
 #!/bin/ash -e
 
-wget -O /tmp/chnroute.txt https://pexcn.github.io/daily/chnroute/chnroute.txt --no-check-certificate
+wget -O /tmp/chnroute.txt https://pexcn.me/daily/chnroute/chnroute.txt --no-check-certificate
 mv /tmp/chnroute.txt /etc/chinadns_chnroute.txt
 /etc/init.d/chinadns restart
 ```
@@ -27,7 +27,7 @@ Add script in `/root/update/adblock.sh`
 ```bash
 #!/bin/ash -e
 
-wget -O /tmp/adblock.conf https://pexcn.github.io/daily/dnsmasq/adblock.conf --no-check-certificate
+wget -O /tmp/adblock.conf https://pexcn.me/daily/dnsmasq/adblock.conf --no-check-certificate
 mv /tmp/adblock.conf /etc/dnsmasq.d/adblock.conf
 /etc/init.d/dnsmasq restart
 ```
