@@ -1,5 +1,5 @@
 //
-// Update: 2018-05-10 00:43:07
+// Update: 2018-05-10 19:26:33
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -1487,6 +1487,7 @@ var china_domains = {
 "17u.com":1,
 "17u.net":1,
 "17u1u.com":1,
+"17ubi.com":1,
 "17ugo.com":1,
 "17uhui.net":1,
 "17ukulele.com":1,
@@ -2723,6 +2724,7 @@ var china_domains = {
 "38mhw.com":1,
 "38shishang.com":1,
 "38tu.net":1,
+"38xf.com":1,
 "39.net":1,
 "390kan.com":1,
 "3911.com":1,
@@ -3980,6 +3982,7 @@ var china_domains = {
 "56img.net":1,
 "56imgs.com":1,
 "56jita.com":1,
+"56laile.com":1,
 "56md.com":1,
 "56ml.com":1,
 "56mp.com":1,
@@ -5773,6 +5776,7 @@ var china_domains = {
 "95572.com":1,
 "95579.com":1,
 "95599.hk":1,
+"955sd.com":1,
 "9564.com":1,
 "9565.com":1,
 "9588.com":1,
@@ -7568,6 +7572,7 @@ var china_domains = {
 "autooo.net":1,
 "autophagy.net":1,
 "autoqingdao.com":1,
+"autosmt.net":1,
 "autosup.com":1,
 "autozw.com":1,
 "auvplayer.com":1,
@@ -15116,6 +15121,7 @@ var china_domains = {
 "ennweekly.com":1,
 "enongbang.com":1,
 "enoya.com":1,
+"enpapers.com":1,
 "enping1.com":1,
 "enqoo.com":1,
 "enread.com":1,
@@ -17553,6 +17559,7 @@ var china_domains = {
 "guazistatic.com":1,
 "guazixs.com":1,
 "gubo.org":1,
+"gucci3.com":1,
 "gucheng.com":1,
 "guchengbbs.com":1,
 "gucn.com":1,
@@ -17886,6 +17893,7 @@ var china_domains = {
 "h5king.com":1,
 "h5le.com":1,
 "h5mc.com":1,
+"h5mugeda.com":1,
 "h5ps.com":1,
 "h5sg.com":1,
 "h5shop.org":1,
@@ -19457,6 +19465,7 @@ var china_domains = {
 "huangze.net":1,
 "huanhao.cc":1,
 "huanhuba.com":1,
+"huaniaotu.com":1,
 "huanjia.cc":1,
 "huanju.org":1,
 "huanjuyun.com":1,
@@ -20362,6 +20371,7 @@ var china_domains = {
 "ihualun.com":1,
 "ihuanfou.com":1,
 "ihuanling.com":1,
+"ihuazhan.net":1,
 "ihuiu.com":1,
 "ihuiyx.com":1,
 "ihuochaihe.com":1,
@@ -20516,6 +20526,7 @@ var china_domains = {
 "imarketchina.com":1,
 "imatchic.com":1,
 "imatlas.com":1,
+"imbackr.com":1,
 "imbatv.com":1,
 "imbatv.net":1,
 "imbeer.com":1,
@@ -20879,6 +20890,7 @@ var china_domains = {
 "ishenyou.com":1,
 "isherewithyou.com":1,
 "ishhuo.com":1,
+"ishop789.com":1,
 "ishowchina.com":1,
 "ishowx.com":1,
 "ishuchao.com":1,
@@ -20891,6 +20903,7 @@ var china_domains = {
 "ismdy.com":1,
 "isming.me":1,
 "isn8.com":1,
+"iso234.com":1,
 "iso27001cn.com":1,
 "isoft-linux.org":1,
 "isofts.org":1,
@@ -25960,6 +25973,7 @@ var china_domains = {
 "mg3721.com":1,
 "mg67.com":1,
 "mgaobo.com":1,
+"mgd5.com":1,
 "mgenware.com":1,
 "mgff.com":1,
 "mght99.com":1,
@@ -30740,6 +30754,7 @@ var china_domains = {
 "saomadang.com":1,
 "saonian.me":1,
 "saopu.com":1,
+"saowen.com":1,
 "saowen.net":1,
 "sap1000.com":1,
 "sap1200.com":1,
@@ -31200,6 +31215,7 @@ var china_domains = {
 "shaqing.com":1,
 "shaqm.com":1,
 "shardprotocal.org":1,
+"share1diantong.com":1,
 "sharecore.net":1,
 "sharejie.com":1,
 "sharejs.com":1,
@@ -34356,6 +34372,7 @@ var china_domains = {
 "tujian.com":1,
 "tujiwar.com":1,
 "tujoin.com":1,
+"tukexiu.com":1,
 "tukkk.com":1,
 "tuku.cc":1,
 "tuku.com":1,
@@ -34956,6 +34973,7 @@ var china_domains = {
 "uu234.net":1,
 "uu38.com":1,
 "uu456.com":1,
+"uu55.tv":1,
 "uu66.com":1,
 "uu898.com":1,
 "uuadv.com":1,
@@ -36146,6 +36164,7 @@ var china_domains = {
 "weizoom.com":1,
 "wekbo.com":1,
 "welansh.com":1,
+"welchan.com":1,
 "welefen.com":1,
 "weleve.com":1,
 "welian.com":1,
@@ -37408,6 +37427,7 @@ var china_domains = {
 "xianghunet.com":1,
 "xiangkanzs.com":1,
 "xiangkesi.com":1,
+"xiangley.com":1,
 "xianglong.me":1,
 "xianglute.com":1,
 "xiangmaojx.com":1,
@@ -37426,6 +37446,7 @@ var china_domains = {
 "xiangtone.com":1,
 "xianguo.com":1,
 "xiangw.com":1,
+"xiangwushuo.com":1,
 "xiangxiangmf.com":1,
 "xiangyang.net":1,
 "xiangzhuyuan.com":1,
@@ -41306,6 +41327,7 @@ var china_domains = {
 "zkroom.com":1,
 "zktw.com":1,
 "zkx.cc":1,
+"zkyouxi.com":1,
 "zkyxls.com":1,
 "zl50.com":1,
 "zl99.org":1,
@@ -41752,10 +41774,18 @@ var china_domains = {
 var subnet_ips = [
 0,1,                     // 0.0.0.0
 167772160,184549376,     // 10.0.0.0/8
--1408237568,-1407188992, // 172.16.0.0/12
--1062731776,-1062666240, // 192.168.0.0/16
 1681915904,1686110208,   // 100.64.0.0/10
-2130706432,2130706688    // 127.0.0.0/24
+2130706432,2147483648,   // 127.0.0.0/8
+-1442971648,-1442906112, // 169.254.0.0/16
+-1408237568,-1407188992, // 172.16.0.0/12
+-1073741824,-1073741816, // 192.0.0.0/29
+-1073741312,-1073741056, // 192.0.2.0/24
+-1067949312,-1067949056, // 192.88.99.0/24
+-1062731776,-1062666240, // 192.168.0.0/16
+-971898880,-971767808,   // 198.18.0.0/15
+-969710592,-969710336,   // 198.51.100.0/24
+-889163520,-889163264,   // 203.0.113.0/24
+-536870912,0             // 224.0.0.0/3
 ]
 
 var hasOwnProperty = Object.hasOwnProperty;
@@ -41804,7 +41834,7 @@ function match_domains(domain, domains) {
 }
 
 function match_subnet_ips(ip, ips) {
-    for (var i = 0; i < 12; i += 2) {
+    for (var i = 0; i < 28; i += 2) {
         if (ips[i] <= ip && ip < ips[i + 1]) {
             return true;
         }
