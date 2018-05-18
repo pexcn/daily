@@ -1,5 +1,5 @@
 //
-// Update: 2018-05-18 00:47:42
+// Update: 2018-05-19 00:47:12
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -26722,6 +26722,7 @@ var china_domains = {
 "ms315.com":1,
 "ms366.com":1,
 "ms6666111.com":1,
+"ms758.com":1,
 "mscbsc.com":1,
 "mscto.com":1,
 "mscxw.com":1,
@@ -29467,6 +29468,7 @@ var china_domains = {
 "qingcdn.com":1,
 "qingchao.net":1,
 "qingchifan.com":1,
+"qingchu.com":1,
 "qingcloud.com":1,
 "qingdaochina.com":1,
 "qingdaochina.org":1,
