@@ -1,5 +1,5 @@
 //
-// Update: 2018-05-19 00:47:12
+// Update: 2018-05-20 00:47:43
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -2112,6 +2112,7 @@ var china_domains = {
 "2858999.com":1,
 "286dm.com":1,
 "2881.com":1,
+"288609.com":1,
 "288idc.com":1,
 "289.com":1,
 "28bk.com":1,
@@ -3433,6 +3434,7 @@ var china_domains = {
 "51lunwen.com":1,
 "51lunwen.net":1,
 "51lunwen.org":1,
+"51lunwenwang.com":1,
 "51luying.com":1,
 "51lyrc.com":1,
 "51macf.com":1,
@@ -16375,6 +16377,7 @@ var china_domains = {
 "fszhuming.com":1,
 "ft22.com":1,
 "ftbj.net":1,
+"ftc-c.com":1,
 "ftcauction.com":1,
 "ftchinese.com":1,
 "ftfxgame.com":1,
@@ -36404,6 +36407,7 @@ var china_domains = {
 "whart.net":1,
 "whatsnet.net":1,
 "whawrt.com":1,
+"whbaishitong.com":1,
 "whbc2000.com":1,
 "whbear.com":1,
 "whbjyy.com":1,
@@ -36447,6 +36451,7 @@ var china_domains = {
 "whjzw.net":1,
 "whkingdom.com":1,
 "whkjhz.com":1,
+"whkyjz.com":1,
 "whlawyer.net":1,
 "whli010.com":1,
 "whljyl.com":1,
@@ -40710,6 +40715,7 @@ var china_domains = {
 "zhaichong.com":1,
 "zhaidou.com":1,
 "zhaifu.cc":1,
+"zhaiiker.com":1,
 "zhainanba.net":1,
 "zhainandao.com":1,
 "zhainanyou.com":1,
@@ -41357,6 +41363,7 @@ var china_domains = {
 "zj-steel.com":1,
 "zj.com":1,
 "zj01.com":1,
+"zj186.com":1,
 "zj66.net":1,
 "zjautoparts.com":1,
 "zjbiz.net":1,
