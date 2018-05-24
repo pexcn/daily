@@ -44,7 +44,7 @@ function convert_address(ipchars) {
 }
 
 function is_china_domain(domain) {
-    return !!(dnsDomainIs(domain, ".cn") || dnsDomainIs(domain, ".com.cn") || dnsDomainIs(domain, ".gov.cn"));
+    return !!dnsDomainIs(domain, ".cn");
 }
 
 function match_domains(domain, domains) {
