@@ -1,5 +1,5 @@
 //
-// Update: 2018-05-24 00:52:46
+// Update: 2018-05-24 22:50:35
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -41990,7 +41990,7 @@ function convert_address(ipchars) {
 }
 
 function is_china_domain(domain) {
-    return !!(dnsDomainIs(domain, ".cn") || dnsDomainIs(domain, ".com.cn") || dnsDomainIs(domain, ".gov.cn"));
+    return !!dnsDomainIs(domain, ".cn");
 }
 
 function match_domains(domain, domains) {
