@@ -1,5 +1,5 @@
 //
-// Update: 2018-06-04 00:56:14
+// Update: 2018-06-05 00:56:48
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -2096,6 +2096,8 @@ var china_domains = {
 "28pifa.com":1,
 "28sn.com":1,
 "28tui.com":1,
+"28w0.com":1,
+"28w1.com":1,
 "28xg.com":1,
 "28xl.com":1,
 "28y.com":1,
@@ -2490,6 +2492,7 @@ var china_domains = {
 "360yunp.com":1,
 "360yunpan.me":1,
 "360zhai.com":1,
+"360zhijia.com":1,
 "360zhuizhu.com":1,
 "360zhyx.com":1,
 "361.cm":1,
@@ -7084,6 +7087,7 @@ var china_domains = {
 "anquanbao.com":1,
 "anquanduns.com":1,
 "anquanjiaofu.com":1,
+"anquanke.com":1,
 "anquanweb.com":1,
 "anqunzhi.com":1,
 "anrayer.com":1,
@@ -12086,6 +12090,7 @@ var china_domains = {
 "coinbene.com":1,
 "coincola.net":1,
 "coingogo.com":1,
+"coininasia.com":1,
 "coinnice.com":1,
 "coinsky.com":1,
 "cointiger.pro":1,
@@ -15106,6 +15111,7 @@ var china_domains = {
 "ele.to":1,
 "ele001.com":1,
 "elecbench.com":1,
+"elecbh.com":1,
 "elecfans.com":1,
 "elecfans.net":1,
 "elecinfo.com":1,
@@ -30456,6 +30462,7 @@ var china_domains = {
 "redian5.net":1,
 "redianmao.com":1,
 "redianyuedu.com":1,
+"redianzixun.com":1,
 "redidai.com":1,
 "redisbook.com":1,
 "redisdoc.com":1,
