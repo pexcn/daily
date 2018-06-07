@@ -1,5 +1,5 @@
 //
-// Update: 2018-06-07 00:57:50
+// Update: 2018-06-08 00:58:09
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -10826,6 +10826,7 @@ var china_domains = {
 "chinajjz.com":1,
 "chinajnhb.com":1,
 "chinajob.com":1,
+"chinajoinin.com":1,
 "chinajoy.net":1,
 "chinajs120.com":1,
 "chinajsxx.com":1,
@@ -14753,6 +14754,7 @@ var china_domains = {
 "easeeyes.com":1,
 "easemob.com":1,
 "easerun.com":1,
+"easetuner.com":1,
 "easeyedelivery.com":1,
 "easiu.com":1,
 "easou.com":1,
@@ -16534,6 +16536,7 @@ var china_domains = {
 "funnypicsbox.com":1,
 "funshion.com":1,
 "funshion.net":1,
+"funteas.com":1,
 "funwear.com":1,
 "funxoo.com":1,
 "funxun.com":1,
@@ -24816,6 +24819,7 @@ var china_domains = {
 "litefeel.com":1,
 "litianlei.com":1,
 "litpo.com":1,
+"litten.me":1,
 "little-sun.com":1,
 "littlemusic.tv":1,
 "littlepan.com":1,
@@ -35619,6 +35623,7 @@ var china_domains = {
 "vimiy.com":1,
 "vin-restaurant.com":1,
 "vinehoo.com":1,
+"vinjn.com":1,
 "vinllen.com":1,
 "vinoyang.com":1,
 "violinww.com":1,
@@ -37374,6 +37379,7 @@ var china_domains = {
 "wuyuan168.com":1,
 "wuyuelaw.com":1,
 "wuyukang.com":1,
+"wuzhaiba.com":1,
 "wuzhenfestival.com":1,
 "wuzheng.org":1,
 "wuzuowei.net":1,
@@ -38183,6 +38189,7 @@ var china_domains = {
 "xingming.net":1,
 "xingniwang.com":1,
 "xingpan.com":1,
+"xingpin.com":1,
 "xingqitouzi.com":1,
 "xingqu18.com":1,
 "xingren.com":1,
