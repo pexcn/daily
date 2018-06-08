@@ -1,5 +1,5 @@
 //
-// Update: 2018-06-08 00:58:09
+// Update: 2018-06-09 00:59:04
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -6628,6 +6628,7 @@ var china_domains = {
 "aihuo.cc":1,
 "aiimg.com":1,
 "aija.com":1,
+"aiji66.com":1,
 "aijiacl.com":1,
 "aijianshui.com":1,
 "aijiatxt.com":1,
@@ -8944,6 +8945,7 @@ var china_domains = {
 "bmfsm.com":1,
 "bmijs.com":1,
 "bmlink.com":1,
+"bmqb.com":1,
 "bmw021.com":1,
 "bmw143.com":1,
 "bn13.com":1,
@@ -18244,6 +18246,7 @@ var china_domains = {
 "hankewins.com":1,
 "hankunlaw.com":1,
 "hanlefang.net":1,
+"hanmaker.com":1,
 "hannor.com":1,
 "hanpinyuan.com":1,
 "hanqidq.com":1,
@@ -22129,6 +22132,7 @@ var china_domains = {
 "jisilu.com":1,
 "jisuan.cx":1,
 "jisuanke.com":1,
+"jisuanqinet.com":1,
 "jisuapi.com":1,
 "jisucn.com":1,
 "jisukandian.com":1,
@@ -28604,6 +28608,7 @@ var china_domains = {
 "pbsvpn.com":1,
 "pbtdl.com":1,
 "pbtxt.com":1,
+"pc100.net":1,
 "pc120.com":1,
 "pc141.com":1,
 "pc255.com":1,
@@ -28802,6 +28807,7 @@ var china_domains = {
 "phpfans.net":1,
 "phpgao.com":1,
 "phphub.org":1,
+"phpkhbd.com":1,
 "phpkoo.com":1,
 "phpno.com":1,
 "phpnow.org":1,
@@ -34731,6 +34737,7 @@ var china_domains = {
 "tuku.cc":1,
 "tuku.com":1,
 "tukucc.com":1,
+"tukuppt.com":1,
 "tukushui.com":1,
 "tulaoshi.com":1,
 "tule888.com":1,
@@ -34873,6 +34880,7 @@ var china_domains = {
 "txt99.cc":1,
 "txt99.com":1,
 "txtbbs.com":1,
+"txtlxg.com":1,
 "txtnovel.com":1,
 "txtreader.org":1,
 "txtwork.com":1,
