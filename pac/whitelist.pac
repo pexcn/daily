@@ -1,5 +1,5 @@
 //
-// Update: 2018-06-17 01:04:46
+// Update: 2018-06-18 01:04:54
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -33513,6 +33513,7 @@ var china_domains = {
 "szrtfl.com":1,
 "szseio.com":1,
 "szshouzhai.com":1,
+"szsing.com":1,
 "szsjtjj.com":1,
 "szsky.com":1,
 "szsq.net":1,
