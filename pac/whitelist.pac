@@ -1,5 +1,5 @@
 //
-// Update: 2018-06-20 01:04:57
+// Update: 2018-06-21 01:05:36
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -7769,6 +7769,7 @@ var china_domains = {
 "baby0532.com":1,
 "baby169.net":1,
 "baby611.com":1,
+"babycdn.com":1,
 "babymob.com":1,
 "babymozart.cc":1,
 "babyqiming.com":1,
@@ -7819,6 +7820,7 @@ var china_domains = {
 "baidu-wenxue.com":1,
 "baidu-x.com":1,
 "baidu-yunpan.com":1,
+"baidu.cc":1,
 "baidu.cm":1,
 "baidu.com":1,
 "baidu.nu":1,
@@ -7918,6 +7920,7 @@ var china_domains = {
 "baitv.com":1,
 "baiu.com":1,
 "baiwandz.com":1,
+"baiwang.com":1,
 "baiwantuan.com":1,
 "baiwanzhan.com":1,
 "baiwutong.com":1,
@@ -13075,6 +13078,7 @@ var china_domains = {
 "danaicha.com":1,
 "dance365.com":1,
 "dance888.com":1,
+"dancechina.club":1,
 "dancewithnet.com":1,
 "dancingcg.com":1,
 "dandaas.com":1,
@@ -15805,6 +15809,7 @@ var china_domains = {
 "fanyuip.com":1,
 "fanzehua.com":1,
 "fapiao.com":1,
+"fapiao365.com":1,
 "faqfreelancer.com":1,
 "faqizc.com":1,
 "faqrobot.org":1,
@@ -24603,6 +24608,7 @@ var china_domains = {
 "li63.com":1,
 "liageren.com":1,
 "lialiu.com":1,
+"lian666.com":1,
 "lianaibashi.com":1,
 "lianaibiji.com":1,
 "lianbijr.com":1,
@@ -27886,6 +27892,7 @@ var china_domains = {
 "nmszjy.com":1,
 "nmtyxy.com":1,
 "nmv5.com":1,
+"nmysyey.com":1,
 "nmzh.net":1,
 "nn-bride.com":1,
 "nncc626.com":1,
@@ -39619,6 +39626,7 @@ var china_domains = {
 "yiii.net":1,
 "yiiwoo.com":1,
 "yiiyoo.net":1,
+"yijia-ai.com":1,
 "yijia.com":1,
 "yijian119.com":1,
 "yijiangshan.net":1,
