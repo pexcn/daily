@@ -1,5 +1,5 @@
 //
-// Update: 2018-06-27 01:08:29
+// Update: 2018-06-28 01:09:31
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -1128,6 +1128,7 @@ var china_domains = {
 "13910.com":1,
 "139135.com":1,
 "13939.org":1,
+"13955555.com":1,
 "13973.com":1,
 "1398.org":1,
 "139cai.com":1,
@@ -13254,6 +13255,7 @@ var china_domains = {
 "datayes.com":1,
 "datebao.com":1,
 "datiegun.com":1,
+"datousahan.com":1,
 "datuc.com":1,
 "davdian.com":1,
 "davinfo.com":1,
@@ -19896,6 +19898,7 @@ var china_domains = {
 "huiji.wiki":1,
 "huijiaoyun.com":1,
 "huijidata.com":1,
+"huijistatic.com":1,
 "huijucn.com":1,
 "huikaiwjj.com":1,
 "huikei.com":1,
@@ -28595,6 +28598,7 @@ var china_domains = {
 "ouzhouke.com":1,
 "ov98.com":1,
 "ovbook.com":1,
+"ovc-finance.com":1,
 "ovcreative.com":1,
 "ovdream.com":1,
 "ovear.info":1,
@@ -29330,6 +29334,7 @@ var china_domains = {
 "potatso.com":1,
 "potchinese.com":1,
 "powercdn.com":1,
+"powerde.com":1,
 "powereasy.net":1,
 "powerfencingclub.com":1,
 "poweric-china.com":1,
@@ -30143,6 +30148,7 @@ var china_domains = {
 "qmtj.net":1,
 "qmtv.com":1,
 "qmxyc.com":1,
+"qmyiz.com":1,
 "qmyxi.com":1,
 "qmzs.com":1,
 "qn0854.com":1,
@@ -39674,6 +39680,7 @@ var china_domains = {
 "yiclear.com":1,
 "yidai.com":1,
 "yidao.info":1,
+"yidaservice.com":1,
 "yidejia.com":1,
 "yidengxuetang.com":1,
 "yidexuan.net":1,
