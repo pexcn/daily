@@ -43,10 +43,8 @@ function gen_whitelist_pac() {
 
   curl -kL 'https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf' > china_domain_list.tmp
 
-  # TODO: awk cut it
   sed -i 's/server=\//"/g' china_domain_list.tmp
   sed -i 's/\/114.114.114.114/":1,/g' china_domain_list.tmp
-  sed -i 's/\/218.2.135.1/":1,/g' china_domain_list.tmp
 
   # Remove comments, these domains can be directly connected in China
   sed -i 's/#//g' china_domain_list.tmp
