@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/pexcn/daily.svg?branch=master)](https://travis-ci.org/pexcn/daily)
 
-This script can be automatically generate something every day.
+This script can be automatically generate something what I needed every day.
 
 ## Usage
 
@@ -12,40 +12,21 @@ This script can be automatically generate something every day.
 
 ### OpenWRT
 
-Add script in `/root/update/chinadns.sh`
+1. Save your needed `scripts` into OpenWRT.
+2. Add the following cron jobs.
 
 ```bash
-#!/bin/ash -e
+# update chnroute
+0 3 * * * <path/to/chinadns_script>
 
-wget -O /tmp/chnroute.txt https://pexcn.me/daily/chnroute/chnroute.txt --no-check-certificate
-mv /tmp/chnroute.txt /etc/chinadns_chnroute.txt
-/etc/init.d/chinadns restart
-```
-
-Add script in `/root/update/adblock.sh`
-
-```bash
-#!/bin/ash -e
-
-wget -O /tmp/adblock.conf https://pexcn.me/daily/dnsmasq/adblock.conf --no-check-certificate
-mv /tmp/adblock.conf /etc/dnsmasq.d/adblock.conf
-/etc/init.d/dnsmasq restart
-```
-
-So you can edit crontab to set cron jobs, just like:
-
-```bash
-# Update chnroute
-0 3 * * * /root/update/chinadns.sh
-
-# Update adblock rules
-1 3 * * * /root/update/adblock.sh
+# update adblock rules
+1 3 * * * <path/to/adblock_script>
 ```
 
 ## License
 
 ```
-Copyright (C) 2018, pexcn <pexcn97@gmail.com>
+Copyright (C) 2018, pexcn <i@pexcn.me>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
