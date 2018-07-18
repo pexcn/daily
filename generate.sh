@@ -2,7 +2,7 @@
 
 # chnroute
 function gen_chnroute() {
-  # ipv4 chnroute
+  # ipv4
   mkdir -p gen/chnroute
   pushd gen/chnroute
   curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute.txt.tmp
@@ -10,7 +10,7 @@ function gen_chnroute() {
   cat chnroute.txt.tmp chnroute_ipip.txt.tmp | cidrmerge > chnroute.txt
   popd
 
-  # ipv6 chnroute
+  # ipv6
   mkdir -p gen/chnroute
   pushd gen/chnroute
   curl -kL 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv6 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute_v6.txt.tmp
@@ -18,7 +18,7 @@ function gen_chnroute() {
   popd
 }
 
-# dnsmasq rules
+# ad blocking rules
 function gen_dnsmasq_rules() {
   mkdir -p gen/dnsmasq
   pushd gen/dnsmasq
@@ -35,7 +35,6 @@ function gen_dnsmasq_rules() {
   popd
 }
 
-# TODO: enhance readability
 # gfw whitelist pac
 function gen_whitelist_pac() {
   mkdir -p gen/pac
