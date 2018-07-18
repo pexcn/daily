@@ -42,6 +42,7 @@ function gen_whitelist_pac() {
   pushd gen/pac
 
   curl -kL 'https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf' > china_domain_list.tmp
+  curl -kL 'https://github.com/felixonmars/dnsmasq-china-list/raw/master/apple.china.conf' >> china_domain_list.tmp
 
   # get domains
   sed -i 's/server=\//"/g' china_domain_list.tmp
