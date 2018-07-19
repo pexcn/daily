@@ -1,11 +1,11 @@
-var proxy = "SOCKS5 127.0.0.1:1080;";
-var direct = "DIRECT;";
+let proxy = "SOCKS5 127.0.0.1:1080;";
+let direct = "DIRECT;";
 
-var china_domains = {
+let china_domains = {
     __CHINA_DOMAIN_LIST_PLACEHOLDER__
 };
 
-var subnet_ips = [
+let subnet_ips = [
     0, 1,                     // 0.0.0.0
     167772160, 184549376,     // 10.0.0.0/8
     1681915904, 1686110208,   // 100.64.0.0/10
@@ -20,12 +20,12 @@ var subnet_ips = [
     -969710592, -969710336,   // 198.51.100.0/24
     -889163520, -889163264,   // 203.0.113.0/24
     -536870912, 0             // 224.0.0.0/3
-]
+];
 
-var hasOwnProperty = Object.hasOwnProperty;
+let hasOwnProperty = Object.hasOwnProperty;
 
 function is_ipv4(host) {
-    var regex = /^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(:([0-9]|[1-9]\d|[1-9]\d{2}|[1-9]\d{3}|[1-5]\d{4}|6[0-4]\d{3}|65[0-4]\d{2}|655[0-2]\d|6553[0-5]))?$/g;
+    let regex = /^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(:([0-9]|[1-9]\d|[1-9]\d{2}|[1-9]\d{3}|[1-5]\d{4}|6[0-4]\d{3}|65[0-4]\d{2}|655[0-2]\d|6553[0-5]))?$/g;
     if (regex.test(host)) {
         return true;
     }
@@ -35,8 +35,8 @@ function convert_address(ipchars) {
     if (ipchars.indexOf(':') !== -1) {
         ipchars = ipchars.split(':')[0];
     }
-    var bytes = ipchars.split('.');
-    var result = ((bytes[0] & 0xff) << 24) |
+    let bytes = ipchars.split('.');
+    let result = ((bytes[0] & 0xff) << 24) |
         ((bytes[1] & 0xff) << 16) |
         ((bytes[2] & 0xff) << 8) |
         (bytes[3] & 0xff);
@@ -48,16 +48,12 @@ function is_china_domain(domain) {
 }
 
 function match_domains(domain, domains) {
-    var suffix;
-    var pos = domain.lastIndexOf('.');
+    let suffix;
+    let pos = domain.lastIndexOf('.');
     pos = domain.lastIndexOf('.', pos - 1);
     while (1) {
         if (pos <= 0) {
-            if (hasOwnProperty.call(domains, domain)) {
-                return true;
-            } else {
-                return false;
-            }
+            return hasOwnProperty.call(domains, domain);
         }
         suffix = domain.substring(pos + 1);
         if (hasOwnProperty.call(domains, suffix)) {
@@ -68,13 +64,16 @@ function match_domains(domain, domains) {
 }
 
 function match_subnet_ips(ip, ips) {
-    for (var i = 0; i < 28; i += 2) {
+    for (let i = 0; i < 28; i += 2) {
         if (ips[i] <= ip && ip < ips[i + 1]) {
             return true;
         }
     }
 }
 
+/**
+ * @return {string} Connect via direct or proxy.
+ */
 function FindProxyForURL(url, host) {
     if (typeof host === 'undefined'
         || isPlainHostName(host) === true
@@ -92,7 +91,7 @@ function FindProxyForURL(url, host) {
     }
 
     if (is_ipv4(host) === true) {
-        var ip = convert_address(host);
+        let ip = convert_address(host);
         if (match_subnet_ips(ip, subnet_ips) === true) {
             return direct;
         }
