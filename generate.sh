@@ -44,14 +44,14 @@ function gen_whitelist_pac() {
   curl -kL 'https://github.com/felixonmars/dnsmasq-china-list/raw/master/apple.china.conf' >> china_domain_list.tmp
 
   # get domains
-  sed -i 's/server=\//"/g' china_domain_list.tmp
-  sed -i 's/\/114.114.114.114/":1,/g' china_domain_list.tmp
+  sed -i 's/server=\//    "/g' china_domain_list.tmp
+  sed -i 's/\/114.114.114.114/": 1,/g' china_domain_list.tmp
 
   # exclude comment lines
   sed -i '/#/d' china_domain_list.tmp
 
   # remove last ',' character via: https://stackoverflow.com/questions/3576139/sed-remove-string-only-in-the-last-line-of-the-file
-  sed -i '$ s/":1,/":1/g' china_domain_list.tmp
+  sed -i '$ s/": 1,/": 1/g' china_domain_list.tmp
 
   sed 's/__CHINA_DOMAIN_LIST_PLACEHOLDER__/cat china_domain_list.tmp/e' ../../template/whitelist.pac > whitelist.pac
 
