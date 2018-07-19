@@ -15,12 +15,10 @@ function isPlainHostName(host) {
 
 function dnsResolve(host) {
     return "27.40.0.0";
-    return "27.50.96.0";
-    return "27.50.128.0";
 }
 
 function dnsDomainIs(domain, suffix) {
-    return (domain.endsWith(suffix));
+    return domain.endsWith(suffix);
 }
 
 function isInNet(ip, ipstart, ipmask) {
@@ -46,11 +44,11 @@ function test(url, host) {
 
 function output_result(out_obj) {
     output.value = "";
-    for (let j = 0; j < test_cases.length; j += 2) {
-        const test_case = test_cases[j + 1];
+    for (let i = 0; i < test_cases.length; i += 2) {
+        const test_case = test_cases[i + 1];
         const test_result = test(test_case, test_case);
         let out_line = "" + test_result + " " + test_case + " ";
-        if (test_result === test_cases[j]) {
+        if (test_result === test_cases[i]) {
             out_line = out_line + "Pass";
         } else {
             out_line = out_line + "NOT Pass";
@@ -59,7 +57,7 @@ function output_result(out_obj) {
     }
     const start = new Date();
     if (test_cases.length > 1) {
-        for (let j = 0; j < 100000; ++j) {
+        for (let i = 0; i < 100000; ++i) {
             const test_case = test_cases[1];
             test(test_case, test_case);
         }
