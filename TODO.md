@@ -3,7 +3,6 @@
 - Global
   - [ ] Enhance code readability
   - [ ] Using `mktemp` create temp folder
-  - [ ] Split module ?
 
 - CHNRoute
   - [ ] Use awk/sed to cut domains

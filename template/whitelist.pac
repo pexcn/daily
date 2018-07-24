@@ -2,7 +2,7 @@ const proxy = "SOCKS5 127.0.0.1:1080;";
 const direct = "DIRECT;";
 
 const china_domains = {
-    __CHINA_DOMAINS_PLACEHOLDER__
+    ___CHINA_DOMAINS_PLACEHOLDER___
 };
 
 const subnet_ips = [

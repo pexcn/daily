@@ -7,7 +7,7 @@ This script can be automatically generate something what I needed every day.
 ## Usage
 
 - [`chnroute.txt`](https://pexcn.me/daily/chnroute/chnroute.txt) is the routing table for ChinaDNS.
-- [`adblock.conf`](https://pexcn.me/daily/dnsmasq/adblock.conf) is dnsmasq ad blocking rules.
+- [`adblock.conf`](https://pexcn.me/daily/adblock/adblock.conf) is dnsmasq ad blocking rules.
 - [`gfwlist.pac`](https://pexcn.me/daily/pac/gfwlist.pac) is the PAC of GFW domain blacklist.
 - [`whitelist.pac`](https://pexcn.me/daily/pac/whitelist.pac) is the PAC of GFW domain whitelist.
 

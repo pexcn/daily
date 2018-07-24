@@ -22,7 +22,7 @@ before_script:
   - export TZ=Asia/Shanghai
 
 script:
-  - bash generate.sh
+  - bash bootstrap.sh
 
 deploy:
   provider: pages

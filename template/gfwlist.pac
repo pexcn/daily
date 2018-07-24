@@ -2,7 +2,7 @@ const proxy = "SOCKS5 127.0.0.1:1080;";
 const direct = "DIRECT;";
 
 const gfwlist_domains = {
-    __GFWLIST_DOMAINS_PLACEHOLDER__
+    ___GFWLIST_DOMAINS_PLACEHOLDER___
 };
 
 const hasOwnProperty = Object.hasOwnProperty;
