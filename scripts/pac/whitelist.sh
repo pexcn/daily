@@ -1,13 +1,13 @@
 #!/bin/bash -e
 
-TMP_DIR=`mktemp -d /tmp/whitelist.XXXXXX`
+TMP_DIR=`mktemp -d /tmp/pac.XXXXXX`
 DIST_DIR='dist/pac'
 
 CHINA_DOMAINS_URL='https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf'
 APPLE_DOMAINS_URL='https://github.com/felixonmars/dnsmasq-china-list/raw/master/apple.china.conf'
 
 function fetch_data() {
-  cp template/whitelist.pac $TMP_DIR
+  cp template/pac/whitelist.pac $TMP_DIR
 
   pushd $TMP_DIR
   curl -kLs $CHINA_DOMAINS_URL > china_domains.txt

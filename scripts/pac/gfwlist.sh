@@ -1,12 +1,12 @@
 #!/bin/bash -e
 
-TMP_DIR=`mktemp -d /tmp/gfwlist.XXXXXX`
+TMP_DIR=`mktemp -d /tmp/pac.XXXXXX`
 DIST_DIR='dist/pac'
 
 GFWLIST_URL='https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt'
 
 function fetch_data() {
-  cp template/gfwlist.pac $TMP_DIR
+  cp template/pac/gfwlist.pac $TMP_DIR
 
   pushd $TMP_DIR
   curl -kLs $GFWLIST_URL | base64 -d > gfwlist.txt
