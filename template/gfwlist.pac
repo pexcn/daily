@@ -1,0 +1,50 @@
+const proxy = "SOCKS5 127.0.0.1:1080;";
+const direct = "DIRECT;";
+
+const gfwlist_domains = {
+    __GFWLIST_DOMAINS_PLACEHOLDER__
+};
+
+const hasOwnProperty = Object.hasOwnProperty;
+
+function is_china_domain(domain) {
+    return !!dnsDomainIs(domain, ".cn");
+}
+
+function match_domains(domain, domains) {
+    let suffix;
+    let pos = domain.lastIndexOf('.');
+    pos = domain.lastIndexOf('.', pos - 1);
+    while (1) {
+        if (pos <= 0) {
+            return hasOwnProperty.call(domains, domain);
+        }
+        suffix = domain.substring(pos + 1);
+        if (hasOwnProperty.call(domains, suffix)) {
+            return true;
+        }
+        pos = domain.lastIndexOf('.', pos - 1);
+    }
+}
+
+/**
+ * @return {string} Connect via direct or proxy.
+ */
+function FindProxyForURL(url, host) {
+    if (typeof host === 'undefined'
+        || isPlainHostName(host) === true
+        || host === '127.0.0.1'
+        || host === 'localhost') {
+        return direct;
+    }
+
+    if (is_china_domain(host) === true) {
+        return direct;
+    }
+
+    if (match_domains(host, gfwlist_domains) === true) {
+        return proxy;
+    }
+
+    return direct;
+}
