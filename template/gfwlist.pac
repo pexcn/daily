@@ -1,11 +1,11 @@
 const proxy = "SOCKS5 127.0.0.1:1080;";
 const direct = "DIRECT;";
 
+const hasOwnProperty = Object.hasOwnProperty;
+
 const gfwlist_domains = {
     ___GFWLIST_DOMAINS_PLACEHOLDER___
 };
-
-const hasOwnProperty = Object.hasOwnProperty;
 
 function is_china_domain(domain) {
     return !!dnsDomainIs(domain, ".cn");

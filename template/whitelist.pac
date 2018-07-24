@@ -1,6 +1,8 @@
 const proxy = "SOCKS5 127.0.0.1:1080;";
 const direct = "DIRECT;";
 
+const hasOwnProperty = Object.hasOwnProperty;
+
 const china_domains = {
     ___CHINA_DOMAINS_PLACEHOLDER___
 };
@@ -21,8 +23,6 @@ const subnet_ips = [
     -889163520, -889163264,   // 203.0.113.0/24
     -536870912, 0             // 224.0.0.0/3
 ];
-
-const hasOwnProperty = Object.hasOwnProperty;
 
 function is_ipv4(host) {
     const regex = /^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(:([0-9]|[1-9]\d|[1-9]\d{2}|[1-9]\d{3}|[1-5]\d{4}|6[0-4]\d{3}|65[0-4]\d{2}|655[0-2]\d|6553[0-5]))?$/g;
