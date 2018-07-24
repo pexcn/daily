@@ -53,7 +53,7 @@ function gen_whitelist_pac() {
   # remove last ',' character via: https://stackoverflow.com/questions/3576139/sed-remove-string-only-in-the-last-line-of-the-file
   sed -i '$ s/": 1,/": 1/g' china_domain_list.tmp
 
-  sed 's/__CHINA_DOMAIN_LIST_PLACEHOLDER__/cat china_domain_list.tmp/e' ../../template/whitelist.pac > whitelist.pac
+  sed 's/__CHINA_DOMAINS_PLACEHOLDER__/cat china_domain_list.tmp/e' ../../template/whitelist.pac > whitelist.pac
 
   sed -i "1i//\n// Update: $(date +'%Y-%m-%d %T')\n//\n" whitelist.pac
   popd
