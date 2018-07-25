@@ -6,10 +6,11 @@ This script can be automatically generate something what I needed every day.
 
 ## Usage
 
-- [`chnroute.txt`](https://pexcn.me/daily/chnroute/chnroute.txt) is the routing table for ChinaDNS.
-- [`adblock.conf`](https://pexcn.me/daily/adblock/adblock.conf) is dnsmasq ad blocking rules.
-- [`gfwlist.pac`](https://pexcn.me/daily/pac/gfwlist.pac) is the PAC list of GFW domain blacklist.
-- [`whitelist.pac`](https://pexcn.me/daily/pac/whitelist.pac) is the PAC list of GFW domain whitelist.
+- [`chnroute/chnroute.txt`](https://pexcn.me/daily/chnroute/chnroute.txt) is the routing table for ChinaDNS.
+- [`adblock/adblock.conf`](https://pexcn.me/daily/adblock/adblock.conf) is dnsmasq ad blocking rules.
+- [`pac/gfwlist.pac`](https://pexcn.me/daily/pac/gfwlist.pac) is the PAC list of GFWList.
+- [`pac/whitelist.pac`](https://pexcn.me/daily/pac/whitelist.pac) is the PAC list of GFW domain whitelist.
+- [`shadowrocket/gfwlist.conf`](https://pexcn.me/daily/shadowrocket/gfwlist.conf) is the shadowrocket config based on GFWList.
 
 ### OpenWRT
 
