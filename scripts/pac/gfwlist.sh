@@ -6,6 +6,7 @@ DIST_FILE='gfwlist.pac'
 
 GFWLIST_URL='https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt'
 GFWLIST='gfwlist.txt'
+
 GFWLIST_CONTENT='gfwlist_content.tmp'
 
 function fetch_data() {

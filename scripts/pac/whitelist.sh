@@ -4,16 +4,15 @@ TMP_DIR=`mktemp -d /tmp/pac.XXXXXX`
 DIST_DIR='dist/pac'
 DIST_FILE='whitelist.pac'
 
-PAC_TEMPLATE='template/pac/whitelist.pac'
-
 CHINA_DOMAINS_URL='https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf'
 APPLE_DOMAINS_URL='https://github.com/felixonmars/dnsmasq-china-list/raw/master/apple.china.conf'
-
 CHINA_DOMAINS='china_domains.txt'
 APPLE_DOMAINS='apple_domains.txt'
 
 function fetch_data() {
-  cp ${PAC_TEMPLATE} ${TMP_DIR}
+  local pac_template='template/pac/whitelist.pac'
+
+  cp ${pac_template} ${TMP_DIR}
 
   pushd ${TMP_DIR}
   curl -kLs ${CHINA_DOMAINS_URL} > ${CHINA_DOMAINS}
