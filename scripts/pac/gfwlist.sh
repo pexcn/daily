@@ -37,8 +37,9 @@ function gen_gfwlist_pac() {
       sed -r ${tail_filter_pattern} |
       grep -E ${domain_pattern} |
       sed -r ${wildcard_pattern} > ${gfwlist_content}
+  cat ${gfwlist_extra_domains} >> ${gfwlist_content}
 
-  cat ${gfwlist_content} ${gfwlist_extra_domains} | sort | uniq > ${gfwlist_content}
+  sort -u ${gfwlist_content} -o ${gfwlist_content}
 
   sed -i 's/^/    "/' ${gfwlist_content}
   sed -i 's/$/": 1,/' ${gfwlist_content}
