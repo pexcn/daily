@@ -53,8 +53,7 @@ function gen_tinylist_config() {
   sed -i 's/$/,PROXY,force-remote-dns/' ${TINYLIST_CONTENT}
 
   sed -i "s/___TINYLIST_DOMAINS_PLACEHOLDER___/cat ${TINYLIST_CONTENT}/e" ${DIST_FILE}
-
-  sed -i "1i#\n# Update: $(date +'%Y-%m-%d %T')\n#\n" ${DIST_FILE}
+  sed -i "s/___UPDATE_TIME_PLACEHOLDER___/$(date +'%Y-%m-%d %T')/g" ${DIST_FILE}
 
   popd
 }

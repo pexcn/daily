@@ -39,8 +39,8 @@ function gen_whitelist_pac() {
   sed -i '$ s/": 1,/": 1/g' ${whitelist_content}
 
   sed -i "s/___CHINA_DOMAINS_PLACEHOLDER___/cat ${whitelist_content}/e" ${DIST_FILE}
+  sed -i "s/___UPDATE_TIME_PLACEHOLDER___/$(date +'%Y-%m-%d %T')/g" ${DIST_FILE}
 
-  sed -i "1i//\n// Update: $(date +'%Y-%m-%d %T')\n//\n" ${DIST_FILE}
   popd
 }
 

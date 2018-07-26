@@ -53,8 +53,7 @@ function gen_gfwlist_config() {
   sed -i 's/$/,PROXY,force-remote-dns/' ${GFWLIST_CONTENT}
 
   sed -i "s/___GFWLIST_DOMAINS_PLACEHOLDER___/cat ${GFWLIST_CONTENT}/e" ${DIST_FILE}
-
-  sed -i "1i#\n# Update: $(date +'%Y-%m-%d %T')\n#\n" ${DIST_FILE}
+  sed -i "s/___UPDATE_TIME_PLACEHOLDER___/$(date +'%Y-%m-%d %T')/g" ${DIST_FILE}
 
   popd
 }
