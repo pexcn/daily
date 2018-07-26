@@ -27,7 +27,7 @@ function gen_whitelist_pac() {
   local whitelist_content='whitelist_content.tmp'
 
   # merge whitelist
-  cat ${CHINA_DOMAINS} ${APPLE_DOMAINS} > ${whitelist_content}
+  cat ${CHINA_DOMAINS} ${APPLE_DOMAINS} | sort | uniq > ${whitelist_content}
 
   # get domains
   sed -i 's/server=\//    "/g' ${whitelist_content}
@@ -57,4 +57,4 @@ function clean_up() {
 fetch_data
 gen_whitelist_pac
 dist_release
-#clean_up
+clean_up
