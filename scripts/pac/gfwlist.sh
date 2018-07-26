@@ -39,8 +39,9 @@ function extract_domains() {
       sed -r ${tail_filter_pattern} |
       grep -E ${domain_pattern} |
       sed -r ${wildcard_pattern} > ${gfwlist_domains}
+  cat ${gfwlist_extra_domains} >> ${gfwlist_domains}
 
-  cat ${gfwlist_domains} ${gfwlist_extra_domains} | sort | uniq > ${GFWLIST_CONTENT}
+  cat ${gfwlist_domains} | sort | uniq > ${GFWLIST_CONTENT}
 
   popd
 }
