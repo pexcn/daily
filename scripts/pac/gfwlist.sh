@@ -4,25 +4,26 @@ TMP_DIR=`mktemp -d /tmp/pac.XXXXXX`
 DIST_DIR='dist/pac'
 DIST_FILE='gfwlist.pac'
 
-PAC_TEMPLATE='template/pac/gfwlist.pac'
-EXTRA_DOMAINS_TEMPLATE='template/gfwlist_extra_domains.txt'
-
 GFWLIST_URL='https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt'
 GFWLIST='gfwlist.txt'
+GFWLIST_CONTENT='gfwlist_content.tmp'
 
 function fetch_data() {
-  cp ${PAC_TEMPLATE} ${TMP_DIR}
-  cp ${EXTRA_DOMAINS_TEMPLATE} ${TMP_DIR}
+  local pac_template='template/pac/gfwlist.pac'
+  local extra_template='template/gfwlist_extra_domains.txt'
+
+  cp ${pac_template} ${TMP_DIR}
+  cp ${extra_template} ${TMP_DIR}
 
   pushd ${TMP_DIR}
   curl -kLs ${GFWLIST_URL} | base64 -d > ${GFWLIST}
   popd
 }
 
-function gen_gfwlist_pac() {
+function extract_domains() {
   pushd ${TMP_DIR}
 
-  local gfwlist_content='gfwlist_content.tmp'
+  local gfwlist_domains='gfwlist_domains.txt'
   local gfwlist_extra_domains='gfwlist_extra_domains.txt'
 
   # patterns from @cokebar/gfwlist2dnsmasq
@@ -36,18 +37,24 @@ function gen_gfwlist_pac() {
       sed -r ${head_filter_pattern} |
       sed -r ${tail_filter_pattern} |
       grep -E ${domain_pattern} |
-      sed -r ${wildcard_pattern} > ${gfwlist_content}
-  cat ${gfwlist_extra_domains} >> ${gfwlist_content}
+      sed -r ${wildcard_pattern} > ${gfwlist_domains}
 
-  sort -u ${gfwlist_content} -o ${gfwlist_content}
+  cat ${gfwlist_domains} ${gfwlist_extra_domains} | sort | uniq > ${GFWLIST_CONTENT}
 
-  sed -i 's/^/    "/' ${gfwlist_content}
-  sed -i 's/$/": 1,/' ${gfwlist_content}
-  sed -i '$ s/": 1,/": 1/g' ${gfwlist_content}
+  popd
+}
 
-  sed -i "s/___GFWLIST_DOMAINS_PLACEHOLDER___/cat ${gfwlist_content}/e" ${DIST_FILE}
+function gen_gfwlist_pac() {
+  pushd ${TMP_DIR}
+
+  sed -i 's/^/    "/' ${GFWLIST_CONTENT}
+  sed -i 's/$/": 1,/' ${GFWLIST_CONTENT}
+  sed -i '$ s/": 1,/": 1/g' ${GFWLIST_CONTENT}
+
+  sed -i "s/___GFWLIST_DOMAINS_PLACEHOLDER___/cat ${GFWLIST_CONTENT}/e" ${DIST_FILE}
 
   sed -i "1i//\n// Update: $(date +'%Y-%m-%d %T')\n//\n" ${DIST_FILE}
+
   popd
 }
 
@@ -61,6 +68,7 @@ function clean_up() {
 }
 
 fetch_data
+extract_domains
 gen_gfwlist_pac
 dist_release
 clean_up
