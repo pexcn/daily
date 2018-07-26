@@ -62,4 +62,4 @@ function clean_up() {
 fetch_data
 gen_gfwlist_pac
 dist_release
-#clean_up
+clean_up
