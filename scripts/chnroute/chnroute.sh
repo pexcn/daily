@@ -27,7 +27,7 @@ function gen_ipv4_chnroute() {
 
   cat ${APNIC_LIST} | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > ${chnroute_apnic_content}
   cat ${IPIP_LIST} > ${chnroute_ipip_content}
-  cat $chnroute_apnic_content $chnroute_ipip_content | cidrmerge > $chnroute_content
+  cat ${chnroute_apnic_content} ${chnroute_ipip_content} | cidrmerge > ${chnroute_content}
 
   mv ${chnroute_content} ${DIST_FILE_IPV4}
   popd
