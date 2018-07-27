@@ -27,7 +27,7 @@ function gen_ipv4_chnroute() {
 
   cat ${APNIC_LIST} | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > ${apnic_v4}
   cat ${IPIP_LIST} > ${ipip_v4}
-  cat ${apnic_v4} ${ipip_v4} | cidrmerge > ${chnroute_v4}
+  cat ${apnic_v4} ${ipip_v4} | aggregate -q > ${chnroute_v4}
 
   mv ${chnroute_v4} ${DIST_FILE_IPV4}
 
