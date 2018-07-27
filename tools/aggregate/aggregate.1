@@ -1,0 +1,210 @@
+.\" $Id: aggregate.1,v 1.11 2001/11/02 15:49:18 jabley Exp $
+.\"
+.\" 
+.\" Copyright (c) 2000-2001 by Metromedia Fiber Network Services, Inc.
+.\" 
+.\" Permission to use, copy, modify, and distribute this software for any
+.\" purpose with or without fee is hereby granted, provided that the above
+.\" copyright notice and this permission notice appear in all copies.
+.\" 
+.\" THE SOFTWARE IS PROVIDED "AS IS" AND METROMEDIA FIBER NETWORK SERVICES,
+.\" INC. ("MFN") DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE
+.\" INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO
+.\" EVENT SHALL MFN BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR
+.\" CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF
+.\" USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+.\" OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+.\" PERFORMANCE OF THIS SOFTWARE.
+.\" 
+.\"   Metromedia Fiber Network
+.\"   360 Hamilton Avenue
+.\"   White Plains, NY 10601
+.\" 
+.\"   http://www.mfn.com/
+.\"
+.TH AGGREGATE 1 "2001 November 2" "Joe Abley"
+.SH NAME
+.B aggregate
+\- optimise a list of route prefixes to help make nice short filters
+
+.SH SYNOPSIS
+.B aggregate
+[\-m max-length]
+[\-o max-opt-length]
+[\-p default-length]
+[\-q]
+[\-t]
+[\-v]
+
+.SH DESCRIPTION
+Takes a list of prefixes in conventional format on stdin, and
+performs two optimisations to attempt to reduce the length of
+the prefix list.
+.PP
+The first optimisation is to remove any supplied prefixes which
+are superfluous because they are already included in another
+supplied prefix. For example, 203.97.2.0/24 would be removed
+if 203.97.0.0/17 was also supplied.
+.PP
+The second optimisation identifies adjacent prefixes that can
+be combined under a single, shorter-length prefix. For example,
+203.97.2.0/24 and 203.97.3.0/24 can be combined into the single
+prefix 203.97.2.0/23.
+
+.SH OPTIONS
+.PD 0
+.TP
+.B \-m max-length
+Sets the maximum prefix length for entries read from stdin
+.I max_length
+bits. The default is 32. Prefixes with longer lengths will be
+discarded prior to processing.
+
+.TP
+.B \-o max-opt-length
+Sets the maximum prefix length for optimisation to
+.I max-opt-length
+bits. The default is 32. Prefixes with longer lengths will not
+be subject to optimisation.
+
+.TP
+.B \-p default-length
+Sets the default prefix length. There is no default; without
+this option a prefix without a mask length is treated as invalid.
+Use
+.B \-p 32 \-m 32 \-o 32
+to aggregate a list of host routes specified as bare addresses,
+for example.
+
+.TP
+.B \-q
+Sets quiet mode -- instructs
+.B aggregate
+never to generate warning messages or other output on stderr.
+
+.TP
+.B \-t
+Silently truncate prefixes that seem to have an inconsistent
+prefix: e.g. an input prefix 203.97.2.226/24 would be truncated
+to 203.97.2.0/24. Without this option an input prefix
+203.97.2.226/24 would not be accepted, and a warning about
+the inconsistent mask would be generated.
+
+.TP
+.B \-v
+Sets verbose mode. This changes the output format to display
+the source line number that the prefix was obtained from,
+together with a preceding "\-" to indicate a route that can be
+suppressed, or a "+" to indicate a shorter-prefix aggregate
+that was added by
+.B aggregate
+as an adjacency optimisation. Note that verbose output continues
+even if \-q is selected.
+.LP
+
+.SH DIAGNOSTICS
+.B Aggregate
+exits 0 on success, and >0 if an error occurs.
+
+.SH EXAMPLES
+The following list of prefixes:
+
+.ft B
+  193.58.204.0/22
+  193.58.208.0/22
+  193.193.160.0/22
+  193.193.168.0/22
+  193.243.164.0/22
+  194.126.128.0/22
+  194.126.132.0/22
+  194.126.134.0/23
+  194.151.128.0/19
+  195.42.240.0/21
+  195.240.0.0/16
+  195.241.0.0/16
+.ft R
+
+is optimised as followed by
+.B aggregate
+(output shown using the
+.I -v
+flag):
+
+.ft B
+  aggregate: maximum prefix length permitted will be 24
+  [    0] + 193.58.204.0/21
+  [    1] - 193.58.204.0/22
+  [    2] - 193.58.208.0/22
+  [    3]   193.193.160.0/22
+  [    4]   193.193.168.0/22
+  [    5]   193.243.164.0/22
+  [    0] + 194.126.128.0/21
+  [    6] - 194.126.128.0/22
+  [    7] - 194.126.132.0/22
+  [    8] - 194.126.134.0/23
+  [    9]   194.151.128.0/19
+  [   10]   195.42.240.0/21
+  [    0] + 195.240.0.0/15
+  [   11] - 195.240.0.0/16
+  [   12] - 195.241.0.0/16
+.ft R
+
+Note that 193.58.204.0/22 and 193.58.208.0/22 were combined under
+the single prefix 193.58.204.0/21, and 194.126.134.0/23 was
+suppressed because it was included in 194.126.132.0/22. The number
+in square brackets at the beginning of each line indicates the
+original line number, or zero for new prefixes that were
+introduced by
+.B aggregate.
+
+The output without the
+.I -v
+flag is as follows:
+
+.ft B
+  193.58.204.0/21
+  193.193.160.0/22
+  193.193.168.0/22
+  193.243.164.0/22
+  194.126.128.0/21
+  194.151.128.0/19
+  195.42.240.0/21
+  195.240.0.0/15
+.ft R
+
+.SH SEE ALSO
+aggregate-ios(1)
+
+.SH HISTORY
+.B Aggregate
+was written by Joe Abley <jabley@mfnx.net>, and has been reasonably
+well tested. It is suitable for reducing customer prefix filters for
+production use without extensive hand-proving of results.
+
+.PP
+Autoconf bits were donated by Michael Shields <michael.shields@mfn.com>.
+The
+.B \-t
+option was suggested by Robin Johnson <robbat2@fermi.orbis-terrarum.net>,
+and the treatment of leading zeros on octet parsing was changed following
+comments from Arnold Nipper <arnold@nipper.de>.
+
+.PP
+An early version of
+.B aggregate
+would attempt to combine adjacent prefixes regardless of whether
+the first prefix lay on an appropriate bit boundary or not (pointed out
+with great restraint by Robert Noland <rnoland@2hip.net>).
+
+.SH BUGS
+Common unix parsing of IPv4 addresses understands the representation
+of individual octets in octal or hexadecimal, following a "0" or
+"0x" prefix, respectively. That convention has been deliberately
+disabled here, since resources such as the IRR do not follow the
+convention, and confusion can result.
+
+.PP
+For extremely sensitive applications, judicious use of the
+.I -v
+option together with a pencil and paper is probably advisable.
+

@@ -1,0 +1,53 @@
+# $Id: Makefile.in,v 1.5 2001/05/17 14:33:40 jabley Exp $
+# 
+# Copyright (c) 2000-2001 by Metromedia Fiber Network Services, Inc.
+# 
+# Permission to use, copy, modify, and distribute this software for any
+# purpose with or without fee is hereby granted, provided that the above
+# copyright notice and this permission notice appear in all copies.
+# 
+# THE SOFTWARE IS PROVIDED "AS IS" AND METROMEDIA FIBER NETWORK SERVICES,
+# INC. ("MFN") DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE
+# INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO
+# EVENT SHALL MFN BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR
+# CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF
+# USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+# OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+# PERFORMANCE OF THIS SOFTWARE.
+# 
+#   Metromedia Fiber Network
+#   360 Hamilton Avenue
+#   White Plains, NY 10601
+# 
+#   http://www.mmfn.com/
+
+CC = @CC@
+INSTALL = @INSTALL@
+DEFS = @DEFS@
+LIBS = @LIBS@
+CFLAGS = -O
+LDFLAGS = -s
+prefix = @prefix@
+
+SHELL = /bin/sh
+
+PROGS = aggregate aggregate-ios
+OBJS = aggregate.o
+
+all: $(PROGS)
+
+clean:
+	xargs rm -f <.cvsignore
+	rm -f *.o
+
+install: $(PROGS)
+	$(INSTALL) -m 0755 aggregate $(prefix)/bin/
+	$(INSTALL) -m 0644 aggregate.1 $(prefix)/man/man1/
+	$(INSTALL) -m 0755 aggregate-ios $(prefix)/bin/
+	$(INSTALL) -m 0644 aggregate-ios.1 $(prefix)/man/man1/
+
+.c.o:
+	$(CC) -c $(CPPFLAGS) $(DEFS) $(CFLAGS) $<
+
+aggregate: $(OBJS)
+	$(CC) $(LDFLAGS) -o $@ $(OBJS) $(LIBS)

@@ -1,0 +1,82 @@
+.\" $Id: aggregate-ios.1,v 1.4 2001/02/16 04:48:10 jabley Exp $
+.\"
+.\" 
+.\" Copyright (c) 2000-2001 by Metromedia Fiber Network Services, Inc.
+.\" 
+.\" Permission to use, copy, modify, and distribute this software for any
+.\" purpose with or without fee is hereby granted, provided that the above
+.\" copyright notice and this permission notice appear in all copies.
+.\" 
+.\" THE SOFTWARE IS PROVIDED "AS IS" AND METROMEDIA FIBER NETWORK SERVICES,
+.\" INC. ("MFN") DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE
+.\" INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO
+.\" EVENT SHALL MFN BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR
+.\" CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF
+.\" USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+.\" OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+.\" PERFORMANCE OF THIS SOFTWARE.
+.\" 
+.\"   Metromedia Fiber Network
+.\"   360 Hamilton Avenue
+.\"   White Plains, NY 10601
+.\" 
+.\"   http://www.mmfn.com/
+.\"
+.TH AGGREGATE-IOS 1 "2000 November 27" "Joe Abley"
+.SH NAME
+.B aggregate-ios
+\- optimise a concatenated set of cisco/IOS prefix filters to help make
+them nice and short.
+
+.SH SYNOPSIS
+.B aggregate-ios <source_config >optimised_config
+
+.SH DESCRIPTION
+Takes cisco IOS configuration on stdin, and optimises any prefix
+filters found using
+.B aggregate(1).
+Optimised filters are produced on stdout.
+
+.SH OPTIONS
+None.
+
+.SH DIAGNOSTICS
+Any diagnostics produced by
+.B aggregate(1)
+are passed through on stderr.
+
+.SH EXAMPLES
+The following configuration fragment:
+
+.ft B
+  ip prefix-list AS65530 description Foo, Inc
+  ip prefix-list AS65530 permit 10.1.0.0/16
+  ip prefix-list AS65530 permit 10.2.0.0/16
+  ip prefix-list AS65530 permit 10.2.1.0/24
+  ip prefix-list AS65530 permit 10.3.0.0/16
+  ip prefix-list AS65531 description Bar.Com
+  ip prefix-list AS65531 seq 5 permit 192.168.1.0/24
+  ip prefix-list AS65531 seq 10 permit 192.168.2.0/24
+  ip prefix-list AS65531 seq 15 permit 192.168.0.0/19
+.ft R
+
+is optimised as follows:
+
+.ft B
+  ip prefix-list AS65530 permit 10.1.0.0/16 le 24
+  ip prefix-list AS65530 permit 10.2.0.0/15 le 24
+  ip prefix-list AS65531 permit 192.168.0.0/19 le 24
+.ft R
+
+.SH SEE ALSO
+aggregate(1)
+
+.SH HISTORY
+.B Aggregate-ios
+was written by Joe Abley <jabley@mfnx.net>.
+
+.SH BUGS
+All those in
+.B aggregate(1)
+and then some :)
+

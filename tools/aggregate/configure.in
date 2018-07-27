@@ -1,0 +1,38 @@
+dnl Process this file with autoconf to produce a configure script.
+
+dnl Copyright (c) 2001 by Metromedia Fiber Network Services, Inc.
+dnl 
+dnl Permission to use, copy, modify, and distribute this software for any
+dnl purpose with or without fee is hereby granted, provided that the above
+dnl copyright notice and this permission notice appear in all copies.
+dnl 
+dnl THE SOFTWARE IS PROVIDED "AS IS" AND METROMEDIA FIBER NETWORK SERVICES,
+dnl INC. ("MFN") DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE
+dnl INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO
+dnl EVENT SHALL MFN BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR
+dnl CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF
+dnl USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+dnl OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+dnl PERFORMANCE OF THIS SOFTWARE.
+dnl 
+dnl   Metromedia Fiber Network
+dnl   360 Hamilton Avenue
+dnl   White Plains, NY 10601
+dnl 
+dnl   http://www.mmfn.com/
+
+AC_INIT(aggregate.c)
+
+dnl Checks for programs.
+AC_PROG_CC
+AC_PROG_INSTALL
+
+dnl Checks for libraries.
+
+dnl Checks for header files.
+
+dnl Checks for typedefs, structures, and compiler characteristics.
+
+dnl Checks for library functions.
+
+AC_OUTPUT(Makefile)

@@ -1,0 +1,61 @@
+#!/usr/bin/perl
+#
+# $Id: aggregate-ios,v 1.6 2001/03/27 22:32:08 shields Exp $
+# 
+# Copyright (c) 2000-2001 by Metromedia Fiber Network Services, Inc.
+# 
+# Permission to use, copy, modify, and distribute this software for any
+# purpose with or without fee is hereby granted, provided that the above
+# copyright notice and this permission notice appear in all copies.
+# 
+# THE SOFTWARE IS PROVIDED "AS IS" AND METROMEDIA FIBER NETWORK SERVICES,
+# INC. ("MFN") DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE
+# INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO
+# EVENT SHALL MFN BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR
+# CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF
+# USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+# OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+# PERFORMANCE OF THIS SOFTWARE.
+# 
+#   Metromedia Fiber Network
+#   360 Hamilton Avenue
+#   White Plains, NY 10601
+# 
+#   http://www.mmfn.com/
+#
+# aggregate-ios:
+#
+#   Receive some prefix lists in ios syntax on stdin, feed
+#   them through aggregate(1), then return the results in
+#   ios syntax on stdout.  Also encodes some filtering policy.
+#
+# michael.shields@mmfn.com
+# based on an sh/awk script by jabley@mfnx.net
+
+use IPC::Open2;
+use strict;
+
+my %lists = ();
+
+while (<STDIN>) {
+    if (/^ip prefix-list (\S+) permit (.*)/
+	|| /^ip prefix-list (\S+) seq \d+ permit (.*)/) {
+	$lists{$1} .= "$2\n";
+    }
+}
+
+foreach my $list (sort keys %lists) {
+    next unless length $lists{$list};
+    open2(\*RH, \*WH, 'aggregate', '-m32', '-o32')
+	or die "couldn't open pipe to aggregate: $!\n";
+    print WH $lists{$list};
+    close WH  or die "couldn't close write pipe to aggregate: $!\n";
+    while (<RH>) {
+	chop;
+	(my $x, my $length) = split m,/,;
+	print "ip prefix-list $list permit $_";
+	print " le 24" if $length < 24;
+	print "\n";
+    }
+    close RH  or die "couldn't close read pipe to aggregate: $!\n";
+}

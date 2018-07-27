@@ -1,0 +1,32 @@
+2001-01-08  Packaged for release as aggregate-1.0.tar.gz <jabley@mfnx.net>
+
+2001-02-15  Minor licence revisions <jabley@mfnx.net>
+
+2001-03-27  Added configure script; made changes as necessary for
+	    portability to Solaris 8 <michael.shields@mmfn.com>
+
+2001-03-27  Converted aggregate-ios from sh/awk to perl; now is portable
+	    and has secure temp file handling <michael.shields@mmfn.com>
+
+2001-05-17  Changed defaults for -m and -n to 32, since that makes
+            more sense in general. Released aggregate-1.2.tar.gz
+            <jabley@mfnx.net>
+
+2001-05-17  Fixed autoconf snafu. Released aggregate-1.3.tar.gz
+            <jabley@mfnx.net>
+
+2001-11-01  Use our own address parsing routine, rather than libc's
+            inet_ntoa. This is because certain semantics of inet_ntoa
+            differ between operating systems, and because the octal
+            and hexadecimal provisions are not welcome in the real
+            world. Problem reported by Arnold Nipper <arnold@nipper.de>
+            (thanks). Released aggregate-1.4.tar.gz <jabley@mfnx.net>
+
+2001-11-02  Add -q and -t options. The -t option was suggested by
+            Robin Johnson <robbat2@fermi.orbis-terrarum.net>.
+            Released aggregate-1.5.tar.gz <jabley@mfnx.net>
+
+2002-03-06  Remove references to in_addr_t, since not all platforms
+            have that type. Everybody has struct in_addr, hopefully.
+            Released aggregate-1.6.tar.gz <jabley@mfnx.net>
+
