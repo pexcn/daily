@@ -1,9 +1,17 @@
-ipv4-merger: ipv4-merger.c
-	gcc -O3 -ffast-math $^ -o $@
+CC ?= gcc
+DESTDIR ?= /usr/local
+SRC ?= ipv4-merger.c
+BIN ?= ipv4-merger
 
-install: ipv4-merger
-	install -d $(TRAVIS_BUILD_DIR)/bin/
-	install ipv4-merger $(TRAVIS_BUILD_DIR)/bin/
+ipv4-merger: $(SRC)
+	$(CC) -O3 -ffast-math $^ -o $@
+
+install: $(BIN)
+	install -d $(DESTDIR)/bin/
+	install $(BIN) $(DESTDIR)/bin/
+
+uninstall:
+	rm -f $(DESTDIR)/bin/$(BIN)
 
 clean:
-	rm -vf *.o ipv4-merger
+	rm -vf *.o $(BIN)
