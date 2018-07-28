@@ -19,14 +19,15 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#ifdef HAVE_SYSLOG_H
+#  include <syslog.h>
+#endif /* HAVE_SYSLOG_H */
 #include <errno.h>
 #include "errors.h"
 
 
-/* compatibility section */
-#ifdef HAVE_SYSLOG_H
-#  include <syslog.h>
-#else /* HAVE_SYSLOG_H */
+/* compatability section */
+#ifndef HAVE_SYSLOG_H
 #warning no syslog facility?  Errors will go to stderr.
 #  define syslog(x,y,z)
 #  define LOG_DEBUG	7
@@ -41,7 +42,7 @@
 #ifndef HAVE_STRERROR
 #define strerror(x) "system error"
 #endif
-/* end compatibility section */
+/* end compatability section */
 
 static char *progname = NULL;
 
