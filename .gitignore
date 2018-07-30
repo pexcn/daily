@@ -1,11 +1,3 @@
 bin/
 dist/
 .idea/
-
-*.o
-*.exe
-
-tools/aggregate/aggregate
-tools/cidrmerge/cidrmerge
-tools/ipv4-merger/ipv4-merger
-tools/netmask/netmask
