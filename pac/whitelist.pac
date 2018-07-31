@@ -1,5 +1,5 @@
 //
-// Update: 2018-07-31 15:35:14
+// Update: 2018-08-01 01:27:56
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -9550,6 +9550,7 @@ const china_domains = {
     "bw22.com": 1,
     "bw40.net": 1,
     "bw8848.com": 1,
+    "bwae.org": 1,
     "bwchinese.com": 1,
     "bw.com": 1,
     "bwdc007.com": 1,
