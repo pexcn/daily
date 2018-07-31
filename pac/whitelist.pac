@@ -1,5 +1,5 @@
 //
-// Update: 2018-07-31 01:27:24
+// Update: 2018-07-31 15:35:14
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -22797,6 +22797,7 @@ const china_domains = {
     "jjcoffetels.com": 1,
     "jjdzc.com": 1,
     "jjegame-download.com": 1,
+    "jjfinder.com": 1,
     "jjhgame.com": 1,
     "jjhgamedns.com": 1,
     "jjhh.com": 1,
