@@ -1,5 +1,5 @@
 //
-// Update: 2018-08-03 01:28:29
+// Update: 2018-08-04 01:28:37
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -398,6 +398,7 @@ const gfwlist_domains = {
     "bangbrosnetwork.com": 1,
     "bangchen.net": 1,
     "bangyoulater.com": 1,
+    "bankmobilevibe.com": 1,
     "bannedbook.org": 1,
     "bannednews.org": 1,
     "banorte.com": 1,
@@ -973,6 +974,7 @@ const gfwlist_domains = {
     "cleansite.info": 1,
     "cleansite.us": 1,
     "clearharmony.net": 1,
+    "clearsurance.com": 1,
     "clearwisdom.net": 1,
     "clementine-player.org": 1,
     "cling.omy.sg": 1,
@@ -981,6 +983,7 @@ const gfwlist_domains = {
     "cloakpoint.com": 1,
     "cloud.mail.ru": 1,
     "club1069.com": 1,
+    "cmcn.org": 1,
     "cmi.org.tw": 1,
     "cmp.hku.hk": 1,
     "cms.gov": 1,
