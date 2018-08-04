@@ -1,5 +1,5 @@
 //
-// Update: 2018-08-04 01:28:36
+// Update: 2018-08-04 14:16:15
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -11810,13 +11810,13 @@ const china_domains = {
     "cm.xyz": 1,
     "cmzj.net": 1,
     "cmzy168.com": 1,
+    "cn": 1,
     "cn010w.com": 1,
     "cn029.com": 1,
     "cn0434.com": 1,
     "cn0556.com": 1,
     "cn0851.com": 1,
     "cn0917.com": 1,
-    "cn": 1,
     "cn-122.com": 1,
     "cn12333.com": 1,
     "cn12365.org": 1,
@@ -35285,8 +35285,8 @@ const china_domains = {
     "tootour.com": 1,
     "toouke.com": 1,
     "toourbb.com": 1,
-    "top10.ph": 1,
     "top": 1,
+    "top10.ph": 1,
     "top147.com": 1,
     "top1food.com": 1,
     "topber.com": 1,
