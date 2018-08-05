@@ -1,5 +1,5 @@
 //
-// Update: 2018-08-05 01:29:33
+// Update: 2018-08-05 22:15:37
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -132,6 +132,7 @@ const gfwlist_domains = {
     "abclite.net": 1,
     "abc.pp.ru": 1,
     "abc.xyz": 1,
+    "abematv.akamaized.net": 1,
     "abitno.linpie.com": 1,
     "ablwang.com": 1,
     "aboluowang.com": 1,
@@ -3131,6 +3132,7 @@ const gfwlist_domains = {
     "mofaxiehui.com": 1,
     "mofos.com": 1,
     "mog.com": 1,
+    "mohu.club": 1,
     "mohu.ml": 1,
     "mol.gov.tw": 1,
     "molihua.org": 1,
@@ -3878,6 +3880,7 @@ const gfwlist_domains = {
     "revleft.com": 1,
     "revver.com": 1,
     "rfachina.com": 1,
+    "rfalive1.akacast.akamaistream.net": 1,
     "rfamobile.org": 1,
     "rfa.org": 1,
     "rfaweb.org": 1,
@@ -4991,6 +4994,7 @@ const gfwlist_domains = {
     "voatibetanenglish.com": 1,
     "vocativ.com": 1,
     "vocn.tv": 1,
+    "vod-abematv.akamaized.net": 1,
     "vod.wwe.com": 1,
     "vot.org": 1,
     "vovo2000.com": 1,
