@@ -1,5 +1,5 @@
 //
-// Update: 2018-08-11 01:33:25
+// Update: 2018-08-12 01:33:47
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -1321,6 +1321,7 @@ const gfwlist_domains = {
     "dupola.com": 1,
     "dupola.net": 1,
     "dushi.ca": 1,
+    "dvdpac.com": 1,
     "dvorak.org": 1,
     "dw.com": 1,
     "dw.de": 1,
@@ -3367,6 +3368,7 @@ const gfwlist_domains = {
     "nobelprize.org": 1,
     "nobel.se": 1,
     "nobodycanstop.us": 1,
+    "nofile.io": 1,
     "no-ip.org": 1,
     "nokogiri.org": 1,
     "nokola.com": 1,
@@ -3837,6 +3839,7 @@ const gfwlist_domains = {
     "rawgithub.com": 1,
     "raw.githubusercontent.com": 1,
     "razyboard.com": 1,
+    "rcam.target.com": 1,
     "rcinet.ca": 1,
     "rconversation.blogs.com": 1,
     "rd.com": 1,
@@ -3858,6 +3861,10 @@ const gfwlist_domains = {
     "redballoonsolidarity.org": 1,
     "redchinacn.net": 1,
     "redchinacn.org": 1,
+    "redd.it": 1,
+    "reddit.com": 1,
+    "redditmedia.com": 1,
+    "redditstatic.com": 1,
     "redhotlabs.com": 1,
     "red-lang.org": 1,
     "redtube.com": 1,
@@ -4223,6 +4230,7 @@ const gfwlist_domains = {
     "ssl.webpack.de": 1,
     "sspro.ml": 1,
     "ss.pythonic.life": 1,
+    "ssrshare.com": 1,
     "sss.camp": 1,
     "sstmlt.moe": 1,
     "sstmlt.net": 1,
@@ -4398,6 +4406,7 @@ const gfwlist_domains = {
     "teck.in": 1,
     "teco-hk.org": 1,
     "teco-mo.org": 1,
+    "teddysun.com": 1,
     "teeniefuck.net": 1,
     "teensinasia.com": 1,
     "telecomspace.com": 1,
@@ -5251,7 +5260,6 @@ const gfwlist_domains = {
     "www.businessinsider.com.au": 1,
     "www.citizenlab.org": 1,
     "www.cmoinc.org": 1,
-    "www.coinexchange.io": 1,
     "www.cool18.com": 1,
     "www.dmm.com": 1,
     "www.dwheeler.com": 1,
