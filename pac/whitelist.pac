@@ -1,5 +1,5 @@
 //
-// Update: 2018-08-20 01:40:00
+// Update: 2018-08-21 01:40:23
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -11817,6 +11817,7 @@ const china_domains = {
     "cmetamap.com": 1,
     "cmfchina.com": 1,
     "cmfish.com": 1,
+    "cmfspay.com": 1,
     "cmfu.com": 1,
     "cmgame.com": 1,
     "cmge.com": 1,
@@ -14533,6 +14534,7 @@ const china_domains = {
     "doooor.com": 1,
     "dooreb.com": 1,
     "doorhr.com": 1,
+    "doorzo.com": 1,
     "dopa.com": 1,
     "dopic.net": 1,
     "dorapp.com": 1,
@@ -17831,6 +17833,7 @@ const china_domains = {
     "gogo.so": 1,
     "gogosonny.net": 1,
     "gogoup.com": 1,
+    "gohom.win": 1,
     "gohong.com": 1,
     "gohtml.net": 1,
     "goingamer.com": 1,
@@ -27241,6 +27244,7 @@ const china_domains = {
     "minxue.net": 1,
     "minzu56.net": 1,
     "miomio.tv": 1,
+    "mIotO.ME": 1,
     "mipaku.com": 1,
     "mipang.com": 1,
     "mipangwang.com": 1,
@@ -27978,6 +27982,7 @@ const china_domains = {
     "myleado.com": 1,
     "mylegist.com": 1,
     "mylike.cc": 1,
+    "mylikechat.com": 1,
     "mylike.com": 1,
     "mylikesz.com": 1,
     "mylovehome.com": 1,
@@ -28420,6 +28425,7 @@ const china_domains = {
     "ngloom.me": 1,
     "ngnice.com": 1,
     "ngocn.net": 1,
+    "ngoos.org": 1,
     "ngrok.cc": 1,
     "nhaidu.net": 1,
     "nhao123.net": 1,
@@ -34871,6 +34877,7 @@ const china_domains = {
     "tencentmusic.com": 1,
     "tencentyun.com": 1,
     "tenddata.com": 1,
+    "tenganxinxi.com": 1,
     "tengbo.cc": 1,
     "tengchu.com": 1,
     "tengdinggame.com": 1,
@@ -35030,6 +35037,7 @@ const china_domains = {
     "tianjigame.com": 1,
     "tianjihr.com": 1,
     "tianjimedia.com": 1,
+    "tianjin-air.com": 1,
     "tianjingrong.com": 1,
     "tianjinwe.com": 1,
     "tianjiuok.com": 1,
@@ -37904,6 +37912,7 @@ const china_domains = {
     "whmlcy.net": 1,
     "wh-motorshow.com": 1,
     "whmyjj.org": 1,
+    "whmylike.cc": 1,
     "whnfc.com": 1,
     "whocool.com": 1,
     "whoiscn.com": 1,
@@ -41814,6 +41823,7 @@ const china_domains = {
     "ywb.so": 1,
     "ywcec.com": 1,
     "ywctdq.com": 1,
+    "ywdier.com": 1,
     "ywdmbh.com": 1,
     "ywdsvip.info": 1,
     "ywhuo.com": 1,
