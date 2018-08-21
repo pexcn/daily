@@ -1,5 +1,5 @@
 //
-// Update: 2018-08-21 01:40:23
+// Update: 2018-08-22 01:40:30
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -36168,6 +36168,7 @@ const china_domains = {
     "udamall.com": 1,
     "udashi.com": 1,
     "udaxia.com": 1,
+    "udbac.com": 1,
     "uddtrip.com": 1,
     "udecig.com": 1,
     "udfex.com": 1,
