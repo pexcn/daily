@@ -1,5 +1,5 @@
 //
-// Update: 2018-08-25 01:39:46
+// Update: 2018-08-26 01:40:21
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -34788,6 +34788,7 @@ const china_domains = {
     "tcjy66.cc": 1,
     "tclclouds.com": 1,
     "tcl.com": 1,
+    "tclking.com": 1,
     "tcloudfamily.com": 1,
     "tcloud.io": 1,
     "tcloudlife.com": 1,
