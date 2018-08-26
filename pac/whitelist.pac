@@ -1,5 +1,5 @@
 //
-// Update: 2018-08-26 01:40:21
+// Update: 2018-08-27 01:42:44
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -7217,6 +7217,7 @@ const china_domains = {
     "anhuinews.com": 1,
     "anicoga.com": 1,
     "anicoo.com": 1,
+    "anijue.com": 1,
     "animalchina.com": 1,
     "animalhi.com": 1,
     "animationcritics.com": 1,
@@ -9213,6 +9214,7 @@ const china_domains = {
     "bocommleasing.com": 1,
     "bocommlife.com": 1,
     "bocommtrust.com": 1,
+    "bocsolution.com": 1,
     "bodajsj.com": 1,
     "boe.com": 1,
     "bohailife.net": 1,
@@ -21702,6 +21704,7 @@ const china_domains = {
     "ishuhui.com": 1,
     "ishuhui.net": 1,
     "ishuiyun.com": 1,
+    "isigu.com": 1,
     "i-size.com": 1,
     "iskylinem.com": 1,
     "islclub.com": 1,
@@ -35305,6 +35308,7 @@ const china_domains = {
     "tlightsky.com": 1,
     "tljob8001.com": 1,
     "tlkzs.com": 1,
+    "tlllllll.com": 1,
     "tllszzw.com": 1,
     "tlsj-hd.com": 1,
     "tlte.com": 1,
@@ -37749,6 +37753,7 @@ const china_domains = {
     "wenjianjun.com": 1,
     "wenjingnetwork.com": 1,
     "wenjiwu.com": 1,
+    "wenjuanba.com": 1,
     "wenjuan.cc": 1,
     "wenjuan.com": 1,
     "wenjuan.in": 1,
@@ -37963,6 +37968,7 @@ const china_domains = {
     "whuh.com": 1,
     "whuhsj.com": 1,
     "whuhzzs.com": 1,
+    "whu.pt": 1,
     "whupt.net": 1,
     "whusf.com": 1,
     "whuss.com": 1,
@@ -39707,6 +39713,7 @@ const china_domains = {
     "xjxbx.com": 1,
     "xjxy.com": 1,
     "xjysq.com": 1,
+    "xjzkzx.com": 1,
     "xk8090.com": 1,
     "xkacg.com": 1,
     "xkaya.com": 1,
@@ -43323,6 +43330,7 @@ const china_domains = {
     "zslady.com": 1,
     "zs-lzlj.com": 1,
     "zsmama.com": 1,
+    "zsnmwy.net": 1,
     "zsptdjy.com": 1,
     "zsr.cc": 1,
     "zstjy.com": 1,
