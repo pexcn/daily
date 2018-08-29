@@ -1,5 +1,5 @@
 //
-// Update: 2018-08-29 01:41:39
+// Update: 2018-08-30 01:41:51
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -8820,6 +8820,7 @@ const china_domains = {
     "biqing.me": 1,
     "biquan.be": 1,
     "biquan.link": 1,
+    "biqudao.com": 1,
     "biqudu.com": 1,
     "biquge5200.com": 1,
     "biqugebook.com": 1,
@@ -11733,6 +11734,7 @@ const china_domains = {
     "cl2.apple.com.edgekey.net.globalredir.akadns.net": 1,
     "cl3.apple.com": 1,
     "cl4.apple.com": 1,
+    "cl4-cn.apple.com": 1,
     "cl597.com": 1,
     "cl5.apple.com": 1,
     "cl-acg.com": 1,
@@ -17248,6 +17250,7 @@ const china_domains = {
     "gamehui.com": 1,
     "gameinns.com": 1,
     "gamejob.net": 1,
+    "gamelanglive.com": 1,
     "gameloog.com": 1,
     "game-magic.net": 1,
     "gamemei.com": 1,
@@ -21596,6 +21599,7 @@ const china_domains = {
     "ipfog.com": 1,
     "ip.gs": 1,
     "ip-guard.net": 1,
+    "iphone-ld.apple.com": 1,
     "iphonelingsheng.com": 1,
     "iphonespirit.com": 1,
     "iphonetrain.com": 1,
@@ -24750,6 +24754,7 @@ const china_domains = {
     "langke.com": 1,
     "langlang.cc": 1,
     "langlib.com": 1,
+    "langlive.com": 1,
     "langmanzg.com": 1,
     "langqixiaozu.com": 1,
     "langren8.com": 1,
@@ -24795,6 +24800,7 @@ const china_domains = {
     "lanvige.com": 1,
     "lanxicy.com": 1,
     "lanxiongsports.com": 1,
+    "lanyes.org": 1,
     "lanyingblog.com": 1,
     "lanyingwang.com": 1,
     "lanyuevilla.com": 1,
@@ -43491,6 +43497,7 @@ const china_domains = {
     "zx915.com": 1,
     "zx98.com": 1,
     "zx-casting.com": 1,
+    "zxcs8.com": 1,
     "zxd.com": 1,
     "zxdyw.com": 1,
     "zxgzs.com": 1,
