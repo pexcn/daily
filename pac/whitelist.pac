@@ -1,5 +1,5 @@
 //
-// Update: 2018-08-30 01:41:51
+// Update: 2018-08-31 01:43:17
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -1781,6 +1781,7 @@ const china_domains = {
     "200call.com": 1,
     "200.net": 1,
     "200tc.com": 1,
+    "200wan.com": 1,
     "200wan.net": 1,
     "201071.com": 1,
     "2011mv.com": 1,
@@ -4763,6 +4764,7 @@ const china_domains = {
     "6wang.cc": 1,
     "6wtx.com": 1,
     "6wu.cc": 1,
+    "6xd.com": 1,
     "6xw.com": 1,
     "6ycom.com": 1,
     "6yoo.com": 1,
@@ -7685,6 +7687,7 @@ const china_domains = {
     "aspsky.net": 1,
     "aspx.cc": 1,
     "asqql.com": 1,
+    "assets.adobedtm.com": 1,
     "assets.analog.com": 1,
     "assets-ssl.xbox.com": 1,
     "assets.uxengine.net": 1,
@@ -37077,6 +37080,7 @@ const china_domains = {
     "w918.com": 1,
     "w9377u.com": 1,
     "w944.com": 1,
+    "wa5as4.com": 1,
     "wa5.com": 1,
     "wa86.com": 1,
     "wa-ai.com": 1,
@@ -38115,6 +38119,7 @@ const china_domains = {
     "wirelessqa.com": 1,
     "wiseboke.com": 1,
     "wisedsp.net": 1,
+    "wisedu.com": 1,
     "wiselong.com": 1,
     "wisenjoy.com": 1,
     "wiseuc.com": 1,
@@ -38157,6 +38162,7 @@ const china_domains = {
     "wjst1942.com": 1,
     "wjsw.com": 1,
     "wjwgkyy.com": 1,
+    "wjwux2.com": 1,
     "wjxian.com": 1,
     "wjxjzp.com": 1,
     "wjyanghu.com": 1,
@@ -38628,6 +38634,7 @@ const china_domains = {
     "wwnmy.com": 1,
     "wwuye.com": 1,
     "www1-cdn.dell.com": 1,
+    "www.adobe.com": 1,
     "www.agoda.com": 1,
     "www.analog.com": 1,
     "www.apple.com": 1,
@@ -38641,6 +38648,7 @@ const china_domains = {
     "www.htcsense.com": 1,
     "www.htcvive.com": 1,
     "www.ikea.com": 1,
+    "wwwimages2.adobe.com": 1,
     "wwwimages.adobe.com": 1,
     "www.intel.com": 1,
     "wwwljw408.com": 1,
