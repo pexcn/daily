@@ -1,5 +1,5 @@
 //
-// Update: 2018-09-02 01:43:52
+// Update: 2018-09-03 01:44:22
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -160,6 +160,7 @@ const china_domains = {
     "022s.com": 1,
     "022v.com": 1,
     "022xinniang.com": 1,
+    "023001.com": 1,
     "023086.com": 1,
     "0231230.com": 1,
     "0233.com": 1,
@@ -7275,6 +7276,7 @@ const china_domains = {
     "anquanke.com": 1,
     "anquan.org": 1,
     "anquanweb.com": 1,
+    "anquanxia.com": 1,
     "anqu.com": 1,
     "anqunzhi.com": 1,
     "anrayer.com": 1,
@@ -19829,6 +19831,7 @@ const china_domains = {
     "hocool.com": 1,
     "hogesoft.com": 1,
     "hoho666.com": 1,
+    "holaq.com": 1,
     "holdhr.com": 1,
     "holidays5.com": 1,
     "hollischuang.com": 1,
@@ -43093,6 +43096,7 @@ const china_domains = {
     "ziranyixue.com": 1,
     "ziroomapartment.com": 1,
     "ziroom.com": 1,
+    "zisea.com": 1,
     "ziseyiliao.com": 1,
     "zisha.com": 1,
     "zishahuyu.com": 1,
