@@ -1,5 +1,5 @@
 //
-// Update: 2018-09-15 01:52:45
+// Update: 2018-09-16 01:54:01
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -2199,6 +2199,7 @@ const china_domains = {
     "2av7.com": 1,
     "2baxb.me": 1,
     "2bbx.com": 1,
+    "2bkw.com": 1,
     "2brui.com": 1,
     "2btu.com": 1,
     "2bzs.com": 1,
@@ -8588,6 +8589,7 @@ const china_domains = {
     "bcsytv.com": 1,
     "bcty365.com": 1,
     "bcvbw.com": 1,
+    "bcxgame.com": 1,
     "bcxww.com": 1,
     "bcyimg.com": 1,
     "bcy.net": 1,
@@ -9812,6 +9814,7 @@ const china_domains = {
     "bw40.net": 1,
     "bw8848.com": 1,
     "bwae.org": 1,
+    "bwangel.me": 1,
     "bwchinese.com": 1,
     "bw.com": 1,
     "bwdc007.com": 1,
@@ -17975,6 +17978,7 @@ const china_domains = {
     "gesanghua.org": 1,
     "gesep.com": 1,
     "get233.com": 1,
+    "getbingo.net": 1,
     "getiis.com": 1,
     "getmarkman.com": 1,
     "getoversea.com": 1,
@@ -21145,6 +21149,7 @@ const china_domains = {
     "hzhfzx.com": 1,
     "hzhike.com": 1,
     "hzhr.com": 1,
+    "hzht666.com": 1,
     "hzhuti.com": 1,
     "hzhyhm.com": 1,
     "hzins.com": 1,
@@ -32019,6 +32024,7 @@ const china_domains = {
     "quzhuanpan.com": 1,
     "quzhuanxiang.com": 1,
     "quzhuzhe.com": 1,
+    "qv1.pw": 1,
     "qvbuy.com": 1,
     "qvlz.com": 1,
     "qvocd.org": 1,
@@ -32470,6 +32476,8 @@ const china_domains = {
     "roclee.com": 1,
     "rohlan.biz": 1,
     "rohome.net": 1,
+    "rokidcdn.com": 1,
+    "rokid.com": 1,
     "rollupjs.com": 1,
     "romanting.com": 1,
     "romdu.com": 1,
@@ -32844,6 +32852,7 @@ const china_domains = {
     "saonian.me": 1,
     "saopu.com": 1,
     "sao.so": 1,
+    "saoso.com": 1,
     "saowen.com": 1,
     "saowen.net": 1,
     "sap1000.com": 1,
