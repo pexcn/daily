@@ -1,5 +1,5 @@
 //
-// Update: 2018-09-22 17:53:06
+// Update: 2018-09-23 01:55:47
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -2649,6 +2649,7 @@ const gfwlist_domains = {
     "jandyx.com": 1,
     "janwongphoto.com": 1,
     "japanfirst.asianfreeforum.com": 1,
+    "japantimes.co.jp": 1,
     "japan-whores.com": 1,
     "jav101.com": 1,
     "jav2be.com": 1,
@@ -4780,6 +4781,7 @@ const gfwlist_domains = {
     "twit2d.com": 1,
     "twitbrowser.net": 1,
     "twitcause.com": 1,
+    "twitch.tv": 1,
     "twitgether.com": 1,
     "twitgoo.com": 1,
     "twitiq.com": 1,

@@ -1,5 +1,5 @@
 //
-// Update: 2018-09-22 17:53:06
+// Update: 2018-09-23 01:55:47
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -30302,6 +30302,7 @@ const china_domains = {
     "omc.hk": 1,
     "omd99.com": 1,
     "omegatravel.net": 1,
+    "omegaxyz.com": 1,
     "ometal.com": 1,
     "omlzz.com": 1,
     "ommoo.com": 1,
