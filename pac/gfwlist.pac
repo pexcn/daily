@@ -1,5 +1,5 @@
 //
-// Update: 2018-09-23 01:55:47
+// Update: 2018-09-24 01:57:25
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -130,6 +130,7 @@ const gfwlist_domains = {
     "abc.com": 1,
     "abchinese.com": 1,
     "abclite.net": 1,
+    "abc.net.au": 1,
     "abc.pp.ru": 1,
     "abc.xyz": 1,
     "abematv.akamaized.net": 1,
@@ -1569,10 +1570,12 @@ const gfwlist_domains = {
     "favstar.fm": 1,
     "fawanghuihui.org": 1,
     "faydao.com": 1,
+    "fbaddins.com": 1,
     "fbcdn.net": 1,
     "fb.com": 1,
     "fb.me": 1,
     "fbsbx.com": 1,
+    "fbworkmail.com": 1,
     "fc2blog.net": 1,
     "fc2china.com": 1,
     "fc2cn.com": 1,
@@ -3926,6 +3929,7 @@ const gfwlist_domains = {
     "rssmeme.com": 1,
     "rtalabel.org": 1,
     "rthk.hk": 1,
+    "rthklive2-lh.akamaihd.net": 1,
     "rthk.org.hk": 1,
     "rti.org.tw": 1,
     "rtycminnesota.org": 1,
@@ -3998,6 +4002,7 @@ const gfwlist_domains = {
     "secure.logmein.com": 1,
     "secure.raxcdn.com": 1,
     "securetunnel.com": 1,
+    "securityinabox.org": 1,
     "securitykiss.com": 1,
     "seed4.me": 1,
     "seesmic.com": 1,
@@ -4305,6 +4310,7 @@ const gfwlist_domains = {
     "sunvpn.net": 1,
     "sunwinism.joinbbs.net": 1,
     "suoluo.org": 1,
+    "supchina.com": 1,
     "superfreevpn.com": 1,
     "superokayama.com": 1,
     "superpages.com": 1,
