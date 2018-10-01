@@ -1,5 +1,5 @@
 //
-// Update: 2018-10-01 02:01:07
+// Update: 2018-10-02 02:02:47
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -14927,6 +14927,7 @@ const china_domains = {
     "diumoo.net": 1,
     "diupp.com": 1,
     "divcss5.com": 1,
+    "divh5.com": 1,
     "div.io": 1,
     "dixia1.com": 1,
     "dixiao.org": 1,
@@ -16605,6 +16606,7 @@ const china_domains = {
     "equanxing.com": 1,
     "equn.com": 1,
     "eqxiu.com": 1,
+    "eqxiu.mobi": 1,
     "eq-xz.net": 1,
     "eqyn.com": 1,
     "eqz.cc": 1,
@@ -21687,6 +21689,7 @@ const china_domains = {
     "huodongxing.com": 1,
     "huoduan.com": 1,
     "huogz.com": 1,
+    "huohoo.com": 1,
     "huohu123.com": 1,
     "huohuogame.com": 1,
     "huoji.com": 1,
@@ -32639,6 +32642,7 @@ const china_domains = {
     "qinliancf.com": 1,
     "qinlina.com": 1,
     "qinms.com": 1,
+    "qinmujiazheng.com": 1,
     "qinqiang.org": 1,
     "qinqinbaby.com": 1,
     "qinqin.com": 1,
@@ -34013,6 +34017,7 @@ const china_domains = {
     "sainacoffee.com": 1,
     "sainthyler.com": 1,
     "saipujianshen.com": 1,
+    "sairai.cc": 1,
     "sairaicc.xin": 1,
     "saitian68.com": 1,
     "saitjr.com": 1,
@@ -37313,6 +37318,7 @@ const china_domains = {
     "throneclay.com": 1,
     "ths123.com": 1,
     "th-sjy.com": 1,
+    "thstars.com": 1,
     "thtxzyz.com": 1,
     "thundercdn.net": 1,
     "thunderex.com": 1,
