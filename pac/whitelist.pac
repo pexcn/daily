@@ -1,5 +1,5 @@
 //
-// Update: 2018-10-04 02:03:39
+// Update: 2018-10-04 15:17:34
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -37134,6 +37134,7 @@ const china_domains = {
     "tctong.com": 1,
     "tcwq.com": 1,
     "tcxw.cc": 1,
+    "tcy365.com": 1,
     "tcye288.pw": 1,
     "tcz.name": 1,
     "td22.com": 1,
@@ -41172,6 +41173,7 @@ const china_domains = {
     "wutongwan.org": 1,
     "wutongxiang.cc": 1,
     "wutuxs.com": 1,
+    "wuuxiang.com": 1,
     "wuwm-aprg.org": 1,
     "wuxiairport.com": 1,
     "wuxianhaibao.com": 1,
