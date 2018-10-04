@@ -30,8 +30,7 @@ function gen_whitelist_pac() {
   sed -i 's/^/    "/' ${WHITELIST_CONTENT}
   sed -i 's/$/": 1,/' ${WHITELIST_CONTENT}
 
-  # remove last ',' character: https://stackoverflow.com/questions/3576139/sed-remove-string-only-in-the-last-line-of-the-file
-  sed -i '$ s/": 1,/": 1/g' ${WHITELIST_CONTENT}
+  sed -i '$ s/.$//g' ${WHITELIST_CONTENT}
 
   sed -i "s/___CHINA_DOMAINS_PLACEHOLDER___/cat ${WHITELIST_CONTENT}/e" ${DIST_FILE}
   sed -i "s/___UPDATE_TIME_PLACEHOLDER___/$(date +'%Y-%m-%d %T')/g" ${DIST_FILE}
