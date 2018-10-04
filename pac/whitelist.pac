@@ -1,5 +1,5 @@
 //
-// Update: 2018-10-04 16:02:41
+// Update: 2018-10-05 02:03:52
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -4482,6 +4482,7 @@ const china_domains = {
     "5icool.org": 1,
     "5idream.net": 1,
     "5iec.com": 1,
+    "5ifapiao.com": 1,
     "5ifit.com": 1,
     "5iflying.com": 1,
     "5ifund.com": 1,
@@ -12519,6 +12520,7 @@ const china_domains = {
     "cmsbs.com": 1,
     "cmscmc.org": 1,
     "cmsjournal.net": 1,
+    "cmsky.com": 1,
     "cmstop.com": 1,
     "cmt178.com": 1,
     "cmtd666.com": 1,
@@ -15409,6 +15411,7 @@ const china_domains = {
     "doudouxitong.com": 1,
     "doudouxitong.net": 1,
     "doudouyuedu.com": 1,
+    "doufan.tv": 1,
     "doufl.com": 1,
     "doufu.la": 1,
     "douglassclub.com": 1,
@@ -16732,6 +16735,7 @@ const china_domains = {
     "etlong.com": 1,
     "etmoc.com": 1,
     "eto9.com": 1,
+    "etocrm.com": 1,
     "etongdai.com": 1,
     "etoote.com": 1,
     "etoubao.com": 1,
@@ -21235,6 +21239,7 @@ const china_domains = {
     "hrbzdty.com": 1,
     "hrcjob.com": 1,
     "hrday.com": 1,
+    "href.lu": 1,
     "hrexam.com": 1,
     "hrfc.net": 1,
     "hrfoods.com": 1,
@@ -25886,6 +25891,7 @@ const china_domains = {
     "ksmx.me": 1,
     "ksops.com": 1,
     "ksosoft.com": 1,
+    "kspkg.com": 1,
     "ksqzw.com": 1,
     "ksria.com": 1,
     "ksrong.com": 1,
@@ -35637,6 +35643,7 @@ const china_domains = {
     "smgstar.com": 1,
     "smh5511.com": 1,
     "smics.com": 1,
+    "smilec.cc": 1,
     "smilejay.com": 1,
     "smilingwhitebear.com": 1,
     "sm-img1.com": 1,
@@ -38457,7 +38464,9 @@ const china_domains = {
     "txxst.com": 1,
     "txxxb.com": 1,
     "txy8.com": 1,
+    "txyapp.com": 1,
     "txyes.com": 1,
+    "txylab.com": 1,
     "txzdq.com": 1,
     "txzylt.com": 1,
     "ty2016.com": 1,
@@ -39321,6 +39330,7 @@ const china_domains = {
     "vitarn.com": 1,
     "vivdao.com": 1,
     "vivijk.com": 1,
+    "viviv.com": 1,
     "vivo.com": 1,
     "vivoglobal.com": 1,
     "viwik.com": 1,
