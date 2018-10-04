@@ -17,6 +17,7 @@ function fetch_data() {
   # exclude comments & extract domains
   curl -kLs ${CHINA_DOMAINS_URL} ${APPLE_DOMAINS_URL} |
       sed '/#/d' | awk '{split($0, arr, "/"); print arr[2]}' |
+      grep '\.' |
       sort | uniq > ${WHITELIST_CONTENT}
   popd
 }
