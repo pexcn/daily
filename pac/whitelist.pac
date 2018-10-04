@@ -1,5 +1,5 @@
 //
-// Update: 2018-10-04 15:17:34
+// Update: 2018-10-04 15:38:08
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -12530,7 +12530,6 @@ const china_domains = {
     "cm.xyz": 1,
     "cmzj.net": 1,
     "cmzy168.com": 1,
-    "cn": 1,
     "cn010w.com": 1,
     "cn029.com": 1,
     "cn0434.com": 1,
@@ -37836,7 +37835,6 @@ const china_domains = {
     "tootour.com": 1,
     "toouke.com": 1,
     "toourbb.com": 1,
-    "top": 1,
     "top10.ph": 1,
     "top147.com": 1,
     "top1food.com": 1,
@@ -42496,21 +42494,18 @@ const china_domains = {
     "xmzylh.com": 1,
     "xn121.com": 1,
     "xn--54qy85au5qcxs.com": 1,
-    "xn--55qx5d": 1,
     "xn97.com": 1,
     "xnb.me": 1,
     "xn--dp8haaa.ws": 1,
     "xn--dqr60g9u1ct4l.com": 1,
     "xn--ebr05n.com": 1,
     "xn--fiq80yijen6d.com": 1,
-    "xn--fiqs8s": 1,
     "xnfzl.com": 1,
     "xnghmc.com": 1,
     "xngk.com": 1,
     "xnguke.com": 1,
     "xnhc521.com": 1,
     "xnhypx.com": 1,
-    "xn--io0a7i": 1,
     "xn--irru74k.com": 1,
     "xn--it-1r3f.com": 1,
     "xnlkj.com": 1,
