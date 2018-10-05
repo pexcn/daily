@@ -1,5 +1,5 @@
 //
-// Update: 2018-10-05 02:03:52
+// Update: 2018-10-06 02:05:13
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -1646,6 +1646,7 @@ const china_domains = {
     "18fangchan.com": 1,
     "18fcfc.com": 1,
     "18gem.com": 1,
+    "18heat.com": 1,
     "18ladys.com": 1,
     "18link.com": 1,
     "18.net": 1,
@@ -23392,6 +23393,7 @@ const china_domains = {
     "ixiangyu.com": 1,
     "ixiaolu.com": 1,
     "ixiaomo.net": 1,
+    "ixiaoyuanzhi.com": 1,
     "ixidian.org": 1,
     "ixigua.com": 1,
     "ixiguavideo.com": 1,
