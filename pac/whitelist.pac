@@ -1,5 +1,5 @@
 //
-// Update: 2018-10-07 02:05:20
+// Update: 2018-10-08 02:05:58
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -15221,6 +15221,7 @@ const china_domains = {
     "dnwx.com": 1,
     "dnxtc.net": 1,
     "dnyyjcw.com": 1,
+    "dnyzpg.com": 1,
     "dnzhuti.com": 1,
     "dnzsb.com": 1,
     "do189.com": 1,
@@ -26339,6 +26340,7 @@ const china_domains = {
     "lanjingtmt.com": 1,
     "lankdo.net": 1,
     "lan-kun.com": 1,
+    "lanlanlife.com": 1,
     "lanlicai.com": 1,
     "lanlv.com": 1,
     "lanmao.com": 1,
@@ -27409,6 +27411,7 @@ const china_domains = {
     "lntycp.com": 1,
     "lnwest.com": 1,
     "lnyhrlzy.com": 1,
+    "lnymd.com": 1,
     "lo97.com": 1,
     "load-page.com": 1,
     "locatran.com": 1,
@@ -29101,6 +29104,7 @@ const china_domains = {
     "mkaq.org": 1,
     "mkbld.com": 1,
     "mkf.com": 1,
+    "mkitgfs.com": 1,
     "mklimg.com": 1,
     "mktcreator.com": 1,
     "mktplassets-ssl.xbox.com": 1,
@@ -29521,6 +29525,7 @@ const china_domains = {
     "mrrao.com": 1,
     "mrsta.com": 1,
     "mrtoyy.com": 1,
+    "mrwish.net": 1,
     "mrw.so": 1,
     "mryz888.com": 1,
     "mrzhi.com": 1,
@@ -42518,6 +42523,7 @@ const china_domains = {
     "xn--54qy85au5qcxs.com": 1,
     "xn97.com": 1,
     "xnb.me": 1,
+    "xncredit.com": 1,
     "xn--dp8haaa.ws": 1,
     "xn--dqr60g9u1ct4l.com": 1,
     "xn--ebr05n.com": 1,
