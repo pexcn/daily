@@ -1,5 +1,5 @@
 //
-// Update: 2018-10-14 02:09:30
+// Update: 2018-10-15 02:10:44
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -7508,6 +7508,7 @@ const china_domains = {
     "aliyun.com": 1,
     "aliyuncs.com": 1,
     "aliyunduncc.com": 1,
+    "aliyunedu.net": 1,
     "aliyungf.com": 1,
     "aliyun-inc.com": 1,
     "aliyunwaf.com": 1,
@@ -15221,6 +15222,7 @@ const china_domains = {
     "dizhihei.com": 1,
     "dj024.com": 1,
     "dj129.com": 1,
+    "dj175.com": 1,
     "dj368.com": 1,
     "dj3721.net": 1,
     "dj520.com": 1,
@@ -19397,6 +19399,7 @@ const china_domains = {
     "gpd.hk": 1,
     "gpdi.com": 1,
     "g-photography.net": 1,
+    "gplayspace.com": 1,
     "gpl-express.com": 1,
     "gpnewtech.com": 1,
     "gpowermusic.com": 1,
@@ -19478,6 +19481,7 @@ const china_domains = {
     "gsbankchina.com": 1,
     "gsbtyuv.com": 1,
     "gsbug.com": 1,
+    "gscpwang.com": 1,
     "gsdaquan.com": 1,
     "gsdk.tv": 1,
     "gsdpw.com": 1,
@@ -25838,6 +25842,7 @@ const china_domains = {
     "ke.com": 1,
     "keda-digital.com": 1,
     "kedamamc.com": 1,
+    "keda-u.com": 1,
     "keddoo.com": 1,
     "kede.com": 1,
     "kedou.com": 1,
@@ -28481,6 +28486,7 @@ const china_domains = {
     "m1910.com": 1,
     "m1ok.com": 1,
     "m1page.com": 1,
+    "m1world.com": 1,
     "m3guo.com": 1,
     "m448.com": 1,
     "m4yy.com": 1,
@@ -28820,6 +28826,7 @@ const china_domains = {
     "maxiaoguo.com": 1,
     "maxitas.com": 1,
     "maxjia.com": 1,
+    "maxoyed.com": 1,
     "maxpda.com": 1,
     "maxthon.com": 1,
     "maxthonimg.com": 1,
@@ -29279,6 +29286,7 @@ const china_domains = {
     "mhzg100.com": 1,
     "mi1.cc": 1,
     "mia.com": 1,
+    "miai123.com": 1,
     "mian4.net": 1,
     "mianbao0.com": 1,
     "mianbao99.com": 1,
