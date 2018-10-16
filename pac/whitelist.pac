@@ -1,5 +1,5 @@
 //
-// Update: 2018-10-16 02:11:48
+// Update: 2018-10-17 02:17:42
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -4015,6 +4015,7 @@ const china_domains = {
     "52hejia.com": 1,
     "52hibuy.com": 1,
     "52hxw.com": 1,
+    "52-ic.com": 1,
     "52ico.com": 1,
     "52ij.com": 1,
     "52im.net": 1,
@@ -6702,6 +6703,7 @@ const china_domains = {
     "aacok.com": 1,
     "aadongman.com": 1,
     "aad.tw": 1,
+    "aahong09.com": 1,
     "aakk66.com": 1,
     "aamm181.com": 1,
     "aandi.net": 1,
@@ -14623,6 +14625,7 @@ const china_domains = {
     "dazui123.com": 1,
     "dazui.com": 1,
     "dazunart.com": 1,
+    "dazush.com": 1,
     "db2car.com": 1,
     "db2china.net": 1,
     "db600.com": 1,
@@ -24096,6 +24099,7 @@ const china_domains = {
     "jdhhmd.com": 1,
     "jd.hk": 1,
     "jdhs.cc": 1,
+    "jdhyplay.com": 1,
     "jdjys.com": 1,
     "jdkic.com": 1,
     "jdlhg.com": 1,
@@ -25511,6 +25515,7 @@ const china_domains = {
     "jxgushihui.com": 1,
     "jxgydc.com": 1,
     "jxhd.info": 1,
+    "jxiaolan.com": 1,
     "jxicloud.com": 1,
     "jximage.com": 1,
     "jxjatv.com": 1,
@@ -33863,6 +33868,7 @@ const china_domains = {
     "qukuai.com": 1,
     "qukuba.com": 1,
     "qu.la": 1,
+    "quledu.net": 1,
     "qulishi.com": 1,
     "qulv.com": 1,
     "qumaiqu.com": 1,
@@ -34108,6 +34114,7 @@ const china_domains = {
     "rbyair.com": 1,
     "rbzygs.com": 1,
     "rc114.com": 1,
+    "rcaiv.com": 1,
     "rc.cc": 1,
     "rccchina.com": 1,
     "rcchw.net": 1,
@@ -34368,6 +34375,7 @@ const china_domains = {
     "riyuexing.org": 1,
     "riyuezw.com": 1,
     "riyurumen.com": 1,
+    "rizhao9.com": 1,
     "rizhaociming.com": 1,
     "rizhiyi.com": 1,
     "rizhuan666.com": 1,
@@ -40776,6 +40784,7 @@ const china_domains = {
     "wdzj.com": 1,
     "wdzx.com": 1,
     "we1130.com": 1,
+    "we216.com": 1,
     "we2.name": 1,
     "we4399.com": 1,
     "we520.me": 1,
