@@ -1,5 +1,5 @@
 //
-// Update: 2018-10-21 02:15:19
+// Update: 2018-10-22 02:16:06
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -11887,6 +11887,7 @@ const china_domains = {
     "chinadns.org": 1,
     "chinadoudi.com": 1,
     "chinadrtv.com": 1,
+    "chinadsl.net": 1,
     "chinadysj.com": 1,
     "chinadyt.com": 1,
     "chinadz.com": 1,
@@ -18049,6 +18050,7 @@ const china_domains = {
     "fjnwy.com": 1,
     "fjpqcz.com": 1,
     "fjpta.com": 1,
+    "fjreading.com": 1,
     "fjsdfz.org": 1,
     "fjsen.com": 1,
     "fjsjs.com": 1,
@@ -24074,6 +24076,7 @@ const china_domains = {
     "ixh.me": 1,
     "ixiangche.com": 1,
     "ixiangyu.com": 1,
+    "ixianlai.com": 1,
     "ixiaolu.com": 1,
     "ixiaomo.net": 1,
     "ixiaowei.cc": 1,
@@ -26290,6 +26293,7 @@ const china_domains = {
     "kibinggroup.com": 1,
     "kiccp.com": 1,
     "kicokico.com": 1,
+    "kid17.com": 1,
     "kidsdown.com": 1,
     "kidseq.net": 1,
     "kidulty.com": 1,
@@ -40639,6 +40643,7 @@ const china_domains = {
     "vrbig.com": 1,
     "vrbrothers.com": 1,
     "vrcan.com": 1,
+    "vr-cat.com": 1,
     "vrcdkj.com": 1,
     "vrcfo.com": 1,
     "vrchina.com": 1,
