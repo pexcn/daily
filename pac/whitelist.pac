@@ -1,5 +1,5 @@
 //
-// Update: 2018-10-27 02:23:15
+// Update: 2018-10-28 02:19:38
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -17039,6 +17039,7 @@ const china_domains = {
     "elecfans.net": 1,
     "elecinfo.com": 1,
     "elecrystal.com": 1,
+    "elecshop.com": 1,
     "elecspark.com": 1,
     "ele.me": 1,
     "elemecdn.com": 1,
@@ -23024,6 +23025,7 @@ const china_domains = {
     "ichacha.net": 1,
     "ichang8.com": 1,
     "ichangbaishan.com": 1,
+    "ichangjia.com": 1,
     "ichangtou.com": 1,
     "ichaotu.com": 1,
     "icharm.me": 1,
@@ -23042,6 +23044,7 @@ const china_domains = {
     "ichww.com": 1,
     "ici51.com": 1,
     "iciba.com": 1,
+    "icicicic.com": 1,
     "icidc.com": 1,
     "icifit.com": 1,
     "icignacmb.com": 1,
@@ -26735,6 +26738,7 @@ const china_domains = {
     "kklishi.com": 1,
     "kklover.com": 1,
     "kklxj.com": 1,
+    "kkmaoyi.com": 1,
     "kkmh.com": 1,
     "kk.net": 1,
     "kkqb.net": 1,
@@ -32900,6 +32904,7 @@ const china_domains = {
     "petkoo.com": 1,
     "petpcb.com": 1,
     "pe.vc": 1,
+    "pewld.com": 1,
     "pf11.com": 1,
     "pf178.com": 1,
     "pf999.net": 1,
@@ -41867,6 +41872,7 @@ const china_domains = {
     "weikeru.com": 1,
     "weikesucai.com": 1,
     "weikuo.cc": 1,
+    "weikuw.com": 1,
     "weilaicaijing.com": 1,
     "weilairibao.com": 1,
     "weilaitiku.com": 1,
@@ -43992,6 +43998,7 @@ const china_domains = {
     "xingzuomi.org": 1,
     "xingzuoshu.com": 1,
     "xingzuowu.com": 1,
+    "xinhaolian.com": 1,
     "xinhaoqi.net": 1,
     "xinhay.com": 1,
     "xinhe99.com": 1,
@@ -46061,6 +46068,7 @@ const china_domains = {
     "yourdream.cc": 1,
     "youren5.com": 1,
     "yourtion.com": 1,
+    "youruncloud.com": 1,
     "yousc.com": 1,
     "yousee.com": 1,
     "youshang.com": 1,
@@ -47541,6 +47549,7 @@ const china_domains = {
     "zhi.hu": 1,
     "zhihuangjin.com": 1,
     "zhihu.com": 1,
+    "zhihuihuiwu.com": 1,
     "zhihuiji.com": 1,
     "zhihu.in": 1,
     "zhihuinanzhan.com": 1,
