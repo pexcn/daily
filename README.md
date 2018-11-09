@@ -9,9 +9,10 @@ This script can be automatically generate something what I needed every day.
 - [`chnroute/chnroute.txt`](https://pexcn.me/daily/chnroute/chnroute.txt) is the China routing table.
 - [`adblock/adblock.conf`](https://pexcn.me/daily/adblock/adblock.conf) is dnsmasq ad-blocking rules.
 - [`pac/gfwlist.pac`](https://pexcn.me/daily/pac/gfwlist.pac) is the PAC list of GFWList.
-- [`pac/whitelist.pac`](https://pexcn.me/daily/pac/whitelist.pac) is the PAC list of GFW domain whitelist.
-- [`shadowrocket/gfwlist.conf`](https://pexcn.me/daily/shadowrocket/gfwlist.conf) is the shadowrocket config based on GFWList.
-- [`shadowrocket/tinylist.conf`](https://pexcn.me/daily/shadowrocket/tinylist.conf) is the shadowrocket config based on GFW tinylist.
+- [`pac/whitelist.pac`](https://pexcn.me/daily/pac/whitelist.pac) is the PAC list of China domain whitelist.
+- [`shadowrocket/gfwlist.conf`](https://pexcn.me/daily/shadowrocket/gfwlist.conf) is the GFWList for shadowrocket.
+- [`shadowrocket/tinylist.conf`](https://pexcn.me/daily/shadowrocket/tinylist.conf) is the GFW tinylist for shadowrocket.
+- [`shadowrocket/whitelist.conf`](https://pexcn.me/daily/shadowrocket/whitelist.conf) is the China domain whitelist for shadowrocket.
 
 ### OpenWRT
 
