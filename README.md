@@ -33,13 +33,13 @@ This script can be automatically generate something what I needed every day.
 
 ## Thanks
 
-- [ChinaDNS](https://github.com/shadowsocks/ChinaDNS)
-- [dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
-- [gfwlist2pac](https://github.com/clowwindy/gfwlist2pac)
-- [gfw_domain_whitelist](https://github.com/R0uter/gfw_domain_whitelist)
-- [gfw_whitelist](https://github.com/breakwa11/gfw_whitelist)
-- [GFWList2PAC](https://github.com/breakwa11/GFWList2PAC)
-- [Flora_Pac](https://github.com/Leask/Flora_Pac)
+- [@shadowsocks/ChinaDNS](https://github.com/shadowsocks/ChinaDNS)
+- [@clowwindy/gfwlist2pac](https://github.com/clowwindy/gfwlist2pac)
+- [@felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
+- [@R0uter/gfw_domain_whitelist](https://github.com/R0uter/gfw_domain_whitelist)
+- [@breakwa11/gfw_whitelist](https://github.com/breakwa11/gfw_whitelist)
+- [@breakwa11/GFWList2PAC](https://github.com/breakwa11/GFWList2PAC)
+- [@Leask/Flora_Pac](https://github.com/Leask/Flora_Pac)
 
 ## License
 
