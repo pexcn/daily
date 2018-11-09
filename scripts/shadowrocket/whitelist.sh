@@ -6,7 +6,7 @@ DIST_FILE='whitelist.conf'
 
 CHINA_LIST_URL='https://raw.githubusercontent.com/pexcn/daily/gh-pages/chinalist/chinalist.txt'
 CHINA_LIST='chinalist.txt'
-TOP_LIST_URL='https://raw.githubusercontent.com/pexcn/AlexaTopSites/gh-pages/top-5000.txt'
+TOP_LIST_URL='https://raw.githubusercontent.com/pexcn/daily/gh-pages/alexa/top-cn-2000.txt'
 TOP_LIST='toplist.txt'
 
 WHITELIST='whitelist.tmp'
