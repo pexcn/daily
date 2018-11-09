@@ -4,13 +4,12 @@ TMP_DIR=`mktemp -d /tmp/shadowrocket.XXXXXX`
 DIST_DIR='dist/shadowrocket'
 DIST_FILE='whitelist.conf'
 
-CHINA_DOMAINS_URL='https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf'
-APPLE_DOMAINS_URL='https://github.com/felixonmars/dnsmasq-china-list/raw/master/apple.china.conf'
-TOP_5000_URL='https://pexcn.me/AlexaTopSites/top-5000.txt'
+CHINA_LIST_URL='https://raw.githubusercontent.com/pexcn/daily/gh-pages/chinalist/chinalist.txt'
+CHINA_LIST='chinalist.txt'
+TOP_LIST_URL='https://raw.githubusercontent.com/pexcn/AlexaTopSites/gh-pages/top-5000.txt'
+TOP_LIST='toplist.txt'
 
-CHINA_LIST='china-list.txt'
-TOP_LIST='top-list.txt'
-WHITELIST_CONTENT='whitelist_content.tmp'
+WHITELIST='whitelist.tmp'
 
 function fetch_data() {
   local config_template='template/shadowrocket/whitelist.conf'
@@ -18,26 +17,20 @@ function fetch_data() {
   cp ${config_template} ${TMP_DIR}
 
   pushd ${TMP_DIR}
-  # exclude comments & extract domains
-  curl -kLs ${CHINA_DOMAINS_URL} ${APPLE_DOMAINS_URL} |
-      sed '/#/d' |
-      awk '{split($0, arr, "/"); print arr[2]}' |
-      grep '\.' |
-      sort | uniq > ${CHINA_LIST}
-
-  curl -kLs ${TOP_5000_URL} > ${TOP_LIST}
+  curl -kLs ${CHINA_LIST_URL} > ${CHINA_LIST}
+  curl -kLs ${TOP_LIST_URL} > ${TOP_LIST}
   popd
 }
 
 function gen_whitelist_config() {
   pushd ${TMP_DIR}
 
-  grep -Fx -f ${CHINA_LIST} ${TOP_LIST} > ${WHITELIST_CONTENT}
+  grep -Fx -f ${CHINA_LIST} ${TOP_LIST} > ${WHITELIST}
 
-  sed -i 's/^/DOMAIN-SUFFIX,/' ${WHITELIST_CONTENT}
-  sed -i 's/$/,DIRECT/' ${WHITELIST_CONTENT}
+  sed -i 's/^/DOMAIN-SUFFIX,/' ${WHITELIST}
+  sed -i 's/$/,DIRECT/' ${WHITELIST}
 
-  sed -i "s/___WHITELIST_DOMAINS_PLACEHOLDER___/cat ${WHITELIST_CONTENT}/e" ${DIST_FILE}
+  sed -i "s/___WHITELIST_DOMAINS_PLACEHOLDER___/cat ${WHITELIST}/e" ${DIST_FILE}
   sed -i "s/___UPDATE_TIME_PLACEHOLDER___/$(date +'%Y-%m-%d %T')/g" ${DIST_FILE}
 
   popd
