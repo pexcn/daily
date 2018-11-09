@@ -41,4 +41,4 @@ function clean_up() {
 fetch_data
 gen_tinylist_config
 dist_release
-#clean_up
+clean_up
