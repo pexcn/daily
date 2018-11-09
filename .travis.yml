@@ -18,7 +18,7 @@ env:
     - TZ: "Asia/Shanghai"
 
 script:
-  - bash bootstrap.sh
+  - bash generate.sh
 
 deploy:
   provider: pages
