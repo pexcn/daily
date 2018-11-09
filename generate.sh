@@ -6,6 +6,8 @@ bash scripts/chnroute/chnroute.sh
 
 bash scripts/gfwlist/gfwlist.sh
 
+bash scripts/chinalist/chinalist.sh
+
 bash scripts/pac/gfwlist.sh
 bash scripts/pac/whitelist.sh
 
