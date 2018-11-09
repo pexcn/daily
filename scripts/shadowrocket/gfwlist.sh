@@ -4,55 +4,26 @@ TMP_DIR=`mktemp -d /tmp/shadowrocket.XXXXXX`
 DIST_DIR='dist/shadowrocket'
 DIST_FILE='gfwlist.conf'
 
-GFWLIST_URL='https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt'
-GFWLIST='gfwlist.txt'
-
-GFWLIST_CONTENT='gfwlist_content.tmp'
+GFW_DOMAIN_LIST_URL='https://raw.githubusercontent.com/pexcn/daily/gh-pages/gfwlist/gfwlist.txt'
+GFW_DOMAIN_LIST='gfwlist.txt'
 
 function fetch_data() {
   local config_template='template/shadowrocket/gfwlist.conf'
-  local extra_template='template/gfwlist_extra_domains.txt'
 
   cp ${config_template} ${TMP_DIR}
-  cp ${extra_template} ${TMP_DIR}
 
   pushd ${TMP_DIR}
-  curl -kLs ${GFWLIST_URL} | base64 -d > ${GFWLIST}
-  popd
-}
-
-function extract_domains() {
-  pushd ${TMP_DIR}
-
-  local gfwlist_domains='gfwlist_domains.txt'
-  local gfwlist_extra_domains='gfwlist_extra_domains.txt'
-
-  # patterns from @cokebar/gfwlist2dnsmasq
-  local ignore_pattern='^\!|\[|^@@|(https?://){0,1}[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+'
-  local head_filter_pattern='s#^(\|\|?)?(https?://)?##g'
-  local tail_filter_pattern='s#/.*$|%2F.*$##g'
-  local domain_pattern='([a-zA-Z0-9][-a-zA-Z0-9]*(\.[a-zA-Z0-9][-a-zA-Z0-9]*)+)'
-  local wildcard_pattern='s#^(([a-zA-Z0-9]*\*[-a-zA-Z0-9]*)?(\.))?([a-zA-Z0-9][-a-zA-Z0-9]*(\.[a-zA-Z0-9][-a-zA-Z0-9]*)+)(\*)?#\4#g'
-
-  grep -vE ${ignore_pattern} ${GFWLIST} |
-      sed -r ${head_filter_pattern} |
-      sed -r ${tail_filter_pattern} |
-      grep -E ${domain_pattern} |
-      sed -r ${wildcard_pattern} > ${gfwlist_domains}
-  cat ${gfwlist_extra_domains} >> ${gfwlist_domains}
-
-  cat ${gfwlist_domains} | sort | uniq > ${GFWLIST_CONTENT}
-
+  curl -kLs ${GFW_DOMAIN_LIST_URL} > ${GFW_DOMAIN_LIST}
   popd
 }
 
 function gen_gfwlist_config() {
   pushd ${TMP_DIR}
 
-  sed -i 's/^/DOMAIN-SUFFIX,/' ${GFWLIST_CONTENT}
-  sed -i 's/$/,PROXY,force-remote-dns/' ${GFWLIST_CONTENT}
+  sed -i 's/^/DOMAIN-SUFFIX,/' ${GFW_DOMAIN_LIST}
+  sed -i 's/$/,PROXY,force-remote-dns/' ${GFW_DOMAIN_LIST}
 
-  sed -i "s/___GFWLIST_DOMAINS_PLACEHOLDER___/cat ${GFWLIST_CONTENT}/e" ${DIST_FILE}
+  sed -i "s/___GFWLIST_DOMAINS_PLACEHOLDER___/cat ${GFW_DOMAIN_LIST}/e" ${DIST_FILE}
   sed -i "s/___UPDATE_TIME_PLACEHOLDER___/$(date +'%Y-%m-%d %T')/g" ${DIST_FILE}
 
   popd
@@ -68,7 +39,6 @@ function clean_up() {
 }
 
 fetch_data
-extract_domains
 gen_gfwlist_config
 dist_release
 clean_up
