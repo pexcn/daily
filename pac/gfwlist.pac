@@ -1,5 +1,5 @@
 //
-// Update: 2018-11-12 02:28:10
+// Update: 2018-11-13 02:27:38
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -1650,6 +1650,7 @@ const gfwlist_domains = {
     "fofldfradio.org": 1,
     "fooooo.com": 1,
     "footwiball.com": 1,
+    "foreignpolicy.com": 1,
     "forum4hk.com": 1,
     "forum.baby-kingdom.com": 1,
     "forum.cyberctm.com": 1,
@@ -4161,6 +4162,7 @@ const gfwlist_domains = {
     "socialwhale.com": 1,
     "sockscap64.com": 1,
     "sockslist.net": 1,
+    "socks-proxy.net": 1,
     "soc.mil": 1,
     "socrec.org": 1,
     "sodatea.github.io": 1,
