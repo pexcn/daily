@@ -1,5 +1,5 @@
 //
-// Update: 2018-11-13 02:27:38
+// Update: 2018-11-14 02:27:59
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -2878,6 +2878,7 @@ const gfwlist_domains = {
     "lhakar.org": 1,
     "lhasocialwork.org": 1,
     "liangyou.net": 1,
+    "liangzhichuanmei.com": 1,
     "lianyue.net": 1,
     "liaowangxizang.net": 1,
     "liberal.org.hk": 1,
@@ -3663,6 +3664,7 @@ const gfwlist_domains = {
     "pixiv.net": 1,
     "pixnet.net": 1,
     "pk.com": 1,
+    "pki.goog": 1,
     "placemix.com": 1,
     "playboy.com": 1,
     "playboyplus.com": 1,
@@ -5229,6 +5231,7 @@ const gfwlist_domains = {
     "wordpress.com": 1,
     "workatruna.com": 1,
     "workerdemo.org.hk": 1,
+    "workerempowerment.org": 1,
     "workersthebig.net": 1,
     "worldcat.org": 1,
     "worldjournal.com": 1,
