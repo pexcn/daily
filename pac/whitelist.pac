@@ -1,5 +1,5 @@
 //
-// Update: 2018-11-23 02:35:01
+// Update: 2018-11-24 02:35:31
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -10580,6 +10580,7 @@ const china_domains = {
     "brandvista.com": 1,
     "breadtrip.com": 1,
     "breakeast.com": 1,
+    "breakyizhan.com": 1,
     "brentron.com": 1,
     "bricktou.com": 1,
     "bridgee.net": 1,
@@ -14759,6 +14760,7 @@ const china_domains = {
     "cuaa.net": 1,
     "cuav.net": 1,
     "cubead.com": 1,
+    "cuberl.com": 1,
     "cubie.cc": 1,
     "cucdc.com": 1,
     "cucidc.com": 1,
@@ -25017,6 +25019,7 @@ const china_domains = {
     "isaonian.com": 1,
     "iscrv.com": 1,
     "iseekt.com": 1,
+    "isempty.site": 1,
     "isfashion.com": 1,
     "ishadowsocks.com": 1,
     "ishangai.com": 1,
@@ -37931,6 +37934,7 @@ const china_domains = {
     "shenzhenair.com": 1,
     "shenzhenbaiyi.com": 1,
     "shenzhenshui.com": 1,
+    "shenzhentong.com": 1,
     "shenzhenu.com": 1,
     "shenzhenware.com": 1,
     "shenzhoufu.com": 1,
@@ -38696,6 +38700,7 @@ const china_domains = {
     "sjawards.com": 1,
     "sjbzx.com": 1,
     "sjcomic.com": 1,
+    "sjdzp.com": 1,
     "sjfpro.com": 1,
     "sjfzxm.com": 1,
     "sjgo28.com": 1,
@@ -40073,6 +40078,7 @@ const china_domains = {
     "szlbzz.com": 1,
     "szlcsc.com": 1,
     "szledia.org": 1,
+    "szlhtram.com": 1,
     "szlips.com": 1,
     "szljnk.com": 1,
     "szljsz.com": 1,
@@ -43172,6 +43178,7 @@ const china_domains = {
     "w3ctrain.com": 1,
     "w3cui.com": 1,
     "w3cways.com": 1,
+    "w3h5.com": 1,
     "w3hacker.com": 1,
     "w3help.org": 1,
     "w3xue.com": 1,
@@ -46147,6 +46154,7 @@ const china_domains = {
     "xinwo.com": 1,
     "xinxianghui.com": 1,
     "xinxianplus.com": 1,
+    "xinxiaodian.com": 1,
     "xinxiaoqi.com": 1,
     "xinxilai.net": 1,
     "xinxindai.com": 1,
