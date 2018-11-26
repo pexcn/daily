@@ -1,5 +1,5 @@
 //
-// Update: 2018-11-26 02:37:00
+// Update: 2018-11-27 02:38:01
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -1900,6 +1900,7 @@ const china_domains = {
     "1seo2sem.com": 1,
     "1shang.com": 1,
     "1sheng.com": 1,
+    "1shipin.net": 1,
     "1shoucang.com": 1,
     "1sj.tv": 1,
     "1soccer.com": 1,
@@ -11964,6 +11965,7 @@ const china_domains = {
     "chainfor.com": 1,
     "chainhoo.com": 1,
     "chainknow.com": 1,
+    "chainsdir.com": 1,
     "chaintiao.com": 1,
     "chainwon.cc": 1,
     "chainwon.com": 1,
@@ -15763,6 +15765,7 @@ const china_domains = {
     "dexcoder.com": 1,
     "dexinsg.com": 1,
     "deyang5.com": 1,
+    "deyayk.com": 1,
     "deyi.com": 1,
     "deyijijin.org": 1,
     "deyi.net": 1,
@@ -17346,6 +17349,7 @@ const china_domains = {
     "easyhin.com": 1,
     "easyhoo.net": 1,
     "easyicon.net": 1,
+    "easyliao.com": 1,
     "easy-linkholiday.com": 1,
     "easymks.com": 1,
     "easymorse.com": 1,
@@ -20386,6 +20390,7 @@ const china_domains = {
     "globalscanner.com": 1,
     "globalsigncdn.com": 1,
     "globeauto.org": 1,
+    "globeedu.com": 1,
     "globeimmi.com": 1,
     "globrand.com": 1,
     "globrand.net": 1,
@@ -31066,6 +31071,7 @@ const china_domains = {
     "mc-test.com": 1,
     "mcu123.net": 1,
     "mcufan.com": 1,
+    "mculover.com": 1,
     "mcuol.com": 1,
     "mcuzone.com": 1,
     "mcuzx.net": 1,
@@ -33160,6 +33166,7 @@ const china_domains = {
     "nihontu-cn.com": 1,
     "nihuwo.net": 1,
     "niiwoo.com": 1,
+    "nike619.com": 1,
     "nike-air-max.ca": 1,
     "nikefree-run.net": 1,
     "nike-rosherun.nl": 1,
@@ -33517,6 +33524,7 @@ const china_domains = {
     "nutjs.com": 1,
     "nutscn.com": 1,
     "nutspace.com": 1,
+    "nutzam.com": 1,
     "nuubao.com": 1,
     "nuuren.com": 1,
     "nuuxie.com": 1,
@@ -37388,6 +37396,7 @@ const china_domains = {
     "sap-nj.com": 1,
     "sapzh.com": 1,
     "saraba1st.com": 1,
+    "sarons.org": 1,
     "sasa123.com": 1,
     "sasa123.net": 1,
     "sasatuan.com": 1,
@@ -40941,6 +40950,7 @@ const china_domains = {
     "thenew123.com": 1,
     "theonemusic.net": 1,
     "thepaliogroupsa.com": 1,
+    "thepast.cc": 1,
     "theqingyun.info": 1,
     "therecity.com": 1,
     "thethirdmedia.com": 1,
