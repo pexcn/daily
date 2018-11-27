@@ -1,5 +1,5 @@
 //
-// Update: 2018-11-27 02:38:00
+// Update: 2018-11-28 02:38:35
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -5136,6 +5136,7 @@ const gfwlist_domains = {
     "wearn.com": 1,
     "web2project.net": 1,
     "webbang.net": 1,
+    "web.dev": 1,
     "webevader.org": 1,
     "webfreer.com": 1,
     "webjb.org": 1,
