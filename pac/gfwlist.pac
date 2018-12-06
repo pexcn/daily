@@ -1,5 +1,5 @@
 //
-// Update: 2018-12-06 02:43:42
+// Update: 2018-12-07 02:44:33
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -1072,6 +1072,7 @@ const gfwlist_domains = {
     "crackle.com": 1,
     "crazys.cc": 1,
     "crazyshit.com": 1,
+    "crbug.com": 1,
     "crchina.org": 1,
     "crd-net.org": 1,
     "creaders.net": 1,
@@ -1848,6 +1849,7 @@ const gfwlist_domains = {
     "getlantern.org": 1,
     "getmdl.io": 1,
     "getoutline.org": 1,
+    "get.page": 1,
     "getsocialscope.com": 1,
     "getsync.com": 1,
     "gettrials.com": 1,
@@ -2158,6 +2160,7 @@ const gfwlist_domains = {
     "gopetition.com": 1,
     "go-pki.com": 1,
     "goproxing.net": 1,
+    "goregrish.com": 1,
     "gospelherald.com": 1,
     "gotdns.ch": 1,
     "got-game.org": 1,
@@ -2583,6 +2586,7 @@ const gfwlist_domains = {
     "internetfreedom.org": 1,
     "internet.org": 1,
     "internetpopculture.com": 1,
+    "inthenameofconfuciusmovie.com": 1,
     "investigating.wordpress.com": 1,
     "inxian.com": 1,
     "iownyour.biz": 1,
@@ -3167,6 +3171,7 @@ const gfwlist_domains = {
     "moroneta.com": 1,
     "mos.ru": 1,
     "motherless.com": 1,
+    "motiyun.com": 1,
     "motor4ik.ru": 1,
     "mousebreaker.com": 1,
     "movements.org": 1,
@@ -3953,6 +3958,7 @@ const gfwlist_domains = {
     "rtycminnesota.org": 1,
     "ruanyifeng.com": 1,
     "rukor.org": 1,
+    "runbtx.com": 1,
     "rushbee.com": 1,
     "ruten.com.tw": 1,
     "rutube.ru": 1,
@@ -4234,6 +4240,7 @@ const gfwlist_domains = {
     "speedify.com": 1,
     "spem.at": 1,
     "spencertipping.com": 1,
+    "spendee.com": 1,
     "spicevpn.com": 1,
     "spideroak.com": 1,
     "spike.com": 1,
@@ -4258,6 +4265,7 @@ const gfwlist_domains = {
     "ss.levyhsu.com": 1,
     "ss-link.com": 1,
     "ssl.webpack.de": 1,
+    "sspanel.net": 1,
     "sspro.ml": 1,
     "ss.pythonic.life": 1,
     "ssrshare.com": 1,
@@ -5592,6 +5600,7 @@ const gfwlist_domains = {
     "zyns.com": 1,
     "zyzc9.com": 1,
     "zzcartoon.com": 1,
+    "zzcloud.me": 1,
     "zzux.com": 1
 };
 
