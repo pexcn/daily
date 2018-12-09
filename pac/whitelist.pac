@@ -1,5 +1,5 @@
 //
-// Update: 2018-12-09 02:46:19
+// Update: 2018-12-10 02:47:18
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -15304,6 +15304,7 @@ const china_domains = {
     "czongyi.com": 1,
     "czopen.com": 1,
     "czpoly.com": 1,
+    "czpro.pro": 1,
     "czpwm.com": 1,
     "czqfsl.com": 1,
     "czqq.com": 1,
@@ -35214,6 +35215,7 @@ const china_domains = {
     "perfgeek.com": 1,
     "peryi.com": 1,
     "peryi.net": 1,
+    "pesyun.com": 1,
     "pet86.com": 1,
     "petbnb.me": 1,
     "petersonlian.com": 1,
@@ -51952,6 +51954,7 @@ const china_domains = {
     "zsjinqi.com": 1,
     "zsjuchuang.com": 1,
     "zslady.com": 1,
+    "zsld86.com": 1,
     "zslin.com": 1,
     "zs-lzlj.com": 1,
     "zsmama.com": 1,
