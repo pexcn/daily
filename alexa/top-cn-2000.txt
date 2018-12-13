@@ -953,6 +953,7 @@ cncn.com
 libaclub.com
 chinahr.com
 gaodun.com
+pdawiki.com
 83om.com
 verycd.com
 u2j2ha.com
@@ -1213,9 +1214,7 @@ veryhuo.com
 shixiseng.com
 huodongjia.com
 dxy.com
-vcb-s.com
 swoole.com
-69shu.com
 xin.com
 drvsky.com
 china-pub.com
@@ -1738,7 +1737,6 @@ snh48.com
 hassbian.com
 baofeng.com
 minecraftxz.com
-putclub.com
 diershoubing.com
 mycodes.net
 0755rc.com
@@ -1998,3 +1996,5 @@ kuakao.com
 webpackjs.com
 itedou.com
 virscan.org
+laomaotao.org
+flymeos.com

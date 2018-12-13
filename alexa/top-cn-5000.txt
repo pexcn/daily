@@ -953,6 +953,7 @@ cncn.com
 libaclub.com
 chinahr.com
 gaodun.com
+pdawiki.com
 83om.com
 verycd.com
 u2j2ha.com
@@ -1213,9 +1214,7 @@ veryhuo.com
 shixiseng.com
 huodongjia.com
 dxy.com
-vcb-s.com
 swoole.com
-69shu.com
 xin.com
 drvsky.com
 china-pub.com
@@ -1738,7 +1737,6 @@ snh48.com
 hassbian.com
 baofeng.com
 minecraftxz.com
-putclub.com
 diershoubing.com
 mycodes.net
 0755rc.com
@@ -2101,7 +2099,6 @@ zuojiawang.com
 87994.com
 szzfgjj.com
 masadora.jp
-6vhao.net
 apizza.net
 beva.com
 im286.net
@@ -2331,7 +2328,6 @@ gagahi.com
 5068.com
 qianyan.biz
 92to.com
-todayonhistory.com
 keywin.org
 rouding.com
 2016win10.com
@@ -2776,6 +2772,7 @@ transfun.net
 pingxx.com
 dj134.com
 tanmizhi.com
+shenyecg.com
 zoomlion.com
 inspur.com
 anfensi.com
@@ -3671,7 +3668,6 @@ tiantian8.com
 ticwear.com
 tmjob88.com
 topit.me
-tucao.tv
 tumanduo.com
 tuzhan.com
 txffp.com
@@ -3836,7 +3832,6 @@ dayhao.com
 decard.com
 dfyl-luxgen.com
 dingsheng.com
-disanlou.org
 diyiapp.com
 djye.com
 dowei.com
@@ -4322,7 +4317,6 @@ xx007.com
 wutuxs.com
 guoguo-app.com
 nrec.com
-waveshare.com
 zynews.com
 oooody.com
 gsxzq.com
@@ -4774,7 +4768,6 @@ qiye10000.com
 2265.com
 520cc.com
 xiugei.com
-88liu.com
 91danji.com
 acwind.net
 awaimai.com
@@ -4998,3 +4991,10 @@ cnkis.net
 cnkivip.net
 cnlogo8.com
 cnmsl.net
+cnoil.com
+cnscore.com
+code4app.com
+coderclock.com
+codingke.com
+comicst.com
+coolaf.com
