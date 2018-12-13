@@ -3,5 +3,4 @@
 - [ ] Improve get gfwlist domains via:
     - [@rssnsj/network-feeds/ipset-lists/tools/gfwlist.sh](https://github.com/rssnsj/network-feeds/blob/master/ipset-lists/tools/gfwlist.sh)
     - [@shadowsocks/shadowsocks-android/core/gfwlist/parse.py](https://github.com/shadowsocks/shadowsocks-android/blob/master/core/gfwlist/parse.py)
-- [ ] Remove adblock_full.conf ?
 - [ ] Add add ad-blocking rules for shadowrocket configs ?
