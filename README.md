@@ -31,7 +31,7 @@ This script can be automatically generate something what I needed every day.
 1 3 * * * <path/to/adblock_script>
 ```
 
-## Thanks
+## Acknowledgments
 
 - [@shadowsocks/ChinaDNS](https://github.com/shadowsocks/ChinaDNS)
 - [@clowwindy/gfwlist2pac](https://github.com/clowwindy/gfwlist2pac)
