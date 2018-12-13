@@ -3,7 +3,7 @@
 TMP_DIR=`mktemp -d /tmp/chnroute.XXXXXX`
 DIST_DIR='dist/chnroute'
 DIST_FILE_IPV4='chnroute.txt'
-DIST_FILE_IPV6='chnroute_v6.txt'
+DIST_FILE_IPV6='chnroute-v6.txt'
 
 APNIC_URL='https://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest'
 IPIP_URL='https://github.com/17mon/china_ip_list/raw/master/china_ip_list.txt'
