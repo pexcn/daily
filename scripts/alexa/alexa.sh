@@ -8,6 +8,9 @@ DIST_FILE_TOP_500='top-500.txt'
 DIST_FILE_TOP_CN_5000='top-cn-5000.txt'
 DIST_FILE_TOP_CN_2000='top-cn-2000.txt'
 DIST_FILE_TOP_CN_500='top-cn-500.txt'
+DIST_FILE_TOP_NO_CN_5000='top-no-cn-5000.txt'
+DIST_FILE_TOP_NO_CN_2000='top-no-cn-2000.txt'
+DIST_FILE_TOP_NO_CN_500='top-no-cn-500.txt'
 
 ALEXA_LIST_URL='https://s3.amazonaws.com/alexa-static/top-1m.csv.zip'
 ALEXA_LIST='alexalist.txt'
@@ -28,6 +31,7 @@ function gen_alexa_top_list() {
 
   local top=${ALEXA_LIST}
   local top_cn='top-cn.txt'
+  local top_no_cn='top-no-cn.txt'
 
   head -5000 ${top} > ${DIST_FILE_TOP_5000}
   head -2000 ${top} > ${DIST_FILE_TOP_2000}
@@ -37,6 +41,11 @@ function gen_alexa_top_list() {
   head -5000 ${top_cn} > ${DIST_FILE_TOP_CN_5000}
   head -2000 ${top_cn} > ${DIST_FILE_TOP_CN_2000}
   head -500 ${top_cn} > ${DIST_FILE_TOP_CN_500}
+
+  grep -vFx -f ${CHINA_LIST} ${ALEXA_LIST} > ${top_no_cn}
+  head -5000 ${top_no_cn} > ${DIST_FILE_TOP_NO_CN_5000}
+  head -2000 ${top_no_cn} > ${DIST_FILE_TOP_NO_CN_2000}
+  head -500 ${top_no_cn} > ${DIST_FILE_TOP_NO_CN_500}
 
   popd
 }
@@ -49,6 +58,9 @@ function dist_release() {
   mv ${TMP_DIR}/${DIST_FILE_TOP_CN_5000} ${DIST_DIR}
   mv ${TMP_DIR}/${DIST_FILE_TOP_CN_2000} ${DIST_DIR}
   mv ${TMP_DIR}/${DIST_FILE_TOP_CN_500} ${DIST_DIR}
+  mv ${TMP_DIR}/${DIST_FILE_TOP_NO_CN_5000} ${DIST_DIR}
+  mv ${TMP_DIR}/${DIST_FILE_TOP_NO_CN_2000} ${DIST_DIR}
+  mv ${TMP_DIR}/${DIST_FILE_TOP_NO_CN_500} ${DIST_DIR}
 }
 
 function clean_up() {
