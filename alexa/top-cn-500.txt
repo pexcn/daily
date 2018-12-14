@@ -276,7 +276,6 @@ szhk.com
 jinshuju.net
 chuangkit.com
 chaoxing.com
-ihg.com
 rarbt.com
 webnovel.com
 zhanqi.tv
@@ -289,7 +288,6 @@ it168.com
 95516.com
 hellorf.com
 mbalib.com
-subhd.com
 tieba.com
 6vhao.tv
 transrush.com
@@ -297,7 +295,6 @@ ip138.com
 zdfans.com
 tool.lu
 135editor.com
-mebook.cc
 2cto.com
 kekenet.com
 qutoutiao.net
@@ -498,3 +495,6 @@ java1234.com
 dygod.net
 fanli.com
 gfxcamp.com
+jinse.com
+halihali.tv
+seowhy.com

@@ -276,7 +276,6 @@ szhk.com
 jinshuju.net
 chuangkit.com
 chaoxing.com
-ihg.com
 rarbt.com
 webnovel.com
 zhanqi.tv
@@ -289,7 +288,6 @@ it168.com
 95516.com
 hellorf.com
 mbalib.com
-subhd.com
 tieba.com
 6vhao.tv
 transrush.com
@@ -297,7 +295,6 @@ ip138.com
 zdfans.com
 tool.lu
 135editor.com
-mebook.cc
 2cto.com
 kekenet.com
 qutoutiao.net
@@ -834,7 +831,6 @@ dotamax.com
 hunliji.com
 qqyou.com
 infzm.com
-eleme.io
 juming.com
 zongheng.com
 ngabbs.com
@@ -1182,7 +1178,6 @@ wpdaxue.com
 cctime.com
 chinalawedu.com
 87g.com
-ifkdy.com
 qt86.com
 51hei.com
 hdpfans.com
@@ -1259,7 +1254,6 @@ w3cplus.com
 shichangbu.com
 btxiaba.com
 unionpay.com
-bandwagonhost.net
 cpooo.com
 51talk.com
 5ewin.com
@@ -1312,7 +1306,6 @@ jiuxian.com
 ketangpai.com
 9duw.com
 ca168.com
-zhangzishi.cc
 shuge.org
 wanbizu.com
 element3ds.com
@@ -1475,7 +1468,6 @@ labtoday.net
 cangqionglongqi.com
 extfans.com
 06climate.com
-ck180.net
 cn-ki.net
 dankegongyu.com
 ikongjian.com
@@ -1574,7 +1566,6 @@ leha.com
 hdcmct.org
 gugeapps.com
 51bi.com
-lintcode.com
 juneyaoair.com
 otomedream.com
 chinajcz.com
@@ -1814,7 +1805,6 @@ kuaikanmanhua.com
 kuaihou.com
 8btc.com
 wordlm.com
-hongkongairlines.com
 changtu.com
 gotokeep.com
 archcollege.com
@@ -1876,7 +1866,6 @@ hntv.tv
 hqwx.com
 kaiyanapp.com
 maijx.com
-sheup.com
 sketchcn.com
 sohu-inc.com
 syuan.net
@@ -1998,3 +1987,14 @@ china-pub.com
 mokeedev.com
 zine.la
 263.com
+geek-workshop.com
+appchina.com
+wishdown.com
+diyidan.com
+lnmp.org
+fuimg.com
+jianshe99.com
+bazhuayu.com
+alipayobjects.com
+53shop.com
+qinxue365.com

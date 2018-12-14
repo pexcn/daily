@@ -276,7 +276,6 @@ szhk.com
 jinshuju.net
 chuangkit.com
 chaoxing.com
-ihg.com
 rarbt.com
 webnovel.com
 zhanqi.tv
@@ -289,7 +288,6 @@ it168.com
 95516.com
 hellorf.com
 mbalib.com
-subhd.com
 tieba.com
 6vhao.tv
 transrush.com
@@ -297,7 +295,6 @@ ip138.com
 zdfans.com
 tool.lu
 135editor.com
-mebook.cc
 2cto.com
 kekenet.com
 qutoutiao.net
@@ -834,7 +831,6 @@ dotamax.com
 hunliji.com
 qqyou.com
 infzm.com
-eleme.io
 juming.com
 zongheng.com
 ngabbs.com
@@ -1182,7 +1178,6 @@ wpdaxue.com
 cctime.com
 chinalawedu.com
 87g.com
-ifkdy.com
 qt86.com
 51hei.com
 hdpfans.com
@@ -1259,7 +1254,6 @@ w3cplus.com
 shichangbu.com
 btxiaba.com
 unionpay.com
-bandwagonhost.net
 cpooo.com
 51talk.com
 5ewin.com
@@ -1312,7 +1306,6 @@ jiuxian.com
 ketangpai.com
 9duw.com
 ca168.com
-zhangzishi.cc
 shuge.org
 wanbizu.com
 element3ds.com
@@ -1475,7 +1468,6 @@ labtoday.net
 cangqionglongqi.com
 extfans.com
 06climate.com
-ck180.net
 cn-ki.net
 dankegongyu.com
 ikongjian.com
@@ -1574,7 +1566,6 @@ leha.com
 hdcmct.org
 gugeapps.com
 51bi.com
-lintcode.com
 juneyaoair.com
 otomedream.com
 chinajcz.com
@@ -1814,7 +1805,6 @@ kuaikanmanhua.com
 kuaihou.com
 8btc.com
 wordlm.com
-hongkongairlines.com
 changtu.com
 gotokeep.com
 archcollege.com
@@ -1876,7 +1866,6 @@ hntv.tv
 hqwx.com
 kaiyanapp.com
 maijx.com
-sheup.com
 sketchcn.com
 sohu-inc.com
 syuan.net
@@ -2332,7 +2321,6 @@ diyifanwen.com
 zaeke.com
 latexstudio.net
 tuozhe8.com
-99lib.net
 ubtrobot.com
 react-china.org
 jianshen8.com
@@ -2606,7 +2594,6 @@ admin10000.com
 laohu8.com
 aldwx.com
 100ppi.com
-debugease.com
 hxtcpp.com
 mafengwo.net
 zsbeike.com
@@ -2729,7 +2716,6 @@ sparkpool.com
 sseinfo.com
 sun0769.com
 suo.im
-tlanyan.me
 todgo.com
 ttrar.com
 usd-cny.com
@@ -2825,6 +2811,7 @@ cgchina.net
 china95.net
 dockerinfo.net
 fishlee.net
+gongyingshi.com
 jfinal.com
 job168.com
 jysd.com
@@ -3008,7 +2995,6 @@ woordee.com
 592meiju.com
 61bbw.com
 79.com
-acggate.net
 bazai.com
 bestgo.com
 ce12366.com
@@ -3034,7 +3020,6 @@ hbqc.com
 hellocq.net
 hfrc.net
 hillstonenet.com
-hxsxw.com
 japanao.com
 jj59.com
 kq36.com
@@ -3392,7 +3377,6 @@ epwk.com
 etuan.com
 fimmu.com
 flypy.com
-fuhaodq.com
 fujieace.com
 fzlft.com
 gccmgw.com
@@ -3457,6 +3441,7 @@ pe168.com
 ppys.net
 prprpr.me
 q1.com
+qishu.co
 qiumibao.com
 qiyesou.com
 qk365.com
@@ -3522,7 +3507,6 @@ aicdn.com
 airchinacargo.com
 jianada-qianzheng.com
 huabaike.com
-chinadailyasia.com
 taihainet.com
 333cn.com
 51auto.com
@@ -3610,7 +3594,6 @@ dns.com
 ixiqi.com
 17ziti.com
 fuwo.com
-kunlun.com
 87994.com
 cnaidc.com
 haitaobei.com
@@ -3654,7 +3637,6 @@ zuowenzhang.com
 96fei.com
 51qumi.com
 52miji.com
-bkjia.com
 timetw.com
 xfsub.com
 taobaocdn.com
@@ -3923,6 +3905,7 @@ chaonei.com
 99read.com
 9air.com
 9u8u.com
+aaayun.com
 abbyychina.com
 aboboo.com
 actoys.net
@@ -4017,7 +4000,6 @@ chinahighway.com
 chinahrd.net
 chinaneccs.org
 chinassl.net
-chinatibetnews.com
 chinazhw.com
 chizhouren.com
 chuangxin.com
@@ -4112,7 +4094,6 @@ ellemen.com
 elong.net
 emacs-china.org
 ems-help.com
-engkoo.com
 enjoyz.com
 eserexpo.com
 etlong.com
@@ -4159,7 +4140,6 @@ gllue.com
 globrand.com
 gokuai.com
 goldtoutiao.com
-good.gd
 goplaycn.com
 gotase.com
 gouwuke.com
@@ -4268,6 +4248,7 @@ jpkcnet.com
 jqhtml.com
 jseepub.com
 jsinfo.net
+jsncke.com
 juren.com
 jushuo.com
 jxdown.com
@@ -4680,6 +4661,7 @@ zhaozongjie.com
 zhcpic.com
 zhen.com
 zhengruioi.com
+zhengzi.me
 zhenhaoblog.com
 zhishifenzi.com
 zhongguose.com
@@ -4896,7 +4878,6 @@ taopic.com
 itedou.com
 sooopu.com
 coolkit.cc
-patsnap.com
 hwjyw.com
 imqq.com
 bccto.me
@@ -4915,6 +4896,7 @@ zhenhaotv.com
 shuyaya.cc
 99770.cc
 huilv.cc
+xidea.online
 qu114.com
 oneinstack.com
 makefont.com
@@ -4980,7 +4962,6 @@ kuman.com
 letv.com
 qzone.com
 yximgs.com
-99manga.com
 yjbys.com
 tastespirit.com
 jj20.com
@@ -4998,3 +4979,22 @@ logphp.com
 ifunmac.com
 gaoshouyou.com
 gpbeta.com
+geniatech.com
+qiao88.com
+3agw.com
+diudou.com
+applicationloader.net
+faloo.com
+ofo.com
+caikuu.com
+lzlj.com
+15kankan.com
+37cs.com
+66163.com
+712100.com
+91wan.com
+93959.com
+a3guo.com
+all3c.com
+anqn.com
+atpanel.com
