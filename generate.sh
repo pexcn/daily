@@ -1,12 +1,15 @@
 #!/bin/bash -e
 
+# adlist
+bash scripts/adlist/adlist.sh
+
 # adblock
 bash scripts/adblock/adblock.sh
 
 # chnroute
 bash scripts/chnroute/chnroute.sh
 
-# alexa china top list
+# alexa top list
 bash scripts/alexa/alexa.sh
 
 # gfw domain list
