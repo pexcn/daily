@@ -1857,7 +1857,6 @@ a2pub.com
 a2shd.realshieldlinked.com
 a2.suntimes.com
 a2.xinhuanet.com
-a32.g.a.yimg.com
 a3339.actonsoftware.com
 a39.ac-images.myspacecdn.com
 a3hb0.voluumtrk.com
@@ -25252,6 +25251,7 @@ clickus.tractionize.com
 clickv.com
 click.vgnett.no
 clickwinks.com
+clickwith.bid
 click.wrating.com
 clickxchange.com
 clickz.com
@@ -27828,6 +27828,7 @@ dbbru.voluumtrk.com
 dbbsrv.com
 db.c7.b3.a1.top.list.ru
 dbcdqp72lzmvj.cloudfront.net
+dbeii.com
 dbeij.com
 db.hosting.doublepimp.com
 db.hosting.rts.doublepimp.com
@@ -27858,6 +27859,7 @@ dcad.watersoul.com
 dcaij.com
 dcdd29eaa743c493e732-7dc0216bc6cc2f4ed239035dfc17235b.ssl.cf3.rackcdn.com
 dcdevtzxo4bb0.cloudfront.net
+dceni.com
 d.chango.com
 dcisw.voluumtrk.com
 dc.letv.com
@@ -29305,7 +29307,6 @@ eu-px.steelhousemedia.com
 eurekacentral.go2cloud.org
 eurekster.com
 euroathleticgreens.go2cloud.org
-euroclick.com
 europe.adserver.yahoo.com
 euros4click.de
 eurosponsor.de
@@ -31419,6 +31420,7 @@ gwylm.com
 gxejgs.com
 gxkyl.com
 gxssjz.com
+gxunj.com
 gydag.com
 gyeet.com
 gygdmy.com
@@ -36693,7 +36695,6 @@ pagerank4you.com
 pagerank-ranking.de
 pagerank-submitter.de
 pageranktop.com
-pagerank-united.de
 pages2.marketo.com
 pages.appia.com
 pages.crittercism.com
@@ -38094,7 +38095,6 @@ ranking-links.de
 ranking-liste.de
 rankingscout.com
 rank-master.com
-rank-master.de
 ranks.com
 rankseller.de
 ranksider.com
@@ -40732,8 +40732,6 @@ swellisholupo.download
 swhgd.com
 swimslope.com
 swimsuitnetwork.com
-switchadhub.com
-switchads.com
 switch.atdmt.com
 switch.atdmt.net
 s.wnd.com

@@ -447,7 +447,6 @@ a1.yuuedu.com
 a1.zhanzhang.net
 a2.b310.com
 a2.xinhuanet.com
-a32.g.a.yimg.com
 a3.ikafan.com
 a3.jandan.net
 a3p4.net
@@ -892,7 +891,6 @@ ads.affiliates.match.com
 ads.affiliates-spinit.com
 ads.ak.facebook.com.edgesuite.net
 ads.allvatar.com
-ads.alt.com
 ads.amdmb.com
 ads.amigos.com
 ads.aol.com
@@ -2257,7 +2255,6 @@ chitika.net
 chiuhua.com.cn
 chmae.com
 chnhty.com
-ch.questionmarket.com
 christingel.com
 chromc.com
 chuangyixi.com
@@ -2289,7 +2286,6 @@ class-act-clicks.com
 clearcomb.com
 click2freemoney.com
 clickability.com
-click.absoluteagency.com
 clickadz.com
 clickagents.com
 clickbank.com
@@ -2323,6 +2319,7 @@ clicktrace.info
 clicktracks.com
 clicktrack.ziyu.net
 clicktrade.com
+clickwith.bid
 clickxchange.com
 clickz.com
 clicmanager.fr
@@ -2767,6 +2764,7 @@ dbaij.com
 dbam.dashbida.com
 dbbsrv.com
 dbcdqp72lzmvj.cloudfront.net
+dbeii.com
 dbeij.com
 dbiej.com
 dbncp.com
@@ -2777,6 +2775,7 @@ dbwmjj.com
 dcad.watersoul.com
 dcaij.com
 dcdevtzxo4bb0.cloudfront.net
+dceni.com
 dc-storm.com
 ddanq.com
 ddg1277.com
@@ -3149,7 +3148,6 @@ etracker.de
 eu1.madsone.com
 eu-adcenter.net
 eurekster.com
-euroclick.com
 euros4click.de
 eusta.de
 euwidget.imshopping.com
@@ -3549,6 +3547,7 @@ gwylm.com
 gxejgs.com
 gxkyl.com
 gxssjz.com
+gxunj.com
 gydag.com
 gyeet.com
 gygdmy.com
@@ -4909,7 +4908,6 @@ pagerank4you.com
 pagerank-ranking.de
 pagerank-submitter.de
 pageranktop.com
-pagerank-united.de
 paholita.com
 paleleaf.com
 panda.kdnet.net
@@ -5017,7 +5015,6 @@ pitatagata.com
 pixel.adsafeprotected.com
 pixel.condenastdigital.com
 pixel.digitru.st
-pixel.redditmedia.com
 pixel.sojern.com
 pixel.watch
 pjbjzf.com
@@ -5266,7 +5263,6 @@ ranking-links.de
 ranking-liste.de
 rankingscout.com
 rank-master.com
-rank-master.de
 rankyou.com
 rapidcounter.com
 rapidkittens.com
@@ -5816,8 +5812,6 @@ swan-swan-goose.com
 sweet.game-rust.ru
 swhgd.com
 swimslope.com
-switchadhub.com
-switchads.com
 swordfishdc.com
 swordgoose.com
 swzhaohuo.com.cn
@@ -6085,6 +6079,7 @@ tranquilside.com
 trasholita.com
 travis.bosscasinos.com
 travlcen.com
+trekdata.com
 tremendoustime.com
 trendcounter.com
 trendmd.com
