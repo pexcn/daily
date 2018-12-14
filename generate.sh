@@ -24,5 +24,4 @@ bash scripts/pac/whitelist.sh
 
 # shadowrocket
 bash scripts/shadowrocket/gfwlist.sh
-bash scripts/shadowrocket/tinylist.sh
 bash scripts/shadowrocket/whitelist.sh

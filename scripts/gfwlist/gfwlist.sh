@@ -3,12 +3,9 @@
 TMP_DIR=`mktemp -d /tmp/gfwlist.XXXXXX`
 DIST_DIR='dist/gfwlist'
 DIST_FILE='gfwlist.txt'
-DIST_FILE_TINY='tinylist.txt'
 
 GFWLIST_URL='https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt'
 GFWLIST='gfwlist-rules.txt'
-TINYLIST_URL='https://github.com/gfwlist/tinylist/raw/master/tinylist.txt'
-TINYLIST='tinylist-rules.txt'
 
 function fetch_data() {
   local gfwlist_extras_template='template/gfwlist/gfwlist-extras.txt'
@@ -17,7 +14,6 @@ function fetch_data() {
 
   pushd ${TMP_DIR}
   curl -kLs ${GFWLIST_URL} | base64 -d > ${GFWLIST}
-  curl -kLs ${TINYLIST_URL} | base64 -d > ${TINYLIST}
   popd
 }
 
@@ -25,7 +21,6 @@ function gen_domain_list() {
   pushd ${TMP_DIR}
 
   local gfwlist_tmp='gfwlist.tmp'
-  local tinylist_tmp='tinylist.tmp'
   local gfwlist_extras='gfwlist-extras.txt'
 
   # patterns from @cokebar/gfwlist2dnsmasq
@@ -42,15 +37,7 @@ function gen_domain_list() {
       sed -r ${wildcard_pattern} > ${gfwlist_tmp}
   cat ${gfwlist_extras} >> ${gfwlist_tmp}
 
-  grep -vE ${ignore_pattern} ${TINYLIST} |
-      sed -r ${head_filter_pattern} |
-      sed -r ${tail_filter_pattern} |
-      grep -E ${domain_pattern} |
-      sed -r ${wildcard_pattern} > ${tinylist_tmp}
-  cat ${gfwlist_extras} >> ${tinylist_tmp}
-
   cat ${gfwlist_tmp} | sort | uniq > ${DIST_FILE}
-  cat ${tinylist_tmp} | sort | uniq > ${DIST_FILE_TINY}
 
   popd
 }
@@ -58,7 +45,6 @@ function gen_domain_list() {
 function dist_release() {
   mkdir -p ${DIST_DIR}
   mv ${TMP_DIR}/${DIST_FILE} ${DIST_DIR}
-  mv ${TMP_DIR}/${DIST_FILE_TINY} ${DIST_DIR}
 }
 
 function clean_up() {
