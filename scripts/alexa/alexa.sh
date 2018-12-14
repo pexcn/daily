@@ -27,15 +27,16 @@ function gen_alexa_top_list() {
   pushd ${TMP_DIR}
 
   local top=${ALEXA_LIST}
+  local top_cn='top-cn.txt'
+
   head -5000 ${top} > ${DIST_FILE_TOP_5000}
   head -2000 ${top} > ${DIST_FILE_TOP_2000}
   head -500 ${top} > ${DIST_FILE_TOP_500}
 
-  local top_cn='top-cn.txt'
   grep -Fx -f ${CHINA_LIST} ${ALEXA_LIST} > ${top_cn}
   head -5000 ${top_cn} > ${DIST_FILE_TOP_CN_5000}
-  head -2000 ${top_cn} > ${DIST_FILE_TOP_CN_5000}
-  head -500 ${top_cn} > ${DIST_FILE_TOP_CN_5000}
+  head -2000 ${top_cn} > ${DIST_FILE_TOP_CN_2000}
+  head -500 ${top_cn} > ${DIST_FILE_TOP_CN_500}
 
   popd
 }
