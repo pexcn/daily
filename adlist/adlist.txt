@@ -1483,6 +1483,8 @@ affili.net
 affil.mupromo.com
 aff.lmgtfy.com
 aff.marathonbet.com
+affrh2014.com
+affrh2022.com
 aff.svjump.com
 afftracking.justanswer.com
 afjlb.com
@@ -2331,7 +2333,11 @@ clients.tbo.com
 clikerz.net
 cliksolution.com
 clixgalore.com
+clk1005.com
+clk1011.com
+clk1015.com
 clkrev.com
+clksite.com
 cloisteredhydrant.com
 cloudcoins.biz
 clrstm.com
@@ -2624,6 +2630,7 @@ d2d8qsxiai9qwj.cloudfront.net
 d2dxgm96wvaa5j.cloudfront.net
 d2fbkzyicji7c4.cloudfront.net
 d2focgxak1cn74.cloudfront.net
+d2g9nmtuil60cb.cloudfront.net
 d2ghscazvn398x.cloudfront.net
 d2gpgaupalra1d.cloudfront.net
 d2gtlljtkeiyzd.cloudfront.net
@@ -2664,6 +2671,7 @@ d33f10u0pfpplc.cloudfront.net
 d33otidwg56k90.cloudfront.net
 d34obr29voew8l.cloudfront.net
 d34rdvn2ky3gnm.cloudfront.net
+d37dzu39aqhuxu.cloudfront.net
 d37kzqe5knnh6t.cloudfront.net
 d38pxm3dmrdu6d.cloudfront.net
 d38r21vtgndgb1.cloudfront.net
@@ -3067,6 +3075,8 @@ ebp.renren.com
 ebuzzing.com
 ecircle-ag.com
 eclick.vn
+eclkmpbn.com
+eclkspbn.com
 ecma.bdimg.com
 ecmb.bdimg.com
 economicpizzas.com
@@ -3878,6 +3888,7 @@ inaccused.com
 inboxdollars.com
 inccnd.com
 incentaclick.com
+inclk.com
 incognitosearches.com
 increased.cn
 incrediblesugar.com
@@ -3953,6 +3964,7 @@ ivy.pconline.com.cn
 iwanad.baidu.com
 iwansf.com
 i.xx.openx.com
+iyygzs.com
 i.zhuoyaju.com
 j1.diangon.com
 j1.piaobing.com
@@ -4447,6 +4459,7 @@ m.aty.sohu.com
 maxfull.info
 max.i12.de
 maximumcash.com
+maxonclick.com
 mbaik.com
 mb.hockeybuzz.com
 mbid.advance.net
@@ -4631,6 +4644,7 @@ mxmrt.com
 myad.toocle.com
 myaffiliateprogram.com
 myashot.txxx.com
+mybestmv.com
 mybloglog.com
 mybuys.com
 mycounter.ua
@@ -5340,6 +5354,7 @@ retargeter.com
 revcontent.com
 revealads.appspot.com
 revenuedirect.com
+revenuehits.com
 revenue.net
 rev.fapdu.com
 revsci.net
