@@ -1,5 +1,5 @@
 //
-// Update: 2018-12-17 02:49:37
+// Update: 2018-12-18 02:50:13
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -13369,6 +13369,7 @@ const china_domains = {
     "cioage.com": 1,
     "ciotimes.com": 1,
     "ciotour.com": 1,
+    "cioucj.com": 1,
     "ciou.com": 1,
     "cioujs.com": 1,
     "ciouwap.com": 1,
@@ -13724,6 +13725,7 @@ const china_domains = {
     "cnbmys.com": 1,
     "cnbntv.com": 1,
     "cnboat.com": 1,
+    "cnbooks.org": 1,
     "cnbp.net": 1,
     "cnbuses.com": 1,
     "cnbw114.com": 1,
@@ -14261,6 +14263,7 @@ const china_domains = {
     "codefine.co": 1,
     "codeforge.com": 1,
     "codefrom.com": 1,
+    "codefuns.tech": 1,
     "codejie.net": 1,
     "codekk.com": 1,
     "codelast.com": 1,
@@ -28263,6 +28266,7 @@ const china_domains = {
     "kinahost.com": 1,
     "kindeditor.net": 1,
     "kindle114.com": 1,
+    "kindle-china.org": 1,
     "kindlefere.com": 1,
     "kindleren.com": 1,
     "kindsoft.net": 1,
@@ -37342,6 +37346,7 @@ const china_domains = {
     "ring0.me": 1,
     "ringdoll.com": 1,
     "rinhoo.com": 1,
+    "rippleos.com": 1,
     "ripppple.com": 1,
     "riribo.com": 1,
     "risecd.net": 1,
@@ -48899,6 +48904,7 @@ const china_domains = {
     "ymvkt.com": 1,
     "ymxinxi.com": 1,
     "ymyun.com": 1,
+    "ymyyls.com": 1,
     "ymzz.net": 1,
     "yn1234.com": 1,
     "yn58.com": 1,

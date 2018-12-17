@@ -27450,6 +27450,7 @@ d1qpxk1wfeh8v1.cloudfront.net
 d1rdh3xxuqlqfo.cloudfront.net
 d1rgnfh960lz2b.cloudfront.net
 d1rguclfwp7nc8.cloudfront.net
+d1rkf0bq85yx06.cloudfront.net
 d1.sc.omtrdc.net
 d1spb7fplenrp4.cloudfront.net
 d1tprjo2w7krrh.cloudfront.net
@@ -27617,6 +27618,7 @@ d3uqm14ppr8tkw.cloudfront.net
 d3v1lb83psg9di.cloudfront.net
 d3v27wwd40f0xu.cloudfront.net
 d3vc1nm9xbncz5.cloudfront.net
+d3vpf6i51y286p.cloudfront.net
 d3.zedo.com
 d4ngwggzm3w7j.cloudfront.net
 d4.zedo.com
@@ -50696,6 +50698,7 @@ xuqinqi.cn
 x.vindicosuite.com
 x.vipergirls.to
 xvtpvc.cn
+xvyljkr.com
 x.weather.com
 xwne.wcdn.co.il
 xxad.cc

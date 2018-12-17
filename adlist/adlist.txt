@@ -2599,6 +2599,7 @@ d1pcttwib15k25.cloudfront.net
 d1pdpbxj733bb1.cloudfront.net
 d1qk9ujrmkucbl.cloudfront.net
 d1rguclfwp7nc8.cloudfront.net
+d1rkf0bq85yx06.cloudfront.net
 d1spb7fplenrp4.cloudfront.net
 d1vbm0eveofcle.cloudfront.net
 d1wi563t0137vz.cloudfront.net
@@ -2707,6 +2708,7 @@ d3ud741uvs727m.cloudfront.net
 d3ujids68p6xmq.cloudfront.net
 d3uqm14ppr8tkw.cloudfront.net
 d3vc1nm9xbncz5.cloudfront.net
+d3vpf6i51y286p.cloudfront.net
 d4ngwggzm3w7j.cloudfront.net
 d5pb47xzjz3fc.cloudfront.net
 d5pvnbpawsaav.cloudfront.net
@@ -6639,6 +6641,7 @@ xunhuaji.cn
 xuqinqi.cn
 x.vipergirls.to
 xvtpvc.cn
+xvyljkr.com
 xxad.cc
 xxhrd.com
 xxkio.com
