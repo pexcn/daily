@@ -3563,6 +3563,7 @@ ad-agent.com
 a.daghashmal.com
 ad.agilemedia.jp
 ad.alldanzradio.com
+adalliance.io
 ad.allstar.cz
 ad.altervista.org
 ad.amgdgt.com
@@ -3779,6 +3780,7 @@ addbtest.timesink.com
 add.bugun.com.tr
 ad.dedicatedmedia.com
 ad.de.doubleclick.net
+ad-delivery.net
 addeppo.com
 ad-dev.adotsolution.com
 ad.deviantart.com
@@ -16628,6 +16630,7 @@ adnet.de
 adnetinteractive.com
 adnetinternational.com
 adnetmarket.go2cloud.org
+ad.netmedia.hu
 adnet-media.net
 adnet.mediawhiz.com
 adnetpub.yaolan.com
@@ -19861,6 +19864,7 @@ alea.adam.ad.daum.net
 alea.adam.daum.net
 alenty.2cnt.net
 alenty.com
+alexametrics.com
 alexa-sitestats.s3.amazonaws.com
 alfredean.com
 aliaz.go2cloud.org
@@ -25647,6 +25651,7 @@ connotenrrvlxq.download
 connxtionads.go2cloud.org
 consciouscabbage.com
 consciouschairs.com
+consensad.com
 consent-st.truste.com
 consent.truste.com
 consent.webmasterplan.com
@@ -28250,6 +28255,7 @@ dl.adshooter.com
 dl.alphagirlz.mobi
 dlapf.voluumtrk.com
 dl.clicktraffix.com
+dldsrs.com
 dleke.com
 dlhygj.com
 d.ligatus.com
@@ -29063,6 +29069,7 @@ emediate.dk
 emediate.eu
 emediate.se
 emerse.com
+emetriq.de
 emeza-ch01.webtrekk.net
 emeza-com01.webtrekk.net
 emeza-de01.webtrekk.net
@@ -35950,6 +35957,7 @@ n-tv.met.vgwort.de
 nuadn.voluumtrk.com
 nub9r.maisonx.com
 nuera.go2cloud.org
+nugg.ad
 nuggad.net
 numax.nu-1.com
 numb.hotshare.biz
@@ -46653,6 +46661,7 @@ vtot.proxy.aol.com
 vtracking.in.com
 vtrack.larvtrk.com
 vtrack.wdavtrk.com
+vtracy.de
 vtrtl.de
 vu7r6.cn
 vuahb.com

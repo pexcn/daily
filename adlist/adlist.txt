@@ -553,6 +553,7 @@ adaction.de
 adadmin.house365.com
 ad.admitad.com
 adadvisor.net
+adalliance.io
 ad.allstar.cz
 ad.altervista.org
 ad.amgdgt.com
@@ -611,6 +612,7 @@ ad.crwdcntrl.net
 adc.stream.moe
 adcycle.com
 add.bugun.com.tr
+ad-delivery.net
 add.freeimg8.com
 addfreestats.com
 ad.digitallook.com
@@ -775,6 +777,7 @@ adnet.asahi.com
 adnet.biz
 adnet.de
 adnetinteractive.com
+ad.netmedia.hu
 adnetpub.yaolan.com
 adnet.ru
 adnetwork.net
@@ -1552,6 +1555,7 @@ alabardak.com
 albertonne.com
 alclick.com
 alenty.com
+alexametrics.com
 alexa-sitestats.s3.amazonaws.com
 alicmayuns.com
 alifixed.cn
@@ -2409,6 +2413,7 @@ connect.summit.co.uk
 connextra.com
 consciouscabbage.com
 consciouschairs.com
+consensad.com
 contadores.miarroba.com
 contaxe.de
 content.acc-hd.de
@@ -2899,6 +2904,7 @@ dkm6b5q0h53z4.cloudfront.net
 dkqapp.cn
 dl392qndlveq0.cloudfront.net
 dl5v5atodo7gn.cloudfront.net
+dldsrs.com
 dleke.com
 dlhygj.com
 dlkjgjmy.com
@@ -3119,6 +3125,7 @@ embed.xinhuanet.com
 emediate.dk
 emediate.eu
 emerse.com
+emetriq.de
 e-m.fr
 emgwq.com
 encouragingwilderness.com
@@ -4784,6 +4791,7 @@ ntpddq.com
 ntvcld-a.akamaihd.net
 ntv.io
 ntvk1.ru
+nugg.ad
 nuggad.net
 numax.nu-1.com
 nunc-china.com
@@ -6300,6 +6308,7 @@ vrs.cz
 vs.tucows.com
 vsxet.com
 vtale.org
+vtracy.de
 vu7r6.cn
 vuahb.com
 vungle.com
