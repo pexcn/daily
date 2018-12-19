@@ -2575,6 +2575,7 @@ d15565yqt7pv7r.cloudfront.net
 d158nafix8anfs.cloudfront.net
 d15cjcet1djbmv.cloudfront.net
 d15gt9gwxw5wu0.cloudfront.net
+d1.5h.com
 d1635hfcvs8ero.cloudfront.net
 d17f2fxw547952.cloudfront.net
 d19972r8wdpby8.cloudfront.net
@@ -3128,6 +3129,8 @@ emerse.com
 emetriq.de
 e-m.fr
 emgwq.com
+emjs.mkzhan.com
+emshx.cn
 encouragingwilderness.com
 endurableshop.com
 engagesrvr.filefactory.com
@@ -3641,6 +3644,7 @@ hdc.maxli.cn
 hdfdm.com
 hdsrc-a.akamaihd.net
 hdswgc.com
+hduic.com
 headwell.cn
 heapanalytics.com
 heap.com
@@ -4531,6 +4535,7 @@ memorizeneck.com
 memorycobweb.com
 mendoc.cn
 mengchengbao.com
+mengheyu.com
 menghuanzs.com
 mengmengdas.com
 mengpr.com
@@ -4588,6 +4593,7 @@ mm.anqu.com
 mmhhjt.com
 mmismm.com
 mmkvi.com
+mmpuh.cn
 mmstat.com
 mmtro.com
 mnxtu.com
@@ -5045,6 +5051,7 @@ pixel.sojern.com
 pixel.watch
 pjbjzf.com
 pjtymy.cn
+pkbrxja.cn
 pkesports.cn
 pkk1.zuimeiniwo.com
 play4traffic.com
@@ -6174,6 +6181,7 @@ ucaliyun.cn
 uchij.com
 u.cnzol.com
 ucrzgcs.cn
+ucstatic.cn
 uc.xiaoxuehelp.com
 ucxxii.com
 uc.zhuici.com
@@ -6791,6 +6799,7 @@ yulzs.com
 yunanfuwuqi.com
 yunbofangbt.com
 yunpifu.cn
+yunsoka.com
 yunxiufang.net
 yuxiny.com
 yuxyz.com
