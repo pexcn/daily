@@ -16568,7 +16568,6 @@ admin.chartboost.com
 admin.clicksor.com
 adminder.com
 admin.download-sponsor.de
-ad-miner.com
 admin.fhserve.com
 adminml.go2cloud.org
 admin.performancerevenues.com
@@ -19261,7 +19260,6 @@ advertpro.ya.com
 advertraf.go2affise.com
 adverts.adam4adam.com
 adverts.archant.co.uk
-adverts.carltononline.com
 adverts.creativemark.co.uk
 adverts.eclypsia.com
 advertserve.com
@@ -22397,7 +22395,6 @@ blog.intext.ero-advertising.com
 blog.leadbolt.com
 blog.mobpartner.com
 blog.qualaroo.com
-blogrush.com
 blog.skyhookwireless.com
 blogtoplist.se
 blogtopsites.com
@@ -27283,7 +27280,6 @@ c.teromil.com
 c.thanksearch.com
 ct.itbusinessedge.com
 ct.needlive.com
-ctnet2.in
 ctnetwork.hu
 ctn.go2cloud.org
 ctrack.trafficjunky.net
@@ -50815,6 +50811,7 @@ yellostrom.webtrekk.net
 yemobiads.com
 yen.appsfire.net
 yenlm.com
+yepads.com
 yepdigital.adk2x.com
 yepdigital.go2cloud.org
 yesads.com

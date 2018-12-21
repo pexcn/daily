@@ -764,7 +764,6 @@ admex.com
 adm.fwmrm.net
 ad.mgd.de
 adminder.com
-ad-miner.com
 adminshop.com
 admized.com
 admob.com
@@ -824,7 +823,6 @@ ad.proxy.sh
 ad.prv.pl
 adpubs.yaolan.com
 adpub.yaolan.com
-adq.nextag.com
 ad.rambler.ru
 adrazzi.com
 ad.reachlocal.com
@@ -897,6 +895,7 @@ ads.affiliates.match.com
 ads.affiliates-spinit.com
 ads.ak.facebook.com.edgesuite.net
 ads.allvatar.com
+ads.alt.com
 ads.amdmb.com
 ads.amigos.com
 ads.aol.com
@@ -1389,7 +1388,6 @@ advertmarket.com
 advertmedia.de
 advertpro.sitepoint.com
 advertpro.ya.com
-adverts.carltononline.com
 advertserve.com
 advertstream.com
 advertwizard.com
@@ -2030,7 +2028,6 @@ blockadblock.com
 blogads.com
 blogcounter.de
 blogherads.com
-blogrush.com
 blogtoplist.se
 blogtopsites.com
 blueadvertise.com
@@ -2297,6 +2294,7 @@ class-act-clicks.com
 clearcomb.com
 click2freemoney.com
 clickability.com
+click.absoluteagency.com
 clickadz.com
 clickagents.com
 clickbank.com
@@ -2536,7 +2534,6 @@ cssdiv.club
 css.juqingba.cn
 cstoa.com
 csxjys.com
-ctnet2.in
 ctnetwork.hu
 ctrhfd.top
 ctsywy.com
@@ -4839,7 +4836,6 @@ oas.foxnews.com
 oas.luxweb.com
 oas.repubblica.it
 oas.roanoke.com
-oas.salon.com
 oas.skyscanner.net
 oas.toronto.com
 oas.uniontrib.com
@@ -6716,6 +6712,7 @@ ydqzkj.com
 yeas.yahoo.co.jp
 yea.uploadimagex.com
 yenlm.com
+yepads.com
 yesads.com
 yesadvertising.com
 yesbeby.whies.info
