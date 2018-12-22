@@ -2078,7 +2078,6 @@ brcache.madthumbs.com
 breezily168.com
 br.fling.com
 bridgetrack.com
-brid.tv
 brightinfo.com
 british-banners.com
 broadboundary.com
@@ -2298,7 +2297,6 @@ click.absoluteagency.com
 clickadz.com
 clickagents.com
 clickbank.com
-clickbank.net
 clickbooth.com
 clickboothlnk.com
 clickbrokers.com
@@ -3592,6 +3590,7 @@ h01ce.cn
 h0o33.cn
 h1.kukuw.com
 h1.tvhome.com
+h2pzh.cn
 h78xb.pw
 h9377c.com
 hades.qyer.com
@@ -3822,6 +3821,7 @@ ia.iinfo.cz
 iangp.com
 iasds01.com
 ibanners.empoweredcomms.com.au
+ibaop.com
 ibeip.com
 ibinp.com
 i-clicks.net
@@ -4487,6 +4487,7 @@ mcaik.com
 mc.weather.com.cn
 md0z4dh.com
 mdotm.com
+mdous.com
 mealsandsteals.sandiego6.com
 measuremap.com
 measurementaz.com
@@ -5944,6 +5945,7 @@ tcjy66.cc
 tcnmf.com
 t.cnscore.com
 tdayi.com
+tdoup.com
 tdtsd.com
 tdxio.com
 teads.tv
@@ -6775,6 +6777,7 @@ yoggrt.com
 yoiur.com
 yong.chazidian.com
 yongkang6.com
+yootui19999.com
 yorilada.com
 youfumei.com
 youhuomeishi.com
@@ -6826,6 +6829,7 @@ yyeks.com
 yyhqch.com
 yyjhf.com
 yyp17.com
+yyylg.cn
 yzaosite.com
 yzh360.com
 yzjlsb.com
@@ -6846,6 +6850,7 @@ zantracker.com
 zapads.zapak.com
 zarazazapolaza.com
 zbwp6ghm.com
+zcand.com
 zcdor.com
 zcrtd.com
 zdjby.cn
