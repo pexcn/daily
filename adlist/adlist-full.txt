@@ -2286,6 +2286,7 @@ actvtrack.com
 act.webmasterplan.com
 actwebmedia.go2affise.com
 acuityads.com
+acuityplatform.com
 acwgf.com
 acxiom.com
 acxiom-online.com
@@ -16449,6 +16450,7 @@ adlet.voice2page.com
 adlev.neodatagroup.com
 ad.lfstmedia.com
 adlibr.com
+adlightning.com
 ad.linkexchange.com
 ad.linkexchange.net
 adlink.net
@@ -17516,6 +17518,7 @@ adscontent.indiatimes.com
 ads.contextweb.com
 ads.coolmobilegroup.com
 adscoops.com
+ad-score.com
 ads.corky.net
 ads.cosmosmagazine.com
 adscpm.com
@@ -19718,6 +19721,7 @@ agi5y.voluumtrk.com
 a.giantrealm.com
 a.gifs.com
 agjdv.voluumtrk.com
+agkn.com
 a.glcdn.co
 agmedia.go2cloud.org
 agmtrk.com
@@ -19868,6 +19872,7 @@ alea.adam.ad.daum.net
 alea.adam.daum.net
 alenty.2cnt.net
 alenty.com
+alert.com.mt
 alexametrics.com
 alexa-sitestats.s3.amazonaws.com
 alfredean.com
@@ -22567,6 +22572,7 @@ brain.cubi.me
 brainient.com
 brainteasers.freestats.com
 branch.io
+brand-display.com
 brandedoffersaff.go2cloud.org
 brandmovers.net
 brandreachsys.com
@@ -24354,6 +24360,7 @@ cblevt.com
 cbm02.webtrekk.net
 cbmsn.112.2o7.net
 cbn.tbn.ru
+cbsi.com
 cbsi.demdex.net
 cbsmarket.com
 cbsncaasports.112.2o7.net
@@ -25055,6 +25062,7 @@ clearlinkmedia.go2cloud.org
 clear-reports.com
 clearspring.com
 clearwebstats.com
+clevernt.com
 cl.exct.net
 clic-exchange.com
 click-123.com
@@ -27954,6 +27962,7 @@ decoycreation.com
 dedicatedads.go2cloud.org
 deepcom.com
 deepervbjacffg.download
+deepintent.com
 deerberrynveztw.download
 defeatismbmakiplm.download
 defectivesun.com
@@ -29223,6 +29232,7 @@ erebor.douban.com
 erendri.com
 erjbe.voluumtrk.com
 e.rmgserving.com
+erne.co
 ero-advertising.biz
 eroadvertising.biz
 ero-advertising.com
@@ -29367,6 +29377,7 @@ events.tremorhub.com
 events-us-east-1.ipredictive.com
 events.walla.co.il
 event.yoochoose.net
+everesttech.net
 evergage.com
 everstring.com
 everydayhealth.demdex.net
@@ -29436,6 +29447,7 @@ expandsearchanswers.com
 expansilehsnpjlpb.download
 expbl2ro.xbox.com
 expedia.ca.112.2o7.net
+experianmarketingservices.digital
 experteerads.com
 expert-offers.com
 experts.us.intellitxt.com
@@ -32863,6 +32875,7 @@ i.playnow.guru
 i.plug.it
 i.po.st
 ipqualityscore.com
+ipredictive.com
 ip.ro
 ipro.com
 i.psa-ads.openx.com
@@ -33346,6 +33359,7 @@ jurymastgewtdwcw.download
 justad.mobi
 justgetitfaster.com
 justicejudo.com
+justpremium.com
 justrelevant.com
 justsaywow.com
 justwebads.com
@@ -33826,6 +33840,7 @@ lhcep.voluumtrk.com
 lhengilin.com
 lhgqc.voluumtrk.com
 lhusy.com
+liadm.com
 liangziweixg.com
 lib1.libstat.com
 libie.justclick.ru
@@ -33988,6 +34003,7 @@ lizardslaugh.com
 ljostrade.go2cloud.org
 ljteas.com
 ljujm.voluumtrk.com
+lkqd.com
 lkqd.net
 ll38.com
 ll.a.hulu.com
@@ -34399,6 +34415,7 @@ m4.webstats.motigo.com
 m4.zedo.com
 m5.webstats.motigo.com
 m62-genreal.com
+m6r.eu
 m6.webstats.motigo.com
 m7.webstats.motigo.com
 m8.webstats.motigo.com
@@ -34878,6 +34895,7 @@ metartmoney.met-art.com
 meta.streamcloud.eu
 meter.2cnt.net
 methodcash.com
+metmt.com
 metopesjdsrau.download
 metrica.yandex.by
 metrica.yandex.com
@@ -34934,6 +34952,7 @@ metrixlablw.customers.luna.net
 m.exactag.com
 m.exovueplatform.com
 mf01.zybang.com
+mfadsrvr.com
 mfeed.newzfind.com
 m.friendlyduck.com
 mftp.linksynergy.com
@@ -35117,6 +35136,7 @@ mntr.babcdn.com
 mnxtu.com
 moadnet.com
 moatads.com
+moatpixel.com
 moba8.net
 mobadoo.go2affise.com
 mobads.baidu.com
@@ -35429,6 +35449,7 @@ mx.ero-advertising.com
 mxmacromedia.112.2o7.net
 mxmrt.com
 m.xp1.ru4.com
+mxptint.net
 m.xvideos.fr
 myadmarket.com
 myad.no
@@ -35511,6 +35532,7 @@ mytzdhz.cn
 myunion1.qm120.com
 myunion1.tupians.com
 myvacationguide.com
+myvisualiq.net
 mywebstats.com.au
 myycrw.com
 myzk1.com
@@ -35608,6 +35630,7 @@ nczgs.voluumtrk.com
 ndirect.ppro.de
 ndjln.voluumtrk.com
 ndk38.voluumtrk.com
+ndnops.com
 ndparking.com
 ndtzx.com
 nduop.com
@@ -36280,6 +36303,7 @@ omniture.scotiabank.com
 omns.americanexpress.com
 oms.digitaledienste.web.de
 omtrdc.net
+onaudience.com
 onceux.unicornmedia.com
 onclasrv.com
 onclickads.net
@@ -37538,6 +37562,7 @@ profitrumour.com
 profitshare.emag.ro
 profitsiegenetwork.go2cloud.org
 profitzone.com
+programattik.com
 progressive.lp.mydas.mobi
 prohibited.cn
 pro.hit.gemius.pl
@@ -38662,6 +38687,7 @@ rs1.avenuea.com
 rs1.rensheng5.com
 rs2.ero-advertising.com
 rs4.anti-leech.com
+r.scoota.co
 rscxwmj.cn
 rs.epoq.de
 rs.ero-advertising.com
@@ -40127,6 +40153,7 @@ st2.xhamster.com
 st3.xhamster.com
 st4.xhamster.com
 st5.surf-town.net
+stackadapt.com
 stadig.ifeng.com
 stadtbremerhaven.digidip.net
 staffpicks.outbrain.com
@@ -40611,6 +40638,7 @@ storewidget.pcauthority.com.au
 storm.applifier.com
 stormyachiever.com
 stormysponge.com
+storygize.net
 stoveseashore.com
 st.pay-click.ru
 st.pc.adonweb.ru
@@ -41138,6 +41166,7 @@ teachscape.vo.llnwd.net
 te.adlandpro.com
 teads.tv
 tealeaf.com
+tealiumiq.com
 teasermedia.net
 teasernet.com
 tebadu.com
@@ -41400,6 +41429,7 @@ tizernaya-reklama.ru
 tizers.net
 tizru.com
 tjgxzs.com
+tjiaa.com
 t.jobthread.com
 tj.phpwind.net
 tjqonline.cn
@@ -42800,6 +42830,7 @@ uptrck.com
 upv4.moatads.com
 uqpfh.cn
 uralap.com
+urbanairship.com
 urbanityadnetwork.com
 urbo.2cnt.net
 urchin.com
@@ -42956,6 +42987,7 @@ vatrack.hinet.net
 vayavicio.com
 vb1700.mgmt.somee.com
 vbaiu.com
+vbanm.com
 vbaou.com
 vbhoqfogey.review
 vbieu.com
@@ -43050,6 +43082,7 @@ victorjx.com
 vidego.multicastmedia.com
 videoadex.com
 videoads.theonion.com
+videoamp.com
 video.begun.ru
 video.cld.startappexchange.com
 videocodezone.us.intellitxt.com
@@ -46650,6 +46683,7 @@ voicevegetable.com
 volimole.com
 voluum.redirecting.site
 volvelle-ads-cdn.azureedge.net
+volvelle.tech
 voodooparking.com
 vop.sundaysky.com
 voradu.com
@@ -46821,6 +46855,7 @@ w3.bitterstrawberry.com
 w3.hitbox.com
 w3nation.com
 w4.hitbox.com
+w55c.net
 w5.hitbox.com
 w65p.com
 w6.bitterstrawberry.com
@@ -50735,6 +50770,7 @@ xttianning.com
 xtxa.net
 xtzxmy.com
 xuanmeiguoji.com
+xueyongbao.com
 xue.zbyw.cn
 xugsh.cn
 xujx8.com
@@ -51084,6 +51120,7 @@ zeepmedia.com
 zeit01.webtrekk.net
 zeit.met.vgwort.de
 zeitonl.ivwbox.de
+zemanta.com
 zemoumisfortune.review
 zencudo.co.uk
 zenent.go2cloud.org
