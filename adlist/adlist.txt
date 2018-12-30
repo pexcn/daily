@@ -1577,6 +1577,7 @@ alitui.weibo.com
 a.livesportmedia.eu
 aliyuncss.com
 aliyunxin.com
+alksdh.com
 all4spy.com
 alladvantage.com
 allosponsor.com
@@ -1637,6 +1638,7 @@ apkdo.com
 apmengxin.com
 apolloprogram.io
 app-analytics.snapchat.com
+applequan.com
 apple.www.letv.com
 appnext-a.akamaihd.net
 app.pendo.io
@@ -2581,6 +2583,7 @@ cztanchao.com
 czxjx.cn
 czzdf.com
 d0.xcar.com.cn
+d10lumateci472.cloudfront.net
 d1.3158.cn
 d13czkep7ax7nj.cloudfront.net
 d140sbu1b1m3h0.cloudfront.net
@@ -3056,6 +3059,7 @@ dx5qvhwg92mjd.cloudfront.net
 d.xaoyo.com
 dxcssc.cn
 dxmci.com
+dxprljqoay4rt.cloudfront.net
 dxq6c0tx3v6mm.cloudfront.net
 dxqd86uz345mg.cloudfront.net
 dxssiyi.com
@@ -3378,6 +3382,7 @@ fthcz.com
 ftic.qifake.com
 ft.pnop.com
 fu68.com
+fuhuikang360.com
 fujianryt.com
 fulhudhoo.com
 fullstory.com
@@ -3764,6 +3769,7 @@ homad-global-configs.schneevonmorgen.com
 home520.com
 homepageking.de
 honeygoldfish.com
+hongshikai.com
 hongyangbg.com
 horheloopo.com
 hostedads.realitykings.com
@@ -5485,6 +5491,7 @@ rtmark.net
 ru4.com
 ruan88.com
 rubiconproject.com
+rugncn.ifeng.com
 rulerabbit.com
 runads.com
 rundsp.com
