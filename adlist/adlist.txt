@@ -1958,7 +1958,6 @@ bdu1.eol.cn
 bdunion1.suxiazai.com
 bdwmhz.120askimages.com
 bdx.playnext.cn
-bdysite.com
 beacon.gu-web.net
 beamincrease.com
 beamkite.com
@@ -3339,6 +3338,7 @@ foditgoz.com
 foo.cosmocode.de
 forad1.weimeicun.com
 foresee.com
+foreveryoung.gz01.bdysite.com
 forex-affiliate.net
 forkitz.com
 forkmola.com
@@ -6850,6 +6850,7 @@ yousee.com
 youweiprint.com
 youyoumw.com
 yoxus.cn
+ypa.focusoftime.com
 ypmob.com
 yqcy988.com
 yqjxzw.com

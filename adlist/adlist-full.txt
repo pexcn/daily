@@ -22138,7 +22138,6 @@ bdunion1.suxiazai.com
 bdv.bidvertiser.com
 bdwmhz.120askimages.com
 bdx.playnext.cn
-bdysite.com
 be2be2nz.122.2o7.net
 bea4.v.fwmrm.net
 beacon-1.newrelic.com
@@ -24672,7 +24671,6 @@ cdn.onescreen.net
 cdn.onesignal.com
 cdn.onlinecountdowns.com
 cdn.optimatic.com
-cdn.optimizely.com
 cdn.pardot.com
 cdn.petametrics.com
 cdn.popcash.net
@@ -29907,6 +29905,7 @@ forelook.com
 foresee.com
 foreseeresults.com
 forestvieweu.go2cloud.org
+foreveryoung.gz01.bdysite.com
 forexac.justclick.ru
 forex-affiliate.net
 forex-expert.justclick.ru
@@ -50997,6 +50996,7 @@ youweiprint.com
 youyield.com
 youyoumw.com
 yoxus.cn
+ypa.focusoftime.com
 ypmob.com
 ypn-jscs.overture.com
 yqcy988.com
