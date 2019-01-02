@@ -487,6 +487,7 @@ abc1.yszyz.com
 abc-ads.com
 abc.douguo.com
 abc.hkepc.com
+abc.hkepc.net
 abcj.dooccn.com
 abctcqq.top
 abds.pingpingw.com
@@ -1539,6 +1540,7 @@ ais.abacast.com
 a.i-sgcm.com
 aishake.cn
 aishang.bid
+aishangcan.com
 aishiguolong.com
 aishowbger.com
 aistat.net
@@ -3200,6 +3202,7 @@ eventbeacon.ca
 events.kalooga.com
 everesttech.net
 evergage.com
+evyy.net
 ewebcounter.com
 exchangead.com
 exchangeclicksonline.com
@@ -4589,6 +4592,7 @@ metanetwork.com
 methodcash.com
 metmt.com
 metrics.cnn.com
+metrics.consumerreports.org
 metrics.ctv.ca
 metrics.foxnews.com
 metrics.govexec.com

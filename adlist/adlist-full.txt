@@ -1984,6 +1984,7 @@ abc.doublegear.com
 abc.douguo.com
 abc.hearst.co.uk
 abc.hkepc.com
+abc.hkepc.net
 abcj.dooccn.com
 abcjmp.com
 abc.limaction.com
@@ -19796,6 +19797,7 @@ ais.abacast.com
 a.i-sgcm.com
 aishake.cn
 aishang.bid
+aishangcan.com
 aishiguolong.com
 aishowbger.com
 aistat.net
@@ -29400,6 +29402,7 @@ evs-hosted-14facd241e1c08.s3.amazonaws.com
 evt.moatads.com
 evtsl.voluumtrk.com
 evwr.hitbox.com
+evyy.net
 ewebcounter.com
 ewordofmouth.com
 exactinstall.com
@@ -34926,6 +34929,7 @@ metrics.att.com
 metrics.brightcove.com
 metrics.cnn.com
 metrics.comcast.com
+metrics.consumerreports.org
 metrics.ctv.ca
 metrics.directv.com
 metrics.ee.co.uk
