@@ -564,6 +564,7 @@
 1au.cqcounter.com
 1.bangdan5.com
 1.bashenghuo.com
+1.bh5.com.cn
 1bm.cqcounter.com
 1ca.cqcounter.com
 1cash.net
@@ -32842,6 +32843,7 @@ intredomedia.com
 int.sitestat.com
 intueryield.jmp9.com
 intuitinc.122.2o7.net
+int.w3tong.com
 i.nuseek.com
 inuvi.com
 inventionpassenger.com
@@ -39866,6 +39868,7 @@ snapabug.appspot.com
 snapads.com
 snapengage.com
 snapify.go2cloud.org
+snbnhngl.ifeng.com
 s.ndemiccreations.com
 sndkorea.co.kr
 sndkorea.nowcdn.co.kr
@@ -39975,6 +39978,7 @@ specificmedia.co.uk
 specificpop.com
 spectacularsnail.com
 spectato.com
+spectram.pro
 speed4cksa.ero-advertising.com
 speedclecks.ero-advertising.com
 speedclicks.ero-advertising.com
