@@ -91,6 +91,7 @@
 1.51sxue.cn
 1.5646.cn
 1.66law.cn
+167.206.10.148
 1680go.com
 168ad.cc
 16k6.com
@@ -361,7 +362,6 @@
 7ia9h.cn
 7jiajiao.com
 7mad.7m.cn
-7mu36somt5.com
 7search.com
 7shang9xia.com
 7wen.cn
@@ -1242,7 +1242,6 @@ ads.rediff.com
 ads.redlightcenter.com
 ads.redtube.com
 ads.resoom.de
-ads.returnpath.net
 adsrevenue.net
 ads-rolandgarros.com
 adsrv.deviantart.com
@@ -2312,6 +2311,7 @@ clearcomb.com
 clevernt.com
 click2freemoney.com
 clickability.com
+click.absoluteagency.com
 clickadz.com
 clickagents.com
 clickbank.com
@@ -4864,6 +4864,7 @@ nuxyz.cn
 nvshuyun.com
 nwwap.com
 nwxzs.com
+nxh2h.cn
 nxkycx.com
 nxrhs.com
 nxwly.com
@@ -5261,6 +5262,7 @@ qcjslm.com
 qctop.com
 qdchunyu.com
 qd.dhzw.org
+qdiut.com
 qd.js.sanjiangge.com
 qd.wanjuanba.com
 qd.x4399.com
@@ -5504,7 +5506,6 @@ rundsp.com
 runetki.joyreactor.ru
 runiman.com
 ruthlessrobin.com
-ru-traffic.com
 ruxianke.com
 ruyidk.com
 ruyiqufu.com
@@ -5784,7 +5785,6 @@ springaftermath.com
 spt.dictionary.com
 spurioussteam.com
 spykemediatrack.com
-spylog.com
 spywarelabs.com
 spywords.com
 sqext.com
@@ -6334,6 +6334,7 @@ vbanm.com
 vbaou.com
 vbieu.com
 vbinu.com
+vchim.com
 vdazz.net
 ve001nz.com
 vedeh.com
@@ -6488,7 +6489,6 @@ wellmadefrog.com
 werbung.meteoxpress.com
 werpig.com
 wervp.com
-wetrack.it
 wew.dushiwenxue.net
 wffengtai.com.cn
 wfyqc.com
@@ -6595,7 +6595,6 @@ www-banner.chat.ru
 www.dnps.com
 www-google-analytics.l.google.com
 www.kaplanindex.com
-www.money4exit.de
 www.photo-ads.co.uk
 wwwpromoter.com
 wxbdfm.com

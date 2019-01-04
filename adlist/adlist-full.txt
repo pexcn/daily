@@ -465,6 +465,7 @@
 1669323.r.msn.com
 1669437.r.msn.com
 1.66law.cn
+167.206.10.148
 167.6.87.194.dynamic.dol.ru
 1680go.com
 168.112.207.net
@@ -1607,7 +1608,6 @@
 7jjrd.voluumtrk.com
 7lfu6.voluumtrk.com
 7mad.7m.cn
-7mu36somt5.com
 7ntrp.voluumtrk.com
 7.ptp22.com
 7qkuf.voluumtrk.com
@@ -18618,7 +18618,6 @@ ads.reelvidz.com
 ads.reflexcash.com
 adsremote.timesink.com
 ads.resoom.de
-ads.returnpath.net
 adsrevenue.net
 ads.revmob.com
 ads.revsci.net
@@ -36049,6 +36048,7 @@ nwxzs.com
 nwz.ivwbox.de
 nxa-ls.s3.amazonaws.com
 nxeso.voluumtrk.com
+nxh2h.cn
 nxkycx.com
 nxmav.voluumtrk.com
 nxref.voluumtrk.com
@@ -37973,6 +37973,7 @@ qd.dhzw.org
 qdibdzannvauntings.review
 qdigital.co.il
 qdildryypitapat.review
+qdiut.com
 qd.jmp9.com
 qd.js.sanjiangge.com
 qdmil.com
@@ -38785,7 +38786,6 @@ russia2.2cnt.net
 ruthlessrobin.com
 rutht.vgzmedia.com
 rutht.voluumtrk.com
-ru-traffic.com
 ru.velti.com
 ruxianke.com
 ruyidk.com
@@ -43015,6 +43015,7 @@ vbinu.com
 vbutlvkmesially.review
 vcbypttassel.review
 v.chartboost.com
+vchim.com
 vcm.go2cloud.org
 vcom.go2cloud.org
 vda.gtarcade.com
