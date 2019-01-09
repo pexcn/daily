@@ -242,7 +242,9 @@ androidify.com
 androidplus.co
 android-x86.org
 andygod.com
+angela-merkel.de
 angelfire.com
+angola.org
 angularjs.org
 animecrazy.net
 animeshippuuden.com
@@ -317,6 +319,7 @@ ar.hao123.com
 arlingtoncemetery.mil
 army.mil
 art4tibet1998.org
+arte.tv
 artofpeacefoundation.org
 artsy.net
 asacp.org
@@ -1273,6 +1276,7 @@ dotplane.com
 dotsub.com
 dotvpn.com
 doub.io
+doubmirror.cf
 dougscripts.com
 douhokanko.net
 doujincafe.com
@@ -3519,6 +3523,7 @@ openervpn.in
 openid.net
 openleaks.org
 openvpn.net
+openvpn.org
 openwebster.com
 openwrt.org.cn
 opml.radiotime.com
@@ -4184,6 +4189,7 @@ sod.co.jp
 softether.co.jp
 softether-download.com
 softether.org
+softsmirror.cf
 softwarebychuck.com
 softwaredownload.gitbooks.io
 sogclub.com
