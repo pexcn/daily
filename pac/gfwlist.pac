@@ -1,5 +1,5 @@
 //
-// Update: 2019-01-10 03:03:05
+// Update: 2019-01-11 03:03:44
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -252,7 +252,9 @@ const gfwlist_domains = {
     "androidplus.co": 1,
     "android-x86.org": 1,
     "andygod.com": 1,
+    "angela-merkel.de": 1,
     "angelfire.com": 1,
+    "angola.org": 1,
     "angularjs.org": 1,
     "animecrazy.net": 1,
     "animeshippuuden.com": 1,
@@ -327,6 +329,7 @@ const gfwlist_domains = {
     "arlingtoncemetery.mil": 1,
     "army.mil": 1,
     "art4tibet1998.org": 1,
+    "arte.tv": 1,
     "artofpeacefoundation.org": 1,
     "artsy.net": 1,
     "asacp.org": 1,
@@ -1283,6 +1286,7 @@ const gfwlist_domains = {
     "dotsub.com": 1,
     "dotvpn.com": 1,
     "doub.io": 1,
+    "doubmirror.cf": 1,
     "dougscripts.com": 1,
     "douhokanko.net": 1,
     "doujincafe.com": 1,
@@ -3529,6 +3533,7 @@ const gfwlist_domains = {
     "openid.net": 1,
     "openleaks.org": 1,
     "openvpn.net": 1,
+    "openvpn.org": 1,
     "openwebster.com": 1,
     "openwrt.org.cn": 1,
     "opml.radiotime.com": 1,
@@ -4194,6 +4199,7 @@ const gfwlist_domains = {
     "softether.co.jp": 1,
     "softether-download.com": 1,
     "softether.org": 1,
+    "softsmirror.cf": 1,
     "softwarebychuck.com": 1,
     "softwaredownload.gitbooks.io": 1,
     "sogclub.com": 1,

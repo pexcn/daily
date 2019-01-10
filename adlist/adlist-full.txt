@@ -19332,6 +19332,7 @@ ad.vrvm.com
 advserver.xyz
 adv.sexcounter.com
 advspot.com
+adv-sv-show.focus.cn
 adv.tre.it
 advt.webindia123.com
 adv.virgilio.it
@@ -22139,6 +22140,7 @@ bd.scw98.com
 bdtongfei.cn
 bdu1.coozhi.cn
 bdu1.eol.cn
+bdu.focus.cn
 bdunion1.suxiazai.com
 bdv.bidvertiser.com
 bdwmhz.120askimages.com
@@ -27529,6 +27531,7 @@ d2d2lbvq8xirbs.cloudfront.net
 d2d8qsxiai9qwj.cloudfront.net
 d2dq2ahtl5zl1z.cloudfront.net
 d2dxgm96wvaa5j.cloudfront.net
+d2edfzx4ay42og.cloudfront.net
 d2fbkzyicji7c4.cloudfront.net
 d2focgxak1cn74.cloudfront.net
 d2g9nmtuil60cb.cloudfront.net
@@ -27589,6 +27592,7 @@ d33otidwg56k90.cloudfront.net
 d34ko97cxuv4p7.cloudfront.net
 d34obr29voew8l.cloudfront.net
 d34rdvn2ky3gnm.cloudfront.net
+d359wjs9dpy12d.cloudfront.net
 d36lvucg9kzous.cloudfront.net
 d37dzu39aqhuxu.cloudfront.net
 d37h3y471q0lt2.cloudfront.net
@@ -31127,6 +31131,7 @@ goblemam.com
 go.by
 go.clickhoptk.com
 go-clicks.de
+go.clktrkd.com
 gocm.c.appier.net
 go.coxds.com
 go.deliverymodo.com

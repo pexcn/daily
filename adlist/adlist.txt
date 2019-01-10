@@ -1413,6 +1413,7 @@ adviva.net
 adv.livedoor.com
 adv.nexthardware.com
 advnt.com
+adv-sv-show.focus.cn
 adv.webmd.com
 adv.wp.pl
 adv.yo.cz
@@ -1960,6 +1961,7 @@ bd.scw98.com
 bdtongfei.cn
 bdu1.coozhi.cn
 bdu1.eol.cn
+bdu.focus.cn
 bdunion1.suxiazai.com
 bdwmhz.120askimages.com
 bdx.playnext.cn
@@ -2665,6 +2667,7 @@ d2cxkkxhecdzsq.cloudfront.net
 d2d2lbvq8xirbs.cloudfront.net
 d2d8qsxiai9qwj.cloudfront.net
 d2dxgm96wvaa5j.cloudfront.net
+d2edfzx4ay42og.cloudfront.net
 d2fbkzyicji7c4.cloudfront.net
 d2focgxak1cn74.cloudfront.net
 d2g9nmtuil60cb.cloudfront.net
@@ -2708,6 +2711,7 @@ d33f10u0pfpplc.cloudfront.net
 d33otidwg56k90.cloudfront.net
 d34obr29voew8l.cloudfront.net
 d34rdvn2ky3gnm.cloudfront.net
+d359wjs9dpy12d.cloudfront.net
 d37dzu39aqhuxu.cloudfront.net
 d37kzqe5knnh6t.cloudfront.net
 d38pxm3dmrdu6d.cloudfront.net
