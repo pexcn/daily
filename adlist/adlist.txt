@@ -22,7 +22,6 @@
 07kfh.cn
 080644.com
 0937jyg.com
-0d077ef9e74d8.cdn.sohucs.com
 0fwg.cn
 0x013d.website
 0x01e7.website
@@ -1250,7 +1249,6 @@ adsrv.deviantart.com
 adsrv.eacdn.com
 adsrv.iol.co.za
 adsrvr.org
-ads.s3.sitepoint.com
 ads.satyamonline.com
 ads.saymedia.com
 ads.scifi.com
@@ -2097,6 +2095,7 @@ braincash.com
 branch.io
 brand-display.com
 brandreachsys.com
+brassrule.com
 br.blackfling.com
 brcache.madthumbs.com
 breezily168.com
@@ -2322,7 +2321,6 @@ clearcomb.com
 clevernt.com
 click2freemoney.com
 clickability.com
-click.absoluteagency.com
 clickadz.com
 clickagents.com
 clickbank.com
@@ -2435,6 +2433,7 @@ completecabbage.com
 complextoad.com
 comprabanner.it
 concernedcondition.com
+concernrain.com
 confirmed-profits.com
 connatix.com
 connect.summit.co.uk
@@ -3223,6 +3222,7 @@ evergage.com
 evyy.net
 ewebcounter.com
 exchangead.com
+exchange.bg
 exchangeclicksonline.com
 exchange-it.com
 exclusivebrass.com
@@ -3270,8 +3270,10 @@ familiarfloor.com
 family-joy.com
 famousquarter.com
 fan.9939.com
+fanaticalfly.com
 fangdalaw.gd.cn
 fangzi2.top
+fanli.in
 fan.twitch.tv
 fanyi100.com.cn
 farethief.com
@@ -3310,6 +3312,7 @@ feidalu.com
 feifish66.com
 fembsflungod.com
 fenggejiaju.com
+fengyelin.net
 fenvm.com
 ff112244.com
 ffanq.com
@@ -3330,7 +3333,6 @@ findicons.com
 finding.hardwareheaven.com
 findnsave.idahostatesman.com
 findyourcasino.com
-fineclicks.com
 firefang.cn
 firstlightera.com
 first.nova.cz
@@ -3343,6 +3345,7 @@ fkkse.com
 fkogs.com
 flakyfeast.com
 flashtalking.com
+flavordecision.com
 fleshlightcash.com
 flexbanner.com
 flimsycircle.com
@@ -3649,6 +3652,7 @@ hades.qyer.com
 haiwengji.net
 haiyunimg.com
 haiyunpush.com
+haizirv.cn
 hajuwang.cn
 haklopar.com
 hammerhearing.com
@@ -4636,6 +4640,7 @@ mglvqian.com
 mgsue.cn
 mgwcn.com
 mh9dskj8jg.com
+mhuos.com
 miaiche.cn
 miaobeichina.com
 miaos11.com
@@ -6804,6 +6809,7 @@ yaohq.com
 yaoyl.com
 yatemy.cn
 ybaih.com
+ybaiu.com
 ybaoh.com
 ybeih.com
 ybhypt.com

@@ -1,5 +1,5 @@
 //
-// Update: 2019-01-11 03:03:44
+// Update: 2019-01-12 03:03:57
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -992,6 +992,7 @@ const gfwlist_domains = {
     "cloakpoint.com": 1,
     "cloud.mail.ru": 1,
     "club1069.com": 1,
+    "clyp.it": 1,
     "cmcn.org": 1,
     "cmi.org.tw": 1,
     "cmp.hku.hk": 1,
@@ -1485,6 +1486,7 @@ const gfwlist_domains = {
     "eulam.com": 1,
     "eu.org": 1,
     "eurekavpt.com": 1,
+    "euronews.com": 1,
     "evchk.wikia.com": 1,
     "evschool.net": 1,
     "exblog.jp": 1,
@@ -2945,6 +2947,7 @@ const gfwlist_domains = {
     "llss.me": 1,
     "load.to": 1,
     "lobsangwangyal.com": 1,
+    "localbitcoins.com": 1,
     "localdomain.ws": 1,
     "localpresshk.com": 1,
     "lockestek.com": 1,
@@ -3033,6 +3036,7 @@ const gfwlist_domains = {
     "matome-plus.com": 1,
     "matome-plus.net": 1,
     "matsushimakaede.com": 1,
+    "matters.news": 1,
     "mattwilcox.net": 1,
     "maturejp.com": 1,
     "maxing.jp": 1,
@@ -3896,6 +3900,7 @@ const gfwlist_domains = {
     "redchinacn.org": 1,
     "redd.it": 1,
     "reddit.com": 1,
+    "redditlist.com": 1,
     "redditmedia.com": 1,
     "redditstatic.com": 1,
     "redhotlabs.com": 1,
@@ -4677,6 +4682,7 @@ const gfwlist_domains = {
     "tosh.comedycentral.com": 1,
     "totalvpn.com": 1,
     "toutiaoabc.com": 1,
+    "toutyrater.github.io": 1,
     "towngain.com": 1,
     "toypark.in": 1,
     "toythieves.com": 1,
@@ -5112,6 +5118,7 @@ const gfwlist_domains = {
     "vrsmash.com": 1,
     "vtunnel.com": 1,
     "vuku.cc": 1,
+    "vultryhw.com": 1,
     "w3schools.com": 1,
     "waffle1999.com": 1,
     "wahas.com": 1,

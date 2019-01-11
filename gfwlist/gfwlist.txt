@@ -1396,6 +1396,7 @@ eisbb.com
 eksisozluk.com
 electionsmeter.com
 elgoog.im
+ellawine.org
 elpais.com
 eltondisney.com
 emaga.com
@@ -2342,6 +2343,7 @@ hkfaa.com
 hkfreezone.com
 hk.frienddy.com
 hkfront.org
+hkgalden.com
 hk.geocities.com
 hkgolden.com
 hk.gradconnection.com
@@ -4356,6 +4358,7 @@ sustainability.google
 suyangg.com
 svsfx.com
 swagbucks.com
+swissinfo.ch
 swissvpn.net
 switch1.jp
 switchvpn.net
@@ -4982,6 +4985,7 @@ vanemu.cn
 vanilla-jp.com
 vanpeople.com
 vansky.com
+vaticannews.va
 vatn.org
 vcfbuilder.org
 vcf-online.org
