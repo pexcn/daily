@@ -1,5 +1,5 @@
 //
-// Update: 2019-01-12 03:03:57
+// Update: 2019-01-13 03:04:47
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -1406,6 +1406,7 @@ const gfwlist_domains = {
     "eksisozluk.com": 1,
     "electionsmeter.com": 1,
     "elgoog.im": 1,
+    "ellawine.org": 1,
     "elpais.com": 1,
     "eltondisney.com": 1,
     "emaga.com": 1,
@@ -2352,6 +2353,7 @@ const gfwlist_domains = {
     "hkfreezone.com": 1,
     "hk.frienddy.com": 1,
     "hkfront.org": 1,
+    "hkgalden.com": 1,
     "hk.geocities.com": 1,
     "hkgolden.com": 1,
     "hk.gradconnection.com": 1,
@@ -4366,6 +4368,7 @@ const gfwlist_domains = {
     "suyangg.com": 1,
     "svsfx.com": 1,
     "swagbucks.com": 1,
+    "swissinfo.ch": 1,
     "swissvpn.net": 1,
     "switch1.jp": 1,
     "switchvpn.net": 1,
@@ -4992,6 +4995,7 @@ const gfwlist_domains = {
     "vanilla-jp.com": 1,
     "vanpeople.com": 1,
     "vansky.com": 1,
+    "vaticannews.va": 1,
     "vatn.org": 1,
     "vcfbuilder.org": 1,
     "vcf-online.org": 1,

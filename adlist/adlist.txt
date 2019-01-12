@@ -2604,6 +2604,7 @@ d158nafix8anfs.cloudfront.net
 d15cjcet1djbmv.cloudfront.net
 d15gt9gwxw5wu0.cloudfront.net
 d1.5h.com
+d162nnmwf9bggr.cloudfront.net
 d1635hfcvs8ero.cloudfront.net
 d17f2fxw547952.cloudfront.net
 d19972r8wdpby8.cloudfront.net
@@ -2638,6 +2639,7 @@ d1rkf0bq85yx06.cloudfront.net
 d1spb7fplenrp4.cloudfront.net
 d1vbm0eveofcle.cloudfront.net
 d1wi563t0137vz.cloudfront.net
+d1wjz6mrey9f5v.cloudfront.net
 d1zgderxoe1a.cloudfront.net
 d1.zhuangxiu6.com
 d21j20wsoewvjq.cloudfront.net
@@ -6479,6 +6481,7 @@ wcjup.com
 wcnmd.top
 wdads.sx.atl.publicus.com
 wda.ydt.com.cn
+wdeie.com
 wdzsb.com.cn
 web2.deja.com
 web.900.la
@@ -7073,6 +7076,7 @@ zws.avvo.com
 zx573.cn
 zxb918.com
 zxhymh.com
+zxin131.cn
 zxjjzx.com
 zx-jsp.com
 zxwdw.com

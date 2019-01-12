@@ -27437,6 +27437,7 @@ d158nafix8anfs.cloudfront.net
 d15cjcet1djbmv.cloudfront.net
 d15gt9gwxw5wu0.cloudfront.net
 d1.5h.com
+d162nnmwf9bggr.cloudfront.net
 d1635hfcvs8ero.cloudfront.net
 d16.net
 d173vqb05g6hza.cloudfront.net
@@ -27494,6 +27495,7 @@ d1tprjo2w7krrh.cloudfront.net
 d1uwd25yvxu96k.cloudfront.net
 d1vbm0eveofcle.cloudfront.net
 d1wi563t0137vz.cloudfront.net
+d1wjz6mrey9f5v.cloudfront.net
 d1z2jf7jlzjs58.cloudfront.net
 d1.zedo.com
 d1zgderxoe1a.cloudfront.net
@@ -47011,6 +47013,7 @@ wdata.ero-advertising.com
 wda.ydt.com.cn
 wdc.mediation.nexage.com
 wd-edge.sharethis.com
+wdeie.com
 wdig.vo.llnwd.net
 wdm.map24.com
 wd.sharethis.com
@@ -51368,6 +51371,7 @@ zw.zeroredirect1.com
 zx573.cn
 zxb918.com
 zxhymh.com
+zxin131.cn
 zxjjzx.com
 zx-jsp.com
 zxtrace.com
