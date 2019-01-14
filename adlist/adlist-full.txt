@@ -1245,6 +1245,7 @@
 3yp7i.voluumtrk.com
 3zkgw.voluumtrk.com
 4002dbde88aebefdb1f7-8f93653c470e43727b1b565964867247.r51.cf2.rackcdn.com
+4006825178.com
 401591473.log.optimizely.com
 401ads.go2cloud.org
 4055.xg4ken.com
@@ -24757,7 +24758,6 @@ cdnx.tribalfusion.com
 cdn.yb0t.com
 cdn.yldbt.com
 cdn.yourtopoffers.info
-cdn.ywxi.net
 cdn.zeusclicks.com
 cdn.ziffstatic.com
 cdn.zopim.com
@@ -25559,6 +25559,7 @@ coinhive.com
 cointraffic.io
 coinurl.com
 coinvisitor.com
+cojia.net
 coke.nuggad.net
 coldfusion.affiliateshop.com
 collect.igodigital.com
