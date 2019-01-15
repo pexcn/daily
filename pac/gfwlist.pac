@@ -1,5 +1,5 @@
 //
-// Update: 2019-01-15 03:06:31
+// Update: 2019-01-16 03:09:09
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -400,6 +400,7 @@ const gfwlist_domains = {
     "baixing.me": 1,
     "bakgeekhome.tk": 1,
     "banana-vpn.com": 1,
+    "band.us": 1,
     "bandwagonhost.com": 1,
     "bangbrosnetwork.com": 1,
     "bangchen.net": 1,
@@ -1137,6 +1138,7 @@ const gfwlist_domains = {
     "dailidaili.com": 1,
     "dailymotion.com": 1,
     "dailynews.sina.com": 1,
+    "dailyview.tw": 1,
     "daiphapinfo.net": 1,
     "dajiyuan.com": 1,
     "dajiyuan.de": 1,
@@ -3934,6 +3936,7 @@ const gfwlist_domains = {
     "rferl.org": 1,
     "rfi.fr": 1,
     "rfi.my": 1,
+    "rg3.github.io": 1,
     "rightbtc.com": 1,
     "rigpa.org": 1,
     "riku.me": 1,
@@ -4161,6 +4164,7 @@ const gfwlist_domains = {
     "sitekreator.com": 1,
     "siteks.uk.to": 1,
     "sitemaps.org": 1,
+    "six-degrees.io": 1,
     "sixth.biz": 1,
     "sjrt.org": 1,
     "sjum.cn": 1,
@@ -4501,6 +4505,7 @@ const gfwlist_domains = {
     "theinitium.com": 1,
     "thenewslens.com": 1,
     "thepiratebay.org": 1,
+    "theporndude.com": 1,
     "theportalwiki.com": 1,
     "thereallove.kr": 1,
     "therock.net.nz": 1,
@@ -4825,6 +4830,7 @@ const gfwlist_domains = {
     "twindexx.com": 1,
     "twip.me": 1,
     "twipple.jp": 1,
+    "tw.iqiyi.com": 1,
     "twishort.com": 1,
     "twistar.cc": 1,
     "twisterio.com": 1,
@@ -5495,6 +5501,7 @@ const gfwlist_domains = {
     "yong.hu": 1,
     "yorkbbs.ca": 1,
     "youdontcare.com": 1,
+    "you-get.org": 1,
     "youjizz.com": 1,
     "youmaker.com": 1,
     "youngpornvideos.com": 1,

@@ -107,6 +107,7 @@
 180searchassistant.com
 181lm.net
 182.92.81.104
+18dusun.com
 18tzx.com
 1.92caijing.com
 1999019.com
@@ -2095,6 +2096,7 @@ boweineng.cn
 box.anchorfree.net
 boy.fujieace.com
 boyxu.cn
+bp776.com
 bpath.com
 braincash.com
 branch.io
@@ -2581,6 +2583,7 @@ curtaincows.com
 customad.cnn.com
 cutecushion.com
 cuteturkey.com
+cwj2h.cn
 cwpush.com
 cxaerp.com
 cxd-ailegou.com
@@ -3262,6 +3265,7 @@ e.yycqc.com
 ez33.org.cn
 ezucods.cn
 ezula.com
+ezuon.com
 f1.06ps.com
 f1190.com
 f1.lutouwang.net
@@ -3707,6 +3711,7 @@ hdapp1003-a.akamaihd.net
 hdapp1008-a.akamaihd.net
 hdc.maxli.cn
 hdfdm.com
+hdjxmf.com
 hdsrc-a.akamaihd.net
 hdswgc.com
 hduic.com
@@ -5024,6 +5029,7 @@ ox-d.wetransfer.com
 oxen.hillcountrytexas.com
 ox.furaffinity.net
 ox-i.cordillera.tv
+oxrm.com
 p1.zhumengwl.com
 p2.dnvod.tv
 p3.dnvod.tv
@@ -5570,6 +5576,7 @@ s1.wesiedu.com
 s2d6.com
 s400cc.com
 s9w.cc
+sadobo.com
 s.adroll.com
 saferwet.com
 sageanalyst.net
@@ -5965,6 +5972,7 @@ swordfishdc.com
 swordgoose.com
 swzhaohuo.com.cn
 sxbhzs.net
+sxcol.cn
 sxdyrq.com
 sxjkc.cn
 sxjxhg.com
@@ -6836,7 +6844,6 @@ ydlnt.com
 ydqzkj.com
 yeas.yahoo.co.jp
 yea.uploadimagex.com
-yefu365.com
 yenlm.com
 yepads.com
 yesads.com
