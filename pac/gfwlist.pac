@@ -1,5 +1,5 @@
 //
-// Update: 2019-01-16 03:09:09
+// Update: 2019-01-17 03:07:54
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -169,6 +169,7 @@ const gfwlist_domains = {
     "ae.hao123.com": 1,
     "aenhancers.com": 1,
     "ae.org": 1,
+    "aex.com": 1,
     "afantibbs.com": 1,
     "af.mil": 1,
     "agnesb.fr": 1,
@@ -514,6 +515,7 @@ const gfwlist_domains = {
     "bitcoinworld.com": 1,
     "bit.do": 1,
     "bitfinex.com": 1,
+    "bithumb.com": 1,
     "bitinka.com.ar": 1,
     "bit.ly": 1,
     "bitmex.com": 1,
@@ -704,6 +706,7 @@ const gfwlist_domains = {
     "bt95.com": 1,
     "btaia.com": 1,
     "btbtav.com": 1,
+    "btc98.com": 1,
     "btcbank.bank": 1,
     "btctrade.im": 1,
     "btdigg.org": 1,
@@ -1029,16 +1032,19 @@ const gfwlist_domains = {
     "cn.uptodown.com": 1,
     "cn.voa.mobi": 1,
     "coat.co.jp": 1,
+    "cobinhood.com": 1,
     "cochina.co": 1,
     "cochina.org": 1,
     "code1984.com": 1,
     "codeshare.io": 1,
     "codeskulptor.org": 1,
     "coin2co.in": 1,
+    "coinbene.com": 1,
     "coinegg.com": 1,
     "coinex.com": 1,
     "coingi.com": 1,
     "coinrail.co.kr": 1,
+    "cointiger.com": 1,
     "cointobe.com": 1,
     "coinut.com": 1,
     "collateralmurder.com": 1,
@@ -2263,6 +2269,7 @@ const gfwlist_domains = {
     "hautelookcdn.com": 1,
     "hautelook.com": 1,
     "have8.com": 1,
+    "hbg.com": 1,
     "hbo.com": 1,
     "h-china.org": 1,
     "hclips.com": 1,
@@ -3073,6 +3080,7 @@ const gfwlist_domains = {
     "memorybbs.com": 1,
     "memrijttm.org": 1,
     "memri.org": 1,
+    "mercatox.com": 1,
     "mercyprophet.org": 1,
     "meridian-trust.org": 1,
     "meripet.biz": 1,

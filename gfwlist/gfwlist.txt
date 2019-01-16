@@ -123,6 +123,7 @@ abclite.net
 abc.net.au
 abc.pp.ru
 abc.xyz
+abebooks.com
 abematv.akamaized.net
 abitno.linpie.com
 ablwang.com
@@ -324,7 +325,6 @@ arte.tv
 artofpeacefoundation.org
 artsy.net
 asacp.org
-asahichinese.com
 asdfg.jp
 asg.to
 asia-gaming.com
@@ -643,6 +643,7 @@ bloomfortune.com
 blueangellive.com
 bmfinn.com
 bnews.co
+bnn.co
 bnrmetal.com
 boardreader.com
 bod.asia
@@ -722,6 +723,7 @@ buzzhand.com
 buzzhand.net
 buzzorange.com
 bvpn.com
+bwgyhw.com
 bwh1.net
 bwsj.hk
 bx.in.th
@@ -788,6 +790,7 @@ cclife.ca
 cclifefl.org
 cclife.org
 ccthere.com
+ccthere.net
 cctmweb.net
 cctongbao.com
 ccue.ca
@@ -1284,6 +1287,7 @@ dorjeshugden.com
 dotplane.com
 dotsub.com
 dotvpn.com
+doubibackup.com
 doub.io
 doubmirror.cf
 dougscripts.com
@@ -2624,6 +2628,7 @@ isaacmao.com
 is-a-hunter.com
 isasecret.com
 i-scmp.com
+isc.sans.edu
 is.gd
 isgreat.org
 islahhaber.net
@@ -2719,6 +2724,7 @@ jingpin.org
 jingsim.org
 jinpianwang.com
 jinroukong.com
+jintian.net
 jinx.com
 jitouch.com
 jizzthis.com
@@ -4033,6 +4039,7 @@ search.disconnect.me
 searchtruth.com
 search.xxx
 search.yahoo.co.jp
+search.yahoo.com
 secretchina.com
 secretgarden.no
 secretsline.biz
@@ -4418,6 +4425,7 @@ taiwanyes.com
 taiwanyes.ning.com
 talk853.com
 talkboxapp.com
+talkcc.com
 talkonly.net
 tamiaode.tk
 tanc.org
@@ -4629,6 +4637,7 @@ time.com
 times.hinet.net
 timesofindia.indiatimes.com
 timsah.com
+tinc-vpn.org
 tineye.com
 tintuc101.com
 tiny.cc
@@ -4976,6 +4985,7 @@ usunitednews.com
 usus.cc
 utopianpal.com
 uu-gg.com
+uukanshu.com
 uvwxyz.xyz
 uwants.com
 uwants.net
