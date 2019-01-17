@@ -340,6 +340,7 @@
 6dvip.com
 6huu.com
 6ldu6qa.com
+6yush.cn
 700ok.net
 70lm.com
 711kk.com
@@ -442,6 +443,7 @@ a0c77.com
 a1.0s.net.cn
 a1.16700.net
 a135.wftv.com
+a1.99966.cn
 a1.aluntan.com
 a1.bookapka.com
 a1.chajiaotong.com
@@ -2848,7 +2850,6 @@ ddhuangchao.com
 ddomm.com
 ddpxhq.cn
 ddwht76d9jvfl.cloudfront.net
-dd.xinshipu.com
 de17a.com
 deadpantruck.com
 dealdotcom.com
@@ -2963,7 +2964,6 @@ dlzjdesign.com
 dm0acvguygm9h.cloudfront.net
 dm1.3199.cn
 dm1.3328.cn
-dm.15tianqi.com
 dm1.yongkao.com
 dm1.zjydt.com
 dm.388g.cc
@@ -3334,6 +3334,7 @@ ffhtek.com
 ff.meikanguo.com
 ff.nsg.org.ua
 ffxcam.fairfax.com.au
+ff.xue163.net
 ff.xue63.com
 ffychb.com
 fgzba.com
@@ -4243,6 +4244,7 @@ kawa11.space
 kawinhome.com
 kbnetworkz.s3.amazonaws.com
 kbstyn.com
+kc.gouchezj.com
 kchaq.com
 kcooy.com
 kddtri.cn
@@ -4513,6 +4515,7 @@ m1.51kaowang.com
 m1.bitequan.net.cn
 m1.darfd.com
 m1.jintang114.org
+m1.nn670.com
 m1.vodjk.com
 m1.webstats4u.com
 m2.lelemh.com
@@ -5293,6 +5296,7 @@ puffypurpose.com
 pukrazopchatka.com
 pushazer.com
 pushengage.com
+puzwb.cn
 puzzlingfall.com
 pwjhg.com
 px.dynamicyield.com
@@ -6315,6 +6319,7 @@ udorik.com
 udrwyjpwjfeg.com
 ufraton.com
 ugg66.com
+uhor8.cn
 u.huoying666.com
 ui37.net
 uimserv.net
@@ -6375,6 +6380,7 @@ uzhaj.com
 uzotarak.com
 uzpmrbek.com
 v1.cnzz.com
+v1.phb123.com
 v44i.cn
 v707070.com
 validclick.com
@@ -6632,6 +6638,7 @@ ws341.com
 ws7j.com
 wsp.mgid.com
 wstztt.com
+ws.wenshenxiu.com
 wsxxu.com
 wt-eu02.net
 wtlive.com
@@ -6831,6 +6838,7 @@ yaoyl.com
 yatemy.cn
 ybaih.com
 ybaiu.com
+ybanj.com
 ybaoh.com
 ybeih.com
 ybhypt.com
@@ -6885,6 +6893,7 @@ yiranxian.cn
 yishuifa.org
 yisloda.com
 yiwuds.com
+yi.ximizi.com
 yixui.com
 yiyuantian.com
 yjkyj.cn
