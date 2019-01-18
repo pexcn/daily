@@ -1,5 +1,5 @@
 //
-// Update: 2019-01-18 03:08:27
+// Update: 2019-01-19 03:09:21
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -252,6 +252,7 @@ const gfwlist_domains = {
     "android.com": 1,
     "androidify.com": 1,
     "androidplus.co": 1,
+    "androidtv.com": 1,
     "android-x86.org": 1,
     "andygod.com": 1,
     "angela-merkel.de": 1,
