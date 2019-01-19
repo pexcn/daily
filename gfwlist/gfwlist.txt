@@ -78,6 +78,7 @@
 51jav.org
 51luoben.com
 5278.cc
+5299.tv
 56cun04.jigsy.com
 5aimiku.com
 5i01.com
@@ -339,6 +340,7 @@ asiatoday.us
 askstudent.com
 askynz.net
 assembla.com
+assets.bwbx.io
 assimp.org
 astrill.com
 atchinese.com
@@ -396,6 +398,7 @@ band.us
 bandwagonhost.com
 bangbrosnetwork.com
 bangchen.net
+bangdream.space
 bangyoulater.com
 bankmobilevibe.com
 bannedbook.org
@@ -988,6 +991,7 @@ cling.omy.sg
 clinica-tibet.ru
 clipfish.de
 cloakpoint.com
+cloud.feedly.com
 cloud.mail.ru
 club1069.com
 clyp.it
@@ -1071,6 +1075,7 @@ cos-moe.com
 cosplayjav.pl
 costco.com
 cotweet.com
+counter.social
 coursehero.com
 cpj.org
 cq99.us
@@ -1519,6 +1524,7 @@ facebook.com
 facebook.design
 facebook.hu
 facebook.in
+facebookmail.com
 facebook.nl
 facebookquotes4u.com
 facebook.se
@@ -1793,6 +1799,7 @@ fxnetworks.com
 fzh999.com
 fzh999.net
 fzlm.com
+g0v.social
 g6hentai.com
 gabocorp.com
 gaeproxy.com
@@ -1803,6 +1810,8 @@ galstars.net
 game735.com
 gamebase.com.tw
 gamejolt.com
+gamer2-cds.cdn.hinet.net
+gamer-cds.cdn.hinet.net
 gamer.com.tw
 gamez.com.tw
 gamousa.com
@@ -2740,6 +2749,7 @@ jmscult.com
 joachims.org
 jobnewera.wordpress.com
 jobso.tv
+joinmastodon.org
 journalchretien.net
 journalofdemocracy.org
 joymiihub.com
@@ -2916,6 +2926,7 @@ lidecheng.com
 lifemiles.com
 lighten.org.tw
 lightnovel.cn
+lihkg.com
 like.com
 limiao.net
 line-apps.com
@@ -3037,7 +3048,9 @@ marxist.net
 marxists.org
 mash.to
 maskedip.com
+mastodon.cloud
 mastodon.host
+mastodon.social
 matainja.com
 material.io
 mathable.io
@@ -3402,6 +3415,7 @@ ninjacloak.com
 ninjaproxy.ninja
 nintendium.com
 ninth.biz
+niu.moe
 niusnews.com
 njactb.org
 njuice.com
@@ -3431,6 +3445,7 @@ noypf.com
 npa.go.jp
 npa.gov.tw
 npnt.me
+npsboost.com
 nps.gov
 nradio.me
 nrk.no
@@ -3677,6 +3692,7 @@ pictures.playboy.com
 pimg.tw
 pin6.com
 pin-cong.com
+pincong.rocks
 ping.fm
 pinimg.com
 pinkrod.com
@@ -3850,6 +3866,7 @@ quantumbooter.net
 questvisual.com
 quitccp.net
 quitccp.org
+quoracdn.net
 quora.com
 quran.com
 quranexplorer.com
@@ -4012,6 +4029,7 @@ sapikachu.net
 saveliuxiaobo.com
 savemedia.com
 savethedate.foo
+savethesounds.info
 savetibet.de
 savetibet.fr
 savetibet.nl
@@ -4675,6 +4693,7 @@ tono-oka.jp
 tonyyan.net
 toodoc.com
 toonel.net
+top10vpn.com
 top81.ws
 topbtc.com
 topic.youthwant.com.tw

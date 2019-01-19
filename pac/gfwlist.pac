@@ -1,5 +1,5 @@
 //
-// Update: 2019-01-19 03:09:21
+// Update: 2019-01-20 03:09:57
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -1369,6 +1369,7 @@ const gfwlist_domains = {
     "dynu.com": 1,
     "dynu.net": 1,
     "dynupdate.no-ip.com": 1,
+    "dysfz.cc": 1,
     "dzze.com": 1,
     "e123.hk": 1,
     "earlytibet.com": 1,
@@ -3097,6 +3098,7 @@ const gfwlist_domains = {
     "mesotw.com": 1,
     "messenger.com": 1,
     "metacafe.com": 1,
+    "metart.com": 1,
     "metarthunter.com": 1,
     "meteorshowersonline.com": 1,
     "metrohk.com.hk": 1,
@@ -4264,6 +4266,7 @@ const gfwlist_domains = {
     "southnews.com.tw": 1,
     "sowers.org.hk": 1,
     "soylentnews.org": 1,
+    "spaces.hightail.com": 1,
     "spankbang.com": 1,
     "spankingtube.com": 1,
     "spankwire.com": 1,
