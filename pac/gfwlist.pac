@@ -1,5 +1,5 @@
 //
-// Update: 2019-01-21 03:10:41
+// Update: 2019-01-22 03:11:13
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -73,6 +73,7 @@ const gfwlist_domains = {
     "3proxy.ru": 1,
     "3ren.ca": 1,
     "3tui.net": 1,
+    "43110.cf": 1,
     "466453.com": 1,
     "4bluestones.biz": 1,
     "4chan.com": 1,
@@ -442,6 +443,7 @@ const gfwlist_domains = {
     "bbs.junglobal.net": 1,
     "bbs.kimy.com.tw": 1,
     "bbsland.com": 1,
+    "bbs.mikocon.com": 1,
     "bbsmo.com": 1,
     "bbs.morbell.com": 1,
     "bbs.mychat.to": 1,
@@ -3103,6 +3105,7 @@ const gfwlist_domains = {
     "memri.org": 1,
     "mercatox.com": 1,
     "mercyprophet.org": 1,
+    "mergersandinquisitions.org": 1,
     "meridian-trust.org": 1,
     "meripet.biz": 1,
     "meripet.com": 1,
@@ -3198,6 +3201,7 @@ const gfwlist_domains = {
     "mog.com": 1,
     "mohu.club": 1,
     "mohu.ml": 1,
+    "mojim.com": 1,
     "mol.gov.tw": 1,
     "molihua.org": 1,
     "mondex.org": 1,
@@ -4559,6 +4563,7 @@ const gfwlist_domains = {
     "thewgo.org": 1,
     "theync.com": 1,
     "th.hao123.com": 1,
+    "thinkgeek.com": 1,
     "thinkingtaiwan.com": 1,
     "thinkwithgoogle.com": 1,
     "thisav.com": 1,
