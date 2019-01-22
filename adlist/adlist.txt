@@ -2726,6 +2726,7 @@ d33f10u0pfpplc.cloudfront.net
 d33otidwg56k90.cloudfront.net
 d34obr29voew8l.cloudfront.net
 d34rdvn2ky3gnm.cloudfront.net
+d355vwft2pa8h6.cloudfront.net
 d359wjs9dpy12d.cloudfront.net
 d37dzu39aqhuxu.cloudfront.net
 d37kzqe5knnh6t.cloudfront.net
@@ -3031,6 +3032,7 @@ dq2tgxnc2knif.cloudfront.net
 dq95d35.com
 dqgpb.com
 dqhi3ea93ztgv.cloudfront.net
+dqsft.com
 dr3k6qonw2kee.cloudfront.net
 dr8pk6ovub897.cloudfront.net
 drabsize.com
@@ -3161,6 +3163,7 @@ egolina.com
 ehow.com/media/ad.html
 ehxyz.com
 eiv.baidu.com
+ejiur.com
 ejunshi.com
 ejyymghi.com
 e.kde.cz
@@ -4168,6 +4171,7 @@ jossuer.net
 jotrening.com
 journalforum.org
 joyfuldoors.com
+jozee.cn
 jp88.cc
 jpg1.oss-cn-beijing.aliyuncs.com
 jquerycdn.co.il
@@ -4506,6 +4510,7 @@ lybczlsb.com
 lygshgj.com
 lyhdream.com
 lyjz001.com
+lymstsc.com
 lyraik.cn
 lyrymy.com
 lytics.io
@@ -5171,6 +5176,7 @@ pixel.digitru.st
 pixel.sojern.com
 pixel.watch
 pjbjzf.com
+pjshw.cn
 pjtymy.cn
 pkbrxja.cn
 pkesports.cn
@@ -6927,6 +6933,7 @@ ynjyhm.com
 ynmbz.com
 ynmhg.cn
 ynnke.com
+ynp0h.cn
 ynwqls.com
 ynzhby.com
 yoggrt.com
