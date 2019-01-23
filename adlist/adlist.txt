@@ -1940,6 +1940,7 @@ bdasd.wmxa.cn
 bdcode1.haodou.com
 bdcode.2345.com
 bdcode.35d1.com
+bdcode.qinglm.com
 bdcode.youke.com
 bddm.58news.org
 bd.ershenghuo.com
@@ -4258,6 +4259,7 @@ kc.gouchezj.com
 kchaq.com
 kcooy.com
 kddtri.cn
+kdieu.com
 kdoraraq.com
 kehuziliaona.com
 kejet.net
@@ -5337,6 +5339,7 @@ qd.wanjuanba.com
 qd.x4399.com
 qewisoti.com
 qflwh.cn
+qgaot.com
 qgss8.com
 qhaif.com
 qhdbfjx.com
@@ -6234,6 +6237,7 @@ tracking101.com
 tracking.crunchiemedia.com
 tracking.gajmp.com
 tracking.hostgator.com
+tracking.ibxlink.com
 tracking.internetstores.de
 trackingsoft.com
 trackmysales.com
@@ -6670,6 +6674,7 @@ wuliao.epro.sogou.com
 wuliao.juqingba.cn
 wuwaii.com
 wuwho.cn
+wvcdn.cn
 wvstatic.cn
 wvver.com
 wwetjy.com
