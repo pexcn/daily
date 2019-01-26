@@ -2295,6 +2295,7 @@ act.webmasterplan.com
 actwebmedia.go2affise.com
 acuityads.com
 acuityplatform.com
+acv5e.cn
 acwgf.com
 acxiom.com
 acxiom-online.com
@@ -28413,6 +28414,7 @@ dogcustom-works.com
 dogpile.112.2o7.net
 dohillright.com
 dohod-inet.justclick.ru
+dojx47ab4dyxi.cloudfront.net
 dokaboka.com
 doldrumspijyzkdx.download
 dollarcreative.com
