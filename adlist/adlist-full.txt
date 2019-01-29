@@ -17807,6 +17807,7 @@ adserver.o2.pl
 adserver.oddschecker.com
 adserver.omroepzeeland.nl
 adserver.outpersonals.com
+adserver.pandora.com
 ad-serverparc.nl
 adserver.penthouse.com
 adserver.phatmax.net
@@ -19723,6 +19724,7 @@ a.fulhudhoo.com
 a.fw-a.co
 afwl8.voluumtrk.com
 a.fwsir.com
+aganj.com
 agenda.complex.com
 agf-test.2cnt.net
 aggregateknowledge.com
@@ -47060,6 +47062,7 @@ wbf.go2cloud.org
 wbies.com
 wbiev.com
 wblasti.go2cloud.org
+wcail.com
 wcaos.com
 wcjup.com
 w.cm.ksmobile.com

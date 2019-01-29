@@ -1047,6 +1047,7 @@ adserver.nydailynews.com
 adserver.o2.pl
 adserver.oddschecker.com
 adserver.omroepzeeland.nl
+adserver.pandora.com
 ad-serverparc.nl
 adserver.pl
 adserverplus.com
@@ -1509,6 +1510,7 @@ afpcreative.wasu.cn
 afp.wasu.cn
 afterview.ru
 a.fwsir.com
+aganj.com
 agenda.complex.com
 a.giantrealm.com
 a.gifs.com
@@ -6535,6 +6537,7 @@ wazero.online
 wbanz.com
 wbies.com
 wbiev.com
+wcail.com
 wcaos.com
 wcjup.com
 wcnmd.top
