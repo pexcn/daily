@@ -1,5 +1,5 @@
 //
-// Update: 2019-01-30 03:13:46
+// Update: 2019-01-31 03:17:34
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -3098,6 +3098,7 @@ const gfwlist_domains = {
     "megurineluka.com": 1,
     "meirixiaochao.com": 1,
     "meltoday.com": 1,
+    "me.me": 1,
     "memehk.com": 1,
     "meme.yahoo.com": 1,
     "memorybbs.com": 1,

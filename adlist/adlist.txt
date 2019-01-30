@@ -810,7 +810,6 @@ adocean.pl
 adomv.com
 adonspot.com
 ad.openmultimedia.biz
-adoperator.com
 adorigin.com
 adotmob.com
 ad.outsidehub.com
@@ -2103,6 +2102,7 @@ bounceexchange.com
 boweineng.cn
 box.anchorfree.net
 boy.fujieace.com
+boyueguoji.com
 boyxu.cn
 bp776.com
 bpath.com
@@ -3059,6 +3059,7 @@ drogomet.com
 drumcash.com
 drxrc.com
 drydrum.com
+ds02gfqy6io6i.cloudfront.net
 dsgy521.com
 dsh7ky7308k4b.cloudfront.net
 dshrx.com
@@ -4668,6 +4669,7 @@ meooe.com
 messagenovice.com
 metaffiliation.com
 metanetwork.com
+meta.streamcloud.eu
 methodcash.com
 metmt.com
 metrics.cnn.com
@@ -6184,6 +6186,7 @@ tkd777.cn
 tkssw.com
 tlvmedia.com
 tmcs.net
+tm-offers.gamingadult.com
 tmrmixer.cn
 tnkexchange.com
 tns-counter.ru
