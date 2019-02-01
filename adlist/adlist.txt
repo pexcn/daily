@@ -363,7 +363,6 @@
 7car.com.cn
 7dah8.com
 7ez4.cn
-7f1au20glg.com
 7ia9h.cn
 7jiajiao.com
 7mad.7m.cn
@@ -911,7 +910,6 @@ ads.allvatar.com
 ads.alt.com
 ads.amdmb.com
 ads.amigos.com
-ads.aol.com
 ads.aol.co.uk
 ads.apn.co.nz
 ads.appsgeyser.com
@@ -1313,7 +1311,6 @@ ads.verticalresponse.com
 ads.vgchartz.com
 ads.videosz.com
 ads.viksaffiliates.com
-ads.virtualcountries.com
 ads.virtual-nights.com
 ads.vnumedia.com
 ads.waps.cn
@@ -2340,7 +2337,6 @@ clearcomb.com
 clevernt.com
 click2freemoney.com
 clickability.com
-click.absoluteagency.com
 clickadz.com
 clickagents.com
 clickbank.com
@@ -3481,8 +3477,10 @@ g.3lian.com
 g8f.ifeng.com
 ga87z2o.com
 ga.clearbit.com
+gadhx.cn
 gadwhy.com
 galaxien.com
+galaxyns.com
 gameads.digyourowngrave.com
 game-advertising-online.com
 gamehouse.com
@@ -3735,6 +3733,7 @@ hdad.baike.com
 hdapp1003-a.akamaihd.net
 hdapp1008-a.akamaihd.net
 hdc.maxli.cn
+hdc.watchtimes.com.cn
 hdfdm.com
 hdjxmf.com
 hdsrc-a.akamaihd.net
@@ -4079,6 +4078,7 @@ iwansf.com
 i.xx.openx.com
 iyygzs.com
 i.zhuoyaju.com
+izouo.com
 izuis.com
 j1.diangon.com
 j1.piaobing.com
@@ -5235,6 +5235,7 @@ popflawlessads.com
 popmyads.com
 pop-over.powered-by.justplayzone.com
 popub.com
+popunder.ru
 popupmoney.com
 popup.msn.com
 popupnation.com
@@ -5254,6 +5255,7 @@ powergg.top
 poyang.com
 pptte.com
 ppt.tianya999.com
+pqnlorg.cn
 pr00001.com
 pr33.cn
 practicetoothpaste.com
@@ -5517,6 +5519,7 @@ represented.cn
 republika.onet.pl
 reqpostanza.com
 requested.cn
+rerwe.cn
 res3.feedsportal.com
 resetgey.com
 resolutekey.com
@@ -5702,7 +5705,6 @@ servethis.com
 services.hearstmags.com
 serving-sys.com
 sessioncam.com
-sexcounter.com
 sexinyourcity.com
 sexlist.com
 sextracker.com
@@ -5882,7 +5884,6 @@ springaftermath.com
 spt.dictionary.com
 spurioussteam.com
 spykemediatrack.com
-spylog.com
 spywarelabs.com
 spywords.com
 sqext.com
@@ -6601,6 +6602,7 @@ wellmadefrog.com
 werbung.meteoxpress.com
 werpig.com
 wervp.com
+wetrack.it
 wew.dushiwenxue.net
 wffengtai.com.cn
 wfyqc.com
@@ -6713,6 +6715,7 @@ www-banner.chat.ru
 www.dnps.com
 www-google-analytics.l.google.com
 www.kaplanindex.com
+www.money4exit.de
 www.photo-ads.co.uk
 wwwpromoter.com
 wxbdfm.com
@@ -6721,6 +6724,7 @@ wxhh678.com
 w.xiaopiaoyou.com
 wxktv.cn
 wxmg2016.com
+wxstatic.cn
 wyhzzy.com
 wyttech.cn
 wywna.cn
@@ -6951,6 +6955,7 @@ yixui.com
 yiyuantian.com
 yjiaj.com
 yjkyj.cn
+yjoiunf.com
 yk0712.com
 ykjmy.com
 yktj.yzz.cn
