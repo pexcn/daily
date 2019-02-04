@@ -2270,7 +2270,6 @@
 249581.com
 2499.tv
 24en.com
-24fa.com
 24home.com
 24jz.com
 24k99.com
@@ -4368,7 +4367,6 @@
 52shangou.com
 52shici.com
 52shouyu.com
-52shuku8.com
 52shuku.com
 52shuxue.com
 52sinv.com
@@ -6463,7 +6461,6 @@
 91sport.cc
 91stb.com
 91student.com
-91stw.net
 91suan.com
 91suke.com
 91tianqi.com
@@ -14764,7 +14761,6 @@ cpubbs.com
 cpv6.com
 cpvjob.com
 cpxsxk.com
-cpzhan.com
 cq315.org
 cq318yy.com
 cq6.com
@@ -15144,7 +15140,6 @@ ctripcorp.com
 ctrip.co.th
 ctripgslb.com
 ctrip.my
-ctrip.name
 ctrip.sg
 ctrl-cc.com
 ctrmi.com
@@ -19514,7 +19509,6 @@ fjjdrcw.com
 fjjsp01.com
 fjjsrckj.com
 fjlh.com
-fjm.name
 fjmwjx.com
 fjnacc.com
 fjndwb.com
@@ -20735,6 +20729,7 @@ gfvip07ap.com
 gfvip08ao.com
 gfvip08ar.com
 gfvip09ac.com
+gfvip09at.com
 gfxcamp.com
 gfxiong.com
 gfxtr1.com
@@ -21917,7 +21912,6 @@ h5aiwan.com
 h5anli.com
 h5avu.com
 h5data.com
-h5dm.com
 h5ds.com
 h5eco.com
 h5gal.net
@@ -22958,7 +22952,6 @@ heyguo.com
 heyi.com
 heyinguanli.com
 heylinux.com
-hey-men.com
 heymore.com
 heyou51.com
 heyreport.com
@@ -27183,7 +27176,6 @@ jinmi.com
 jinniu315.com
 jinniu.in
 jinnong.cc
-jinpai.com
 jinpengeye.com
 jinpenwang.com
 jinqunla.com
@@ -28135,7 +28127,6 @@ jutuw.com
 juudian.com
 juwan.com
 juwangmedia.com
-juweiup.com
 juweixin.com
 juxia.com
 juxiangyou.com
@@ -30026,7 +30017,6 @@ legou361.com
 legou456.com
 legoukameng.com
 legu168.com
-legua.cc
 leguyu.com
 leha.com
 lehecai.com
@@ -33348,7 +33338,6 @@ mscto.com
 mscxw.com
 msdn.hk
 msgjug.com
-msgr.dlservice.microsoft.com
 msgruser.dlservice.microsoft.com
 mshc2018.com
 mshishang.com
@@ -42618,7 +42607,6 @@ tianshi2.com
 tianshi2.net
 tianshiaomei.com
 tianshi.info
-tianshit.com
 tianshiyiyuan.com
 tiansin.com
 tiantian8.com
