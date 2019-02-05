@@ -2749,6 +2749,7 @@ d38pxm3dmrdu6d.cloudfront.net
 d38r21vtgndgb1.cloudfront.net
 d39hdzmeufnl50.cloudfront.net
 d39xqloz8t5a6x.cloudfront.net
+d3a42c7xs4vn3.cloudfront.net
 d3ahinqqx1dy5v.cloudfront.net
 d3al52d8cojds7.cloudfront.net
 d3asksgk2foh5m.cloudfront.net
@@ -3738,6 +3739,7 @@ hcenc.com
 hchig.com
 hchik.com
 hcreditx.com
+hcwljy.com
 hdad.baike.com
 hdapp1003-a.akamaihd.net
 hdapp1008-a.akamaihd.net
@@ -4215,6 +4217,7 @@ js-bd.86huoche.com
 js.bju888.com
 jsb.qianzhan.com
 js.bxwns.com
+jschuangnuo.com
 jscode.acg68.com
 jscsd.cn
 js.duotegame.com
@@ -5397,6 +5400,7 @@ qiqiyii.com
 qiyeb.iaskbus.com
 qjjtc.com
 qkptx.com
+qlaot.com
 qloer.com
 qlonglong.com
 qmkdy.com

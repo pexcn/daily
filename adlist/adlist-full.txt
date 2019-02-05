@@ -27634,6 +27634,7 @@ d38r21vtgndgb1.cloudfront.net
 d39hdzmeufnl50.cloudfront.net
 d39xqloz8t5a6x.cloudfront.net
 d3a2okcloueqyx.cloudfront.net
+d3a42c7xs4vn3.cloudfront.net
 d3aa0ztdn3oibi.cloudfront.net
 d3ahinqqx1dy5v.cloudfront.net
 d3al52d8cojds7.cloudfront.net
@@ -31680,6 +31681,7 @@ h.cliphunter.com
 hclrm.voluumtrk.com
 hcreditx.com
 hcu1u.voluumtrk.com
+hcwljy.com
 hdad.baike.com
 hdapp1003-a.akamaihd.net
 hdapp1008-a.akamaihd.net
@@ -33359,6 +33361,7 @@ js.callbutton.net
 jsc.dinclinx.com
 js.cdn.yieldkit.com
 jsc.dt07.net
+jschuangnuo.com
 jsc.madisonlogic.com
 jsc.marketgid.com
 jsc.mgid.com
@@ -38127,6 +38130,7 @@ q.jmp9.com
 qj.us.intellitxt.com
 qkptx.com
 qksrv.growhope.com
+qlaot.com
 qld.jmp9.com
 qlipsodigital.checkm8.com
 qloer.com
