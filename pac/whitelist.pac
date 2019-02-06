@@ -1,5 +1,5 @@
 //
-// Update: 2019-02-06 03:15:59
+// Update: 2019-02-07 03:17:06
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -3075,7 +3075,6 @@ const china_domains = {
     "37-b.com": 1,
     "37bit.net": 1,
     "37bjw.com": 1,
-    "37chouchou.com": 1,
     "37.com": 1,
     "37cos.com": 1,
     "37cs.com": 1,
@@ -4604,6 +4603,7 @@ const china_domains = {
     "56show.com": 1,
     "56shuba.cc": 1,
     "56shuku.org": 1,
+    "56u56.com": 1,
     "56uo.com": 1,
     "56uu.com": 1,
     "56weiyu.com": 1,
@@ -13001,6 +13001,7 @@ const china_domains = {
     "chinaore.com": 1,
     "chinaosx.com": 1,
     "chinaosx.net": 1,
+    "chinaott.net": 1,
     "chinaowps.com": 1,
     "chinap2g.com": 1,
     "china-packcon.com": 1,
@@ -13312,6 +13313,7 @@ const china_domains = {
     "chongzhi.com": 1,
     "chord4.com": 1,
     "chotee.com": 1,
+    "chouchoujiang.com": 1,
     "chou.im": 1,
     "choukang.com": 1,
     "chouqinkaoyan.com": 1,
@@ -15427,6 +15429,7 @@ const china_domains = {
     "d1cp.com": 1,
     "d1cy.com": 1,
     "d1ev.com": 1,
+    "d1fm.com": 1,
     "d1h.net": 1,
     "d1jd.com": 1,
     "d1lcw.com": 1,
@@ -23418,7 +23421,6 @@ const china_domains = {
     "hnpost.com": 1,
     "hnqihong.com": 1,
     "hnqysljz.com": 1,
-    "hnqzjy.com": 1,
     "hnrcsc.com": 1,
     "hnrich.net": 1,
     "hnrsks.com": 1,
@@ -23518,6 +23520,7 @@ const china_domains = {
     "hongfeng.co": 1,
     "hongfen.org": 1,
     "honggancn.com": 1,
+    "honggebang.com": 1,
     "honghonghu.com": 1,
     "honghuangol.com": 1,
     "honghuotai.com": 1,
@@ -38998,6 +39001,7 @@ const china_domains = {
     "secaibi.com": 1,
     "secange.com": 1,
     "secaz-fota-dn.samsungdm.com": 1,
+    "secbug.cc": 1,
     "secdoctor.com": 1,
     "secdriver.com": 1,
     "secfree.com": 1,
@@ -47193,6 +47197,7 @@ const china_domains = {
     "xatongsheng.net": 1,
     "xatvs.com": 1,
     "xatyds.com": 1,
+    "xatzj.com": 1,
     "xauat-hqc.com": 1,
     "xavilinux.work": 1,
     "xawb.com": 1,
@@ -47202,6 +47207,7 @@ const china_domains = {
     "xayxjjw.com": 1,
     "xazcit.com": 1,
     "xazzg.com": 1,
+    "xazzs.com": 1,
     "xb2s.com": 1,
     "xbaiv.com": 1,
     "xbaixing.com": 1,
