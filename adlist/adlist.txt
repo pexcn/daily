@@ -214,6 +214,7 @@
 28487.net
 28acglz.com
 2d-c.cn
+2fnrc.cn
 2.heiyange.com
 2m2n.com
 2mdn.net
@@ -2010,6 +2011,7 @@ bewilderedblade.com
 bgcse.cn
 bhcumsc.com
 biandaosheng.com
+bianxianwu.com
 biboi.cn
 bidclix.com
 bidclix.net
@@ -2632,6 +2634,7 @@ d158nafix8anfs.cloudfront.net
 d15cjcet1djbmv.cloudfront.net
 d15gt9gwxw5wu0.cloudfront.net
 d1.5h.com
+d15kdpgjg3unno.cloudfront.net
 d162nnmwf9bggr.cloudfront.net
 d1635hfcvs8ero.cloudfront.net
 d17f2fxw547952.cloudfront.net
@@ -3129,6 +3132,7 @@ dyntrk.com
 dzais.com
 dzisou.com
 dzjzg.com
+e2e.mashable.com
 e7001.com
 e7002.com
 e7009.com
@@ -7116,6 +7120,7 @@ zgncpjyw.cn
 zgsxhx.com
 zgunion.cn
 zgyemy.com
+zhamm.cn
 zhao258.com
 zhaoshang8.com
 zhfyws.com
