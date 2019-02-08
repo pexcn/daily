@@ -366,6 +366,7 @@
 7car.com.cn
 7dah8.com
 7ez4.cn
+7f1au20glg.com
 7ia9h.cn
 7jiajiao.com
 7mad.7m.cn
@@ -1167,7 +1168,6 @@ ads.leovegas.com
 ads.lesbianpersonals.com
 ads.linkedin.com
 ads.linuxfoundation.org
-ads.linuxsecurity.com
 ads.livenation.com
 ads.lordlucky.com
 ad.slutload.com
@@ -1864,7 +1864,6 @@ banners.czi.cz
 banners.dine.com
 banners.direction-x.com
 banners.directnic.com
-banners.easydns.com
 bannerserver.com
 banners.expressindia.com
 banners.freett.com
@@ -4570,7 +4569,6 @@ m1.darfd.com
 m1.jintang114.org
 m1.nn670.com
 m1.vodjk.com
-m1.webstats4u.com
 m2.lelemh.com
 m32.media
 m4n.nl
@@ -5630,6 +5628,7 @@ rundsp.com
 runetki.joyreactor.ru
 runiman.com
 ruthlessrobin.com
+ru-traffic.com
 ruxianke.com
 ruxmc.cn
 ruyidk.com
@@ -5731,6 +5730,7 @@ servethis.com
 services.hearstmags.com
 serving-sys.com
 sessioncam.com
+sexcounter.com
 sexinyourcity.com
 sexlist.com
 sextracker.com
@@ -5752,7 +5752,6 @@ shama5.com
 shandongkuntuo.com
 shanghuitianxia.cn
 shanglinli.com
-shareadspace.com
 shareasale.com
 sharedaddomain.com
 share.gzdsw.com
@@ -5910,6 +5909,7 @@ springaftermath.com
 spt.dictionary.com
 spurioussteam.com
 spykemediatrack.com
+spylog.com
 spywarelabs.com
 spywords.com
 sqext.com
@@ -6167,7 +6167,6 @@ theadex.com
 theadhost.com
 theads.me
 thebugs.ws
-thejesperbay.com
 themee.cn
 themis.yahoo.com
 therapistla.com
@@ -6613,7 +6612,6 @@ webstat.channel4.com
 web-stat.com
 webstat.com
 webstat.net
-webstats4u.com
 web.tmearn.com
 webtrackerplus.com
 webtracky.com
