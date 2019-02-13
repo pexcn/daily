@@ -247,6 +247,7 @@
 376zf.com
 38taobao.com
 39xc.net
+3amall.cn
 3.chuanyi5.com
 3g.990.net
 3gmtr.com
@@ -2024,7 +2025,6 @@ bidswitch.net
 bidvertiser.com
 bigbangmedia.com
 bigbos.top
-bigboy.eurogamer.net
 bigclicks.com
 billboard.cz
 billionfocus.com
@@ -3549,6 +3549,7 @@ geo.frtyd.com
 georgias.cn
 geoshopping.nzherald.co.nz
 geovisite.com
+gerunsenbo.cn
 geryi.com
 getclicky.com
 get.thefile.me
@@ -3745,6 +3746,7 @@ hccms.com.cn
 hcenc.com
 hchig.com
 hchik.com
+hcmoo.com
 hcreditx.com
 hcwljy.com
 hdad.baike.com
@@ -3982,6 +3984,7 @@ imagecash.net
 image.hh010.com
 images.chinaz.com
 images-pw.secureserver.net
+imanchu.cn
 imarketservices.com
 img1.126.net
 img16.diyifanwen.com
