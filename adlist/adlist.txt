@@ -400,6 +400,7 @@
 89h8.com
 8ao8ao.com
 8dp.net
+8hdp.cn
 8j24h.cn
 8jkx.com
 8mfty.com
@@ -3703,6 +3704,7 @@ h2pzh.cn
 h78xb.pw
 h9377c.com
 hades.qyer.com
+haitejs.com
 haiwengji.net
 haiyunimg.com
 haiyunpush.com
@@ -3846,6 +3848,7 @@ hnctsm.com
 hnfpgm.com
 hnfxty.cn
 hnhgw.cn
+hnh-hotel.com
 hnpjshop.com
 hntymg.com
 hnyiche3.com
@@ -4488,6 +4491,7 @@ liveintent.com
 liverail.com
 lixiangmo.com
 lizardslaugh.com
+ljuer.com
 lkqd.com
 ll38.com
 ll.a.hulu.com
@@ -5222,6 +5226,7 @@ ping.ublock.org
 pipilazipi.com
 pipilida.com
 pippio.com
+pipysoft.cn
 piquantpigs.com
 pistraving.co
 pitatagata.com
@@ -5327,7 +5332,6 @@ promo.ulust.com
 pronetadvertising.com
 propellerads.com
 props.id
-proranktracker.com
 proton-tm.com
 protraffic.com
 provalist.info
@@ -5342,6 +5346,7 @@ ps7894.com
 psywed.com
 ptdrw.com
 ptkhy.com
+ptuoa.com
 ptw.la
 pub1.cope.es
 pub1.dnvod.tv
