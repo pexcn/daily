@@ -465,6 +465,7 @@ a1.juzih.com
 a1.mingyihui.net
 a1.qqjay.com
 a1.sumiaowang.com
+a1.twtym.com
 a1.vdolady.com
 a1.yuuedu.com
 a1.zhanzhang.net
@@ -1541,6 +1542,7 @@ ahyau.com
 ahyuns.com
 aibangzs.com
 ai.bioon.com
+a.icdol.com
 aicydb.com
 aidu-ads.de
 aigou023.com
@@ -2350,6 +2352,7 @@ clearcomb.com
 clevernt.com
 click2freemoney.com
 clickability.com
+click.absoluteagency.com
 clickadz.com
 clickagents.com
 clickbank.com
@@ -2997,6 +3000,7 @@ dm1.zjydt.com
 dm.388g.cc
 dm50.jkyd.net
 dm.51okc.com
+dm.66qw.net
 dm.66wenshen.com
 dm8srf206hien.cloudfront.net
 dm.92to.com
@@ -3329,7 +3333,6 @@ farm-cn.plista.com
 farmergoldfish.com
 fascinatedfeather.com
 fastable.com
-fast-adv.it
 fastclick.com
 fastclick.com.edgesuite.net
 fastclick.net
@@ -3775,6 +3778,7 @@ heizundg.cn
 hejban.youwatch.org
 hejingroup.cn
 hellobar.com
+helpinfo.cn
 henduoqian.com
 hentaicounter.com
 herbalaffiliateprogram.com
@@ -5123,7 +5127,6 @@ pagefair.net
 pagerank4you.com
 pagerank-ranking.de
 pagerank-submitter.de
-pageranktop.com
 paholita.com
 paleleaf.com
 panda.kdnet.net
@@ -5661,6 +5664,7 @@ s1.hiapk.com
 s1magnettvcom.maynemyltf.netdna-cdn.com
 s1.qiqutt.cn
 s1.qiqutt.com
+s1.wan1979.com
 s1.wesiedu.com
 s2d6.com
 s400cc.com
@@ -6015,7 +6019,6 @@ storygize.net
 stoveseashore.com
 straightnest.com
 straightschool.com
-stream4fun.com
 stream.heavenmedia.net
 streaming.rtbiddingplatform.com
 stripedburst.com
