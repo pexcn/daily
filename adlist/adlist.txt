@@ -3477,6 +3477,7 @@ fuzzyweather.com
 fv99.com
 fwjoi.com
 fwt0.com
+fw.zhuaji.org
 fxmacd.com
 fxstyle.net
 fxtducb.cn
@@ -3751,7 +3752,6 @@ hccms.com.cn
 hcenc.com
 hchig.com
 hchik.com
-hcmoo.com
 hcreditx.com
 hcwljy.com
 hdad.baike.com
@@ -4107,6 +4107,7 @@ ivy.pconline.com.cn
 iwanad.baidu.com
 iwansf.com
 i.xx.openx.com
+iyaos.com
 iyygzs.com
 i.zhuoyaju.com
 izouo.com
@@ -6358,6 +6359,7 @@ tsdlp.com
 tsrc8.com
 tsyndicate.com
 tt123.eastday.com
+tt123.hao0202.com
 ttbaods.com
 tt.biquge.la
 ttfgames.cn
@@ -6871,6 +6873,7 @@ xmcmn.com
 xmcxz.com
 xmgysweb.com
 xmsqz.com
+x.mtrend.cn
 xmtsyg.com
 xn6ffc.com
 xne1ocient87zxz.360doc.cn
