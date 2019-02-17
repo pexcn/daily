@@ -2741,6 +2741,7 @@ d2ubicnllnnszy.cloudfront.net
 d2ue9k1rhsumed.cloudfront.net
 d2v4glj2m8yzg5.cloudfront.net
 d2v9ajh2eysdau.cloudfront.net
+d2va1d0hpla18n.cloudfront.net
 d2vt6q0n0iy66w.cloudfront.net
 d2yhukq7vldf1u.cloudfront.net
 d2z1smm3i01tnr.cloudfront.net
@@ -3456,7 +3457,6 @@ fsyzcs.com
 fszhxd.com
 ft76531.com
 fthcz.com
-ftic.qifake.com
 ft.pnop.com
 fu68.com
 fuhuikang360.com
@@ -3578,6 +3578,7 @@ ggdm1.nhaidu.net
 ggdoubi.com
 gg.egouz.com
 gg.gao7.com
+gg.getbs.com
 ggg.xiangjiao.xxx
 ggg.zj.com
 gg.jkmeishi.com
@@ -4223,6 +4224,7 @@ joyfuldoors.com
 jozee.cn
 jp88.cc
 jpg1.oss-cn-beijing.aliyuncs.com
+jqsex.com
 jquerycdn.co.il
 jquerymin.co.il
 jqz9.com
@@ -5413,6 +5415,7 @@ qhuik.com
 qiailm.com
 qiaopiguniang.com
 qi-duo.com
+qifake.com
 qigemm.com
 qinchugudao.com
 qingqu.la
@@ -5435,6 +5438,7 @@ qq167.com
 qqhuhu.com
 qqm98.com
 qqzu.com
+qs01.cn
 qsart.cn
 qsbz2011.com
 qshxc.com
