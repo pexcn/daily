@@ -22305,6 +22305,7 @@ bh.contextweb.com
 bhcumsc.com
 bhgmarketing.112.2o7.net
 b.hidemyass.com
+bhuak.com
 b.huffingtonpost.com
 b.huffingtonpost.de
 bi827.voluumtrk.com
@@ -27739,6 +27740,7 @@ da5w2k479hyx2.cloudfront.net
 daaa.ero-advertising.com
 dacash.streamplay.to
 dacgb.voluumtrk.com
+dachadu.cn
 d.adcash.com
 d.addelive.com
 dadjia.com
@@ -27999,7 +28001,6 @@ de8of677fyt0b.cloudfront.net
 de.adition.com
 deadpantruck.com
 de.adserver.yahoo.com
-dealcatcher.com
 dealchicken.go2cloud.org
 dealdotcom.com
 dealhelper.com
@@ -34817,7 +34818,6 @@ mcp8f.voluumtrk.com
 mcpaz.voluumtrk.com
 mcpvkhoven.review
 mcs.delvenetworks.com
-mcssl.com
 mctracking.go2cloud.org
 mc.tvzhe.com
 mc.weather.com.cn
@@ -42507,6 +42507,7 @@ twzui6.com
 txdwc.cn
 txel.snmmd.nl
 txn.ingest.crittercism.com
+txstatic.cn
 txt2017.com
 txtimpact.com
 t.xtubetv.net
@@ -47392,6 +47393,7 @@ wfnetwork.go2cloud.org
 wfpscripts.webspectator.com
 wfs01.wapka.mobi
 wfyqc.com
+wgaoe.com
 wghjq.cn
 wgnlz.com
 wgnmp.com
@@ -49552,7 +49554,6 @@ www.mbixuxsfeoutfields.review
 www.mbotvisit.com
 www.mckygschalalled.review
 www.mcpvkhoven.review
-www.mcssl.com
 www.media970.com
 www.mediabreakaway.com
 www.media-clic.com
@@ -50961,6 +50962,7 @@ xq1.net
 xrain.net
 xratedtracking.com
 xrevtrk.com
+xrpva.cn
 xs.houyi.baofeng.net
 x.skimresources.com
 xslt.alexa.com
