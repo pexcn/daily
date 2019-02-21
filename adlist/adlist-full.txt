@@ -1853,6 +1853,7 @@ a12a30zg8rw248c8bl5o72qweh.hop.clickbank.net
 a135.wftv.com
 a1599.g.akamai.net
 a1767.g.akamai.net
+a1.7down.com
 a1.99966.cn
 a19.g.akamai.net
 a1.admaster.net
@@ -19074,6 +19075,7 @@ ad.twitchguru.com
 a.duanmeiwen.com
 aducash.com
 ad-u.com
+aduic.com
 ad.uk.doubleclick.net
 a.dulderbulder.com
 adultadvertising.com
@@ -35476,6 +35478,7 @@ mpstat.us
 mp-success.com
 mp.twitch.tv
 mq98e.voluumtrk.com
+mqies.com
 mqo7a.voluumtrk.com
 mqot2.voluumtrk.com
 mqs.ioam.de
@@ -51235,6 +51238,7 @@ yunpifu.cn
 yunsoka.com
 yunxiufang.net
 yuppy.2cnt.net
+yuxiangrc.com
 yuxiny.com
 yuxyz.com
 yuyue008.cn
