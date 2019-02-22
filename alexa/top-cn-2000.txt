@@ -1041,6 +1041,7 @@ jia.com
 hqew.com
 xiwuji.com
 okjike.com
+huaban.com
 2hanju.com
 creditsailing.com
 fontke.com
@@ -1516,7 +1517,6 @@ rrjc.com
 showdoc.cc
 xmyeditor.com
 zhuaji.org
-85lou.com
 bbsmax.com
 win4000.com
 qtfy7.com
@@ -1717,7 +1717,6 @@ pinyuan.cc
 zhsho.com
 ceeger.com
 yiichina.com
-6so.so
 tianxun.com
 xiaomi.net
 globalimporter.net
@@ -1729,6 +1728,7 @@ sui.com
 72e.net
 colabug.com
 gaiamount.com
+onlinesjtu.com
 fromgeek.com
 laomaotao.net
 afdian.net
