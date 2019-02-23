@@ -192,6 +192,7 @@
 212.64.34.17
 218.25.246.118
 219.234.83.60
+21.aiyangedu.com
 21.cizhibaogao.org
 220.115.251.25
 221.204.213.222
@@ -2878,6 +2879,7 @@ dcaij.com
 dcdevtzxo4bb0.cloudfront.net
 dceni.com
 dc-storm.com
+dcuom.com
 dd1.diymianmo.com
 ddanq.com
 ddg1277.com
@@ -3298,6 +3300,7 @@ express-submit.de
 extreme-dm.com
 extremetracking.com
 ext.theglobalweb.com
+eyaor.com
 eyd77s.com
 eyeblaster.com
 eyeota.net
@@ -5444,6 +5447,7 @@ qnsr.com
 qoiusky.com
 qq167.com
 qqhuhu.com
+qqiat.com
 qqm98.com
 qqzu.com
 qs01.cn
@@ -6134,6 +6138,7 @@ tailsweep.se
 tajxgs.com
 takru.com
 talentedsteel.com
+tangeb.com
 tangerinenet.biz
 tangibleteam.com
 tangoutianxia.com
@@ -6610,6 +6615,7 @@ watchingthat.com
 wateryvan.com
 wazero.online
 wbanz.com
+wbaor.com
 wbies.com
 wbiev.com
 wcail.com
