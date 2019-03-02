@@ -2257,6 +2257,7 @@ cdiah.com
 cdn1.tvzhe.com
 cdn.freefarcy.com
 cdnjsp.wang
+cdn.m.okdd.net
 cdnny.com
 cdn.onesignal.com
 cdn.segment.com
@@ -2636,6 +2637,7 @@ d0.xcar.com.cn
 d10lumateci472.cloudfront.net
 d1.3158.cn
 d13czkep7ax7nj.cloudfront.net
+d13jhr4vol1304.cloudfront.net
 d140sbu1b1m3h0.cloudfront.net
 d15565yqt7pv7r.cloudfront.net
 d158nafix8anfs.cloudfront.net
@@ -2694,6 +2696,7 @@ d26j9bp9bq4uhd.cloudfront.net
 d26wy0pxd3qqpv.cloudfront.net
 d27jt7xr4fq3e8.cloudfront.net
 d287x05ve9a63s.cloudfront.net
+d29dbajta0the9.cloudfront.net
 d29i6o40xcgdai.cloudfront.net
 d29r6igjpnoykg.cloudfront.net
 d2anfhdgjxf8s1.cloudfront.net
@@ -2926,7 +2929,6 @@ df666.pzhttaax.cn
 df77.com
 df888.eastday.com
 dfcwg.com
-dff2h0hbfv6w4.cloudfront.net
 dff7tx5c2qbxc.cloudfront.net
 dgaoz.com
 d.gossipcenter.com
@@ -4608,6 +4610,7 @@ m1.darfd.com
 m1.jintang114.org
 m1.nn670.com
 m1.vodjk.com
+m1.we556.com
 m2.lelemh.com
 m32.media
 m4n.nl
@@ -5935,6 +5938,7 @@ sp96878.com
 spacash.com
 sparkstudios.com
 spcode.baidu.com
+sp.dnqc.com
 specially4u.net
 specificmedia.co.uk
 specificpop.com
@@ -6625,6 +6629,7 @@ wap001.bytravel.cn
 wapadv.com
 waptime.net
 warlog.ru
+warron.cn
 waryfog.com
 watchingthat.com
 wateryvan.com
@@ -6776,6 +6781,7 @@ wrvdmh.cn
 wryfinger.com
 ws341.com
 ws7j.com
+wsoue.com
 wsp.mgid.com
 wstztt.com
 ws.wenshenxiu.com

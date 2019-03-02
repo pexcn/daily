@@ -24705,6 +24705,7 @@ cdn.media.net
 cdn.millennialmedia.com
 cdn.mobicow.com
 cdn.mobidea.com
+cdn.m.okdd.net
 cdn.mouseflow.com
 cdn.mplxtms.com
 cdn.mxpnl.com
@@ -27469,6 +27470,7 @@ d1.3158.cn
 d136-d24d-4fd4-38d1.reporo.net
 d13czkep7ax7nj.cloudfront.net
 d13im3ek7neeqp.cloudfront.net
+d13jhr4vol1304.cloudfront.net
 d13.zedo.com
 d140sbu1b1m3h0.cloudfront.net
 d1447tq2m68ekg.cloudfront.net
@@ -27558,6 +27560,7 @@ d26wy0pxd3qqpv.cloudfront.net
 d27jt7xr4fq3e8.cloudfront.net
 d287x05ve9a63s.cloudfront.net
 d28ethi6slcjbm.cloudfront.net
+d29dbajta0the9.cloudfront.net
 d29gqcij.com
 d29i6o40xcgdai.cloudfront.net
 d29p64779x43zo.cloudfront.net
@@ -28181,7 +28184,6 @@ dfccgatkeoverworks.review
 dfcwg.com
 dfd8-789c-33b8-f419.reporo.net
 dfdbz2tdq3k01.cloudfront.net
-dff2h0hbfv6w4.cloudfront.net
 dff7tx5c2qbxc.cloudfront.net
 d.financenewsalert.com
 d.foxadd.com
@@ -34558,6 +34560,7 @@ m1fzj.trackvoluum.com
 m1.jintang114.org
 m1.nn670.com
 m1.vodjk.com
+m1.we556.com
 m1.webstats4u.com
 m2d.m2.ai
 m2.lelemh.com
@@ -40148,6 +40151,7 @@ spd.atdmt.com
 spd.atdmt.speedera.net
 spdeliver.i-mobile.co.jp
 spdeliverp.i-mobile.co.jp
+sp.dnqc.com
 spd.pointroll.com
 spe.atdmt.com
 specially4u.net
@@ -47138,6 +47142,7 @@ warnerbrosads.112.2o7.net
 warp2search.us.intellitxt.com
 warp.ly
 warp.prnewswire.co.uk
+warron.cn
 warsport.timesink.com
 waryfog.com
 washesqydoigavu.download
@@ -47693,6 +47698,7 @@ wsi1.surf-town.net
 wsknjzjwlyrically.review
 ws-na.amazon-adsystem.com
 wsod.com
+wsoue.com
 wsp1.surf-town.net
 ws.plmokn.pw
 wsp.mgid.com
