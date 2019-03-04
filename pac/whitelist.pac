@@ -1,5 +1,5 @@
 //
-// Update: 2019-03-04 03:33:23
+// Update: 2019-03-05 03:33:54
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -2508,6 +2508,7 @@ const china_domains = {
     "2cloo.com": 1,
     "2cq.com": 1,
     "2cto.com": 1,
+    "2cycd.com": 1,
     "2cy.news": 1,
     "2cywiki.com": 1,
     "2cyxw.com": 1,
@@ -9529,6 +9530,7 @@ const china_domains = {
     "bangbangbang.wang": 1,
     "bangbenw.com": 1,
     "bangboer.net": 1,
+    "bangboss.com": 1,
     "bangchuixuetang.com": 1,
     "bangcle.com": 1,
     "bangdao-tech.com": 1,
@@ -17959,7 +17961,6 @@ const china_domains = {
     "dxda.com": 1,
     "dxf5.com": 1,
     "dxgly.com": 1,
-    "dxhl168.com": 1,
     "dxias.com": 1,
     "dx-job.com": 1,
     "dxjs.com": 1,
@@ -20658,7 +20659,6 @@ const china_domains = {
     "fxzygc.com": 1,
     "fy027.com": 1,
     "fy169.net": 1,
-    "fy1g.com": 1,
     "fy98.com": 1,
     "fyan8.com": 1,
     "fybanks.com": 1,
@@ -22940,6 +22940,7 @@ const china_domains = {
     "haoiyong.com": 1,
     "haojiaolian.com": 1,
     "haojiaolian.org": 1,
+    "haoji.me": 1,
     "haojing.org": 1,
     "haojinzhang.com": 1,
     "haojunpd.com": 1,
@@ -38023,6 +38024,7 @@ const china_domains = {
     "qikan123.com": 1,
     "qikan.com": 1,
     "qikanol.com": 1,
+    "qikegu.com": 1,
     "qikoo.com": 1,
     "qikqiak.com": 1,
     "qikucdn.com": 1,
@@ -38580,7 +38582,6 @@ const china_domains = {
     "qqyy.com": 1,
     "qqyyz.com": 1,
     "qqzhi.com": 1,
-    "qqzhuangban.com": 1,
     "qqzi.net": 1,
     "qqzl.cc": 1,
     "qqzonecn.com": 1,
@@ -54645,7 +54646,6 @@ const china_domains = {
     "zrblog.net": 1,
     "zrcaifu.com": 1,
     "zrcbank.com": 1,
-    "zreading.net": 1,
     "zrfan.com": 1,
     "zrj96.com": 1,
     "zrjinfu.com": 1,

@@ -1717,6 +1717,7 @@ a.thefreethoughtproject.com
 athena-ads.wikia.com
 a.thn21.com
 atiws.aipai.com
+a.tiyuxiu.com
 atm.youku.com
 attractiveafternoon.com
 attributiontracker.com
@@ -2056,6 +2057,7 @@ bjygfd.com
 bjyikao.org
 bjzcbx.com
 bk9gun.vpser.net
+bkyhq.cn
 bla01.com
 blaaaa12.googlecode.com
 blamads-assets.s3.amazonaws.com
@@ -2119,6 +2121,7 @@ boyueguoji.com
 boyxu.cn
 bp776.com
 bpath.com
+bpdffh.cn
 braincash.com
 branch.io
 brand-display.com
@@ -2613,6 +2616,7 @@ cuteturkey.com
 cwj2h.cn
 cwpush.com
 cxaerp.com
+cxb4.cn
 cxd-ailegou.com
 cxense.com
 cxfzw.cn
@@ -3971,6 +3975,7 @@ ibanners.empoweredcomms.com.au
 ibaop.com
 ibeip.com
 ibinp.com
+icebeatuy.com
 i-clicks.net
 i-components.net
 iconadserver.com
