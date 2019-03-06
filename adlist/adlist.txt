@@ -1708,6 +1708,7 @@ assigned.cn
 assoc-amazon.com
 as.webmd.com
 aswlx.cn
+aswpapius.com
 at98.com
 at-adserver.alltop.com
 atanx.alicdn.com
@@ -3545,6 +3546,7 @@ gcaog.com
 gcfx777.com
 gcheg.com
 g.chuiyao.com
+gcouh.com
 gdbly.com
 gdeih.com
 gdgy56.com
@@ -5016,6 +5018,7 @@ nongsalei.com
 notice.uchome.manyou.com
 novem.pl
 nowskip.com
+np176.com
 nr1234.com
 ns1p.net
 nsnmiaomu.cn
@@ -6514,7 +6517,6 @@ up.hiao.com
 upnorma.com
 uqpfh.cn
 uralap.com
-urbanairship.com
 urhu.cn
 urlcash.net
 us.a1.yimg.com
@@ -6970,6 +6972,7 @@ xttianning.com
 xtxa.net
 xtzxmy.com
 xuanmeiguoji.com
+xueyanshan.com
 xueyongbao.com
 xue.zbyw.cn
 xugsh.cn
@@ -7007,6 +7010,7 @@ yaboshadi.com
 yabuka.com
 yadro.ru
 yageben.com
+yajiuwz.xyz
 yallboen.com
 yamaidei.cn
 yangdasen.cn
