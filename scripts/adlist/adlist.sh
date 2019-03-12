@@ -35,7 +35,7 @@ function gen_adlist() {
   cat ${EASY_LIST} | grep ^\|\|[^\*]*\^$ | sed -e 's:||::' -e 's:\^::' > ${easylist_content}
   cat ${ABPFX_LIST} | grep ^\|\|[^\*]*\^$ | sed -e 's:||::' -e 's:\^::' > ${abpfx_content}
   cat ${YOYO_LIST} | grep -E '^127.0.0.1' | sed "s:127.0.0.1 ::" > ${yoyo_content}
-  cat ${ADAWAY_LIST} | sed  $'s/\r$//' | grep -E '^127.0.0.1' | sed "s:127.0.0.1\t::" > ${adaway_content}
+  cat ${ADAWAY_LIST} | sed  $'s/\r$//' | grep -E '^127.0.0.1' | grep -v '#' | sed "s:127.0.0.1\t::" > ${adaway_content}
 
   cat ${easylist_content} ${abpfx_content} ${yoyo_content} | sort | uniq > ${DIST_FILE}
   cat ${easylist_content} ${abpfx_content} ${yoyo_content} ${adaway_content} | sort | uniq > ${DIST_FILE_FULL}
