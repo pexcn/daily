@@ -1,5 +1,5 @@
 //
-// Update: 2019-03-12 03:39:13
+// Update: 2019-03-12 13:01:16
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -4350,6 +4350,7 @@ const gfwlist_domains = {
     "stc.com.sa": 1,
     "steamcommunity.com": 1,
     "steel-storm.com": 1,
+    "steemit.com": 1,
     "steganos.com": 1,
     "steganos.net": 1,
     "stepchina.com": 1,

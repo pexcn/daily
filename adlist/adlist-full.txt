@@ -23946,6 +23946,7 @@ bs.serving-sys.com.78503.9655.302br.net
 bs.serving-sys.com.78505.9655.302br.net
 bstatic.1kejian.com
 bs.yandex.ru
+bt1.patexplorer.com
 btdirectnav.com
 bte5z.voluumtrk.com
 btez8.xyz
@@ -28744,6 +28745,7 @@ dx1200.com
 dx5qvhwg92mjd.cloudfront.net
 d.xaoyo.com
 dxcssc.cn
+d.xitongtiandi.net
 dxmci.com
 d.xp1.ru4.com
 dxprljqoay4rt.cloudfront.net

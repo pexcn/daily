@@ -706,7 +706,6 @@ go007.com
 yixiin.com
 dangbei.com
 iamtxt.com
-97pd.com
 zmtiantang.com
 51ade.com
 hbzhan.com
@@ -1043,6 +1042,7 @@ daoduoduo.com
 thmz.com
 moretickets.com
 hanju.cc
+luciaz.me
 shejiben.com
 d7vg.com
 90sheji.com
@@ -1961,6 +1961,7 @@ apicloud.com
 baicaio.com
 by-health.com
 ca001.com
+camgle.com
 cardbaobao.com
 ceve-market.org
 comsenz.com
@@ -2230,6 +2231,7 @@ bequge.com
 ci123.com
 yimisoft.com
 acg.gg
+howsci.com
 16sucai.com
 fuyin.tv
 goumin.com
@@ -3078,7 +3080,6 @@ haitou.cc
 haorooms.com
 hivi.com
 homekoo.com
-html-js.com
 huanqiumil.com
 huisou.com
 hustonline.net
@@ -3143,7 +3144,6 @@ muyuge.com
 nonobank.com
 nsw88.com
 nyasama.com
-onehourlife.com
 panli.com
 phpcoo.com
 pooban.com
@@ -3316,6 +3316,7 @@ pinshan.com
 99jianzhu.com
 99read.com
 acgdoge.net
+ainirobot.com
 alltobid.com
 aspku.com
 banggo.com
@@ -3411,7 +3412,6 @@ qvod.com
 qzcns.com
 rrky.com
 ruby-china.com
-saicmotor.com
 sh1122.com
 shangdaotong.com
 shenzhoufu.com
@@ -3569,7 +3569,6 @@ bohe.com
 bokon.net
 btcha.com
 bukop.com
-caorun.net
 cgvoo.com
 changhong.com
 chinagames.net
@@ -3828,6 +3827,7 @@ qnssl.com
 888pic.com
 91dict.com
 91shipin.wang
+9312.net
 aboutcg.com
 ajinga.com
 allinpay.com
@@ -4252,10 +4252,12 @@ mshishang.com
 3kongjian.com
 3kr.com
 3vjia.com
+4243.net
 4xseo.com
 5054399.com
 50yc.com
 51anidea.com
+51hanhua.com
 51kahui.com
 51kaxun.com
 51reboot.com
@@ -4710,6 +4712,7 @@ phperzh.com
 pig66.com
 pincai.com
 pinchain.com
+pineprint.com
 ping-jia.net
 pinmuch.com
 pintu360.com
@@ -4995,6 +4998,3 @@ antutu.com
 mysinablog.com
 soufun.com
 230book.com
-shengxinquan.net
-i360mall.com
-51qumi.com
