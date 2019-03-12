@@ -379,7 +379,6 @@
 126.6.87.194.dynamic.dol.ru
 1268402.fls.doubleclick.net
 126.xg4ken.com
-127.0.0.1 localhost #IPv4 localhost
 127.6.87.194.dynamic.dol.ru
 128.6.87.194.dynamic.dol.ru
 129.6.87.194.dynamic.dol.ru
