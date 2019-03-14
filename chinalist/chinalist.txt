@@ -1082,6 +1082,7 @@
 11dream.net
 11dzw.com
 11fldxn.com
+11flow.com
 11gw.com
 11h5.com
 11jk.com
@@ -2662,7 +2663,6 @@
 3010pj.com
 3013131.com
 301688.com
-3016pj.com
 301773.com
 301haobs.com
 301u.com
@@ -6526,7 +6526,6 @@
 8fenxiang.com
 8fkd.com
 8gov.com
-8gys.com
 8gyu.com
 8gyy.cc
 8hkj.com
@@ -17957,6 +17956,7 @@ downkr.com
 downkuai.com
 downloadcenter.samsung.com
 downloadconfig.com
+download.epicgames.com
 download.microsoft.com
 download.parallels.com
 download-ssl.xbox.com
@@ -20186,7 +20186,6 @@ feiyuapi.com
 feiyu.com
 feiyuhd.com
 feiyuhk.com
-feiyulian.com
 feiyuteam.com
 feizan.com
 feizao.tv
@@ -20374,6 +20373,7 @@ fibrlink.net
 fieldschina.com
 fiery-data.com
 fifsky.com
+figoc.pw
 fiiboo.com
 fiiimg.com
 fiio.net
@@ -31654,7 +31654,6 @@ lepan.cc
 lepang.net
 lepaowang.com
 leqian.com
-lequ39.com
 lequ.com
 lequxs.com
 lequyuanyi.com
@@ -46834,7 +46833,6 @@ uzaicdn.com
 uzai.com
 uzer.me
 uzhongtou.com
-uzicai.com
 uzise.com
 uzones.com
 uzsem.com
@@ -47296,7 +47294,6 @@ vrcan.com
 vr-cat.com
 vrcdkj.com
 vrcfo.com
-vrchina.com
 vrdou.com
 vrerse.com
 vrguancha.net
