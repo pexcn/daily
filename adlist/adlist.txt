@@ -371,7 +371,6 @@
 7car.com.cn
 7dah8.com
 7ez4.cn
-7f1au20glg.com
 7ia9h.cn
 7jiajiao.com
 7mad.7m.cn
@@ -679,7 +678,6 @@ ad.foxnetworks.com
 ad.freecity.de
 adgardener.com
 ad.gate24.ch
-ad.globe7.com
 adgoto.com
 ad.grafika.cz
 adhai.com
@@ -867,6 +865,7 @@ adriver.ru
 adrolays.de
 adrotate.de
 ad-rotator.com
+adrotator.se
 adrotic.girlonthenet.com
 adrs.sdo.com
 adrta.com
@@ -993,7 +992,6 @@ adsc.wasu.tv
 ads.cybersales.cz
 ads.dada.it
 adsdaq.com
-ads.datinggold.com
 ads.datingyes.com
 ads.dazoot.ro
 ads.deltha.hu
@@ -2017,7 +2015,6 @@ bentengcn.com
 berp.com
 besc.baidustatic.com
 bestboundary.com
-best-pr.info
 bestsearch.net
 best-top.ro
 bewilderedblade.com
@@ -2165,7 +2162,6 @@ budsinc.com
 bueson.com
 bulbazoa.com
 bullseye.backbeatmedia.com
-bumpberam.pro
 b.unjs.com
 burporess.pro
 business.92wy.com
@@ -2366,7 +2362,6 @@ clearcomb.com
 clevernt.com
 click2freemoney.com
 clickability.com
-click.absoluteagency.com
 clickadz.com
 clickagents.com
 clickbank.com
@@ -3249,7 +3244,6 @@ engine.espace.netavenir.com
 enginenetwork.com
 enjuk.com
 enjuw.com
-enoratraffic.com
 enquisite.com
 ensighten.com
 ent1.12584.cn
@@ -4022,6 +4016,7 @@ ihualun.com
 iia1.pikacn.com
 iierq.com
 iigushi.com
+ijieo.com
 ijuns.com
 il8r.com
 ilbanner.com
@@ -4070,6 +4065,7 @@ impressionmedia.cz
 impressionz.co.uk
 impulsehands.com
 imrworldwide.com
+imshopping.rediff.com
 inaccused.com
 inboxdollars.com
 inccnd.com
@@ -4646,6 +4642,7 @@ m1.jintang114.org
 m1.nn670.com
 m1.vodjk.com
 m1.we556.com
+m1.webstats4u.com
 m2.lelemh.com
 m32.media
 m4n.nl
@@ -4910,7 +4907,6 @@ mystat-in.net
 mystat.pl
 mysteriousmonth.com
 mytop-in.net
-mytrafficads.com
 mytzdhz.cn
 myunion1.qm120.com
 myunion1.tupians.com
@@ -5475,6 +5471,7 @@ qd.wanjuanba.com
 qd.x4399.com
 qewisoti.com
 qflwh.cn
+qgana.com
 qgaot.com
 qgss8.com
 qhaif.com
@@ -5496,6 +5493,7 @@ qiqiww.com
 qiqiyii.com
 qiyeb.iaskbus.com
 qjjtc.com
+qjueu.com
 qkptx.com
 qlaot.com
 qloer.com
@@ -5524,6 +5522,7 @@ quadasdata.cn
 quaintcan.com
 quansj.cn
 quantcast.com
+quantcast.mgr.consensu.org
 quantserve.com
 quantummetric.com
 quarterbean.com
@@ -5854,6 +5853,7 @@ shama5.com
 shandongkuntuo.com
 shanghuitianxia.cn
 shanglinli.com
+shareadspace.com
 shareasale.com
 sharedaddomain.com
 share.gzdsw.com
@@ -6543,6 +6543,7 @@ upnorma.com
 uqpfh.cn
 uralap.com
 urhu.cn
+urlat.cn
 urlcash.net
 us.a1.yimg.com
 usapromotravel.com
@@ -6726,6 +6727,7 @@ webstat.channel4.com
 web-stat.com
 webstat.com
 webstat.net
+webstats4u.com
 web.tmearn.com
 webtrackerplus.com
 webtracky.com
@@ -6958,6 +6960,7 @@ xitongku.cc
 xjidian.com
 xjtxcj.com
 xjzyq.com
+xk0x.cn
 xk2012.com
 xkanf.com
 xkena.com
@@ -7155,6 +7158,7 @@ ysgsq.cn
 ysjweb.com
 ysjwj.com
 ysm.yahoo.com
+yssbi.net
 ysxywj.com
 yt-adp.nosdn.127.net
 ytbnm.cn
@@ -7320,6 +7324,7 @@ zsxpx.com
 zt2088.com
 ztidu.com
 ztxbd.com
+ztyumn.ifeng.com
 zukabota.com
 zunss.com
 zuopp.com

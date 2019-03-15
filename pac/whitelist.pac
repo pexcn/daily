@@ -1,5 +1,5 @@
 //
-// Update: 2019-03-15 03:40:05
+// Update: 2019-03-16 03:40:15
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -1092,6 +1092,7 @@ const china_domains = {
     "11dream.net": 1,
     "11dzw.com": 1,
     "11fldxn.com": 1,
+    "11flow.com": 1,
     "11gw.com": 1,
     "11h5.com": 1,
     "11jk.com": 1,
@@ -2672,7 +2673,6 @@ const china_domains = {
     "3010pj.com": 1,
     "3013131.com": 1,
     "301688.com": 1,
-    "3016pj.com": 1,
     "301773.com": 1,
     "301haobs.com": 1,
     "301u.com": 1,
@@ -6536,7 +6536,6 @@ const china_domains = {
     "8fenxiang.com": 1,
     "8fkd.com": 1,
     "8gov.com": 1,
-    "8gys.com": 1,
     "8gyu.com": 1,
     "8gyy.cc": 1,
     "8hkj.com": 1,
@@ -17967,6 +17966,7 @@ const china_domains = {
     "downkuai.com": 1,
     "downloadcenter.samsung.com": 1,
     "downloadconfig.com": 1,
+    "download.epicgames.com": 1,
     "download.microsoft.com": 1,
     "download.parallels.com": 1,
     "download-ssl.xbox.com": 1,
@@ -20196,7 +20196,6 @@ const china_domains = {
     "feiyu.com": 1,
     "feiyuhd.com": 1,
     "feiyuhk.com": 1,
-    "feiyulian.com": 1,
     "feiyuteam.com": 1,
     "feizan.com": 1,
     "feizao.tv": 1,
@@ -20384,6 +20383,7 @@ const china_domains = {
     "fieldschina.com": 1,
     "fiery-data.com": 1,
     "fifsky.com": 1,
+    "figoc.pw": 1,
     "fiiboo.com": 1,
     "fiiimg.com": 1,
     "fiio.net": 1,
@@ -31664,7 +31664,6 @@ const china_domains = {
     "lepang.net": 1,
     "lepaowang.com": 1,
     "leqian.com": 1,
-    "lequ39.com": 1,
     "lequ.com": 1,
     "lequxs.com": 1,
     "lequyuanyi.com": 1,
@@ -46844,7 +46843,6 @@ const china_domains = {
     "uzai.com": 1,
     "uzer.me": 1,
     "uzhongtou.com": 1,
-    "uzicai.com": 1,
     "uzise.com": 1,
     "uzones.com": 1,
     "uzsem.com": 1,
@@ -47306,7 +47304,6 @@ const china_domains = {
     "vr-cat.com": 1,
     "vrcdkj.com": 1,
     "vrcfo.com": 1,
-    "vrchina.com": 1,
     "vrdou.com": 1,
     "vrerse.com": 1,
     "vrguancha.net": 1,
