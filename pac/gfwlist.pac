@@ -1,5 +1,5 @@
 //
-// Update: 2019-03-17 03:40:01
+// Update: 2019-03-18 03:40:24
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -141,6 +141,7 @@ const gfwlist_domains = {
     "ablwang.com": 1,
     "aboluowang.com": 1,
     "aboutgfw.com": 1,
+    "about.google": 1,
     "abs.edu": 1,
     "accim.org": 1,
     "aceros-de-hispania.com": 1,
@@ -270,6 +271,7 @@ const gfwlist_domains = {
     "anonymise.us": 1,
     "anonymitynetwork.com": 1,
     "anonymizer.com": 1,
+    "anonymouse.org": 1,
     "a-normal-day.com": 1,
     "anpopo.com": 1,
     "answering-islam.org": 1,
@@ -1194,6 +1196,7 @@ const gfwlist_domains = {
     "data.flurry.com": 1,
     "data.gov.tw": 1,
     "data-vocabulary.org": 1,
+    "daum.net": 1,
     "david-kilgour.com": 1,
     "dawangidc.com": 1,
     "daxa.cn": 1,
@@ -1871,6 +1874,7 @@ const gfwlist_domains = {
     "getastrill.com": 1,
     "getchu.com": 1,
     "getcloak.com": 1,
+    "get.dev": 1,
     "getfoxyproxy.org": 1,
     "getfreedur.com": 1,
     "getgom.com": 1,
@@ -2088,6 +2092,7 @@ const gfwlist_domains = {
     "google.cv": 1,
     "google.cz": 1,
     "google.de": 1,
+    "google.dev": 1,
     "google.dj": 1,
     "google.dk": 1,
     "google.dm": 1,
@@ -2841,6 +2846,7 @@ const gfwlist_domains = {
     "kink.com": 1,
     "kinmen.org.tw": 1,
     "kinmen.travel": 1,
+    "kinokuniya.com": 1,
     "kir.jp": 1,
     "kissbbao.cn": 1,
     "kiwi.kz": 1,
@@ -3800,6 +3806,7 @@ const gfwlist_domains = {
     "presidentlee.tw": 1,
     "prestige-av.com": 1,
     "pride.google": 1,
+    "prism-break.org": 1,
     "prisoneralert.com": 1,
     "pritunl.com": 1,
     "privacybox.de": 1,
@@ -4527,6 +4534,7 @@ const gfwlist_domains = {
     "terminus2049.github.io": 1,
     "tew.org": 1,
     "textnow.me": 1,
+    "tfhub.dev": 1,
     "t-g.com": 1,
     "thaicn.com": 1,
     "thb.gov.tw": 1,
