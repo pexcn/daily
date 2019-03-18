@@ -469,6 +469,7 @@ a1.gexing.me
 a1.juzih.com
 a1.mingyihui.net
 a1.qqjay.com
+a1.qqtn.com
 a1.sumiaowang.com
 a1.twtym.com
 a1.vdolady.com
@@ -487,6 +488,7 @@ a5.yeshj.com
 a.75111.com
 a907907.com
 a9377j.com
+a9v8.cn
 aa1.ifeng.com
 aaddzz.com
 a-ads.com
@@ -1567,6 +1569,7 @@ aiyyu.com
 ajaxcdn.org
 ajiez.com
 a.jing55.com
+ajkdg3.xyz
 ajkelra.com
 ajnad.aljazeera.net
 ajuhd.com
@@ -3803,6 +3806,7 @@ headwell.cn
 heapanalytics.com
 heap.com
 heavenmedia.v3g4s.com
+hebhec.cn
 hebzycw.com
 hechaocheng.cn
 heias.com
@@ -4014,6 +4018,7 @@ iesnare.com
 if1512.com
 ifa.tube8live.com
 iframe.travel.yahoo.com
+ihais.com
 ihualun.com
 iia1.pikacn.com
 iierq.com
@@ -5523,6 +5528,7 @@ qtpngov.cn
 quacksquirrel.com
 quadasdata.cn
 quaintcan.com
+qualtrics.com
 quansj.cn
 quantcast.com
 quantcast.mgr.consensu.org
@@ -7354,6 +7360,7 @@ zzbaowen.com
 zzc.9939.com
 zzhszj.com
 zzmmkj.com
+zzqqhb.com
 zzrcz.com
 zzsdjq.com
 zzsno1.com
