@@ -641,7 +641,6 @@ ad.crichd.in
 ad.crwdcntrl.net
 adc.stream.moe
 adcycle.com
-add.bugun.com.tr
 ad-delivery.net
 add.freeimg8.com
 addfreestats.com
@@ -1554,6 +1553,7 @@ aijielang.cn
 aikan6.com
 aim4media.com
 a.imgso.cn
+ainiyiwannian0.5tps.vip
 aiode.cn
 airpushmarketing.s3.amazonaws.com
 ais.abacast.com
@@ -2424,6 +2424,7 @@ cm.baidu.com
 cml.sad.ukrd.com
 cmm.xmfish.com
 c.mnjkw.cn
+cms.fx678.com
 cmslayue.com
 cn-3drp.com
 cn.bidushe.com
@@ -4072,7 +4073,6 @@ impressionmedia.cz
 impressionz.co.uk
 impulsehands.com
 imrworldwide.com
-imshopping.rediff.com
 inaccused.com
 inboxdollars.com
 inccnd.com
@@ -4112,7 +4112,6 @@ intellitxt.com
 intentmedia.com
 intentmedia.net
 interactive.forthnet.gr
-intercom.io
 intergi.com
 internerl.com
 internetfuel.com
@@ -4298,6 +4297,7 @@ js.fc090.com
 jsf.cnlinfo.net
 js.hkslg520.com
 jskrnekewe.mofans.net
+js.kt250.com
 jsm.39yst.com
 jsm.9939.com
 jsmwd.com
@@ -6567,6 +6567,7 @@ uttermosthobbies.com
 uuopp.com
 uvclick.com
 uw9377.com
+uxyrl.cn
 uzekrs.com
 uzhaj.com
 uzotarak.com
