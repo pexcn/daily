@@ -412,6 +412,7 @@
 904ad.com
 910weixin.com
 911.cc
+913vt.com
 91byy.cn
 91hui.com
 91xry.com
@@ -2954,6 +2955,7 @@ dgpzx.com
 dgxzwj.com
 d.gz2010.cn
 d.gzpinda.com
+dhaof.com
 dhxyzx.cn
 di1.shopping.com
 dialerporn.com
@@ -5088,7 +5090,6 @@ oascentral.businessweek.com
 oascentral.chicagobusiness.com
 oascentral.chron.com
 oascentral.fortunecity.com
-oascentral.hosted.ap.org
 oascentral.newsmax.com
 oascentral.register.com
 oas.foxnews.com
@@ -6620,6 +6621,7 @@ veruta.com
 vervewireless.com
 vf5yb4.cn
 vgaom.com
+vhuay.com
 vi1.souid.com
 vibrantmedia.com
 vice-ads-cdn.vice.com
@@ -7242,6 +7244,7 @@ zbwp6ghm.com
 zcand.com
 zcaod.com
 zcdor.com
+zcpnq.cn
 zcrtd.com
 zdjby.cn
 zealousfield.com
