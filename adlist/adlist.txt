@@ -271,6 +271,7 @@
 47.90.50.177
 4affiliate.net
 4d5.net
+4ekx.cn
 4ggww.com
 4info.com
 4jnzhl0d0.com
@@ -2408,7 +2409,6 @@ clickz.com
 clicmanager.fr
 client.88tours.com
 clientmetrics-pa.googleapis.com
-clients.tbo.com
 clikerz.net
 cliksolution.com
 clixgalore.com
@@ -2843,6 +2843,7 @@ daima.miercn.com
 daima.niubb.net
 daima.ysdui.com
 daishuxy.com
+daizhankj.cn
 dajean.com
 dake.net.cn
 dakic-ia-300.com
@@ -3226,6 +3227,7 @@ ehxyz.com
 eiv.baidu.com
 ejiur.com
 ejunshi.com
+ejwmc.cn
 ejyymghi.com
 e.kde.cz
 ekeide.com
@@ -3388,7 +3390,6 @@ fdoun.com
 fecjf.cn
 feebleshock.com
 feedbackresearch.com
-feedjit.com
 feeds.logicbuy.com
 feeds.videosz.com
 feidalu.com
@@ -3868,7 +3869,6 @@ hitlounge.com
 hitometer.com
 hit-parade.com
 hits4me.com
-hits4pay.com
 hits.europuls.eu
 hits.informer.com
 hitslink.com
@@ -3985,6 +3985,7 @@ hzuvw.com
 hzxfmc.com
 hzxma.com
 hzzfan.com
+i05h.cn
 i1img.com
 i1media.no
 i3818.com
@@ -3992,6 +3993,7 @@ i92xue.com
 ia22.com
 iad.anm.co.uk
 iadc.qwapi.com
+iadnet.com
 iads.xinmin.cn
 ia.iinfo.cz
 iangp.com
@@ -4004,7 +4006,6 @@ ibinp.com
 icebeatuy.com
 i-clicks.net
 i-components.net
-iconadserver.com
 icptrack.com
 icyrd.com
 id528.com
@@ -5121,6 +5122,7 @@ okmgy.cn
 okshishi.com
 okuis.com
 okwan.cn
+olc0.cn
 olivebrandresponse.com
 olmvkq.cn
 omniscientspark.com
@@ -6692,7 +6694,6 @@ wangsufast.com
 wanrenshe.com
 wantaico.com
 wantfour.com
-wantmobi.bid
 wao24.com
 wap001.bytravel.cn
 wapadv.com
@@ -6738,7 +6739,6 @@ weborama.com
 weborama.fr
 weboser.com
 webpower.com
-webreseau.com
 webseoanalytics.com
 websponsors.com
 webstat.channel4.com
@@ -7218,6 +7218,7 @@ yy58ju.com
 yyeks.com
 yyhqch.com
 yyjhf.com
+yymmsd.cn
 yyp17.com
 yyylg.cn
 yzaosite.com

@@ -1308,6 +1308,7 @@
 4d80-dd41-9ed3-33b1.reporo.net
 4dogmedia.go2cloud.org
 4e93-6203-2401-d118.reporo.net
+4ekx.cn
 4feaw.voluumtrk.com
 4gezz.win.adsservingtwig.xyz
 4ggww.com
@@ -25358,7 +25359,6 @@ clients.adventmedia.net
 clients.advertising.com
 clients.bluecava.com
 clients.rootsecure.org
-clients.tbo.com
 client.tahono.com
 clikerz.net
 cliksolution.com
@@ -27806,6 +27806,7 @@ daima.niubb.net
 daima.ysdui.com
 dairyingsmorbjo.download
 daishuxy.com
+daizhankj.cn
 dajean.com
 dake.net.cn
 dakic-ia-300.com
@@ -29133,6 +29134,7 @@ ejs.hitbox.com
 ejs.moatads.com
 eju10.voluumtrk.com
 ejunshi.com
+ejwmc.cn
 ejyav.voluumtrk.com
 ejyymghi.com
 ek4de.voluumtrk.com
@@ -31903,7 +31905,6 @@ hit.multimania.lycos.fr
 hitometer.com
 hit-parade.com
 hits4me.com
-hits4pay.com
 hits.dealer.com
 hitserver.ibope.com.br
 hits.europuls.eu
@@ -32230,6 +32231,7 @@ hzvtbypisdeejays.review
 hzxfmc.com
 hzxma.com
 hzzfan.com
+i05h.cn
 i18n.adition.com
 i.1cat.com
 i1.cmail1.com
@@ -32306,6 +32308,7 @@ iadctest.qwapi.com
 iadfeed.qwapi.com
 iadfeedtest.qwapi.com
 iad-login.dotomi.com
+iadnet.com
 i.adsame.com
 iads.com.np
 iadsdk.apple.com
@@ -32362,7 +32365,6 @@ icm.go2cloud.org
 ico.freelogs.com
 icompass.insightexpressai.com
 i-components.net
-iconadserver.com
 icon.ajiang.net
 iconator.com
 icon.cnzz.com
@@ -36494,6 +36496,7 @@ okstrade.go2affise.com
 okuis.com
 okwan.cn
 ol14x.voluumtrk.com
+olc0.cn
 olddata.radarurl.com
 o.leadbolt.com
 oleg71d.justclick.ru
@@ -47186,7 +47189,6 @@ wangsufast.com
 wanrenshe.com
 wantaico.com
 wantfour.com
-wantmobi.bid
 wao24.com
 wap001.bytravel.cn
 wapadv.com
@@ -47382,7 +47384,6 @@ webprovider.com
 webprowire.com
 webproworld.com
 webr.emv2.com
-webreseau.com
 websatpub.fth.net
 web.secmedia.de
 webseoanalytics.com
@@ -51379,6 +51380,7 @@ yy58ju.com
 yyeks.com
 yyhqch.com
 yyjhf.com
+yymmsd.cn
 yyp17.com
 yyylg.cn
 yz0fi.voluumtrk.com
