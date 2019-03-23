@@ -212,6 +212,7 @@ lazada.sg
 kaoyan.com
 weidian.com
 bytedance.com
+fulibus.net
 80s.tw
 gcores.com
 liaoxuefeng.com
@@ -219,6 +220,7 @@ kdnet.net
 offcn.com
 dingtalk.com
 tgbus.com
+downcc.com
 kuaidi100.com
 gusuwang.com
 gaoqing.la
@@ -422,6 +424,7 @@ wukong.com
 gfxcamp.com
 jstv.com
 ygdy8.net
+paopaoche.net
 meitu.com
 pansou.com
 9damao.com
@@ -1189,6 +1192,7 @@ yundaex.com
 chunyuyisheng.com
 pkulaw.com
 siguady.com
+wnflb2019.com
 acshoes.com
 chajiaotong.com
 centos.bz
@@ -1506,6 +1510,7 @@ umjicanvas.com
 5read.com
 cndss.net
 haote.com
+poro.fun
 psttt.com
 askci.com
 onezh.com
@@ -1650,6 +1655,7 @@ yasuotu.com
 foundertype.com
 ys7.com
 zwjhl.com
+soft128.com
 86kx.com
 sodao.com
 tuling123.com
@@ -1992,9 +1998,3 @@ gdcrj.com
 gameres.com
 yqdown.com
 koudai8.com
-udashi.com
-cqcb.com
-5ewin.com
-duanmeiwen.com
-gaosiedu.com
-gotoip55.com

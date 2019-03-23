@@ -212,6 +212,7 @@ lazada.sg
 kaoyan.com
 weidian.com
 bytedance.com
+fulibus.net
 80s.tw
 gcores.com
 liaoxuefeng.com
@@ -219,6 +220,7 @@ kdnet.net
 offcn.com
 dingtalk.com
 tgbus.com
+downcc.com
 kuaidi100.com
 gusuwang.com
 gaoqing.la
@@ -422,6 +424,7 @@ wukong.com
 gfxcamp.com
 jstv.com
 ygdy8.net
+paopaoche.net
 meitu.com
 pansou.com
 9damao.com
@@ -495,6 +498,3 @@ d1xz.net
 dajie.com
 lanhuapp.com
 wkzf.com
-layui.com
-zhicheng.com
-xunjiepdf.com
