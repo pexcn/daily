@@ -3392,6 +3392,7 @@ feebleshock.com
 feedbackresearch.com
 feeds.logicbuy.com
 feeds.videosz.com
+feefo.com
 feidalu.com
 feifish66.com
 feisia1.cn
@@ -4585,7 +4586,6 @@ log.btopenworld.com
 logger.snackly.co
 log.interest.mix.sina.com.cn
 log.logrocket.io
-logs.logrocket.com
 logs.roku.com
 logua.com
 lokipodi.com
@@ -5404,6 +5404,7 @@ primetime.net
 privatecash.com
 prmtracking.com
 pro-advertising.com
+producer.getwisdom.io
 proext.com
 profero.com
 profitrumour.com
@@ -5951,6 +5952,7 @@ sjaidu.com
 sjbaiduadv1.redou.com
 sjczsc.com
 sjuqc.com
+s.jy135.com
 sjy-stone.com.cn
 sjzqu.com
 skatehot.net

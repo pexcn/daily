@@ -29800,6 +29800,7 @@ feed.snap.do
 feeds.tubecontext.com
 feeds.videosz.com
 feeds.webtrekk.com
+feefo.com
 fegariesupzxx.download
 feidalu.com
 feifish66.com
@@ -34400,7 +34401,6 @@ logs.eresmas.com
 logs.eternityco.net
 logs.infoaxe.com
 logs.libuv.org
-logs.logrocket.com
 logs.naukri.com
 logs.nodejs.org
 logs.ovh.net
@@ -37785,6 +37785,7 @@ probe.yieldlab.net
 probux.com
 procinema.2cnt.net
 prodege.go2cloud.org
+producer.getwisdom.io
 production-eqbc.lvp.llnw.net
 production.mcs.delve.cust.lldns.net
 production-mcs.lvp.llnw.net
@@ -39997,6 +39998,7 @@ sjs.bizographics.com
 s-jsonp.moatads.com
 sjuqc.com
 s.jwpltx.com
+s.jy135.com
 sjy-stone.com.cn
 sjzqu.com
 skatehot.net
