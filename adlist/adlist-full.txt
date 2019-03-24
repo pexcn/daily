@@ -37975,6 +37975,7 @@ pub6.bravenet.com
 pub7.bravenet.com
 pub8.bravenet.com
 pub9.bravenet.com
+pub.admedia.io
 pubads.g.doubleclick.net
 pub.adswam.com
 pub.ad-sys.com
@@ -51442,6 +51443,7 @@ zantracker.com
 zapads.zapak.com
 zarazazapolaza.com
 za.zeroredirect1.com
+zbeic.com
 zbieo.com
 z.blogads.com
 zbwp6ghm.com
