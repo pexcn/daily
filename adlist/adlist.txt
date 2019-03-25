@@ -1313,6 +1313,7 @@ ads.tripod.lycos.it
 ads.tripod.lycos.nl
 ads-trk.vidible.tv
 ads.tso.dennisnet.co.uk
+ads-twitter.com
 ads.twitter.com
 ads.uc.cn
 ads.uknetguide.co.uk
@@ -2862,6 +2863,7 @@ dandan15.top
 d.annarbor.com
 danpinwu.com
 dante2007.com
+daokejs.com
 dapaogg.xyz
 dapper.net
 dart.clearchannel.com
@@ -3392,7 +3394,6 @@ feebleshock.com
 feedbackresearch.com
 feeds.logicbuy.com
 feeds.videosz.com
-feefo.com
 feidalu.com
 feifish66.com
 feisia1.cn
@@ -3410,6 +3411,7 @@ ffxcam.fairfax.com.au
 ff.xue163.net
 ff.xue63.com
 ffychb.com
+fgaon.com
 fgzba.com
 filtonay.com
 fimserve.com
@@ -5608,6 +5610,7 @@ rb1.design.ru
 rbc.cn
 rbmry.com
 rbywg.com
+rcaiu.com
 rcaiv.com
 rcynoe.cn
 rdbd.xsread.com
@@ -6313,6 +6316,7 @@ thuyki.cn
 thxnr.com
 thyvjboy.com
 tiangu99.com
+tianhelife.com
 tianjieleather.com
 tiankongzudui.com
 tianqi777.com
