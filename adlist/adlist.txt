@@ -66,6 +66,7 @@
 119.29.207.87
 119.29.80.185
 119.4.249.166
+119cgpt.com
 11g.yiqig.cn
 1.201980.com
 120.27.34.156
@@ -1032,7 +1033,6 @@ adserver1-images.backbeatmedia.com
 adserver1.mindshare.de
 adserver1.ogilvy-interactive.de
 adserver2.mindshare.de
-adserver.43plc.com
 adserver.71i.de
 adserver.adultfriendfinder.com
 adserver.aidameter.com
@@ -1262,7 +1262,6 @@ ads.rediff.com
 ads.redlightcenter.com
 ads.redtube.com
 ads.resoom.de
-adsrevenue.net
 ads-rolandgarros.com
 adsrv.deviantart.com
 adsrv.eacdn.com
@@ -1637,7 +1636,6 @@ analytics.disneyinternational.com
 analytics.google.com
 analytics.live.com
 analytics.mmosite.com
-analytics.newsinc.com
 analytics-union.xunlei.com
 analytics.yahoo.com
 a.nanhuwang.com
@@ -2248,6 +2246,7 @@ cashpartner.com
 casinopays.com
 casinorewards.com
 casinotraffic.com
+casterist.info
 cayanfang.com
 cbanners.virtuagirlhd.com
 cb.baidu.com
@@ -2322,6 +2321,7 @@ chebse.com
 checkm8.com
 checkstat.nl
 cheerfulrange.com
+chengboke.cn
 chengzhao95511.com
 chenyanjiao.cn
 cherrythread.com
@@ -3396,6 +3396,7 @@ fdoun.com
 fecjf.cn
 feebleshock.com
 feedbackresearch.com
+feedjit.com
 feeds.logicbuy.com
 feeds.videosz.com
 feidalu.com
@@ -3642,6 +3643,7 @@ ggweb.net
 ggw.gusuwang.com
 ggw.watertu.com
 gg.yxdown.com
+ggz55268.com
 ghnmg.top
 g.hsw.cn
 giddycoat.com
@@ -3696,6 +3698,7 @@ gowin01.com
 gp.dejanews.com
 g.pgu.cc
 gp.jstv.com
+gp.zaiyunli.cn
 gqswg.com
 gr8.cc/addons/banners
 gracefulsock.com
@@ -3711,6 +3714,7 @@ greystripe.com
 gso0.com
 gsycdb.com
 gszbba.cn
+gtaih.com
 gtchong.com
 gt.duowan.com
 gtiou.com
@@ -4135,7 +4139,6 @@ intergi.com
 internerl.com
 internetfuel.com
 interreklame.de
-interstat.hu
 inte.sogou.com
 int.w3tong.com
 inventionpassenger.com
@@ -4199,6 +4202,7 @@ jbflil.cn
 jb.imgsina.com
 jbyy010.com
 jc1.dayfund.cn
+jcaik.com
 jcaip.com
 jcdb88.com
 jcount.com
@@ -4969,7 +4973,6 @@ ncaudienceexchange.com
 nchte.com
 ncoyqc.com
 ncs.eadaily.com
-ndnops.com
 ndparking.com
 ndtzx.com
 nduop.com
@@ -5130,6 +5133,7 @@ oewa.at
 offerforge.com
 offermatica.com
 officeme.cn
+ohuam.com
 oikxlcv.wang
 ojues.com
 ok.432kkk.com
@@ -5340,6 +5344,7 @@ pixel.condenastdigital.com
 pixel.digitru.st
 pixel.sojern.com
 pixel.watch
+pix.spot.im
 pjbjzf.com
 pjshw.cn
 pjtymy.cn
@@ -5482,6 +5487,7 @@ pushengage.com
 puzwb.cn
 puzzlingfall.com
 pwjhg.com
+px.ads.linkedin.com
 px.dynamicyield.com
 pxyvb.cn
 pyerc.com
@@ -6648,7 +6654,6 @@ vericlick.com
 vers80.com
 vertadnet.com
 verticalmass.com
-veruta.com
 vervewireless.com
 vf5yb4.cn
 vgaom.com
@@ -7281,6 +7286,7 @@ zbwp6ghm.com
 zcand.com
 zcaod.com
 zcdor.com
+zcpap.cn
 zcpnq.cn
 zcrtd.com
 zdjby.cn
