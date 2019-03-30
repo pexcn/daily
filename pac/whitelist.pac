@@ -1,5 +1,5 @@
 //
-// Update: 2019-03-30 03:47:33
+// Update: 2019-03-31 03:49:21
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -19371,7 +19371,6 @@ const china_domains = {
     "ediun.com": 1,
     "ediuschina.com": 1,
     "edmcn.net": 1,
-    "edo5.com": 1,
     "edodocs.com": 1,
     "edogantt.com": 1,
     "edojia.com": 1,
@@ -30019,7 +30018,6 @@ const china_domains = {
     "jscfclub.com": 1,
     "jsche.net": 1,
     "jschuangnuo.com": 1,
-    "jschy.com": 1,
     "jsclearing.com": 1,
     "jscnc.net": 1,
     "jscnxx.com": 1,
