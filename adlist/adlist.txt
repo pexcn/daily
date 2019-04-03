@@ -1200,6 +1200,7 @@ ads.mmania.com
 ads.mobilautomaten.com
 ads.mobilebet.com
 adsmogo.com
+ads.mopub.com
 ads.motor-forum.nl
 ads.motormedia.nl
 ads.mp.mydas.mobi
@@ -2370,6 +2371,7 @@ cj-cy.com
 cjieh.com
 cjlog.com
 cjmooter.xcache.kinxcdn.com
+ckaiv.com
 ckg.vipyl.com
 ckikq.com
 ckseeknew.com
@@ -2391,7 +2393,6 @@ clickdensity.com
 clickedyclick.com
 click.eyk.net
 click.fool.com
-clickfunnels.com
 click.hay3s.com
 clickhereforcellphones.com
 clickhouse.com
@@ -3689,6 +3690,7 @@ goingplatinum.com
 goldstats.com
 golizoli.com
 golokavi.com
+go-mpulse.net
 gondolagnome.com
 goodgz.cn
 googleadservices.com
@@ -4742,6 +4744,7 @@ matwbp.iask.sina.com.cn
 m.aty.sohu.com
 maxfull.info
 max.i12.de
+maximiser.net
 maximumcash.com
 maxonclick.com
 mbaik.com
@@ -5566,6 +5569,7 @@ qn.bejson.com
 qneit.com
 qnsr.com
 qoiusky.com
+qq0au.cn
 qq167.com
 qqhuhu.com
 qqiat.com
@@ -6453,6 +6457,7 @@ tpnads.com
 tp.sgcn.com
 tracedesire.com
 track1.viewdeos.com
+track.addevent.com
 track.adform.net
 trackalyzer.com
 track.anchorfree.com
@@ -6908,6 +6913,7 @@ worrybutter.com
 wowad.wow-classic.com
 wowips.com
 wo-x.cn
+woyvk.cn
 wpnrtnmrewunrtok.xyz
 wpwdf.com
 wq42219.com

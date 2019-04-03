@@ -1,5 +1,5 @@
 //
-// Update: 2019-04-03 03:48:48
+// Update: 2019-04-04 03:49:52
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -338,6 +338,7 @@ const gfwlist_domains = {
     "art4tibet1998.org": 1,
     "arte.tv": 1,
     "artofpeacefoundation.org": 1,
+    "artstation.com": 1,
     "artsy.net": 1,
     "asacp.org": 1,
     "asdfg.jp": 1,
@@ -420,6 +421,7 @@ const gfwlist_domains = {
     "baramangaonline.com": 1,
     "barenakedislam.com": 1,
     "barnabu.co.uk": 1,
+    "barton.de": 1,
     "bartvpn.com": 1,
     "bash-hackers.org": 1,
     "bastillepost.com": 1,
@@ -649,6 +651,7 @@ const gfwlist_domains = {
     "blogtd.net": 1,
     "blogtd.org": 1,
     "blog.tiney.com": 1,
+    "blog.workflow.is": 1,
     "blog.xuite.net": 1,
     "blog.youthwant.com.tw": 1,
     "blog.youxu.info": 1,
@@ -1792,6 +1795,7 @@ const gfwlist_domains = {
     "fucd.com": 1,
     "fuckcnnic.net": 1,
     "fuckgfw.org": 1,
+    "fulione.com": 1,
     "fullerconsideration.com": 1,
     "fulue.com": 1,
     "funf.tw": 1,
@@ -4258,6 +4262,7 @@ const gfwlist_domains = {
     "softether.co.jp": 1,
     "softether-download.com": 1,
     "softether.org": 1,
+    "softfamous.com": 1,
     "softsmirror.cf": 1,
     "softwarebychuck.com": 1,
     "softwaredownload.gitbooks.io": 1,
