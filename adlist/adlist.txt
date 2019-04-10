@@ -1402,6 +1402,7 @@ ad.turn.com
 ad.tv2.no
 ad.twitchguru.com
 a.duanmeiwen.com
+a.duduji.com
 aduic.com
 adultadvertising.com
 ad-up.com
@@ -2164,6 +2165,7 @@ brandreachsys.com
 brassrule.com
 br.blackfling.com
 brcache.madthumbs.com
+brealtime.com
 breezily168.com
 br.fling.com
 bridgetrack.com
@@ -2214,6 +2216,7 @@ bxjt518.com
 by8974.com
 bycxsh.com
 bydonline.com
+bym03.cn
 bypbwm.cn
 by.tel.cdndm.com
 byujf.cn
@@ -2400,12 +2403,14 @@ ckseeknew.com
 claria.com
 clarity.abacast.com
 class-act-clicks.com
+clcknpop.com
 clearcomb.com
 clevernt.com
 click2freemoney.com
 clickability.com
 click.absoluteagency.com
 clickadin.com
+clickadu.com
 clickadz.com
 clickagents.com
 clickbank.com
@@ -2545,6 +2550,7 @@ converse.tm-awx.com
 conversionbet.com
 conversionruler.com
 convrse.media
+coocopop.com
 cookies.cmpnet.com
 cooolyi.cn
 coordinatedcub.com
@@ -2934,6 +2940,7 @@ dbeii.com
 dbeij.com
 dbiej.com
 dbncp.com
+dbojetp.cn
 dbs.autolatest.ro
 d.businessinsider.com
 dbvault.net
@@ -3127,6 +3134,7 @@ doubleclick.com
 doubleclick.de
 doubleclick.net
 doubledeepclick.com
+doublelimpup.com
 doublepimp.com
 doubtfulrainstorm.com
 doudao.cn
@@ -4073,6 +4081,7 @@ hyz86.com
 hzaibi.com
 hzht666.com
 hzhyhm.com
+hzmiyou.cn
 hz.shouyoutv.com
 hzuok.com
 hzuvw.com
@@ -4111,6 +4120,7 @@ idasai.com
 idasui.cn
 idcot.com
 idcqi.com
+iddpop.com
 identads.com
 identified.cn
 idianfang.com
@@ -4251,8 +4261,10 @@ iruad.com
 isabelisa.com
 ishowbg.com
 ishowms.com
+isupopc.com
 i.syasn.com
 italy-lottery.com
+itemccmod.com
 itfarm.com
 itop.cz
 i.trackmytarget.com
@@ -4463,6 +4475,7 @@ jystea.com
 jzntxs.com
 k.16vcd.com
 k2team.kyiv.ua
+k859n.cn
 ka5188.com
 kafka8.com
 kaidop.com
@@ -4992,6 +5005,7 @@ moninosa.com
 monsterpops.com
 moodoocrv.com.cn
 mookie1.com
+moomoopop.com
 moonwish.com.cn
 mopub.com
 moradu.com
@@ -5266,6 +5280,7 @@ okkkk.com
 okm918.com
 okmgy.cn
 okshishi.com
+oktpage.com
 okuis.com
 okwan.cn
 olc0.cn
@@ -5516,6 +5531,7 @@ popflawlessads.com
 popmyads.com
 pop-over.powered-by.justplayzone.com
 popub.com
+popuexo.com
 popunder.ru
 popupmoney.com
 popup.msn.com
@@ -5535,6 +5551,7 @@ potenza.cz
 pougg.com
 powergg.top
 poyang.com
+ppcashpop.com
 pptte.com
 ppt.tianya999.com
 pqnlorg.cn
@@ -5625,6 +5642,7 @@ puzwb.cn
 puzzlingfall.com
 pwjhg.com
 px.ads.linkedin.com
+px.boundhub.com
 px.dynamicyield.com
 px.gfycat.com
 pxyvb.cn
@@ -6229,6 +6247,7 @@ srrux.com
 srvmath.com
 srv.thespacereporter.com
 srwww1.com
+sscashpop.com
 sscefsol.com
 ssdaili.com
 ssgg.chazidian.com
@@ -6379,6 +6398,7 @@ synacast.com
 syndication1.viraladnetwork.net
 syndication.jsadapi.com
 syndicpop.com
+syndopop.com
 syofew6o.net
 s-yoolk-banner-assets.yoolk.com
 s-yoolk-billboard-assets.yoolk.com
@@ -6472,6 +6492,7 @@ tenlokif.com
 tequanma.com
 terriblethumb.com
 terribleturkey.com
+terroppop.com
 textads.biz
 textad.sexsearch.com
 text-link-ads.com
@@ -6667,6 +6688,7 @@ truehits1.gits.net.th
 truehits2.gits.net.th
 truehits.net
 trzina.com
+tsandycateup.com
 tsdlp.com
 tsrc8.com
 tsyndicate.com
@@ -6889,6 +6911,7 @@ vu7r6.cn
 vuahb.com
 vungle.com
 vupload.duowan.com
+vvcashpop.com
 vvnna.com
 vvocm.com
 vvv.ieduw.com
@@ -7529,6 +7552,7 @@ zgksb.com
 zgktxx.com
 zg.mmyuer.com
 zgncpjyw.cn
+zgrsq.cn
 zgsxhx.com
 zgunion.cn
 zgyemy.com
