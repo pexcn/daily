@@ -105,6 +105,7 @@
 172.81.246.180
 175bar.com
 176um.com
+177o.com
 178bx.cn
 17tuozhai.com
 17un.co
@@ -141,6 +142,7 @@
 1.hysou.com
 1.i1766.com
 1i580.com
+1j2h31.cn
 1.jeasyui.net
 1.jiqie.cn
 1kmb.cn
@@ -328,7 +330,6 @@
 5x0f.cn
 5x5q.com
 5y9nfpes.52pk.com
-600z.com
 60.190.139.164
 60608787.com
 61.147.184.18
@@ -359,6 +360,7 @@
 6huu.com
 6ldu6qa.com
 6nzev.cn
+6ped2nd3yp.com
 6yush.cn
 700ok.net
 70lm.com
@@ -483,6 +485,7 @@ a1.juzih.com
 a1.mingyihui.net
 a1.qqjay.com
 a1.qqtn.com
+a1.shusanqi.com
 a1.sumiaowang.com
 a1.twtym.com
 a1.vdolady.com
@@ -506,6 +509,7 @@ aa1.ifeng.com
 aaddzz.com
 a-ads.com
 aa.gushiwen.org
+aa.jiangzi.com
 a.android100.org
 a.aproductmsg.com
 a.armystar.com
@@ -515,7 +519,6 @@ abacho.net
 abackchain.com
 a.bake818.cn
 abandonedaction.com
-abandonedclover.com
 a.baomihua.com
 abashedangle.com
 abbp1.science.
@@ -536,9 +539,11 @@ aboardlevel.com
 abrsamar.com
 abruptroad.com
 absentstream.com
+absoluteclickscom.com
 absorbingband.com
 absurdwater.com
 abz.com
+ac1.faxingchina.com
 ac2.msn.com
 acaog.com
 acaox.com
@@ -883,7 +888,6 @@ ad.reunion.com
 adrevolver.com
 adriver.ru
 adrolays.de
-adrotate.de
 ad-rotator.com
 adrotator.se
 adrotic.girlonthenet.com
@@ -1471,7 +1475,6 @@ adx.atnext.com
 adx.kat.ph
 adxpansion.com
 adxpose.com
-adxprts.com
 ad.xrea.com
 adxvalue.com
 ad.yadro.ru
@@ -2038,6 +2041,7 @@ begun.ru
 behavioralengine.com
 beifmu.com
 beigedi.com
+beijing.buzhi5.com
 beijinglvyou.net.cn
 beiren.xyz
 belstat.com
@@ -2357,7 +2361,6 @@ cheerfulrange.com
 chengboke.cn
 chengzhao95511.com
 chenyanjiao.cn
-cherrythread.com
 chersc.com
 chewcoat.com
 chexiw.com
@@ -2412,7 +2415,6 @@ click2freemoney.com
 clickability.com
 click.absoluteagency.com
 clickadin.com
-clickadu.com
 clickadz.com
 clickagents.com
 clickbank.com
@@ -2893,6 +2895,7 @@ daima.jiazhao.com
 daima.miercn.com
 daima.niubb.net
 daima.ysdui.com
+daima.yutou123.cn
 daishuxy.com
 daizhankj.cn
 dajean.com
@@ -3231,6 +3234,7 @@ dzais.com
 dzisou.com
 dzjzg.com
 e2e.mashable.com
+e647ob.cn
 e7001.com
 e7002.com
 e7009.com
@@ -3268,6 +3272,7 @@ economicpizzas.com
 ecoupons.com
 ecuc123.net
 edaa.eu
+eddjf.com
 e-debtconsolidation.com
 e-demx.com
 edgeio.com
@@ -4803,6 +4808,7 @@ m1.webstats4u.com
 m2.lelemh.com
 m32.media
 m4n.nl
+m4ztka.cn
 m6r.eu
 m72r.cn
 ma1.meishij.net
@@ -5561,10 +5567,10 @@ poyang.com
 ppcashpop.com
 pptte.com
 ppt.tianya999.com
+pp.wayqq.com
 pqnlorg.cn
 pr00001.com
 pr33.cn
-practicetoothpaste.com
 praddpro.de
 prazpf.cn
 prchecker.info
@@ -5961,6 +5967,7 @@ s1-a3.dnvod.tv
 s1.dapenti.com
 s1.dugoogle.com
 s1.hiapk.com
+s1.hualaoye.com
 s1magnettvcom.maynemyltf.netdna-cdn.com
 s1.qiqutt.cn
 s1.qiqutt.com
@@ -6021,6 +6028,7 @@ sdaiv.com
 sdd.dzsc.com
 sdgdtz.cn
 sdhzstone.net
+sdjjr.com
 sdkdm.com
 sdqoi2d.com
 sdsqyyc.com
@@ -6082,7 +6090,6 @@ shareasale.com
 sharedaddomain.com
 share.gzdsw.com
 shareitpp.com
-sharepointads.com
 sharethrough.com
 sharppatch.com
 sharrysweb.com
@@ -6557,7 +6564,6 @@ tinybar.com
 tiojk.com
 ti.tradetracker.net
 tiwom.com
-tizers.net
 tj-cmys.com
 tjgxzs.com
 tjhhr.com
@@ -6623,11 +6629,11 @@ touchclarity.com
 touchclarity.natwest.com
 tour.brazzers.com
 toushibao.com
+tp74ym.cn
 tpe163.com
 tplpages.com
 tpnads.com
 tp.sgcn.com
-tracedesire.com
 track1.viewdeos.com
 track.addevent.com
 track.adform.net
@@ -7461,6 +7467,7 @@ ysdhe.com
 ysgsq.cn
 ysjweb.com
 ysjwj.com
+ys.muhoujiemi.com
 ysm.yahoo.com
 yssbi.net
 ysx8.vip
@@ -7514,7 +7521,7 @@ z1.chezhuzhinan.com
 z1.cyla.cn
 z1hihu.xmcimg.com
 z5x.net
-z88.izhufu.net
+z888.izhufu.net
 zabxb.com
 zads.care2.com
 zangocash.com
