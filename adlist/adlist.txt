@@ -1705,7 +1705,6 @@ a.qinghua5.com
 a.qsjiajiao.com
 aquaticowl.com
 ar1nvz5.com
-aralego.com
 arana.pw
 arc1.msn.com
 archrug.com
@@ -1993,6 +1992,7 @@ bdcode.2345.com
 bdcode.35d1.com
 bdcode.qinglm.com
 bdcode.youke.com
+bd.czxuexi.com
 bddm.58news.org
 bd.ershenghuo.com
 bdfpbimg.ifengimg.com
@@ -3774,6 +3774,7 @@ goredi.com
 gorgeousground.com
 gossipmiser.com
 gostats.com
+go.strpjmp.com
 gotourls.bid
 gotourl.xyz
 goto.www.iciba.com
@@ -7269,6 +7270,7 @@ xmsqz.com
 x.mtrend.cn
 xmtsyg.com
 xn6ffc.com
+xncgroup.cn
 xne1ocient87zxz.360doc.cn
 xnghmc.com
 xnjpg.com
