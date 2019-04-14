@@ -24,11 +24,11 @@ This script can be automatically generate something what I needed every day.
 2. Add the following cron jobs.
 
 ```bash
-# update chnroute
-0 3 * * * <path/to/chinadns_script>
+# adblock
+0 3 * * * <path/to/adblock_script>
 
-# update adblock rules
-1 3 * * * <path/to/adblock_script>
+# chnroute
+1 3 * * * <path/to/chnroute_script>
 ```
 
 ## Acknowledgments
