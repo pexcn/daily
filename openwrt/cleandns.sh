@@ -1,4 +1,4 @@
-#!/bin/ash -e
+#!/bin/sh -e
 
 wget -O /tmp/chnroute.txt https://pexcn.me/daily/chnroute/chnroute.txt
 mv /tmp/chnroute.txt /etc/cleandns_chnroute.txt
