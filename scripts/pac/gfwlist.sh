@@ -20,7 +20,7 @@ function fetch_data() {
 function gen_gfwlist_pac() {
   pushd ${TMP_DIR}
 
-  sed -i 's/^/    "/' ${GFW_DOMAIN_LIST}
+  sed -i 's/^/  "/' ${GFW_DOMAIN_LIST}
   sed -i 's/$/": 1,/' ${GFW_DOMAIN_LIST}
   sed -i '$ s/": 1,/": 1/g' ${GFW_DOMAIN_LIST}
 

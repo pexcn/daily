@@ -20,7 +20,7 @@ function fetch_data() {
 function gen_whitelist_pac() {
   pushd ${TMP_DIR}
 
-  sed -i 's/^/    "/' ${CHINA_LIST}
+  sed -i 's/^/  "/' ${CHINA_LIST}
   sed -i 's/$/": 1,/' ${CHINA_LIST}
 
   sed -i '$ s/.$//g' ${CHINA_LIST}
