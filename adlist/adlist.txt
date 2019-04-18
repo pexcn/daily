@@ -468,6 +468,7 @@
 9tn.cc
 9wotuan.com
 9wushuo.com
+9x6lr.cn
 9xiazaiqi.com
 9y88.com
 9yyg.cn
@@ -1103,6 +1104,7 @@ adserver.viagogo.com
 adserver.virginmedia.com
 adserver.yahoo.com
 adserv.gamezone.de
+adservice.google.com
 ad.services.distractify.com
 adservi.com
 adservinginternational.com
@@ -2255,6 +2257,7 @@ calculatingtoothbrush.com
 calculatorcamera.com
 caliyuna.cn
 callousbrake.com
+callrail.com
 calmfoot.com
 campaign.bharatmatrimony.com
 cams.pornrabbit.com
@@ -3786,6 +3789,7 @@ go.strpjmp.com
 gotourls.bid
 gotourl.xyz
 goto.www.iciba.com
+gotraffic.net
 goulanmeng.cn
 g.ousns.net
 gouzhibao.cn
@@ -4362,6 +4366,7 @@ jianmei123.com
 jiaoben.eastday.com
 jiaoben.ganji.cn
 jiaoben.jucanw.com
+jiaoben.webkaka.com
 jiaofulin.cn
 jiathis.com
 jibn12.jintang114.org
@@ -4872,6 +4877,7 @@ matheranalytics.com
 mathtag.com
 matwbp.iask.sina.com.cn
 m.aty.sohu.com
+mautic.com
 maxfull.info
 max.i12.de
 maximiser.net
@@ -4990,6 +4996,7 @@ militaryverse.com
 milk.7dapei.com
 milk.yesky.com.cn
 milparota.com
+minewhat.com
 mingxianshanghang.cn
 mingysh.com
 mini.hao123.com
@@ -5510,6 +5517,7 @@ pimproll.com
 pincidao.cn
 pingbi.diudou.com
 ping.ublock.org
+pi.pardot.com
 pipilazipi.com
 pipilida.com
 pippio.com
@@ -5979,6 +5987,7 @@ ruxmc.cn
 ruyidk.com
 ruyiqufu.com
 rwjfs.com
+rxxdq.cn
 s06th.cn
 s1-a1.dnvod.tv
 s1-a2.dnvod.tv
@@ -6206,6 +6215,7 @@ smblock.s3.amazonaws.com
 smetrics.ctv.ca
 smetrics.foxnews.com
 smetrics.walgreens.com
+smetrics.washingtonpost.com
 smilingwaves.com
 smitionsory.co
 smpdth.cn
@@ -6264,6 +6274,7 @@ sponsors.webosroundup.com
 spot.fitness.com
 spottysense.com
 spotxchange.com
+spotx.tv
 spproxy.autobytel.com
 springaftermath.com
 spt.dictionary.com
