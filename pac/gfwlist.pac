@@ -1,5 +1,5 @@
 //
-// Update: 2019-04-30 04:02:57
+// Update: 2019-05-01 04:02:40
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -4966,7 +4966,6 @@ const gfwlist_domains = {
   "udn.com.tw": 1,
   "uforadio.com.tw": 1,
   "ufreevpn.com": 1,
-  "ug.m.wikipedia.org": 1,
   "ugo.com": 1,
   "uhdwallpapers.org": 1,
   "uhrp.org": 1,
@@ -5308,6 +5307,7 @@ const gfwlist_domains = {
   "wikimapia.org": 1,
   "wiki.moegirl.org": 1,
   "wiki.oauth.net": 1,
+  "wikipedia.org": 1,
   "wiki.phonegap.com": 1,
   "wikiwiki.jp": 1,
   "wildammo.com": 1,
@@ -5380,7 +5380,6 @@ const gfwlist_domains = {
   "wujieliulan.com": 1,
   "wujie.net": 1,
   "wukangrui.net": 1,
-  "wuu.wikipedia.org": 1,
   "wuw.red": 1,
   "wuyanblog.com": 1,
   "wwitv.com": 1,
@@ -5637,7 +5636,6 @@ const gfwlist_domains = {
   "zhenlibu.info": 1,
   "zhenxiang.biz": 1,
   "zhinengluyou.com": 1,
-  "zh.m.wikipedia.org": 1,
   "zhongguo.ca": 1,
   "zhongguorenquan.org": 1,
   "zhongguotese.net": 1,
@@ -5652,9 +5650,7 @@ const gfwlist_domains = {
   "zhuichaguoji.org": 1,
   "zh.uncyclopedia.wikia.com": 1,
   "zh.wikinews.org": 1,
-  "zh.wikipedia.org": 1,
   "zh.wikisource.org": 1,
-  "zh-yue.wikipedia.org": 1,
   "ziddu.com": 1,
   "zillionk.com": 1,
   "zim.vn": 1,
