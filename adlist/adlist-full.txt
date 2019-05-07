@@ -1097,6 +1097,7 @@
 2912a.v.fwmrm.net
 29193.9215.302br.net
 2926210385.log.optimizely.com
+293870.com
 29.6.87.194.dynamic.dol.ru
 2975c.v.fwmrm.net
 29bca6cb72a665c8.se
@@ -1843,6 +1844,7 @@
 9cfa-356e-ec76-7adf.reporo.net
 9ctyz.voluumtrk.com
 9d1a9742.qqc.co
+9d7in.cn
 9down.us.intellitxt.com
 9dtiny.cn
 9ezja.voluumtrk.com
@@ -3691,6 +3693,7 @@ ad.at.doubleclick.net
 adattract.go2cloud.org
 ad.auditude.com
 ad.au.doubleclick.net
+adback.co
 ad-balancer.at
 ad-balancer.net
 adbank.go2cloud.org
@@ -24857,7 +24860,6 @@ cdn.viglink.com
 cdn.vipboxoc.co
 cdn.viralmint.com
 cdn.vlexokrako.com
-cdn.voscast.com
 cdn.w55c.net
 cdn.widgets.webengage.com
 cdn.wigetmedia.com
@@ -37933,6 +37935,7 @@ powersearch.us.com
 powertube.bitterstrawberry.com
 poyang.com
 pp0ru.voluumtrk.com
+pp9kk.com
 p.pagesjaunes.fr
 ppcashpop.com
 ppcchicago.com
@@ -38546,7 +38549,6 @@ qualigo.de
 qualigo.net
 qualityclickcontrol.com
 qualitylegion.com
-qualtrics.com
 quansj.cn
 quantcast.com
 quantcast.mgr.consensu.org
@@ -48173,6 +48175,7 @@ ww.cj.com
 wwd.hitbox.com
 wweconsumer.112.2o7.net
 wwetjy.com
+wwlolbs.com
 wwm.adspirit.de
 wws.ero-advertising.com
 ww.tr553.com
@@ -48961,7 +48964,6 @@ www.companiedhhplrdpp.download
 www.compete.com
 www.competeinc.com
 www.comscore.com
-www.comunedeicittadini.it
 www.com-wkejf32ljd23409system.net
 www.concealedffvqfx.download
 www.concinnousaepwnh.download
@@ -51849,6 +51851,7 @@ zgunion.cn
 zgyemy.com
 zg.zeroredirect1.com
 zh1144.com
+zhaibei112.top
 zhamm.cn
 zhanzhang.net
 zhao258.com

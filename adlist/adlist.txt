@@ -228,6 +228,7 @@
 283.laobanfa.com
 28487.net
 28acglz.com
+293870.com
 2d-c.cn
 2fnrc.cn
 2.heiyange.com
@@ -475,6 +476,7 @@
 99lolo.com
 99pps.com
 99tuan.com.cn
+9d7in.cn
 9dtiny.cn
 9kff.com
 9nwg9sib9e.com
@@ -636,6 +638,7 @@ ad-api.cnblogs.com
 adapt.tv
 adap.tv
 ad.auditude.com
+adback.co
 ad-balancer.at
 ad-balancer.net
 adbard.net
@@ -5641,6 +5644,7 @@ potenza.cz
 pougg.com
 powergg.top
 poyang.com
+pp9kk.com
 ppcashpop.com
 pptte.com
 ppt.tianya999.com
@@ -5813,7 +5817,6 @@ qtpngov.cn
 quacksquirrel.com
 quadasdata.cn
 quaintcan.com
-qualtrics.com
 quansj.cn
 quantcast.com
 quantcast.mgr.consensu.org
@@ -6233,6 +6236,7 @@ sitedataprocessing.com
 sitegoto.com
 site.img.4tube.com
 siteimproveanalytics.com
+siteintercept.qualtrics.com
 sitemeter.com
 sitemnk.com
 sitemobia.com
@@ -7222,6 +7226,7 @@ wvcdn.cn
 wvstatic.cn
 wvver.com
 wwetjy.com
+wwlolbs.com
 www1.qicheyinyue.wang
 www.32414.com
 www8.glam.com
@@ -7660,6 +7665,7 @@ zgsxhx.com
 zgunion.cn
 zgyemy.com
 zh1144.com
+zhaibei112.top
 zhamm.cn
 zhao258.com
 zhaoshang8.com
