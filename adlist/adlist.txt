@@ -15,6 +15,7 @@
 0516bm.com
 0531kt.com
 0531mnk.net
+0551zgz.com
 0571hy.com
 0571yy.com
 0592weixin.com
@@ -337,6 +338,7 @@
 5egk.com
 5imoney.com
 5jcom.com.cn
+5mbd2.com
 5mcwl.pw
 5pb266.com
 5pub.com
@@ -1772,7 +1774,6 @@ at-adserver.alltop.com
 atanx.alicdn.com
 atarshaboor.com
 atdmt.com
-a.thefreethoughtproject.com
 athena-ads.wikia.com
 a.thn21.com
 atiws.aipai.com
@@ -3334,6 +3335,7 @@ egolina.com
 egqiyw.com
 ehow.com/media/ad.html
 ehxyz.com
+ei4f.cn
 eiv.baidu.com
 ejiur.com
 ejunshi.com
@@ -6227,6 +6229,7 @@ simpli.fi
 simplisticnose.com
 sinaalicdn.com
 sinaaliyun.cn
+sina-img.club
 sincerebuffalo.com
 sincerespy.com
 sinefight-skinesia.com
@@ -6931,6 +6934,7 @@ valuecommerce.com
 valuesponsor.com
 vanfireworks.com
 variablefitness.com
+vb4rvq.cn
 vbaiu.com
 vbanm.com
 vbaof.com
@@ -7677,6 +7681,7 @@ zhihei.com
 zhihu.xmcimg.com
 zhinengap.com
 zhiong.net
+zhixiuchang.com
 zhiyaowan.cn
 zhjfad.com
 zhongchouyan.com
@@ -7716,6 +7721,7 @@ zlp6s.pw
 zm232.com
 zmedia.com
 zmlfk.com
+zmlled.cn
 zmyuer.com
 z.nowscore.com
 zogzogolla.com
