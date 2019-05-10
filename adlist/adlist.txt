@@ -1728,7 +1728,6 @@ appsflyer.com
 aps.hearstnp.com
 a.psxxw.cn
 apture.com
-apusx.com
 apxyz.com
 aqgyju.cn
 a.qinghua5.com
@@ -2453,6 +2452,7 @@ clearcomb.com
 clevernt.com
 click2freemoney.com
 clickability.com
+click.absoluteagency.com
 clickadin.com
 clickadz.com
 clickagents.com
@@ -3211,6 +3211,7 @@ drlsf.com
 drmcmm.baidu.com
 drmfslx.cn
 drogomet.com
+drumcash.com
 drxrc.com
 drydrum.com
 ds02gfqy6io6i.cloudfront.net
@@ -3891,6 +3892,7 @@ gyrtg.com
 gzcl999.cn
 gzcl999.com
 gzdhzb.com
+gze3.cn
 gzhctryy.com
 gzktpf.com
 gzmjnx.cn
@@ -4199,6 +4201,7 @@ ifa.tube8live.com
 ifeib.com
 iframe.travel.yahoo.com
 ihais.com
+ihhii.xyz
 ihualun.com
 iia1.pikacn.com
 iierq.com
@@ -5152,6 +5155,7 @@ mycounter.ua
 mydas.mobi
 my.gz2010.cn
 mylink-today.com
+mymoneymakingapp.com
 mypagerank.net
 mypagerank.ru
 mypowermall.com
@@ -5219,6 +5223,7 @@ net-filter.com
 netincap.com
 netko0o.com
 netmng.com
+netpool.netbookia.net
 netshelter.net
 netspidermm.indiatimes.com
 nettsl.com
@@ -6616,7 +6621,6 @@ themee.cn
 themis.yahoo.com
 thenelis.pw
 therapistla.com
-therichkids.com
 thescenseproject.com
 thetestpage.39.net
 thinkablerice.com
@@ -7375,6 +7379,7 @@ xplusone.com
 xponsor.com
 xpqfc.com
 xq199.com
+xq1.net
 xrain.net
 xroun.com
 xrpva.cn

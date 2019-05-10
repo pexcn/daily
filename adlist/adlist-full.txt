@@ -20604,7 +20604,6 @@ aptrk.com
 apture.com
 apu04c0.audientia.net
 apu0640.audientia.net
-apusx.com
 apx.avazutracking.net
 apx.internal-redirect.avazutracking.net
 apx.irck.avazutracking.net
@@ -31761,6 +31760,7 @@ gzadt.voluumtrk.com
 gzcl999.cn
 gzcl999.com
 gzdhzb.com
+gze3.cn
 g.zedo.com
 g.zeroredirect1.com
 g.zeroredirect2.com
@@ -32600,6 +32600,7 @@ ihais.com
 ihcgpro.go2cloud.org
 ih.f2.constantcontact.com
 ihfpu.voluumtrk.com
+ihhii.xyz
 ihm01.ct2.comclick.com
 ihualun.com
 iia1.pikacn.com
@@ -35933,6 +35934,7 @@ mylink-today.com
 mylistenetwork.go2cloud.org
 mylottoadserv.com
 my.mobfox.com
+mymoneymakingapp.com
 myns-v1.websys.aol.com
 my.omniture.com
 myosotisvkrzovi.download
@@ -41873,7 +41875,6 @@ theowgkkaj.download
 the-path-gateway.com
 thepoint.go2cloud.org
 therapistla.com
-therichkids.com
 thescenseproject.com
 theslice.go2cloud.org
 theta49.rtb.appier.net
@@ -51397,6 +51398,7 @@ xplusone.com
 xponsor.com
 xpqfc.com
 xq199.com
+xq1.net
 xrain.net
 xratedtracking.com
 xrevtrk.com
