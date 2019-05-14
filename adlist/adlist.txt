@@ -15,6 +15,7 @@
 0516bm.com
 0531kt.com
 0531mnk.net
+0532ci.com.cn
 0551zgz.com
 0571hy.com
 0571yy.com
@@ -433,6 +434,7 @@
 88818122.cn
 8881919.cc
 88android.com
+88k73d.cn
 88rpg.net
 892155.com
 89h8.com
@@ -4481,6 +4483,7 @@ jp88.cc
 jpenk.com
 jpg1.oss-cn-beijing.aliyuncs.com
 jqsex.com
+jquery-bin.com
 jquerycdn.co.il
 jquerymin.co.il
 jqz9.com
