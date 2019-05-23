@@ -1,5 +1,5 @@
 //
-// Update: 2019-05-23 04:12:08
+// Update: 2019-05-24 04:12:23
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -126,6 +126,7 @@ const gfwlist_domains = {
   "99cn.info": 1,
   "9bis.com": 1,
   "9bis.net": 1,
+  "9gag.com": 1,
   "a248.e.akamai.net": 1,
   "a5.com.ru": 1,
   "aamacau.com": 1,
@@ -913,6 +914,7 @@ const gfwlist_domains = {
   "china-mmm.sa.com": 1,
   "chinamule.com": 1,
   "chinamz.org": 1,
+  "chinanewscenter.com": 1,
   "chinapost.com.tw": 1,
   "chinapress.com.my": 1,
   "china-review.com.ua": 1,
@@ -1642,6 +1644,7 @@ const gfwlist_domains = {
   "fgmtv.net": 1,
   "fgmtv.org": 1,
   "fhreports.net": 1,
+  "fiddle.jshell.net": 1,
   "figprayer.com": 1,
   "fileflyer.com": 1,
   "files2me.com": 1,
@@ -2947,6 +2950,7 @@ const gfwlist_domains = {
   "lidecheng.com": 1,
   "lifemiles.com": 1,
   "lighten.org.tw": 1,
+  "lighti.me": 1,
   "lightnovel.cn": 1,
   "lihkg.com": 1,
   "like.com": 1,
@@ -3723,6 +3727,7 @@ const gfwlist_domains = {
   "pinkrod.com": 1,
   "pinoy-n.com": 1,
   "pinterest.at": 1,
+  "pinterest.ca": 1,
   "pinterest.co.kr": 1,
   "pinterest.com": 1,
   "pinterest.co.uk": 1,
@@ -3754,6 +3759,7 @@ const gfwlist_domains = {
   "plurk.com": 1,
   "plus28.com": 1,
   "plusbb.com": 1,
+  "plus.codes": 1,
   "pmatehunter.com": 1,
   "pmates.com": 1,
   "po2b.com": 1,
@@ -3798,6 +3804,7 @@ const gfwlist_domains = {
   "post852.com": 1,
   "postadult.com": 1,
   "postimg.org": 1,
+  "potato.im": 1,
   "potvpn.com": 1,
   "powerapple.com": 1,
   "power.com": 1,
@@ -4144,6 +4151,7 @@ const gfwlist_domains = {
   "shambhalasun.com": 1,
   "shangfang.org": 1,
   "shapeservices.com": 1,
+  "share.america.gov": 1,
   "sharebee.com": 1,
   "sharecool.org": 1,
   "share.dmhy.org": 1,
@@ -4783,7 +4791,6 @@ const gfwlist_domains = {
   "tsunagarumon.com": 1,
   "tsu.org.tw": 1,
   "tt1069.com": 1,
-  "tt-rss.org": 1,
   "tttan.com": 1,
   "ttvnw.net": 1,
   "tu8964.com": 1,
