@@ -408,6 +408,7 @@
 7631.com
 766ba.net
 76e.org
+77417.cn
 777partner.com
 77power.com
 77rog.com
@@ -1406,7 +1407,6 @@ ads.waps.cn
 ads.wapx.cn
 ads.watson.ch
 ads.weather.ca
-ads.web.aol.com
 ads.web.cs.com
 ads.web.de
 ads.webmasterpoint.org
@@ -2080,7 +2080,6 @@ bdwmhz.120askimages.com
 bdx.playnext.cn
 beacon.gu-web.net
 beamincrease.com
-beamkite.com
 beap.gemini.yahoo.com
 bebadu.com
 beb.crackwatch.com
@@ -2482,6 +2481,7 @@ clearcomb.com
 clevernt.com
 click2freemoney.com
 clickability.com
+click.absoluteagency.com
 clickadin.com
 clickadz.com
 clickagents.com
@@ -2590,7 +2590,6 @@ colonize.com
 comclick.com
 comesgo.com
 comfortablecheese.com
-commandwalk.com
 commindo-media-ressourcen.de
 commissionmonster.com
 commonswing.com
@@ -2714,7 +2713,6 @@ criteo.com
 critictruck.com
 croissed.info
 crowdgravity.com
-crownclam.com
 crtv.mate1.com
 crwdcntrl.net
 cryptaloot.pro
@@ -3055,7 +3053,6 @@ decoycreation.com
 deepintent.com
 defectivesun.com
 delegatediscussion.com
-delightdriving.com
 deliver.ifeng.com
 delivery-dev.thebloggernetwork.com
 delivery.playallvideos.com
@@ -3099,7 +3096,6 @@ dianwenwang.com
 diaojiaoji168.com
 didtheyreadit.com
 dierqingchun.com
-differentdesk.com
 digdug.divxnetworks.com
 digital-ads.s3.amazonaws.com
 digitalmerkat.com
@@ -3730,7 +3726,6 @@ gateway.proxyportal.eu
 gateways.s3.amazonaws.com
 gaykes.com
 gazoeft.cn
-gbanners.hornymatches.com
 gbeik.com
 gbieg.com
 gb.it1352.com
@@ -4448,6 +4443,7 @@ jianbaimei.com
 jianbangjiaoyu.com
 jianduankm.com
 jiangmg.com
+jianjiaovip.vip
 jianmei123.com
 jiaoben.eastday.com
 jiaoben.ganji.cn
@@ -4728,6 +4724,7 @@ kyad88.com
 kyouad.com
 kyxnz.cn
 kz8tr2.cn
+l30od.cn
 l93stb.cn
 l9c4s.cn
 la71f.cn
@@ -5250,14 +5247,10 @@ nduop.com
 ne9377.com
 nebadu.com
 nedstatbasic.net
-nedstat.com
-nedstat.nl
-nedstatpro.net
 neighborlywatch.com
 neijh.com
 nend.net
 neocounter.neoworx-blog-tools.net
-neoffic.com
 nepohita.com
 nernv.com
 nervoussummer.com
@@ -7392,6 +7385,7 @@ xinju.cc
 xinkuaiyu.com
 xinlongrubber.com
 xinterface.cn
+xinyijiasc.cn
 xinzheng8.pw
 xiongdong.com
 xiti.com
