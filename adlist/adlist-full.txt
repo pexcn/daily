@@ -996,6 +996,7 @@
 2154.bitterstrawberry.com
 215.6.87.194.dynamic.dol.ru
 2156.bitterstrawberry.com
+215to.cn
 2161.bitterstrawberry.com
 216.6.87.194.dynamic.dol.ru
 217.6.87.194.dynamic.dol.ru
@@ -1232,6 +1233,7 @@
 38.6.87.194.dynamic.dol.ru
 3879194.fls.doubleclick.net
 38taobao.com
+38ursg.cn
 390.bitterstrawberry.com
 3941123.fls.doubleclick.net
 39.6.87.194.dynamic.dol.ru
@@ -40027,6 +40029,7 @@ service.clicksvenue.com
 service.maxymiser.net
 services1.adtech.fr
 services.adtech.fr
+services.brid.tv
 services.chartboost.com
 services.hearstmags.com
 services.mailermailer.com
@@ -40141,6 +40144,7 @@ shfr.hernando.com
 shicao.icantv.cn
 shield.sitelock.com
 shiftrro.com
+shijiezhidao.com
 shili.downxia.com
 shili.wanyx.com
 shiltirs.com
