@@ -2044,6 +2044,7 @@ aatp.go2cloud.org
 a.avalhukof.com
 aa.voice2page.com
 aa.wenxue6.com
+aaxads.com
 aax-eu.amazon-adsystem.com
 aax-eu-rtb.amazon-adsystem.com
 aax-fe.amazon-adsystem.com
@@ -27707,6 +27708,7 @@ d2b2x1ywompm1b.cloudfront.net
 d2b560qq58menv.cloudfront.net
 d2b65ihpmocv7w.cloudfront.net
 d2bgg7rjywcwsy.cloudfront.net
+d2c4ylitp1qu24.cloudfront.net
 d2cgumzzqhgmdu.cloudfront.net
 d2cmedia.ca
 d2cxkkxhecdzsq.cloudfront.net
@@ -28622,6 +28624,7 @@ dontblockme.modaco.com
 dontibar.com
 donval.112.2o7.net
 door2new.net
+doowe.cn
 doozymob.go2affise.com
 doqby.voluumtrk.com
 dorapodorasham.com
@@ -40029,7 +40032,6 @@ service.clicksvenue.com
 service.maxymiser.net
 services1.adtech.fr
 services.adtech.fr
-services.brid.tv
 services.chartboost.com
 services.hearstmags.com
 services.mailermailer.com
