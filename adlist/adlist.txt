@@ -1980,7 +1980,6 @@ bannerspace.com
 banners.passion.com
 banners.playocio.com
 banners.resultonline.com
-banners.sexsearch.com
 banners.sys-con.com
 banners.thomsonlocal.com
 banners.videosz.com
@@ -2487,7 +2486,6 @@ clearcomb.com
 clevernt.com
 click2freemoney.com
 clickability.com
-click.absoluteagency.com
 clickadin.com
 clickadz.com
 clickagents.com
@@ -2516,6 +2514,7 @@ clicks.mods.de
 clicksor.com
 clicks.superpages.com
 clickstrip.6wav.es
+clicktag.de
 clickthruserver.com
 clickthrutraffic.com
 clicktrace.info
@@ -5790,6 +5789,7 @@ publicidad.elmundo.es
 publicidees.com
 publish.ad.youth.cn
 pubmatic.com
+pub.network
 pubportal.brkmd.com
 pub.realmedia.fr
 pubs.hiddennetwork.com
@@ -6434,6 +6434,7 @@ sstc360.com
 ss.ting55.com
 st123.info
 stackadapt.com
+stack-sonar.com
 stakingscrew.com
 stakingslope.com
 standingnest.com
@@ -6674,7 +6675,6 @@ tg.1155t.cn
 th21333.com
 theadex.com
 theadhost.com
-theads.me
 thebugs.ws
 thefaren.pw
 themee.cn
@@ -7446,7 +7446,6 @@ xplusone.com
 xponsor.com
 xpqfc.com
 xq199.com
-xq1.net
 xrain.net
 xroun.com
 xrpva.cn

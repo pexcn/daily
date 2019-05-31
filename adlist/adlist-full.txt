@@ -25426,6 +25426,7 @@ clicksvenue.com
 clicks.virtuagirl.com
 clicks.walla.co.il
 clicks.whatifoffers.com
+clicktag.de
 click.tanx.com
 clicktaxi.com
 clickthrough.com
@@ -38372,6 +38373,7 @@ publish.pizzazzemail.com
 publish.vidavee.com
 pubmatic.com
 pubnative.net
+pub.network
 pubportal.brkmd.com
 pub.realmedia.fr
 pub.sapo.pt
@@ -40771,6 +40773,7 @@ st3.xhamster.com
 st4.xhamster.com
 st5.surf-town.net
 stackadapt.com
+stack-sonar.com
 stadig.ifeng.com
 stadtbremerhaven.digidip.net
 staffpicks.outbrain.com
@@ -41912,7 +41915,6 @@ thalliformxaujqbsq.website
 thba.go2cloud.org
 theadex.com
 theadhost.com
-theads.me
 theaffiliatepeople.com
 theaffiliateprogram.com
 theaffiliate.us
@@ -51466,7 +51468,6 @@ xplusone.com
 xponsor.com
 xpqfc.com
 xq199.com
-xq1.net
 xrain.net
 xratedtracking.com
 xrevtrk.com
