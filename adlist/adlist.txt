@@ -1794,7 +1794,6 @@ ashot.txxx.com
 ashow.pcpop.com
 a.shuoshuodaquan.net
 as.inbox.com
-a.solarmovie.is
 assets1.exgfnetwork.com
 assigned.cn
 assoc-amazon.com
@@ -3563,6 +3562,7 @@ feeds.logicbuy.com
 feeds.videosz.com
 feidalu.com
 feifish66.com
+feihongjiaoyu.com
 feisia1.cn
 fenbengpan.cn
 fenggejiaju.com
