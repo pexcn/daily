@@ -5,12 +5,13 @@ TMP_DIR=$(mktemp -d /tmp/adblock.XXXXXX)
 DIST_DIR="$CUR_DIR/dist/adblock"
 DIST_FILE="adblock.conf"
 
-ADLIST="$CUR_DIR/dist/adlist/adlist.txt"
+ADLIST_SRC="$CUR_DIR/dist/adlist/adlist.txt"
+ADLIST=$(basename $ADLIST_SRC)
 
 function fetch_data() {
   cd $TMP_DIR
 
-  cp $ADLIST .
+  cp $ADLIST_SRC $ADLIST
 
   cd $CUR_DIR
 }
