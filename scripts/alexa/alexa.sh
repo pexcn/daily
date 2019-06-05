@@ -59,4 +59,4 @@ function clean_up() {
 fetch_data
 gen_alexa_top_list
 dist_release
-#clean_up
+clean_up
