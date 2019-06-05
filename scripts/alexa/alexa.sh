@@ -11,15 +11,15 @@ DIST_FILE_TOP_CN_2000="top-cn-2000.txt"
 DIST_FILE_TOP_CN_500="top-cn-500.txt"
 
 ALEXA_LIST_URL="https://s3.amazonaws.com/alexa-static/top-1m.csv.zip"
-CHINA_LIST_SRC="$CUR_DIR/dist/chinalist/chinalist.txt"
+CHINA_LIST_URL="https://raw.githubusercontent.com/pexcn/daily/gh-pages/chinalist/chinalist.txt"
 ALEXA_LIST="alexalist.txt"
-CHINA_LIST=$(basename $CHINA_LIST_SRC)
+CHINA_LIST="chinalist.txt"
 
 function fetch_data() {
   cd $TMP_DIR
 
   curl -sSL $ALEXA_LIST_URL | gunzip | awk -F ',' '{print $2}' > $ALEXA_LIST
-  cp $CHINA_LIST_SRC $CHINA_LIST
+  curl -sSL $CHINA_LIST_URL > $CHINA_LIST
 
   cd $CUR_DIR
 }
