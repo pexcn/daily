@@ -12,7 +12,7 @@ This script can be automatically generate something what I needed every day.
 - [`pac/whitelist.pac`](https://pexcn.me/daily/pac/whitelist.pac) is the PAC list of China domain whitelist.
 - [`shadowrocket/gfwlist.conf`](https://pexcn.me/daily/shadowrocket/gfwlist.conf) is the GFWList for shadowrocket.
 - [`shadowrocket/whitelist.conf`](https://pexcn.me/daily/shadowrocket/whitelist.conf) is the China domain whitelist for shadowrocket.
-- More: read the fu*king source code.
+- More:
   - [`adlist`](https://github.com/pexcn/daily/tree/gh-pages/adlist)
   - [`alexa`](https://github.com/pexcn/daily/tree/gh-pages/alexa)
   - [`gfwlist`](https://github.com/pexcn/daily/tree/gh-pages/gfwlist)
@@ -31,7 +31,7 @@ This script can be automatically generate something what I needed every day.
 1 3 * * * <path/to/chnroute_script>
 ```
 
-## Acknowledgments
+## Credits
 
 - [@shadowsocks/ChinaDNS](https://github.com/shadowsocks/ChinaDNS)
 - [@clowwindy/gfwlist2pac](https://github.com/clowwindy/gfwlist2pac)
