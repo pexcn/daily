@@ -27,7 +27,7 @@ function gen_ipv4_chnroute() {
   local ipip_v4="ipip_v4.tmp"
   local chnroute_v4="chnroute_v4.tmp"
 
-  cat $APNIC_LIST | grep ipv4 | grep CN | awk -F\| "{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }" > $apnic_v4
+  cat $APNIC_LIST | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > $apnic_v4
   cat $IPIP_LIST > $ipip_v4
   cat $apnic_v4 $ipip_v4 | aggregate -q > $chnroute_v4
 
@@ -41,7 +41,7 @@ function gen_ipv6_chnroute() {
 
   local apnic_v6="apnic_v6.tmp"
 
-  cat $APNIC_LIST | grep ipv6 | grep CN | awk -F\| "{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }" > ${apnic_v6}
+  cat $APNIC_LIST | grep ipv6 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > ${apnic_v6}
 
   mv $apnic_v6 $DIST_FILE_IPV6
 
