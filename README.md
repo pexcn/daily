@@ -32,6 +32,9 @@ See [docs](docs).
 
 # chnroute
 1 3 * * * <path/to/chnroute_script>
+
+# safelist
+2 3 * * * <path/to/safelist_script>
 ```
 
 ## Credits
