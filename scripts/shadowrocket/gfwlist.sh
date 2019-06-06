@@ -38,6 +38,7 @@ function dist_release() {
 
 function clean_up() {
   rm -r $TMP_DIR
+  echo "[shadowrocket -> gfwlist]: OK."
 }
 
 fetch_data

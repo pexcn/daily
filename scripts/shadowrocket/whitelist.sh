@@ -43,6 +43,7 @@ function dist_release() {
 
 function clean_up() {
   rm -r $TMP_DIR
+  echo "[shadowrocket -> whitelist]: OK."
 }
 
 fetch_data

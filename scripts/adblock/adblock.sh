@@ -32,6 +32,7 @@ function dist_release() {
 
 function clean_up() {
   rm -r $TMP_DIR
+  echo "[adblock]: OK."
 }
 
 fetch_data

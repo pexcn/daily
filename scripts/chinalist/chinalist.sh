@@ -30,6 +30,7 @@ function dist_release() {
 
 function clean_up() {
   rm -r $TMP_DIR
+  echo "[chinalist]: OK."
 }
 
 gen_chinalist

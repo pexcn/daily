@@ -39,6 +39,7 @@ function dist_release() {
 
 function clean_up() {
   rm -r $TMP_DIR
+  echo "[pac -> gfwlist]: OK."
 }
 
 fetch_data
