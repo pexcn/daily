@@ -22,7 +22,7 @@ See [docs](docs).
 
 ### OpenWRT
 
-1. Save your needed `scripts` into OpenWRT.
+1. Save your needed [`scripts`](openwrt) into OpenWRT.
 2. Add the following cron jobs.
 
 ```bash
