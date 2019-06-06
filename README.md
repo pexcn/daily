@@ -30,11 +30,14 @@ See [docs](docs).
 # adblock
 0 3 * * * <path/to/adblock_script>
 
-# chnroute
-1 3 * * * <path/to/chnroute_script>
+# chnroute (chinadns)
+1 3 * * * <path/to/chnroute_chinadns_script>
+
+# chnroute (cleandns)
+2 3 * * * <path/to/chnroute_cleandns_script>
 
 # safelist
-2 3 * * * <path/to/safelist_script>
+3 3 * * * <path/to/safelist_script>
 ```
 
 ## Credits
