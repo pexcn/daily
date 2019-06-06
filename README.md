@@ -10,6 +10,7 @@ See [docs](docs).
 
 - [`chnroute/chnroute.txt`](https://pexcn.me/daily/chnroute/chnroute.txt)
 - [`adblock/adblock.conf`](https://pexcn.me/daily/adblock/adblock.conf)
+- [`safelist/safelist.conf`](https://pexcn.me/daily/safelist/safelist.conf)
 - [`pac/gfwlist.pac`](https://pexcn.me/daily/pac/gfwlist.pac)
 - [`pac/whitelist.pac`](https://pexcn.me/daily/pac/whitelist.pac)
 - [`shadowrocket/gfwlist.conf`](https://pexcn.me/daily/shadowrocket/gfwlist.conf)

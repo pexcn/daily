@@ -20,6 +20,9 @@ bash scripts/adblock/adblock.sh
 # chnroute
 bash scripts/chnroute/chnroute.sh
 
+# safelist
+bash scripts/safelist/safelist.sh
+
 # pac
 bash scripts/pac/gfwlist.sh
 bash scripts/pac/whitelist.sh
