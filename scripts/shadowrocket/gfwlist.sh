@@ -22,8 +22,8 @@ function fetch_data() {
 function gen_gfwlist_config() {
   cd $TMP_DIR
 
-  sed -i 's/^/DOMAIN-SUFFIX,/' $GFW_DOMAIN_LIST
-  sed -i 's/$/,PROXY,force-remote-dns/' $GFW_DOMAIN_LIST
+  sed -i "s/^/DOMAIN-SUFFIX,/" $GFW_DOMAIN_LIST
+  sed -i "s/$/,PROXY,force-remote-dns/" $GFW_DOMAIN_LIST
 
   sed -i "s/___GFWLIST_DOMAINS_PLACEHOLDER___/cat $GFW_DOMAIN_LIST/e" $DIST_FILE
   sed -i "s/___UPDATE_TIME_PLACEHOLDER___/$(date +'%Y-%m-%d %T')/g" $DIST_FILE

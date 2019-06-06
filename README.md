@@ -6,17 +6,19 @@ This script can be automatically generate something what I needed every day.
 
 ## Usage
 
-- [`chnroute/chnroute.txt`](https://pexcn.me/daily/chnroute/chnroute.txt) is the China routing table.
-- [`adblock/adblock.conf`](https://pexcn.me/daily/adblock/adblock.conf) is dnsmasq ad-blocking rules.
-- [`pac/gfwlist.pac`](https://pexcn.me/daily/pac/gfwlist.pac) is the PAC list of GFWList.
-- [`pac/whitelist.pac`](https://pexcn.me/daily/pac/whitelist.pac) is the PAC list of China domain whitelist.
-- [`shadowrocket/gfwlist.conf`](https://pexcn.me/daily/shadowrocket/gfwlist.conf) is the GFWList for shadowrocket.
-- [`shadowrocket/whitelist.conf`](https://pexcn.me/daily/shadowrocket/whitelist.conf) is the China domain whitelist for shadowrocket.
+See [docs](docs).
+
+- [`chnroute/chnroute.txt`](https://pexcn.me/daily/chnroute/chnroute.txt)
+- [`adblock/adblock.conf`](https://pexcn.me/daily/adblock/adblock.conf)
+- [`pac/gfwlist.pac`](https://pexcn.me/daily/pac/gfwlist.pac)
+- [`pac/whitelist.pac`](https://pexcn.me/daily/pac/whitelist.pac)
+- [`shadowrocket/gfwlist.conf`](https://pexcn.me/daily/shadowrocket/gfwlist.conf)
+- [`shadowrocket/whitelist.conf`](https://pexcn.me/daily/shadowrocket/whitelist.conf)
 - More:
   - [`adlist`](https://github.com/pexcn/daily/tree/gh-pages/adlist)
-  - [`alexa`](https://github.com/pexcn/daily/tree/gh-pages/alexa)
   - [`gfwlist`](https://github.com/pexcn/daily/tree/gh-pages/gfwlist)
   - [`chinalist`](https://github.com/pexcn/daily/tree/gh-pages/chinalist)
+  - [`alexa`](https://github.com/pexcn/daily/tree/gh-pages/alexa)
 
 ### OpenWRT
 
@@ -34,12 +36,15 @@ This script can be automatically generate something what I needed every day.
 ## Credits
 
 - [@shadowsocks/ChinaDNS](https://github.com/shadowsocks/ChinaDNS)
-- [@clowwindy/gfwlist2pac](https://github.com/clowwindy/gfwlist2pac)
 - [@felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
+- [@clowwindy/gfwlist2pac](https://github.com/clowwindy/gfwlist2pac)
+- [@rssnsj/network-feeds](https://github.com/rssnsj/network-feeds)
 - [@R0uter/gfw_domain_whitelist](https://github.com/R0uter/gfw_domain_whitelist)
 - [@breakwa11/gfw_whitelist](https://github.com/breakwa11/gfw_whitelist)
 - [@breakwa11/GFWList2PAC](https://github.com/breakwa11/GFWList2PAC)
 - [@Leask/Flora_Pac](https://github.com/Leask/Flora_Pac)
+- [aggregate](https://ftp.isc.org/isc/aggregate/)
+- [cidrmerge](http://cidrmerge.sourceforge.net)
 
 ## License
 
