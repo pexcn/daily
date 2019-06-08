@@ -1704,7 +1704,6 @@ al.newxue.com
 a.lolwot.com
 alphonso.tv
 alryo.cn
-alvares.esportsheaven.com
 a.lz13.cn
 amazingcounters.com
 amazingmagics.com
@@ -1720,13 +1719,11 @@ amradmin.5173.com
 ams.fx678.com
 am.szhome.com
 amung.us
-amz.steamprices.com
 anahtars.com
 analytics.adpost.org
 analytics.disneyinternational.com
 analytics.google.com
 analytics.live.com
-analytics.mmosite.com
 analytics-union.xunlei.com
 analytics.yahoo.com
 a.nanhuwang.com
@@ -1785,6 +1782,7 @@ are-ter.com
 arganostrella.com
 argyresthia.com
 aromamirror.com
+arout.hardwareheaven.com
 arrowbucket.co
 arrows-hitech.com
 as1.advfn.com
@@ -3107,6 +3105,7 @@ d.gz2010.cn
 d.gzpinda.com
 dhaof.com
 dhgdp.cn
+dhuhui.cn
 dhxyzx.cn
 di1.shopping.com
 dialerporn.com
@@ -5380,6 +5379,7 @@ notice.uchome.manyou.com
 novem.pl
 nowskip.com
 np176.com
+nq37f.cn
 nr1234.com
 ns1p.net
 nsnmiaomu.cn
@@ -6833,7 +6833,6 @@ track.gawker.com
 tracking101.com
 tracking.crunchiemedia.com
 tracking.gajmp.com
-tracking.hostgator.com
 tracking.ibxlink.com
 tracking.internetstores.de
 trackingpro.pro
@@ -6921,7 +6920,6 @@ tyyjzs.cn
 u1.shuaiku.com
 u.63kc.com
 u7qy3e.cn
-ua.badongo.com
 uarating.com
 ub1.job592.com
 ubaii.com
@@ -6966,8 +6964,6 @@ un1.takefoto.cn
 unarmedindustry.com
 undertone.com
 undm.qibulo.com
-unicast.ign.com
-unicast.msn.com
 unidati.com
 union1.cnbetacdn.com
 union.china.com.cn
@@ -7051,7 +7047,6 @@ vendor1.fitschigogerl.com
 venonita.com
 ventivmedia.com
 verblife-3.co
-verdict.abc.go.com
 vericlick.com
 vers80.com
 vertadnet.com
@@ -7062,7 +7057,6 @@ vgaom.com
 vhuay.com
 vi1.souid.com
 vibrantmedia.com
-vice-ads-cdn.vice.com
 vichc.com
 victorjx.com
 videoadex.com
@@ -7084,6 +7078,7 @@ visual-pagerank.fr
 visualrevenue.com
 vjuer.com
 vkafirac.com
+vkjnd.com
 vkuay.com
 vmiua.com
 vmjjzk.cn
