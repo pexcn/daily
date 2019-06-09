@@ -608,12 +608,10 @@ absorbingband.com
 absurdwater.com
 abz.com
 ac1.faxingchina.com
-ac2.msn.com
 acaog.com
 acaox.com
 acaoz.com
 acasys88.cn
-access.njherald.com
 a.cdngeek.net
 achig.com
 aclickads.com
@@ -714,7 +712,6 @@ ad.centrum.cz
 adcept.net
 ad.cgi.cz
 ad.choiceradio.com
-adcitrus.com
 adclick.com
 adclient1.tucows.com
 adclient.uimserv.net
@@ -725,7 +722,6 @@ adcontent.gamespy.com
 ad.cooks.com
 ad.crichd.in
 ad.crwdcntrl.net
-adc.stream.moe
 adcycle.com
 ad-delivery.net
 add.freeimg8.com
@@ -779,7 +775,6 @@ ad.hodomobile.com
 adhome.1fangchan.com
 ad.httpool.com
 ad.hyena.cz
-adi1.mac-torrent-download.net
 a.diaoyu.cn
 ad.icasthq.com
 ad.idgtn.net
@@ -826,14 +821,11 @@ adk2.co
 adk2.com
 ad.keenspace.com
 ad.khan.co.kr
-ad.kissanime.io
-ad.kisscartoon.io
 adland.ru
 ad.leadbolt.net
 adledge.com
 adlegend.com
 adlightning.com
-adlink.shopsafe.co.nz
 ad.liveinternet.ru
 ad.livere.co.kr
 adlog.com.com
@@ -913,7 +905,6 @@ ad.openmultimedia.biz
 adorigin.com
 adotmob.com
 ad.outsidehub.com
-adp1.mac-torrent-download.net
 adpai.thepaper.cn
 ad.pandora.tv
 ad-pay.de
@@ -1350,7 +1341,6 @@ ads.rediff.com
 ads.redlightcenter.com
 ads.redtube.com
 ads.resoom.de
-ads-rolandgarros.com
 adsrv.deviantart.com
 adsrv.eacdn.com
 adsrv.iol.co.za
@@ -1455,7 +1445,6 @@ adtechjp.com
 ad.technoratimedia.com
 adtechus.com
 adtegrity.net
-adtest.theonion.com
 ad.theepochtimes.com
 ad.thewheelof.com
 ad.thisav.com
@@ -1495,7 +1484,6 @@ advertiseireland.com
 advertisementafterthought.com
 advertiserurl.com
 advertisespace.com
-advertise.twitpic.com
 advertisingbanners.com
 advertisingbox.com
 advertisingtag.net
@@ -1509,7 +1497,6 @@ advertwizard.com
 adv.freeonline.it
 advfromnwl.com
 adv.hwupgrade.it
-advice-ads-cdn.vice.com
 ad.vidaroo.com
 advideo.uimserv.net
 adview.ppro.de
@@ -1539,7 +1526,6 @@ ad.wurangxian.top
 ad.wz.cz
 adx.allstar.cz
 adx.atnext.com
-adx.kat.ph
 adxpansion.com
 adxpose.com
 ad.xrea.com
@@ -1602,7 +1588,6 @@ affiliation-france.com
 affiliationjs.s3.amazonaws.com
 affili.net
 affil.mupromo.com
-aff.lmgtfy.com
 aff.marathonbet.com
 affrh2014.com
 affrh2022.com
@@ -1790,7 +1775,6 @@ as1.m.hao123.com
 as1.wenku.baidu.com
 as75.info
 a.sakh.com
-asd.projectfreetv.so
 as.g4.ifeng.com
 as.g5s.ifeng.com
 a.shenchuang.com
@@ -3644,6 +3628,7 @@ foumm.com
 founseezb.cn
 fourarithmetic.com
 foxypp.com
+fpb1.apple886.com
 fpb1.gxfin.com
 fpbcode.onlinedown.net
 fpb.kuhou.com
@@ -4887,6 +4872,7 @@ lop.com
 lopostone.com
 loudloss.com
 loudlunch.com
+loveconer.com
 love.eng20.cn
 lovestyl.com
 love.xingyunxingqiu.wang
@@ -5417,20 +5403,15 @@ o0bc.com
 o80wi1ajq.bkt.clouddn.com
 oaer9.cn
 oangm.com
-oas.autotrader.co.uk
 oas.benchmark.fr
-oasc07.citywire.co.uk
 oascentral.businessweek.com
 oascentral.chicagobusiness.com
-oascentral.chron.com
 oascentral.fortunecity.com
-oascentral.newsmax.com
 oascentral.register.com
 oas.foxnews.com
 oas.luxweb.com
 oas.repubblica.it
 oas.roanoke.com
-oas.skyscanner.net
 oas.toronto.com
 oas.uniontrib.com
 oas.villagevoice.com
@@ -5531,11 +5512,7 @@ owlsr.us
 owneriq.net
 oxado.com
 oxcash.com
-ox-d.rantsports.com
-ox-d.sbnation.com
-ox-d.wetransfer.com
 oxen.hillcountrytexas.com
-ox.furaffinity.net
 ox-i.cordillera.tv
 p1.zhumengwl.com
 p2.dnvod.tv
@@ -5584,7 +5561,6 @@ partners.rochen.com
 partners.sportingbet.com.au
 partners.vouchedfor.co.uk
 partners.xpertmarket.com
-partners-z.com
 partner.toutiao.com
 partnerwork.men
 passion-4.net
@@ -5681,12 +5657,6 @@ pkesports.cn
 pkk1.zuimeiniwo.com
 platado.com
 play4traffic.com
-player.1800coupon.com
-player.1stcreditrepairs.com
-player.800directories.com
-player.accoona.com
-player.alloutwedding.com
-player.insuranceandhealth.com
 playhaven.com
 playmobileads.com
 play.playe.estream.xyz
@@ -5769,7 +5739,6 @@ pro.iweihai.cn
 projectwonderful.com
 promo.badoink.com
 promobenef.com
-promo.fileforum.com
 promos.bwin.it
 promos.fling.com
 promote.pair.com
@@ -5784,7 +5753,6 @@ props.id
 proton-tm.com
 protraffic.com
 provexia.com
-proxy.dzearn.com
 prsitecheck.com
 pr-star.de
 pr-static.empflix.com
@@ -5803,7 +5771,6 @@ pub.admedia.io
 pub.betclick.com
 pubbirdf.com
 pub.chez.com
-pub.chinadailyasia.com
 pub.club-internet.fr
 pubdirecte.com
 pub.funshion.com
@@ -6104,7 +6071,6 @@ rotibald.com
 roughroll.com
 roxr.net
 rpaulfrank.com
-rpt.anchorfree.net
 rqgsf.com
 r.radikal.ru
 rrkykn.cn
@@ -6293,7 +6259,6 @@ shokala.com
 shongcheng.com
 shop265.com
 shoppingads.com
-shoppingpartners2.futurenet.com
 shouwangba.cn
 show.9zwang.com
 showcase.vpsboard.com
@@ -6517,7 +6482,6 @@ stickyadstv.com
 stn88.com
 stocksbsc.com
 storesurprise.com
-storewidget.pcauthority.com.au
 stormyachiever.com
 stormysponge.com
 storygize.net
@@ -7652,7 +7616,6 @@ ypzhwf.cn
 yqcy988.com
 yqjxzw.com
 yqw88.com
-yrt7dgkf.exashare.com
 yrzyks.cn
 ys6ot.cn
 ysdhe.com
