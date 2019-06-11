@@ -1771,6 +1771,7 @@
 8mzyb.voluumtrk.com
 8ngcx.voluumtrk.com
 8ox.cn
+8p30k.cn
 8.ptp22.com
 8pzcp.voluumtrk.com
 8rhf0.voluumtrk.com
@@ -27603,6 +27604,7 @@ czzdf.com
 d00.sina.com.cn
 d06915f22873285e84a9-9954fed71f1f51f77e6d1b38cb5af421.r69.cf2.rackcdn.com
 d07c-7e2c-3ef0-1b99.reporo.net
+d08kfa.cn
 d0.xcar.com.cn
 d10lumateci472.cloudfront.net
 d1110e4.se
@@ -41977,6 +41979,7 @@ this.content.served.by.adshuffle.com.11869.9035.302br.net
 this.content.served.by.adshuffle.com.11870.9035.302br.net
 this.content.served.by.adshuffle.com.12408.9035.302br.net
 this.content.served.by.adshuffle.com.12417.9035.302br.net
+thishare.com
 thisteddagblad.dk
 thli43.cn
 thliluxanplanet.review
