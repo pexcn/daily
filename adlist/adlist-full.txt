@@ -1761,6 +1761,7 @@
 8dp.net
 8.dramafeverw2.appspot.com
 8ehdc.voluumtrk.com
+8fiv9a.cn
 8hdp.cn
 8j24h.cn
 8jkad.voluumtrk.com
@@ -20815,6 +20816,7 @@ as.wkcr.cz
 aswlx.cn
 aswpapius.com
 asx13.com
+at1.doubanio.com
 at98.com
 at-adserver.alltop.com
 ata.ero-advertising.com
@@ -31542,6 +31544,7 @@ go.theadsnet.com
 gotlaughs.com
 gotoast.com
 goto.myfunbreak.com
+gotoniubiurl.pw
 gotoo.com
 gotourls.bid
 gotourl.xyz

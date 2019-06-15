@@ -476,6 +476,7 @@
 8byu.cn
 8c32f38df7.com
 8dp.net
+8fiv9a.cn
 8hdp.cn
 8j24h.cn
 8jkx.com
@@ -1795,6 +1796,7 @@ assoc-amazon.com
 as.webmd.com
 aswlx.cn
 aswpapius.com
+at1.doubanio.com
 at98.com
 at-adserver.alltop.com
 atanx.alicdn.com
@@ -3874,6 +3876,7 @@ gorgeousground.com
 gossipmiser.com
 gostats.com
 go.strpjmp.com
+gotoniubiurl.pw
 gotourls.bid
 gotourl.xyz
 goto.www.iciba.com
