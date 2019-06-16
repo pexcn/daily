@@ -1052,7 +1052,6 @@ adscale.de
 ads.canalblog.com
 ads.canoe.ca
 ads.casinocity.com
-adscaspion.appspot.com
 ads.casumoaffiliates.com
 ads.cbc.ca
 ads.cc
@@ -1775,7 +1774,6 @@ are-ter.com
 arganostrella.com
 argyresthia.com
 aromamirror.com
-arout.hardwareheaven.com
 arrowbucket.co
 arrows-hitech.com
 as1.advfn.com
@@ -1829,7 +1827,6 @@ autoyou1678.com
 avalhukof.com
 avenuea.com
 avocet.io
-avpa.dzone.com
 avpa.javalobby.org
 avsads.com
 avsmt.cn
@@ -1909,7 +1906,6 @@ banner.3ddownloads.com
 banner.ad.nu
 bannerads.de
 banner.ambercoastcasino.com
-banner.automotiveworld.com
 bannerboxes.com
 banner.buempliz-online.ch
 banner.casinodelrio.com
@@ -1932,7 +1928,6 @@ bannerhost.com
 bannerimage.com
 banner.img.co.za
 banner.inyourpocket.com
-banner.itweb.co.za
 banner.kiev.ua
 bannerlandia.com.ar
 banner.linux.se
@@ -1952,18 +1947,14 @@ banners.adultfriendfinder.com
 banners.amigos.com
 banners.asiafriendfinder.com
 banners.babylon-x.com
-banners.beevpn.com
-banners.beted.com
 banners.bol.com.br
 banners.cams.com
 banners.clubseventeen.com
-banners.clubworldgroup.com
 banners.czi.cz
 banners.dine.com
 banners.direction-x.com
 banners.directnic.com
 bannerserver.com
-banners.expressindia.com
 banners.freett.com
 banners.friendfinder.com
 banners.getiton.com
@@ -1971,12 +1962,10 @@ bannersgomlm.com
 bannershotlink.perfectgonzo.com
 banners.iq.pl
 banners.isoftmarketing.com
-banners.itweb.co.za
 banners.linkbuddies.com
 bannersng.yell.com
 bannerspace.com
 banners.passion.com
-banners.playocio.com
 banners.resultonline.com
 banners.sys-con.com
 banners.thomsonlocal.com
@@ -2005,7 +1994,6 @@ barnesandnoble.bfast.com
 barnfps.com
 bas.boshi.tv
 basebanner.com
-base.filedot.xyz
 baskettexture.com
 bat.bing.com
 batbuilding.com
@@ -2085,7 +2073,6 @@ beacon.gu-web.net
 beamincrease.com
 beap.gemini.yahoo.com
 bebadu.com
-beb.crackwatch.com
 bebelait.com
 bebi.com
 becode.qiushibaike.com
@@ -2167,7 +2154,6 @@ blfyquz.cn
 blingbucks.com
 b.livesport.eu
 bllzgqbyp
-b.localpages.com
 blockadblock.com
 blogads.com
 blogcounter.de
@@ -2250,7 +2236,6 @@ bstatic.1kejian.com
 bs.yandex.ru
 bt1.patexplorer.com
 btez8.xyz
-b.thefile.me
 btmp4.net
 btn.onlylady.com
 btn.pchome.net
@@ -3787,7 +3772,6 @@ geovisite.com
 gerunsenbo.cn
 geryi.com
 getclicky.com
-get.thefile.me
 gf108.com
 gf1352.com
 gfaf-banners.s3.amazonaws.com
@@ -4276,7 +4260,6 @@ ilead.itrack.it
 ilinan.xyz
 illfatedsnail.com
 illustriousoatmeal.com
-ima3vpaid.appspot.com
 imads.rediff.com
 image.9duw.com
 imageads.canoe.ca
@@ -5817,6 +5800,7 @@ px.dynamicyield.com
 px.gfycat.com
 pxyvb.cn
 pyerc.com
+pyhuiyu.com
 pypozeqi.com
 pyzkk.com
 p.zol-img.com.cn
@@ -6033,7 +6017,6 @@ re.taotaosou.com
 retargeter.com
 revbigo.com
 revcontent.com
-revealads.appspot.com
 revenuedirect.com
 revenuehits.com
 revenue.net
@@ -6410,6 +6393,7 @@ spotxchange.com
 spotx.tv
 spproxy.autobytel.com
 springaftermath.com
+sprint.heavenmedia.com
 spt.dictionary.com
 spulse.net
 spurioussteam.com
