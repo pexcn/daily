@@ -1955,6 +1955,7 @@ a1.lshou.com
 a1-m1.doublepimp.com
 a1.mingyihui.net
 a.1nimo.com
+a1.qizhihaotian.com
 a1.qqjay.com
 a1.qqtn.com
 a1shd.realshieldlinked.com
@@ -21132,7 +21133,6 @@ b4.rivalgaming.com
 b4.toparcadehits.com
 b4.yahoo.co.jp
 b54ah.cn
-b59812ee54afcabd.com
 b5wpo.voluumtrk.com
 b7nkd.cn
 b7.sitemeter.com
@@ -30901,6 +30901,7 @@ futurepay.globway.eu
 futurex.go2affise.com
 futuristicapparatus.com
 futuristicfairies.com
+fuwosi.cn
 fuzzyflavor.com
 fuzzyweather.com
 fv99.com
@@ -32874,6 +32875,7 @@ img.263y.com
 img2.freeze.com
 img2.pengfu.net
 img2.titan007.com
+img3.126.net
 img3.giardinelli.com
 img3.giardinelli.com.edgesuite.net
 img.3sjt.com
@@ -33995,6 +33997,7 @@ kka.agitos.de
 kka.idg.de
 kkastatic.s3.amazonaws.com
 kkcaicai.com
+kkdsdlc.com
 kkhopguserenate.review
 kl6636.net
 kld666.com
@@ -40564,6 +40567,7 @@ spaces.ero-advertising.com
 spaces.slimspots.com
 spade.twitch.tv
 spad.i-mobile.co.jp
+spahelani.com
 sp.analytics.yahoo.com
 spanids.reference.com
 spanksvrfvabcuq.download
@@ -47957,6 +47961,7 @@ whyfame.us.intellitxt.com
 whytoss.com
 wibiya-actions.conduit-data.com
 wibiya-june-new-log.conduit-data.com
+widdit.com
 widespace.com
 widgetadvertising.biz
 widget.apptap.com
@@ -51784,6 +51789,7 @@ yssbi.net
 ysx8.vip
 ysxywj.com
 yt-adp.nosdn.127.net
+yt-adp.ws.126.net
 ytbnm.cn
 ytdksb.com
 ytmaksim.cn

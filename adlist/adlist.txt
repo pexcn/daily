@@ -552,6 +552,7 @@ a1.gexing.me
 a1.juzih.com
 a1.lshou.com
 a1.mingyihui.net
+a1.qizhihaotian.com
 a1.qqjay.com
 a1.qqtn.com
 a1.shusanqi.com
@@ -1867,7 +1868,6 @@ b1.c1km4.com
 b1.fengdu100.com
 b-1st.com
 b54ah.cn
-b59812ee54afcabd.com
 b7nkd.cn
 b92.putniktravel.com
 b9377h.com
@@ -3675,6 +3675,7 @@ fusionads.net
 fusionquest.com
 futuristicapparatus.com
 futuristicfairies.com
+fuwosi.cn
 fuzzyflavor.com
 fuzzyweather.com
 fv99.com
@@ -4279,6 +4280,7 @@ img2.126.net
 img.263y.com
 img2.pengfu.net
 img2.titan007.com
+img3.126.net
 img.3sjt.com
 img.80982.org
 img80.net
@@ -4669,6 +4671,7 @@ kjgen.com
 kjhfy.com
 kjwx8.com
 kkcaicai.com
+kkdsdlc.com
 kl6636.net
 kld666.com
 kldmm.com
@@ -6372,6 +6375,7 @@ sosjyx.com
 soso.ws
 sp96878.com
 spacash.com
+spahelani.com
 sparkstudios.com
 spcode.baidu.com
 sp.dnqc.com
@@ -7214,6 +7218,7 @@ whshangsha.com
 whsjg.cn
 whxhhjx.com
 whytoss.com
+widdit.com
 widespace.com
 widgetbucks.com
 widget.crowdignite.com
@@ -7643,6 +7648,7 @@ yssbi.net
 ysx8.vip
 ysxywj.com
 yt-adp.nosdn.127.net
+yt-adp.ws.126.net
 ytbnm.cn
 ytdksb.com
 ytmaksim.cn
