@@ -749,6 +749,7 @@ ad.download.cnet.com
 adds.weatherology.com
 ad.duga.jp
 adecn.com
+ad.edugram.com
 ademails.com
 adengage.com
 ad.eporner.com
@@ -1667,7 +1668,6 @@ ak0gsh40.com
 akailoparzapi.com
 a.kandiaoyu.com
 a.kejixun.com
-a.kickass.to
 a.killergram-girls.com
 akrazappi.com
 akrwi.cn
@@ -4857,6 +4857,7 @@ lletd.cn
 ll.gxsky.com
 llqss.top
 llvez.com
+lm1.tuliu.com
 lm1.wzpcw.com
 lm.dawenxue.org
 lmz.9939.com
@@ -7041,6 +7042,7 @@ vertadnet.com
 verticalmass.com
 vervewireless.com
 vf5yb4.cn
+vfdxlt.cn
 vgaom.com
 vhuay.com
 vi1.souid.com
