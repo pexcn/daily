@@ -438,6 +438,7 @@
 7d66a95c481.com
 7dah8.com
 7ez4.cn
+7gg.cc
 7ia9h.cn
 7jiajiao.com
 7mad.7m.cn
@@ -1974,7 +1975,6 @@ banners.thomsonlocal.com
 banners.videosz.com
 banners.virtuagirlhd.com
 bannerswap.com
-banners.wunderground.com
 banner.tanto.de
 banner.telefragged.com
 bannertesting.com
@@ -3686,6 +3686,7 @@ fuzzyweather.com
 fv99.com
 fwjoi.com
 fwt0.com
+fwyang.com
 fw.zhuaji.org
 fx6j3.cn
 fxfhjs.com
@@ -6330,6 +6331,7 @@ sizmek.com
 sjaidu.com
 sjbaiduadv1.redou.com
 sjczsc.com
+sjgnskf.com
 sjuqc.com
 sjy-stone.com.cn
 sjzqu.com
@@ -7105,6 +7107,7 @@ vvv.ieduw.com
 vvvulqn7.com
 vweit.com
 vwws6.net
+vy74i.cn
 w11.zhongkaohelp.com
 w13qh.cn
 w18.9939.com
