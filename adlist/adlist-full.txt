@@ -20500,6 +20500,7 @@ api.yp.com
 api.zanox.com
 api.zanox.ws
 api.zedo.com
+apjiangte.com
 apkdo.com
 apkquery.ksmobile.net
 a.plapre.no
@@ -25065,7 +25066,6 @@ chi2only.outbrain.com
 chicken18.com
 chickensstation.com
 chidir.com
-chiefcurrent.com
 chillinessfjnvbh.download
 chillout.real.com
 chinacache.cedexis.com
@@ -25416,7 +25416,6 @@ clicksite.com
 clicks.mods.de
 clicks.net
 click.solocpm.com
-clicksor.com
 clicksor.net
 clicks.oxcash.com
 clicksrvr.co
@@ -27183,6 +27182,7 @@ count.freeyellow.com
 count.im
 count.infoemail.gamexp.ru
 counting4free.com
+counting.kmindex.ru
 countit.ch
 count.iwbank.it
 count.joy.cn
@@ -29726,7 +29726,6 @@ expansilehsnpjlpb.download
 expbl2ro.xbox.com
 expedia.ca.112.2o7.net
 experianmarketingservices.digital
-experteerads.com
 expert-offers.com
 experts.us.intellitxt.com
 expertvillage.us.intellitxt.com
@@ -35869,6 +35868,7 @@ mpstat.us
 mp-success.com
 mp.twitch.tv
 mq98e.voluumtrk.com
+mqcwr.cn
 mqies.com
 mqo7a.voluumtrk.com
 mqot2.voluumtrk.com
@@ -36047,7 +36047,6 @@ myns-v1.websys.aol.com
 my.omniture.com
 myosotisvkrzovi.download
 mypagerank.net
-mypagerank.ru
 my.plexapp.com
 mypoints.com
 mypopup.ir
@@ -51814,6 +51813,7 @@ yt-adp.nosdn.127.net
 yt-adp.ws.126.net
 ytbnm.cn
 ytdksb.com
+ytmaitian.com
 ytmaksim.cn
 yttz113.com
 ytubevideoqualitymanager.com

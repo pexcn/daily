@@ -1747,6 +1747,7 @@ ao.r7f.ifeng.com
 aoredi.com
 apathetictheory.com
 api.intensifier.de
+apjiangte.com
 apkdo.com
 apmengxin.com
 apolloprogram.io
@@ -2426,7 +2427,6 @@ chgdf.cn
 chicken18.com
 chickensstation.com
 chidir.com
-chiefcurrent.com
 chinahdcm.com
 chinaheh.com
 china-pengdu.cn
@@ -2496,13 +2496,13 @@ click.hay3s.com
 clickhereforcellphones.com
 clickhouse.com
 clickhype.com
+click.kmindex.ru
 clicklink.jp
 click.livedoor.com
 clickonometrics.pl
 clicks.equantum.com
 clickserve.cc-dt.com
 clicks.mods.de
-clicksor.com
 clicks.superpages.com
 clickstrip.6wav.es
 clicktag.de
@@ -2648,6 +2648,7 @@ counter.snackly.co
 counter.sparklit.com
 countersys.cn
 counter.yadro.ru
+counting.kmindex.ru
 count.rin.ru
 counts.tucows.com
 count.west263.com
@@ -3474,7 +3475,6 @@ exoclick.com
 exogripper.com
 exosrv.com
 experianmarketingservices.digital
-experteerads.com
 expo123.net
 exponea.com
 exponential.com
@@ -5204,6 +5204,7 @@ mozist.com
 mozo-widgets.f2.com.au
 mpb1.iteye.com
 mpstat.us
+mqcwr.cn
 mqies.com
 mr087.cn
 mreod.cn
@@ -5247,7 +5248,6 @@ my.gz2010.cn
 mylink-today.com
 mymoneymakingapp.com
 mypagerank.net
-mypagerank.ru
 mypowermall.com
 mystat-in.net
 mystat.pl
@@ -7672,6 +7672,7 @@ yt-adp.nosdn.127.net
 yt-adp.ws.126.net
 ytbnm.cn
 ytdksb.com
+ytmaitian.com
 ytmaksim.cn
 yttz113.com
 yueyelive.com
