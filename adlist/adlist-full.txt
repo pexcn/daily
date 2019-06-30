@@ -1944,6 +1944,7 @@ a135.wftv.com
 a1599.g.akamai.net
 a1767.g.akamai.net
 a1.7down.com
+a1.99933.cn
 a1.99966.cn
 a19.g.akamai.net
 a1.admaster.net
@@ -1958,7 +1959,6 @@ a1.lshou.com
 a1-m1.doublepimp.com
 a1.mingyihui.net
 a.1nimo.com
-a1.qizhihaotian.com
 a1.qqjay.com
 a1.qqtn.com
 a1shd.realshieldlinked.com
@@ -2105,6 +2105,7 @@ abc.hkepc.net
 abcj.dooccn.com
 abcjmp.com
 abc.limaction.com
+ab.cnbanbao.com
 abctcqq.top
 abds.pingpingw.com
 abe.com.au
@@ -27951,6 +27952,7 @@ dairyingsmorbjo.download
 daishuxy.com
 daizhankj.cn
 dajean.com
+dakawm.cc
 dake.net.cn
 dakic-ia-300.com
 dal2.voxcloud.cedexis.com
@@ -29803,6 +29805,7 @@ f0nuq.voluumtrk.com
 f1.06ps.com
 f1190.com
 f1bwg.voluumtrk.com
+f1.ichong123.com
 f1.ilivlite.com
 f1.lutouwang.net
 f1.pig66.com
@@ -33577,6 +33580,7 @@ jira.adition.com
 jira.omniture.com
 jirkinetsaxjjdegyp.download
 jiuku.cc
+jiumishow.com
 jiupinshan.cn
 jiwire.com
 jixfo.voluumtrk.com
@@ -34898,8 +34902,10 @@ m0zl8.voluumtrk.com
 m1.27com.com
 m1.2mdn.net
 m1.51kaowang.com
+m1.81312.com
 m1.bitequan.net.cn
 m1.darfd.com
+m1.dxsbb.com
 m1e.net
 m1fzj.trackvoluum.com
 m1.jintang114.org
