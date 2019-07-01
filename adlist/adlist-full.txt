@@ -1327,7 +1327,6 @@
 46.6.87.194.dynamic.dol.ru
 4.6.87.194.dynamic.dol.ru
 46cq.cn
-47.100.0.249
 47550.9340.302br.net
 47.6.87.194.dynamic.dol.ru
 47.90.50.177
@@ -19902,6 +19901,7 @@ aim4media.com
 aim5.adsoftware.com
 aim-charts.pf.aol.com
 a.imgso.cn
+aimiyz.com
 a.imonomy.com
 aimtoday.aol.com
 ai.net
@@ -51454,6 +51454,7 @@ xihashuale.com
 xilele.com
 xiliweisha.cn
 xinasiaj.com
+xindelin.cn
 xinghao89.com
 xingjuhe.com
 xinju.cc
