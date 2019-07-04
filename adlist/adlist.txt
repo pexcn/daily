@@ -93,7 +93,6 @@
 123freeavatars.com
 123hala.com
 124.232.160.178
-128.14.62.85
 12jf3.cn
 1.32xp.com
 138138138.top
@@ -128,6 +127,7 @@
 18dusun.com
 18tzx.com
 1.92caijing.com
+194.36.101.178
 1999019.com
 1999sg.com
 1.ajiyuming.com
@@ -225,6 +225,7 @@
 22lm.cc
 22.qingsongbar.com
 23456dj.com
+23.89.50.180
 247media.com
 24haitao.net
 24log.com
@@ -734,7 +735,6 @@ adconion.com
 adcontent.gamespy.com
 ad.cooks.com
 ad.crichd.in
-ad.crwdcntrl.net
 adcycle.com
 ad-delivery.net
 add.freeimg8.com
@@ -839,7 +839,6 @@ adland.ru
 ad.leadbolt.net
 adledge.com
 adlegend.com
-adlightning.com
 ad.liveinternet.ru
 ad.livere.co.kr
 adlog.com.com
@@ -1199,6 +1198,7 @@ ads.foxnetworks.com
 ads.freecity.de
 ads.friendfinder.com
 ads.ft.com
+ads-game-187f4.firebaseapp.com
 ads.gamecity.net
 ads.gamershell.com
 ads.gamespyid.com
@@ -2085,6 +2085,7 @@ becode.xiao84.com
 bedhdig.cn
 bedsbreath.com
 beeho.site
+beemray.com
 beglorena.com
 begun.ru
 behavioralengine.com
@@ -2305,6 +2306,7 @@ calculatorcamera.com
 caliyuna.cn
 callousbrake.com
 callrail.com
+callstats.io
 campaign.bharatmatrimony.com
 cams.pornrabbit.com
 camtinolc.com
@@ -2365,6 +2367,7 @@ cdiah.com
 cdlinli.com
 cdn1.tvzhe.com
 cdn.freefarcy.com
+cdn.heapanalytics.com
 cdnjsp.wang
 cdn.m.okdd.net
 cdnny.com
@@ -2536,7 +2539,6 @@ cluster.adultworld.com
 clustrmaps.com
 cmaxisolation.com
 cm.baidu.com
-cml.sad.ukrd.com
 cmm.xmfish.com
 c.mnjkw.cn
 cms.fx678.com
@@ -2584,6 +2586,7 @@ cointraffic.io
 cojia.net
 collector.viki.io
 colonize.com
+colpirio.com
 comclick.com
 comesgo.com
 comfortablecheese.com
@@ -3181,6 +3184,7 @@ dm.ishuo.cn
 dm.jb51.net
 dm.jsyst.cn
 dmm.aizhan.com
+dmp.mall.tv
 dmpsj.cn
 dm.pw0.cn
 dmr.cnhoney.com
@@ -3870,6 +3874,7 @@ google-analytics.com
 googleapi.club
 googlespider1.cn
 googlesyndication.com
+googletagservices.com
 googletakes.com
 go-rank.de
 goredi.com
@@ -4026,7 +4031,6 @@ hdsrc-a.akamaihd.net
 hdswgc.com
 hduic.com
 headwell.cn
-heapanalytics.com
 heap.com
 heavenmedia.v3g4s.com
 hebadu.com
@@ -4174,6 +4178,7 @@ huashuowork.com
 huayange.com
 huayi65.com
 hubojd.com
+hud8mxdt.computerhelpmirror.top
 huigoushop.com
 huimee.net
 hulemedia.com
@@ -4728,6 +4733,7 @@ kpshx.douguo.com
 kqiaq.com
 kqy1.com
 krakeshlaja.com
+krxd.net
 ks67.com
 ksdsuzhou.com
 kshks5.site
@@ -5075,7 +5081,6 @@ media-adrunner.mycomputer.com
 mediaarea.eu
 mediabridge.cc
 mediacharger.com
-media.cheshi-img.com
 media-delivery.armorgames.com
 media.ftv-publicite.fr
 media.funpic.de
@@ -6343,6 +6348,7 @@ siguatv.cn
 silkysquirrel.com
 sillyscrew.com
 similarsabine.com
+simpleanalytics.io
 simpli.fi
 sinaalicdn.com
 sinaaliyun.cn
@@ -6513,6 +6519,7 @@ staticjs.cn
 static.kinghost.com
 static-ssp.yidianzixun.com
 static.tucsonsentinel.com
+statistic.ads24h.net
 statistik-gallup.net
 statm.the-adult-company.com
 stat.pl
@@ -6650,6 +6657,7 @@ taat00889.com
 taboola.com
 tabwl.com
 tad.suning.com
+tagan.adlightning.com
 tags2.adshell.net
 tags.sprizzy.com
 tagular.com
@@ -6872,6 +6880,7 @@ tracking.internetstores.de
 trackingpro.pro
 trackingsoft.com
 trackmysales.com
+track.nuxues.com
 track.viewdeos.com
 tradeadexchange.com
 tradeccl.com
@@ -7347,6 +7356,7 @@ wstztt.com
 ws.wenshenxiu.com
 wsxxu.com
 wt.adtrue24.com
+wt.bankmillennium.pl
 wt-eu02.net
 wtlive.com
 wtpn.twenga.co.uk
@@ -7563,6 +7573,7 @@ xzqxz.net
 xztms.com
 xzyituo.com
 xzzyi.com
+y05zw.cn
 y0o1g.cn
 y12f.com
 y1.spreton.com

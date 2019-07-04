@@ -392,7 +392,6 @@
 1268402.fls.doubleclick.net
 126.xg4ken.com
 127.6.87.194.dynamic.dol.ru
-128.14.62.85
 128.6.87.194.dynamic.dol.ru
 129.6.87.194.dynamic.dol.ru
 12jf3.cn
@@ -562,6 +561,7 @@
 192com.112.2o7.net
 193.6.87.194.dynamic.dol.ru
 1940.bitterstrawberry.com
+194.36.101.178
 194.6.87.194.dynamic.dol.ru
 195.6.87.194.dynamic.dol.ru
 196179102.log.optimizely.com
@@ -1056,6 +1056,7 @@
 237.6.87.194.dynamic.dol.ru
 237.bitterstrawberry.com
 238.6.87.194.dynamic.dol.ru
+23.89.50.180
 239.6.87.194.dynamic.dol.ru
 2398.bitterstrawberry.com
 2400.bitterstrawberry.com
@@ -16568,7 +16569,6 @@ adlet.voice2page.com
 adlev.neodatagroup.com
 ad.lfstmedia.com
 adlibr.com
-adlightning.com
 ad.linkexchange.com
 ad.linkexchange.net
 adlink.net
@@ -18083,6 +18083,7 @@ adsfundi.net
 ads.funfarsi.ir
 adsfuse.com
 ads.gad-network.com
+ads-game-187f4.firebaseapp.com
 ads.gamecity.net
 ads.gamecopyworld.no
 ads.game.net
@@ -22326,6 +22327,7 @@ bedsbreath.com
 beead.co.uk
 bee-ads.com
 beeho.site
+beemray.com
 beglorena.com
 begun.ru
 behacdn.ksmobile.net
@@ -24394,6 +24396,7 @@ callfire.com
 callloop.com
 callousbrake.com
 callrail.com
+callstats.io
 calltoadagency.go2affise.com
 call-tracking.co.uk
 c.am11.ru
@@ -24803,6 +24806,7 @@ cdn.funnel.naturaltracking.com
 cdn.gameadvert.com
 cdn-gl.imrworldwide.com
 cdn.hanaprop.com
+cdn.heapanalytics.com
 cdn.herezera.com
 cdn.hgdat.com
 cdn-highwinds.unityads.unity3d.com
@@ -25589,7 +25593,6 @@ cm.g.doubleclick.net
 c.microsoft.com
 cmllk1.info
 cm.l.qq.com
-cml.sad.ukrd.com
 cmm.xmfish.com
 cmn1lsm2.beliefnet.com
 cmn1lsm3.beliefnet.com
@@ -25753,6 +25756,7 @@ collidingsgmwsx.download
 colligatepygpdqk.download
 colonize.com
 colorfoto.digidip.net
+colpirio.com
 com.24290.9170.302br.net
 com.24293.9170.302br.net
 com.33526.9243.302br.net
@@ -28564,6 +28568,7 @@ dmm.tt.omtrdc.net
 d.mobpartner.mobi
 dm-online.de
 d.moreover.com
+dmp.mall.tv
 dmpnetwork.go2cloud.org
 dmpsj.cn
 dmp.springserve.com
@@ -31510,6 +31515,7 @@ googleapi.club
 googlespider1.cn
 googlesyndication.com
 googletagmanager.com
+googletagservices.com
 googletakes.com
 go.onclasrv.com
 gooool.com
@@ -31980,7 +31986,6 @@ hdswgc.com
 hduic.com
 headwell.cn
 heals.msgfocus.com
-heapanalytics.com
 heap.com
 heartbeat.pmc.com
 heavenmedia.v3g4s.com
@@ -32382,6 +32387,7 @@ hubspot.my.salesforce.com
 hubtraffic.com
 hubxt.redtube.com
 hubxt.tube8.com
+hud8mxdt.computerhelpmirror.top
 huigoushop.com
 huimee.net
 hulemedia.com
@@ -34096,6 +34102,7 @@ krj9b.redirectvoluum.com
 krone.oewabox.at
 kropka.tro.pl
 krwxs.voluumtrk.com
+krxd.net
 kryptobanners.com
 ks67.com
 kscrudiscepted.review
@@ -35284,7 +35291,6 @@ mediacampaign.org
 media.campartner.com
 media.carpediem.fr
 mediacharger.com
-media.cheshi-img.com
 media-clic.com
 media-code.info
 media.contextweb.com
@@ -40339,6 +40345,7 @@ similarsabine.com
 similezfzycz.download
 simonsearch.com
 simpailoppvw.download
+simpleanalytics.io
 simplehitcounter.com
 simpleonlinemedia.go2cloud.org
 simpli.fi
@@ -41071,6 +41078,7 @@ static.zanox.com
 static.zedo.com
 static.ziffdavis.com
 stat.info-stream.net
+statistic.ads24h.net
 statistic.qzone.qq.com
 statistics.crowdynews.com
 statistics.infowap.info
@@ -41679,6 +41687,7 @@ t.afftrackr.com
 tag.120ask.com
 tag.163.com
 tag.adip.ly
+tagan.adlightning.com
 tag.bounceexchange.com
 tagcash.com
 tagcontainer.arvato-e.com
@@ -42683,6 +42692,7 @@ track.net
 track.netshelter.net
 track.netzero.net
 track.ning.com
+track.nuxues.com
 track.omgpl.com
 track.oxcash.com
 track.performtracking.com
@@ -48272,6 +48282,7 @@ wsxxu.com
 wt01.webtrekk.net
 wt.adtrue24.com
 wta.ero-advertising.com
+wt.bankmillennium.pl
 wt-eu02.net
 wtlive.com
 wt.o.nytimes.com
@@ -51633,6 +51644,7 @@ xzqxz.net
 xztms.com
 xzyituo.com
 xzzyi.com
+y05zw.cn
 y0.extreme-dm.com
 y0o1g.cn
 y12f.com
