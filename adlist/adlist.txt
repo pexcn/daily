@@ -1896,7 +1896,6 @@ baidujavascript.com
 baidujs.cnys.com
 baidulao.com
 baiduspider1.cn
-baidu-union-js.chuimg.com
 baiduwapjs1.chinaiiss.com
 baiduyoukualiyun.com
 baiduyubaidu.com
@@ -3600,6 +3599,7 @@ findicons.com
 finding.hardwareheaven.com
 findnsave.idahostatesman.com
 findyourcasino.com
+fipipo.cn
 firefang.cn
 firstlightera.com
 first.nova.cz
@@ -3820,6 +3820,7 @@ gg.egouz.com
 gg.g9mi6.com
 gg.gao7.com
 gg.getbs.com
+gg.gsdlcn.com
 gg.gw032.com
 ggg.xiangjiao.xxx
 ggg.zj.com
@@ -5938,6 +5939,7 @@ qsbz2011.com
 qshxc.com
 qsove.com
 qt.biqugezw.com
+qtch888.com
 qtmojo.cn
 qtpngov.cn
 quacksquirrel.com
@@ -7424,6 +7426,7 @@ xcbmwx.com
 xcclzs.com
 xcdf.cn
 xcdzsw.com
+xcf-bd-js.chuimg.com
 xc.gouchezj.com
 xchange.ro
 xchgx.com
