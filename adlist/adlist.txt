@@ -328,6 +328,7 @@
 517m.cn
 517pass.com
 518ad.com
+519397.com
 51dengshan.cn
 51fuliwang.cn
 51gpt.com
@@ -483,6 +484,7 @@
 8hdp.cn
 8j24h.cn
 8jkx.com
+8ls3n.cn
 8mfty.com
 8ox.cn
 8p30k.cn
@@ -1928,7 +1930,6 @@ banner.elisa.net
 banner.eurogrand.com
 banner.europacasino.com
 banner-exchange-24.de
-bannerflow.com
 banner.goldenpalace.com
 bannergrabber.internet.gr
 bannerhost.com
@@ -2369,6 +2370,7 @@ cdhenfan.com
 cdiah.com
 cdlinli.com
 cdn1.tvzhe.com
+cdn.bannerflow.com
 cdn.freefarcy.com
 cdn.heapanalytics.com
 cdnjsp.wang
@@ -3609,6 +3611,7 @@ fjhanmei.com
 fjkst.com
 fjmailia.com
 fjmeyer.com
+fjmrxys.com
 fjtzjy.com
 fjxyo.com
 fkikij.cn
@@ -5677,6 +5680,7 @@ petiteumbrella.com
 petsheying.com
 pg-ad-b1.nosdn.127.net
 pgl.example0101
+pgltestinghere
 pgmediaserve.com
 pgpartner.com
 pheedo.com
@@ -6873,6 +6877,7 @@ track.bcvcmedia.com
 track.contently.com
 trackedlink.net
 trackedweb.net
+tracker.bannerflow.com
 tracker.icerocket.com
 tracker.marinsm.com
 tracker-pm2.spilleren.com
