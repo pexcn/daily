@@ -21170,6 +21170,7 @@ backoffice.adsender.us
 backtype.com
 backups.crittercism.com
 ba.cydp5.com
+badding.oss-ap-southeast-1.aliyuncs.com
 badges.instagram.com
 badge.stumbleupon.com
 b.admedia.com
@@ -30187,6 +30188,7 @@ fmtv.go2cloud.org
 fmydk.voluumtrk.com
 fnatfee.ero-advertising.com
 fn.hgin.com
+fninin.cn
 fnkjj.com
 fnxmyx.cn
 foamybox.com
@@ -35653,7 +35655,6 @@ mi-web41.prod.millennialmedia.com
 mi-web42.prod.millennialmedia.com
 mi-web43.prod.millennialmedia.com
 mixadvert.com
-mixbig.oss-ap-southeast-1.aliyuncs.com
 mixedreading.com
 mixpanel.com
 mixrank.go2cloud.org
@@ -35895,6 +35896,7 @@ mousselinehkhnrrnlq.download
 moutaihotel.cn
 movieads.ero-advertising.com
 moviepulp.eu
+movii-loft.cn
 movise.site
 mowburnsexrzvcbvq.download
 mowfruit.com

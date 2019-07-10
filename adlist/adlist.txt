@@ -1886,6 +1886,7 @@ babs.tv2.dk
 ba.ccm2.net
 backbeatmedia.com
 ba.cydp5.com
+badding.oss-ap-southeast-1.aliyuncs.com
 badokal.com
 baful.net
 bahaimlo.com
@@ -3629,6 +3630,7 @@ flowgo.com
 flurry.com
 fm6w.com
 fmgoal.com
+fninin.cn
 fnkjj.com
 fnxmyx.cn
 foamybox.com
@@ -5191,7 +5193,6 @@ mintegral.com
 miracan.pw
 misstrends.com
 mitotach.com
-mixbig.oss-ap-southeast-1.aliyuncs.com
 mixedreading.com
 mixpanel.com
 mixtraffic.com
@@ -5247,6 +5248,7 @@ mountain.zhidao.baidu.com
 mouseflow.com
 mousestats.com
 moutaihotel.cn
+movii-loft.cn
 mowfruit.com
 mozefakt.com
 mozist.com
