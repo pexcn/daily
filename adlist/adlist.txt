@@ -4039,6 +4039,7 @@ hdc.maxli.cn
 hdc.watchtimes.com.cn
 hdfdm.com
 hdjxmf.com
+hdminfeng.com
 hdscout.com
 hdsrc-a.akamaihd.net
 hdswgc.com
@@ -4835,6 +4836,7 @@ lfhnkp.com
 lflili.com
 lfouz.com
 lfstmedia.com
+lfzxcp.com
 lglady.cn
 lglkqm.cn
 lguir.com
@@ -5552,6 +5554,7 @@ openads.friendfinder.com
 openads.org
 openad.tf1.fr
 openad.travelnow.com
+opengam.com
 open.oneplus.net
 opentag-stats.qubit.com
 openx.angelsgroup.org.uk
@@ -6121,6 +6124,7 @@ rjiau.com
 rjk1.com
 rlcdn.com
 rle.ru
+r.logrocket.io
 rmads.msn.com
 rmcxw.cn
 rmcxw.net
