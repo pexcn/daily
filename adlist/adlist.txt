@@ -44,7 +44,6 @@
 101order.com
 103.249.254.113
 103.49.209.27
-104.149.15.130
 104.195.62.12
 104.197.140.120
 104.198.198.188
@@ -226,6 +225,7 @@
 22.qingsongbar.com
 23456dj.com
 23.89.50.180
+23.91.3.114
 247media.com
 24haitao.net
 24log.com
@@ -376,6 +376,7 @@
 5x0f.cn
 5x5q.com
 5y9nfpes.52pk.com
+5yw4n.cn
 60.190.139.164
 60608787.com
 61.147.184.18
@@ -1362,7 +1363,6 @@ adsrv.deviantart.com
 adsrv.eacdn.com
 adsrv.iol.co.za
 adsrvr.org
-ads.satyamonline.com
 ads.saymedia.com
 ads.scifi.com
 adss.dotdo.net
@@ -4119,6 +4119,7 @@ hit.ua
 hit.webcentre.lycos.co.uk
 hivecn.cn
 hjiec.com
+hjjnpx.com
 hjkrlc.cn
 hjryl.com
 hjues.com
@@ -5301,6 +5302,7 @@ my.gz2010.cn
 mylink-today.com
 mymoneymakingapp.com
 mypagerank.net
+mypagerank.ru
 mypowermall.com
 mystat-in.net
 mystat.pl
@@ -6527,7 +6529,6 @@ stat24.com
 stat24.meta.ua
 stat.cliche.se
 statcounter.com
-stat.dealtime.com
 stat.dyna.ultraweb.hu
 staticads.btopenworld.com
 static-cn.plista.com

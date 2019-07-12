@@ -271,7 +271,6 @@
 1033.bitterstrawberry.com
 103.49.209.27
 103.6.87.194.dynamic.dol.ru
-104.149.15.130
 104.195.62.12
 104.197.140.120
 104.198.198.188
@@ -1057,6 +1056,7 @@
 237.bitterstrawberry.com
 238.6.87.194.dynamic.dol.ru
 23.89.50.180
+23.91.3.114
 239.6.87.194.dynamic.dol.ru
 2398.bitterstrawberry.com
 2400.bitterstrawberry.com
@@ -1493,6 +1493,7 @@
 5y9nfpes.52pk.com
 5ymz8.voluumtrk.com
 5yrwz.voluumtrk.com
+5yw4n.cn
 5ywhn.voluumtrk.com
 5zegq.voluumtrk.com
 600z.com
@@ -32184,6 +32185,7 @@ hjapa.voluumtrk.com
 hjchung.myweb.hinet.net
 hjhaw.voluumtrk.com
 hjiec.com
+hjjnpx.com
 hjkrlc.cn
 hjlas.com
 hjryl.com
@@ -36101,6 +36103,7 @@ myns-v1.websys.aol.com
 my.omniture.com
 myosotisvkrzovi.download
 mypagerank.net
+mypagerank.ru
 my.plexapp.com
 mypoints.com
 mypopup.ir
