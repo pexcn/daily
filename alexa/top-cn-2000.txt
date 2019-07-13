@@ -773,7 +773,6 @@ zhiye.com
 artron.net
 p2peye.com
 bbsmax.com
-jisuxz.com
 taodocs.com
 ccvnn.com
 talkingdata.com
@@ -817,6 +816,7 @@ soopat.com
 hanfan.cc
 qdaily.com
 yidianzixun.com
+1btbtt.com
 jeasyui.net
 chengdun.com
 mjzj.com
@@ -1148,6 +1148,7 @@ xiaoxue123.com
 phoenixos.com
 kamigami.org
 qqbaobao.com
+yunsennet.com
 gepuwang.net
 ieeod0.com
 kekenet.com
@@ -1739,6 +1740,7 @@ tslsmart.com
 wanmeishijiexiaoshuo.org
 psjia.com
 hanboshi.com
+hdwan.net
 varmilo.com
 chinacache.com
 biduo.cc
@@ -1996,5 +1998,3 @@ szzfgjj.com
 365j.com
 3gus.com
 3wcoffee.com
-4kong.com
-51jiecai.com
