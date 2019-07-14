@@ -47,7 +47,6 @@
 104.195.62.12
 104.197.140.120
 104.198.198.188
-104.201.27.131
 104.37.245.11
 106.187.95.251
 107.187.255.178
@@ -4552,7 +4551,6 @@ jlxzt.com
 jmsyzj.com
 jmxlaser.com
 jndczg.com
-jnrsjm.com
 jnsdkjzs.com
 jnsz.net.cn
 jnyngg.cn
@@ -4825,7 +4823,6 @@ leadplace.fr
 leadzupc.com
 leamain.net
 leaplunchroom.com
-leeyuoxs.com
 legozu.com
 lerenzx.cn
 let83.cn
