@@ -1,5 +1,5 @@
 //
-// Update: 2019-07-15 04:39:20
+// Update: 2019-07-16 04:39:37
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -736,6 +736,7 @@ const gfwlist_domains = {
   "bunbunhk.com": 1,
   "busayari.com": 1,
   "businessinsider.com": 1,
+  "businesstoday.com.tw": 1,
   "businessweek.com": 1,
   "busu.org": 1,
   "busytrade.com": 1,
@@ -1262,6 +1263,7 @@ const gfwlist_domains = {
   "dipity.com": 1,
   "directcreative.com": 1,
   "discoins.com": 1,
+  "disconnect.me": 1,
   "discordapp.com": 1,
   "discordapp.net": 1,
   "discuss4u.com": 1,
@@ -1289,6 +1291,7 @@ const gfwlist_domains = {
   "dnscrypt.org": 1,
   "dns-dns.com": 1,
   "dnset.com": 1,
+  "dns.google": 1,
   "dnsrd.com": 1,
   "dnssec.net": 1,
   "dns-stuff.com": 1,
@@ -1447,6 +1450,7 @@ const gfwlist_domains = {
   "emulefans.com": 1,
   "emuparadise.me": 1,
   "enanyang.my": 1,
+  "encyclopedia.com": 1,
   "enewstree.com": 1,
   "enfal.de": 1,
   "en.favotter.net": 1,
@@ -4089,7 +4093,6 @@ const gfwlist_domains = {
   "s-dragon.org": 1,
   "seapuff.com": 1,
   "search.aol.com": 1,
-  "search.disconnect.me": 1,
   "searchtruth.com": 1,
   "search.xxx": 1,
   "search.yahoo.co.jp": 1,
