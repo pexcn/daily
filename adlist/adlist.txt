@@ -224,6 +224,7 @@
 222im.com
 22lm.cc
 22.qingsongbar.com
+23.244.43.212
 23456dj.com
 23.89.50.180
 23.91.3.114
@@ -348,7 +349,6 @@
 52linglei.com
 52lubo.cn
 52m.xde6.net
-52smz.com
 52tushuo.com
 52yugan.com
 52zfl.com
@@ -1650,6 +1650,7 @@ aigou023.com
 a.ihref.com
 aijielang.cn
 aikan6.com
+ailiyou1999.com
 aim4media.com
 a.imgso.cn
 aimiyz.com
@@ -2200,7 +2201,6 @@ boilingumbrella.com
 bokanedu.net
 bokilora.com
 bolkazoopa.com
-bombora.com
 bondinra.com
 bonjikoa.com
 bontent.powvideo.net
@@ -3006,7 +3006,6 @@ d.annarbor.com
 danpinwu.com
 dante2007.com
 daokejs.com
-dapaogg.xyz
 dapper.net
 dart.clearchannel.com
 dasfdasfasdf.no-ip.info
@@ -5979,7 +5978,6 @@ qujishu.com
 quldu.com
 quw18.com
 qwedcfv.com
-qwertyuiopa.co
 qxfly.com
 qxjdlf.com
 qxxys.com
@@ -6279,6 +6277,7 @@ sedoparking.com
 sedotracker.com
 selectionsugar.com
 selectivesummer.com
+semasio.net
 sendmepixel.com
 senolati.com
 sensismediasmart.com.au
@@ -7920,6 +7919,7 @@ zqtk.net
 zqworks.com
 zreder.com
 zrpfk.com
+zrwhartongroup.com
 zry8181.com
 zsdexun.com.cn
 zsedu99.cn

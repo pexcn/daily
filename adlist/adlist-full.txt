@@ -1041,6 +1041,7 @@
 230.6.87.194.dynamic.dol.ru
 231.6.87.194.dynamic.dol.ru
 231c-356f-e194-8857.reporo.net
+23.244.43.212
 232.6.87.194.dynamic.dol.ru
 232.bitterstrawberry.com
 2332696.fls.doubleclick.net
@@ -1418,7 +1419,6 @@
 52linglei.com
 52lubo.cn
 52m.xde6.net
-52smz.com
 52tushuo.com
 52yugan.com
 52zfl.com
@@ -19901,6 +19901,7 @@ ai.hitbox.com
 a.ihref.com
 aijielang.cn
 aikan6.com
+ailiyou1999.com
 aim1.adsoftware.com
 aim2.adsoftware.com
 aim3.adsoftware.com
@@ -22639,7 +22640,6 @@ boldchat.com
 bolde02.webtrekk.net
 bolkazoopa.com
 bolt.us.intellitxt.com
-bombora.com
 bomek.com
 bon7g.voluumtrk.com
 bondinra.com
@@ -27989,7 +27989,6 @@ danpinwu.com
 danskebank.122.207.net
 dante2007.com
 daokejs.com
-dapaogg.xyz
 dapper.net
 d.applovin.com
 d.appsdt.com
@@ -38752,7 +38751,6 @@ quw18.com
 qvb2w.voluumtrk.com
 qvciu.voluumtrk.com
 qwedcfv.com
-qwertyuiopa.co
 qwest.bfast.com
 qwiklnk.com
 qwwqb.voluumtrk.com
@@ -39985,6 +39983,7 @@ selfdestructingemail.com
 selfdestructingmessage.com
 selfnetwork.com
 sellads.eu
+semasio.net
 semrush.com
 sem.shopexplorer.com
 send4fun.com
@@ -52187,6 +52186,7 @@ zqworks.com
 zq.zeroredirect1.com
 zreder.com
 zrpfk.com
+zrwhartongroup.com
 zry8181.com
 zr.zeroredirect1.com
 zs0s5xfe.com
