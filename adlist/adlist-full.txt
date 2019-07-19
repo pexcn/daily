@@ -275,7 +275,6 @@
 104.195.62.12
 104.197.140.120
 104.198.198.188
-104.37.245.11
 104.6.87.194.dynamic.dol.ru
 105.6.87.194.dynamic.dol.ru
 106.187.95.251
@@ -1696,7 +1695,6 @@
 7.ptp22.com
 7qkuf.voluumtrk.com
 7search.com
-7shang9xia.com
 7sultans.com
 7vhyc.voluumtrk.com
 7wen.cn
@@ -25132,6 +25130,7 @@ chuhul.cn
 chukalapopi.com
 chukalorqa.com
 chushoushijian.cn
+chutangpu.cn
 chutneysrkcmkwrqb.download
 chuzushijian.cn
 ci22.actonsoftware.com
@@ -31121,6 +31120,7 @@ ge1.ca
 ge95.com
 gear.ign.us.intellitxt.com
 gebadu.com
+gedus.cn
 geegawmpuvidd.download
 geekstogo.us.intellitxt.com
 geili.co
@@ -32275,7 +32275,6 @@ homeloan.tr.cx
 home.mmcable.com
 home.netster.com
 homepage.cc
-homepageking.de
 homepage.ru
 home.pages.at
 home.peoplepc.com
@@ -36236,6 +36235,7 @@ nazarabo.bitterstrawberry.com
 nba.emohe.com
 nbaob.com
 nbasic.sitestat.com
+nbhotpo.com
 nbhxgjz.com
 nbimg.dt00.net
 nbjjd.com
@@ -36261,6 +36261,7 @@ ndk38.voluumtrk.com
 ndparking.com
 ndtzx.com
 nduop.com
+ndusa.cn
 ndwck.voluumtrk.com
 ne9377.com
 nearbyad.com
@@ -47719,6 +47720,7 @@ w8.hitbox.com
 w9.hitbox.com
 wa.and.co.uk
 wabdb1.52pk.com
+waby66.cn
 wac.658e.edgecastcdn.net
 wac.a164.edgecastcdn.net
 wac.a164.taucdn.net

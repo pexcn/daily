@@ -48,7 +48,6 @@
 104.195.62.12
 104.197.140.120
 104.198.198.188
-104.37.245.11
 106.187.95.251
 107.187.255.178
 108.171.248.234
@@ -447,7 +446,6 @@
 7mad.7m.cn
 7n3e8o.com
 7search.com
-7shang9xia.com
 7wen.cn
 7xi9g1.com1.z0.glb.clouddn.com
 7xsf3h.com1.z0.glb.clouddn.com
@@ -1366,6 +1364,7 @@ adsrv.deviantart.com
 adsrv.eacdn.com
 adsrv.iol.co.za
 adsrvr.org
+ads.satyamonline.com
 ads.saymedia.com
 ads.scifi.com
 adss.dotdo.net
@@ -2469,6 +2468,7 @@ chuhul.cn
 chukalapopi.com
 chukalorqa.com
 chushoushijian.cn
+chutangpu.cn
 chuzushijian.cn
 ciajingman.com
 cike666.com
@@ -2500,7 +2500,6 @@ clearcomb.com
 clevernt.com
 click2freemoney.com
 clickability.com
-click.absoluteagency.com
 clickadin.com
 clickadz.com
 clickagents.com
@@ -3083,7 +3082,6 @@ delivery.playallvideos.com
 delivery.porn.com
 delivery.thebloggernetwork.com
 delivery.wasu.cn
-deloo.de
 deloton.com
 demandbase.com
 demdex.net
@@ -3798,6 +3796,7 @@ gdunt.com
 gd.vodtw.com
 ge95.com
 gebadu.com
+gedus.cn
 geili.co
 geiyujieda.com
 gelinboer.cn
@@ -4171,7 +4170,6 @@ hollandbusinessadvertising.nl
 hollowshake.com
 homad-global-configs.schneevonmorgen.com
 home520.com
-homepageking.de
 honeygoldfish.com
 hongshikai.com
 hongyangbg.com
@@ -5359,6 +5357,7 @@ navigator.io
 navrcholu.cz
 nba.emohe.com
 nbaob.com
+nbhotpo.com
 nbhxgjz.com
 nbjjd.com
 nbjmp.com
@@ -5371,6 +5370,7 @@ ncs.eadaily.com
 ndparking.com
 ndtzx.com
 nduop.com
+ndusa.cn
 ne9377.com
 nebadu.com
 nedstatbasic.net
@@ -7242,6 +7242,7 @@ w65p.com
 w859u.cn
 wa.and.co.uk
 wabdb1.52pk.com
+waby66.cn
 wagenlux.cn
 waihui518.com
 wakapita.com
