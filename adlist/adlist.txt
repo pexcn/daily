@@ -123,6 +123,7 @@
 180searchassistant.com
 181lm.net
 182.92.81.104
+183pu.cn
 18dusun.com
 18tzx.com
 1.92caijing.com
@@ -374,7 +375,6 @@
 5pub.com
 5rxk.cn
 5x0f.cn
-5x5q.com
 5y9nfpes.52pk.com
 5yw4n.cn
 60.190.139.164
@@ -3842,7 +3842,6 @@ gg.gao7.com
 gg.getbs.com
 gg.gsdlcn.com
 gg.gw032.com
-ggg.xiangjiao.xxx
 ggg.zj.com
 gg.jkmeishi.com
 gg.kugou.com
@@ -4501,7 +4500,6 @@ jdlcg.cn
 jdlhg.com
 jduiv.com
 jebadu.com
-jegxny.com
 jermr.com
 jerotidv.com
 jfjsp.com
@@ -4864,6 +4862,7 @@ lglkqm.cn
 lguir.com
 lhafy.com
 lhengilin.com
+lhhxlj.com
 lhusy.com
 liacyne.pw
 liadm.com
@@ -5544,7 +5543,6 @@ o.jy135.com
 ok.432kkk.com
 okkkk.com
 okm918.com
-okmgy.cn
 okshishi.com
 oktpage.com
 okuis.com
@@ -7220,7 +7218,6 @@ vs.tucows.com
 vsxet.com
 vtale.org
 vtracy.de
-vu7r6.cn
 vuahb.com
 vungle.com
 vupload.duowan.com
@@ -7738,8 +7735,8 @@ yiwuds.com
 yi.ximizi.com
 yixui.com
 yiyuantian.com
+yizhijin.cn
 yjiaj.com
-yjkyj.cn
 yjoiunf.com
 yk0712.com
 ykjmy.com
