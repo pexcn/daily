@@ -1279,6 +1279,7 @@ ads.linuxfoundation.org
 ads.livenation.com
 ads.lordlucky.com
 ad.slutload.com
+ads.mail.bg
 ads.mariuana.it
 adsmarket.com
 ad.smartclip.net
@@ -1400,6 +1401,7 @@ ads.tmcs.net
 ads.toplayaffiliates.com
 ads.totallyfreestuff.com
 ads.townhall.com
+ads.travelaudience.com
 ads.tremorhub.com
 ads.trinitymirror.co.uk
 ads.tripod.com
@@ -1769,6 +1771,7 @@ apple.www.letv.com
 appnext-a.akamaihd.net
 app.pendo.io
 appsflyer.com
+apsalar.com
 aps.hearstnp.com
 a.psxxw.cn
 apture.com
@@ -1823,6 +1826,7 @@ atiws.aipai.com
 a.tiyuxiu.com
 atm.youku.com
 attractiveafternoon.com
+attribution.report
 attributiontracker.com
 a.tvsou.com
 atwola.com
@@ -4429,7 +4433,6 @@ ipredictive.com
 ip.ro
 ipro.com
 iq24ne.cn
-iqm.com
 iqu-operation.com
 irauz.com
 ireklama.cz
@@ -5183,6 +5186,7 @@ metrics.cnn.com
 metrics.consumerreports.org
 metrics.ctv.ca
 metrics.foxnews.com
+metrics.getrockerbox.com
 metrics.gfycat.com
 metrics.govexec.com
 metrics.windowsitpro.com
@@ -5655,6 +5659,7 @@ parsely.com
 parsimoniouspolice.com
 partnerad.l.google.com
 partner-ads.com
+partnerads.ysm.yahoo.com
 partner.bargaindomains.com
 partnercash.de
 partner.catchy.com
@@ -5715,7 +5720,6 @@ petiteumbrella.com
 petsheying.com
 pg-ad-b1.nosdn.127.net
 pgl.example0101
-pgltestinghere
 pgmediaserve.com
 pgpartner.com
 pheedo.com
@@ -5754,6 +5758,7 @@ pitatagata.com
 pixel.adsafeprotected.com
 pixel.condenastdigital.com
 pixel.digitru.st
+pixel.mtrcs.samba.tv
 pixel.sojern.com
 pixel.watch
 pixon.ads-pixiv.net
@@ -5764,6 +5769,7 @@ pjtymy.cn
 pkbrxja.cn
 pkesports.cn
 pkk1.zuimeiniwo.com
+placed.com
 platado.com
 play4traffic.com
 playhaven.com
@@ -5806,6 +5812,7 @@ porntrack.com
 pos.baidu.com
 possessivebucket.com
 possibleboats.com
+postback.iqm.com
 poster.weather.com.cn
 postrelease.com
 potenza.cz
@@ -5905,6 +5912,7 @@ px.ads.linkedin.com
 px.boundhub.com
 px.dynamicyield.com
 px.gfycat.com
+pxl.iqm.com
 pxyvb.cn
 pyerc.com
 pyhuiyu.com
@@ -6128,6 +6136,7 @@ re.taotaosou.com
 retargeter.com
 revbigo.com
 revcontent.com
+reveal.clearbit.com
 revenuedirect.com
 revenuehits.com
 revenue.net
@@ -6929,10 +6938,12 @@ track.bcvcmedia.com
 track.contently.com
 trackedlink.net
 trackedweb.net
+track.effiliation.com
 tracker.bannerflow.com
 tracker.icerocket.com
 tracker.marinsm.com
 tracker-pm2.spilleren.com
+tracker.samplicio.us
 tracker.trackerfix.com
 track.flexlinks.com
 track.flexlinkspro.com
@@ -6944,7 +6955,9 @@ tracking.discounts-promo.ga
 tracking.gajmp.com
 tracking.ibxlink.com
 tracking.internetstores.de
+tracking.olx-st.com
 trackingpro.pro
+tracking.publicidees.com
 trackingsoft.com
 trackmackweldon.com
 trackmysales.com
@@ -6984,6 +6997,7 @@ tribalfusion.com
 trickycelery.com
 trikroacha.com
 trix.net
+trkn.us
 trmit.com
 trmnsite.com
 trourted.pro
@@ -7113,6 +7127,7 @@ utils.mediageneral.net
 utorido.com
 uttermosthobbies.com
 uuopp.com
+uuvm.pornpics.com
 uvclick.com
 uw9377.com
 uxyrl.cn
@@ -7374,6 +7389,7 @@ widgetssec.cam-content.com
 wikia-ads.wikia.com
 wikigifth.com
 window.nixnet.cz
+win.iqm.com
 wintricksbanner.googlepages.com
 winvestern.com.cn
 wirecomic.com

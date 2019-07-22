@@ -18293,6 +18293,7 @@ ads.lzjl.com
 ad.smaad.jp
 ads.macdailynews.com
 ad.smaclick.com
+ads.mail.bg
 ads.mainetoday.com
 ads.mammanett.no
 ads.mangomediaads.com
@@ -18917,6 +18918,7 @@ ads.traffichunt.com
 ads.trafficjunky.net
 ads.traffpartners.com
 adstrategy.go2cloud.org
+ads.travelaudience.com
 adstream.cardboardfish.com
 ads.tremorhub.com
 ads.tribalfusion.com
@@ -20902,6 +20904,7 @@ attadworks.turn.com
 a.ttinline.com
 attrack.ientrynetwork.net
 attractiveafternoon.com
+attribution.report
 attributiontracker.com
 attributiontrackingga.googlecode.com
 attservicesinc.tt.omtrdc.net
@@ -33350,7 +33353,6 @@ iptrack05.webtrekk.net
 iq001.adtech.fr
 iq24ne.cn
 iqads.2cnt.net
-iqm.com
 iq.mobilix.mobi
 iqolu.voluumtrk.com
 iqu-operation.com
@@ -35525,6 +35527,7 @@ metrics.ee.co.uk
 metrics.feedroom.com
 metrics.fifa.com
 metrics.foxnews.com
+metrics.getrockerbox.com
 metrics.gfycat.com
 metrics.govexec.com
 metricskey.net
@@ -37700,7 +37703,6 @@ pgcxe.voluumtrk.com
 pgdb1.surf-town.net
 pgdbb1.surf-town.net
 pgl.example0101
-pgltestinghere
 pgmediaserve.com
 pgmopcongruity.review
 pgpartner.com
@@ -37863,6 +37865,7 @@ pixel.mathtag.com
 pixel.moatads.com
 pixel.monitor1.returnpath.net
 pixel.monitor2.returnpath.net
+pixel.mtrcs.samba.tv
 pixel.nbsp.de
 pixel.pcworld.com
 pixel.prfct.co
@@ -38107,6 +38110,7 @@ possibleboats.com
 posst.co
 po.st
 postads24.com
+postback.iqm.com
 postchronicle.us.intellitxt.com
 poster.weather.com.cn
 postitial.iqzone.com
@@ -38561,6 +38565,7 @@ px.gfycat.com
 pxlctl.as.com
 pxlctl.elpais.com
 pxl.darchermedia.com
+pxl.iqm.com
 pxl.leads.su
 px.owneriq.net
 px.ozonemedia.com
@@ -39200,6 +39205,7 @@ revbigo.com
 revcontent.com
 revdepo.com
 revealads.appspot.com
+reveal.clearbit.com
 revelations.trovus.co.uk
 revenuedirect.com
 revenuehits.com
@@ -42552,6 +42558,7 @@ tracker.plan2.net
 tracker-pm2.spilleren.com
 tracker.realclearpolitics.com
 tracker.roitesting.com
+tracker.samplicio.us
 tracker.scao.it
 tracker.seoboost.net
 tracker.smartcounter.de
@@ -42993,6 +43000,7 @@ trklnks.com
 trk.mailtoward.com
 trk.meacashtrk.com
 trk.m.libero.it
+trkn.us
 trk.obix.pro
 trk.pswec.com
 trk.rrcpm.com
@@ -43741,6 +43749,7 @@ uttermosthobbies.com
 uugpwdbtalaria.review
 uuopp.com
 uur.at
+uuvm.pornpics.com
 uvclick.com
 uv.terra.com.br
 uvyeoperistome.review
@@ -48173,6 +48182,7 @@ winfaq.de.intellitxt.com
 wingatemedia.go2cloud.org
 wingoads.com
 wingowin.com
+win.iqm.com
 winmpmain.112.2o7.net
 winneronline.com
 win.openvn.com
