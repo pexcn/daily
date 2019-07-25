@@ -275,6 +275,7 @@
 104.195.62.12
 104.197.140.120
 104.198.198.188
+104.233.203.164
 104.6.87.194.dynamic.dol.ru
 105.6.87.194.dynamic.dol.ru
 106.187.95.251
@@ -282,6 +283,7 @@
 106794.hittail.com
 10.6.87.194.dynamic.dol.ru
 10712824.qqc.co
+107.172.176.197
 107.187.255.178
 107.6.87.194.dynamic.dol.ru
 108.171.248.234
@@ -512,6 +514,7 @@
 178bx.cn
 179.6.87.194.dynamic.dol.ru
 17b4-7817-18f7-3abd.reporo.net
+17.huanqiu.com
 17k.originalsafteyredir.com
 17oez.voluumtrk.com
 17.ptp22.com
@@ -1196,6 +1199,7 @@
 3276817.fls.doubleclick.net
 3.2cnt.net
 32d1d3b9c.se
+32.huanqiu.com
 33526.9243.302br.net
 33.6.87.194.dynamic.dol.ru
 338336.com
@@ -20731,6 +20735,7 @@ arrowbucket.co
 arrows-hitech.com
 arrowtec.go2cloud.org
 arroyomedia.go2cloud.org
+artedu.pw
 article19.com
 artificecvtogvnt.download
 ar.tns-counter.ru
@@ -33254,7 +33259,6 @@ intentmedia.net
 interactive-assets.s3.amazonaws.com
 interactive.forthnet.gr
 interactivepartners.go2cloud.org
-intercom-mail.com
 intergi.com
 interhyp02.webtrekk.net
 interield.jmp9.com
@@ -33823,7 +33827,6 @@ jstdjq.com
 js.ubaike.cn
 jsu.dt07.net
 jsu.mgid.com
-js.url1175.info
 js.users.51.la
 jsv2.ptengine.com
 js-webt-lol.9cache.com
@@ -41436,6 +41439,7 @@ stream.heavenmedia.net
 streaming-illimite5.com
 streaming.rtbiddingplatform.com
 stream.tribeca.vidavee.com
+stream.useriq.com
 stretchywrrbzwg.download
 s.tribalfusion.com
 strikeadcdn.s3.amazonaws.com
@@ -43714,7 +43718,6 @@ usefb.adsrvr.org
 usell.go2cloud.org
 usenet.raidrush.org
 user-disp.tidaltv.com
-useriq.com
 userlog.synapseip.tv
 userreplay.com
 userreplay.net
@@ -52179,7 +52182,6 @@ ziflx.redirectvoluum.com
 ziflx.trackvoluum.com
 ziig.com.cn
 ziinga.go2cloud.org
-zi.kfqdf.com
 zillow.go2cloud.org
 zilzolachi.com
 zinlar.pw

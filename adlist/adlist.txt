@@ -48,7 +48,9 @@
 104.195.62.12
 104.197.140.120
 104.198.198.188
+104.233.203.164
 106.187.95.251
+107.172.176.197
 107.187.255.178
 108.171.248.234
 1.1010pic.com
@@ -115,6 +117,7 @@
 176um.com
 177o.com
 178bx.cn
+17.huanqiu.com
 17tuozhai.com
 17un.co
 17zheng.cn
@@ -268,6 +271,7 @@
 301e5931499990.com
 31365y.com
 321.jintang114.org
+32.huanqiu.com
 338336.com
 339.cn
 33across.com
@@ -1796,6 +1800,7 @@ argyresthia.com
 aromamirror.com
 arrowbucket.co
 arrows-hitech.com
+artedu.pw
 as1.advfn.com
 as1.m.hao123.com
 as1.wenku.baidu.com
@@ -4415,7 +4420,6 @@ intellitxt.com
 intentmedia.com
 intentmedia.net
 interactive.forthnet.gr
-intercom-mail.com
 intergi.com
 internerl.com
 internetfuel.com
@@ -4634,7 +4638,6 @@ jss.tvzhe.com
 jssumei.cn
 jstdjq.com
 js.ubaike.cn
-js.url1175.info
 js.users.51.la
 jsyjwj.com
 jsyxfdj.com
@@ -6638,6 +6641,7 @@ straightnest.com
 straightschool.com
 stream.heavenmedia.net
 streaming.rtbiddingplatform.com
+stream.useriq.com
 stripedburst.com
 strivesidewalk.com
 structurerod.com
@@ -7125,7 +7129,6 @@ urlat.cn
 urlcash.net
 us.a1.yimg.com
 usapromotravel.com
-useriq.com
 userreplay.com
 userreplay.net
 usty357a.site
@@ -7959,7 +7962,6 @@ zhybzp.cn
 zhywyl.cn
 zi63m.cn
 ziig.com.cn
-zi.kfqdf.com
 zilzolachi.com
 zinlar.pw
 zinovila.com
