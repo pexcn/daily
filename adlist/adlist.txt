@@ -2741,6 +2741,7 @@ creatives.livejasmin.com
 creatives.pichunter.com
 creatives.summitconnect.co.uk
 credishe.com
+creep.world
 criteo.com
 critictruck.com
 croissed.info
@@ -2947,6 +2948,7 @@ d3dphmosjk9rot.cloudfront.net
 d3dytsf4vrjn5x.cloudfront.net
 d3f9mcik999dte.cloudfront.net
 d3fzrm6pcer44x.cloudfront.net
+d3hitamb7drqut.cloudfront.net
 d3irruagotonpp.cloudfront.net
 d3iwjrnl4m67rd.cloudfront.net
 d3jgr4uve1d188.cloudfront.net
@@ -5324,6 +5326,7 @@ mtree.com
 mu722.com
 mubite.cn
 mujilora.com
+mukkkoi.cn
 muligov.com
 munchkin.marketo.net
 musiccounter.ru
@@ -5911,6 +5914,7 @@ publicidad.elmundo.es
 publicidees.com
 publish.ad.youth.cn
 pubmatic.com
+pubmine.com
 pub.network
 pubportal.brkmd.com
 pub.realmedia.fr
@@ -6626,6 +6630,7 @@ statstat888.com
 stats.townnews.com
 stats.unwired-i.net
 stats.wordpress.com
+stats.wp.com
 stats.x14.eu
 stat.webmedia.pl
 statxpress.com
