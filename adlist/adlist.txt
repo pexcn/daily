@@ -642,7 +642,6 @@ aclickads.com
 a.clipconverter.cc
 acodes.b2b.cn
 a.consumer.net
-a-counter.kiev.ua
 acrabakasaka.com
 acridtwist.com
 ac.rnm.ca
@@ -1143,7 +1142,6 @@ adserver.bizhat.com
 adserver.break-even.it
 adserver.cams.com
 adserver.com
-adserver.digitoday.com
 adserver.flossiemediagroup.com
 adserver.freecity.de
 adserver.friendfinder.com
@@ -2568,7 +2566,6 @@ clicktrade.com
 clickwith.bid
 clickxchange.com
 clickz.com
-clicmanager.fr
 client.88tours.com
 clientmetrics-pa.googleapis.com
 clikerz.net
@@ -4364,6 +4361,7 @@ ilead.itrack.it
 ilinan.xyz
 illfatedsnail.com
 illustriousoatmeal.com
+ilovechenyuqian.xyz
 imads.rediff.com
 image.9duw.com
 imageads.canoe.ca
@@ -5280,6 +5278,7 @@ mlm.de
 mlt01.com
 mltrk.io
 mm.anqu.com
+mmfusheng.com
 mmhhjt.com
 mmismm.com
 mmkvi.com
@@ -6860,7 +6859,6 @@ tg.1155t.cn
 th21333.com
 theadex.com
 theadhost.com
-thebugs.ws
 thefaren.pw
 thegreenzoneblog.com
 themee.cn
@@ -7258,7 +7256,6 @@ viral.vidhd.fun
 visiblemeasures.com
 visistat.com
 visitbox.de
-visitpath.com
 visit.webhosting.yahoo.com
 visual-pagerank.fr
 visualrevenue.com
