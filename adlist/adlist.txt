@@ -3314,6 +3314,7 @@ dsie7h4lo9wxu.cloudfront.net
 dsjcfw.com
 dsjre.com
 dsp.ali213.net
+dsp.colpirio.com
 dsp.io
 dsp.wtf
 dstillery.com
@@ -3628,6 +3629,7 @@ fenggejiaju.com
 fengyelin.net
 fenvm.com
 fexiaen.com
+feynmanhopeful.eu
 ff112244.com
 ffanq.com
 ff.guidaye.com
@@ -4318,6 +4320,7 @@ ibanners.empoweredcomms.com.au
 ibaop.com
 ibeiling.cn
 ibeip.com
+ibillboard.com
 ibinp.com
 icebeatuy.com
 i-clicks.net
@@ -4884,6 +4887,7 @@ leadclick.com
 leaddyno-client-images.s3.amazonaws.com
 leadingedgecash.com
 leadplace.fr
+leady.com
 leadzupc.com
 leamain.net
 leaplunchroom.com
@@ -5917,6 +5921,7 @@ props.id
 proton-tm.com
 protraffic.com
 provexia.com
+proxy-tracker.colpirio.com
 prsitecheck.com
 pr-star.de
 pr-static.empflix.com
@@ -6996,6 +7001,7 @@ trackedlink.net
 trackedweb.net
 track.effiliation.com
 tracker.bannerflow.com
+tracker.colpirio.com
 tracker.icerocket.com
 tracker.marinsm.com
 tracker-pm2.spilleren.com
@@ -7017,6 +7023,7 @@ trackingpro.pro
 tracking.publicidees.com
 trackingsoft.com
 trackmackweldon.com
+track.mailerlite.com
 trackmysales.com
 track.nuxues.com
 track.viewdeos.com
@@ -7046,6 +7053,7 @@ trasholita.com
 travelstool.com
 travis.bosscasinos.com
 travlcen.com
+tr.colpirio.com
 trekdata.com
 tremendoustime.com
 trendcounter.com
@@ -7264,6 +7272,7 @@ visitbox.de
 visit.webhosting.yahoo.com
 visual-pagerank.fr
 visualrevenue.com
+vivtracking.com
 vjuer.com
 vkafirac.com
 vkjnd.com
