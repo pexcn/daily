@@ -17,6 +17,7 @@ See [docs](docs).
 - [`shadowrocket/whitelist.conf`](https://pexcn.me/daily/shadowrocket/whitelist.conf)
 - More:
   - [`adlist`](https://github.com/pexcn/daily/tree/gh-pages/adlist)
+  - [`blacklist`](https://github.com/pexcn/daily/tree/gh-pages/blacklist)
   - [`gfwlist`](https://github.com/pexcn/daily/tree/gh-pages/gfwlist)
   - [`chinalist`](https://github.com/pexcn/daily/tree/gh-pages/chinalist)
   - [`alexa`](https://github.com/pexcn/daily/tree/gh-pages/alexa)
