@@ -24401,6 +24401,7 @@ cache.worldfriends.tv
 ca.clickinc.com
 ca.cqcounter.com
 c.actiondesk.com
+ca.cydp5.com
 c.ad6media.fr
 cad.donga.com
 cade.clmbtech.com
@@ -28421,6 +28422,7 @@ d.gz2010.cn
 d.gzpinda.com
 dh956.com
 dhaof.com
+dhbo4t.cn
 dhgdp.cn
 dhmonitor.dinaserver.com
 dhsmarthouse.122.2o7.net
@@ -31033,6 +31035,7 @@ g1vzn.voluumtrk.com
 g2.gumgum.com
 g2.ousns.net
 g39yz.voluumtrk.com
+g3ao2q.cn
 g.3gl.net
 g.3lian.com
 g3.us.intellitxt.com
@@ -38685,6 +38688,7 @@ qckjmp.com
 qclcdn.cn
 qclyu.voluumtrk.com
 qctop.com
+qcupup.com
 qcvf.ifeng.com
 qdchunyu.com
 qd.dhzw.org
