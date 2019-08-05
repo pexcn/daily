@@ -17,6 +17,9 @@ bash scripts/alexa/alexa.sh
 # adblock
 bash scripts/adblock/adblock.sh
 
+# blacklist
+bash scripts/blacklist/blacklist.sh
+
 # chnroute
 bash scripts/chnroute/chnroute.sh
 
