@@ -1,5 +1,5 @@
 //
-// Update: 2019-08-06 10:30:41
+// Update: 2019-08-06 10:39:34
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -4903,7 +4903,6 @@ const gfwlist_domains = {
   "twilog.org": 1,
   "twimbow.com": 1,
   "twimg.com": 1,
-  "twimg.edgesuite.net": 1,
   "twindexx.com": 1,
   "twip.me": 1,
   "twipple.jp": 1,
