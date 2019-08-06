@@ -1,5 +1,5 @@
 //
-// Update: 2019-08-06 13:42:06
+// Update: 2019-08-06 14:17:38
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -2017,7 +2017,6 @@ const gfwlist_domains = {
   "google.ci": 1,
   "google.cl": 1,
   "google.cm": 1,
-  "google.cn": 1,
   "google.co.ao": 1,
   "google.co.bw": 1,
   "google.co.ck": 1,
