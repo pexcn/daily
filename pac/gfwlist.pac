@@ -1,5 +1,5 @@
 //
-// Update: 2019-08-06 04:55:24
+// Update: 2019-08-06 10:30:41
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -1980,6 +1980,7 @@ const gfwlist_domains = {
   "goodtv.tv": 1,
   "goofind.com": 1,
   "goo.gl": 1,
+  "google.ac": 1,
   "google.ad": 1,
   "google.ae": 1,
   "google.al": 1,
@@ -2006,6 +2007,7 @@ const gfwlist_domains = {
   "google.ca": 1,
   "google.calstate.edu": 1,
   "google.cat": 1,
+  "google.cc": 1,
   "google.cd": 1,
   "google.cf": 1,
   "google.cg": 1,
@@ -2056,6 +2058,7 @@ const gfwlist_domains = {
   "google.com.kh": 1,
   "google.com.kw": 1,
   "google.com.lb": 1,
+  "google.com.lc": 1,
   "google.com.ly": 1,
   "googlecommerce.com": 1,
   "google.com.mm": 1,
@@ -2118,6 +2121,7 @@ const gfwlist_domains = {
   "google.fr": 1,
   "google.ga": 1,
   "google.ge": 1,
+  "google.gf": 1,
   "google.gg": 1,
   "google.gl": 1,
   "google.gm": 1,
@@ -2134,6 +2138,7 @@ const gfwlist_domains = {
   "google.ie": 1,
   "google.im": 1,
   "googleinsidesearch.com": 1,
+  "google.io": 1,
   "google.iq": 1,
   "google.is": 1,
   "google.it": 1,
@@ -2162,10 +2167,12 @@ const gfwlist_domains = {
   "google.mv": 1,
   "google.mw": 1,
   "google.ne": 1,
+  "google.net": 1,
   "google.nl": 1,
   "google.no": 1,
   "google.nr": 1,
   "google.nu": 1,
+  "google.org": 1,
   "googlepagecreator.com": 1,
   "google.pl": 1,
   "googleplay.com": 1,

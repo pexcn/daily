@@ -1970,6 +1970,7 @@ goodtv.com.tw
 goodtv.tv
 goofind.com
 goo.gl
+google.ac
 google.ad
 google.ae
 google.al
@@ -1996,6 +1997,7 @@ google.by
 google.ca
 google.calstate.edu
 google.cat
+google.cc
 google.cd
 google.cf
 google.cg
@@ -2046,6 +2048,7 @@ google.com.jm
 google.com.kh
 google.com.kw
 google.com.lb
+google.com.lc
 google.com.ly
 googlecommerce.com
 google.com.mm
@@ -2108,6 +2111,7 @@ google.fm
 google.fr
 google.ga
 google.ge
+google.gf
 google.gg
 google.gl
 google.gm
@@ -2124,6 +2128,7 @@ googleideas.com
 google.ie
 google.im
 googleinsidesearch.com
+google.io
 google.iq
 google.is
 google.it
@@ -2152,10 +2157,12 @@ google.mu
 google.mv
 google.mw
 google.ne
+google.net
 google.nl
 google.no
 google.nr
 google.nu
+google.org
 googlepagecreator.com
 google.pl
 googleplay.com
