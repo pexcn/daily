@@ -267,4 +267,3 @@ blogspot.sn
 blogspot.tw
 blogspot.ug
 blogspot.cat
-twimg.edgesuite.net
