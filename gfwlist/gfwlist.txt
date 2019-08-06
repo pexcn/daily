@@ -601,6 +601,7 @@ blogspot.co.uk
 blogspot.cz
 blogspot.de
 blogspot.dk
+blogspot.es
 blogspot.fi
 blogspot.fr
 blogspot.gr
@@ -2044,6 +2045,7 @@ google.com.gh
 google.com.gi
 google.com.gt
 google.com.hk
+google.com.iq
 google.com.jm
 google.com.kh
 google.com.kw
@@ -2075,6 +2077,7 @@ google.com.sg
 google.com.sl
 google.com.sv
 google.com.tj
+google.com.tn
 google.com.tr
 google.com.tw
 google.com.ua
@@ -2134,6 +2137,7 @@ google.is
 google.it
 google.je
 google.jo
+google.jp
 google.kg
 google.ki
 google.kz
@@ -2158,12 +2162,14 @@ google.mv
 google.mw
 google.ne
 google.net
+google.ng
 google.nl
 google.no
 google.nr
 google.nu
 google.org
 googlepagecreator.com
+google.ph
 google.pl
 googleplay.com
 googleplus.com
@@ -2177,6 +2183,7 @@ google.rw
 google.sc
 googlescholar.com
 google.se
+google.sg
 google.sh
 google.si
 googlesile.com
@@ -2195,6 +2202,7 @@ google.tm
 google.tn
 google.to
 google.tt
+google.uk
 googleusercontent.com
 google.vg
 googlevideo.com

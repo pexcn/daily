@@ -1,5 +1,5 @@
 //
-// Update: 2019-08-06 10:43:18
+// Update: 2019-08-06 13:42:06
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -611,6 +611,7 @@ const gfwlist_domains = {
   "blogspot.cz": 1,
   "blogspot.de": 1,
   "blogspot.dk": 1,
+  "blogspot.es": 1,
   "blogspot.fi": 1,
   "blogspot.fr": 1,
   "blogspot.gr": 1,
@@ -2054,6 +2055,7 @@ const gfwlist_domains = {
   "google.com.gi": 1,
   "google.com.gt": 1,
   "google.com.hk": 1,
+  "google.com.iq": 1,
   "google.com.jm": 1,
   "google.com.kh": 1,
   "google.com.kw": 1,
@@ -2085,6 +2087,7 @@ const gfwlist_domains = {
   "google.com.sl": 1,
   "google.com.sv": 1,
   "google.com.tj": 1,
+  "google.com.tn": 1,
   "google.com.tr": 1,
   "google.com.tw": 1,
   "google.com.ua": 1,
@@ -2144,6 +2147,7 @@ const gfwlist_domains = {
   "google.it": 1,
   "google.je": 1,
   "google.jo": 1,
+  "google.jp": 1,
   "google.kg": 1,
   "google.ki": 1,
   "google.kz": 1,
@@ -2168,12 +2172,14 @@ const gfwlist_domains = {
   "google.mw": 1,
   "google.ne": 1,
   "google.net": 1,
+  "google.ng": 1,
   "google.nl": 1,
   "google.no": 1,
   "google.nr": 1,
   "google.nu": 1,
   "google.org": 1,
   "googlepagecreator.com": 1,
+  "google.ph": 1,
   "google.pl": 1,
   "googleplay.com": 1,
   "googleplus.com": 1,
@@ -2187,6 +2193,7 @@ const gfwlist_domains = {
   "google.sc": 1,
   "googlescholar.com": 1,
   "google.se": 1,
+  "google.sg": 1,
   "google.sh": 1,
   "google.si": 1,
   "googlesile.com": 1,
@@ -2205,6 +2212,7 @@ const gfwlist_domains = {
   "google.tn": 1,
   "google.to": 1,
   "google.tt": 1,
+  "google.uk": 1,
   "googleusercontent.com": 1,
   "google.vg": 1,
   "googlevideo.com": 1,
