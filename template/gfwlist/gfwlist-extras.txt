@@ -87,7 +87,6 @@ google.ch
 google.ci
 google.cl
 google.cm
-google.cn
 google.co.ao
 google.co.bw
 google.co.ck
