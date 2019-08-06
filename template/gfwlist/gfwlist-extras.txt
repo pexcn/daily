@@ -1,4 +1,5 @@
 google.com
+google.ac
 google.ad
 google.ae
 google.com.af
@@ -29,6 +30,7 @@ google.co.bw
 google.by
 google.com.bz
 google.ca
+google.cc
 google.cd
 google.cf
 google.cg
@@ -61,6 +63,7 @@ google.fm
 google.fr
 google.ga
 google.ge
+google.gf
 google.gg
 google.com.gh
 google.com.gi
@@ -80,6 +83,7 @@ google.ie
 google.co.il
 google.im
 google.co.in
+google.io
 google.iq
 google.is
 google.it
@@ -96,6 +100,7 @@ google.com.kw
 google.kz
 google.la
 google.com.lb
+google.com.lc
 google.li
 google.lk
 google.co.ls
@@ -124,11 +129,13 @@ google.com.nf
 google.com.ng
 google.com.ni
 google.ne
+google.net
 google.nl
 google.no
 google.com.np
 google.nr
 google.nu
+google.org
 google.co.nz
 google.com.om
 google.com.pa
