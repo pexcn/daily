@@ -1,5 +1,5 @@
 //
-// Update: 2019-08-09 05:04:35
+// Update: 2019-08-10 04:56:06
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -5422,7 +5422,6 @@ const gfwlist_domains = {
   "www.dmm.com": 1,
   "www.dwheeler.com": 1,
   "www.eastturkistan.net": 1,
-  "www.ftchinese.com": 1,
   "www.gmiddle.com": 1,
   "www.gmiddle.net": 1,
   "wwwhost.biz": 1,

@@ -30,6 +30,7 @@
 0b6h.cn
 0fwg.cn
 0n6h.cn
+0nin.cn
 0ozo.cn
 0x013d.website
 0x01e7.website
@@ -907,7 +908,6 @@ adn.ebay.com
 adnet.asahi.com
 adnet.biz
 adnet.de
-adnetinteractive.com
 ad.netmedia.hu
 adnetpub.yaolan.com
 adnet.ru
@@ -1049,7 +1049,6 @@ ads.belointeractive.com
 ads.berlinonline.de
 ads.betanews.com
 ads.betfair.com
-ads.betfair.com.au
 ads.bigchurch.com
 ads.bigfoot.com
 ads.bing.com
@@ -1143,7 +1142,7 @@ adserver.bizhat.com
 adserver.break-even.it
 adserver.cams.com
 adserver.com
-adserver.flossiemediagroup.com
+adserver.digitoday.com
 adserver.freecity.de
 adserver.friendfinder.com
 ad-server.gulasidorna.se
@@ -1436,7 +1435,6 @@ ads.waps.cn
 ads.wapx.cn
 ads.watson.ch
 ads.weather.ca
-ads.web.cs.com
 ads.web.de
 ads.webmasterpoint.org
 ads.websiteservices.com
@@ -2523,7 +2521,6 @@ claiks.com
 clandia.cn
 claria.com
 clarity.abacast.com
-class-act-clicks.com
 claz.com.cn
 clcknpop.com
 clearcomb.com
@@ -3129,6 +3126,7 @@ detailedgovernment.com
 detectdiscovery.com
 detuns.com
 dew9ckzjyt2gn.cloudfront.net
+deyidesign.com
 dezfu.com
 df3n43m.com
 df666.pzhttaax.cn
@@ -3398,7 +3396,6 @@ earthquakescarf.com
 earthycopy.com
 eas.almamedia.fi
 easyhits4u.com
-e-bannerx.com
 ebayadvertising.com
 ebocornac.com
 ebp.renren.com
@@ -3475,6 +3472,7 @@ engine.espace.netavenir.com
 enginenetwork.com
 enjuk.com
 enjuw.com
+enohb.com
 enquisite.com
 ensighten.com
 ent1.12584.cn
@@ -3755,6 +3753,7 @@ fusionquest.com
 futuristicapparatus.com
 futuristicfairies.com
 fuwosi.cn
+fuxunb.com
 fuyigo.top
 fuzzyflavor.com
 fuzzyweather.com
@@ -4311,6 +4310,7 @@ iadc.qwapi.com
 iadnet.com
 iads.xinmin.cn
 ia.iinfo.cz
+iamqqo85467.cn
 iangp.com
 iangs.com
 ianhice.pw
@@ -4799,6 +4799,7 @@ knnwdyou.com
 knorex.com
 kod4pc293.com
 kofpag.com
+kojwex.top
 kokilopi.com
 kolimanq.com
 koltruah.com
@@ -4936,6 +4937,7 @@ lightson.vpsboard.com
 lightspeedcash.com
 li.gq.com
 li.hearstmags.com
+lihongdou.cn
 lijit.com
 liktirov.com
 li.livingsocial.com
@@ -5050,7 +5052,6 @@ lv.myapks.com
 lvyishengtai.com
 lw1.cdmediaworld.com
 lw2.gamecopyworld.com
-lwfjd.today
 lxind.cn
 lxqcgj.com
 lxting.com
@@ -5988,6 +5989,7 @@ qaquzakalaka.com
 qawiman.com
 q.azcentral.com
 qbyy010.com
+qcgkd322.vip
 qcjslm.com
 qclcdn.cn
 qctop.com
@@ -6424,6 +6426,7 @@ shama5.com
 shandongkuntuo.com
 shanghuitianxia.cn
 shanglinli.com
+shanxiyizhao.com
 shareadspace.com
 shareasale.com
 sharedaddomain.com
@@ -7094,6 +7097,7 @@ tui98.cn
 tuituiyoo999.com
 tukeai.com
 tukexiu.com
+tuoguang1111.com
 turboadv.com
 turn.com
 tu.zx110.org
@@ -7429,6 +7433,7 @@ whaleads.com
 whalepp.com
 whenu.com
 whfpbc.99.com.cn
+whhxnz.com
 whirlwealth.com
 whiskyqueue.com
 whispa.com
