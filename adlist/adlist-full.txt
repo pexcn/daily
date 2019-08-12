@@ -310,6 +310,7 @@
 11167236.adscreendirect.com
 111.6.87.194.dynamic.dol.ru
 111.73.45.147
+111g.yiqig.cn
 11262.engine.mobileapptracking.com
 112.6.87.194.dynamic.dol.ru
 112.74.95.46
@@ -342,7 +343,6 @@
 119xpg.go2cloud.org
 1-1ads.com
 11.golang8.com
-11g.yiqig.cn
 11.ptp22.com
 11.rtstats.com
 1.201980.com
@@ -661,6 +661,7 @@
 1.qt86.com
 1.quicktrkr.com
 1rcu4.voluumtrk.com
+1.rr95.com
 1rx.io
 1se.cqcounter.com
 1.sj33.net
@@ -694,6 +695,7 @@
 1.yac8.net
 1.yuexw.com
 1.zhev.com.cn
+1.zhuangxiu567.com
 1zl86.voluumtrk.com
 1zlni.voluumtrk.com
 1.zou114.com
@@ -1494,7 +1496,9 @@
 5staraffiliateprograms.com
 5starsupport.us.intellitxt.com
 5t3is.voluumtrk.com
+5tbiec.cn
 5toay.voluumtrk.com
+5tps.vip
 5tujb.voluumtrk.com
 5wtbg.voluumtrk.com
 5x0f.cn
@@ -1605,6 +1609,7 @@
 6yush.cn
 6yw7j.cn
 700ok.net
+7011.stia.cn
 70543.9546.302br.net
 70642.9528.302br.net
 70.6.87.194.dynamic.dol.ru
@@ -22513,6 +22518,7 @@ bingocabin.com
 bingsclspe.download
 bingyinq.com
 biochempop.com
+biosda.com
 bi.softservers.net
 bist.ailsg.com
 bitable.com
@@ -27465,6 +27471,7 @@ crosspromotion.ubi.com
 crowdcontrol.lotame.com
 crowdgravity.com
 crowdscience.com
+crptgate.com
 crtl.aimatch.com
 crtracklink.com
 cr.tractionize.com
@@ -28673,6 +28680,7 @@ doctortrusted.org
 dodatova.com
 dodderssbsczsaao.download
 dodkinlsautvfo.download
+dog1.verystream.com
 dogcustom-works.com
 dogpile.112.2o7.net
 dohillright.com
@@ -29035,6 +29043,7 @@ e-2dj6wjnygidjskq.stats.esomniture.com
 e-2dj6wjnyqkajabp.stats.esomniture.com
 e2e.mashable.com
 e2.emediate.se
+e2e.pcmag.com
 e2.extreme-dm.com
 e2.static.hoptopboy.com
 e32e0c3c972d179cd1d0-1847ac4c91d55b307d162b6d5ad07fe3.r71.cf2.rackcdn.com
@@ -33855,6 +33864,7 @@ jspg.cc
 jspy.ru
 js.revsci.net
 js.rmbn.ru
+js.ruiwen.com
 js.ru.redtram.com
 js.sddan.com
 js-sec.indexww.com
@@ -35793,6 +35803,7 @@ mmnetwork.mobi
 m.mobilerevenu.com
 mmotraffic.com
 mmpuh.cn
+mms.graziadaily.co.uk
 mmstat.com
 mmtracking.com
 mmtrkdb.com
@@ -37439,6 +37450,7 @@ p13n-int.herokuapp.com
 p13n-test.herokuapp.com
 p1.tcr111.tynt.com
 p1tre.emv3.com
+p1.zhongyoo.com
 p1.zhumengwl.com
 p2-aahhyknavsj2m-wtnlrzkba6lht33q-if-v6exp3-v4.metric.gstatic.com
 p2.adhitzads.com

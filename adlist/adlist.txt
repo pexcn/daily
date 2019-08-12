@@ -58,6 +58,7 @@
 111111qb.com
 1.11467.com
 111.73.45.147
+111g.yiqig.cn
 112.74.95.46
 1133.cc
 11370090.net
@@ -77,7 +78,6 @@
 119.4.249.166
 119cgpt.com
 11.golang8.com
-11g.yiqig.cn
 1.201980.com
 120.27.34.156
 12086.net
@@ -176,6 +176,7 @@
 1.proewildfire.cn
 1.qjhm.net
 1.qt86.com
+1.rr95.com
 1rx.io
 1.sj33.net
 1.soufy.cn
@@ -200,6 +201,7 @@
 1.yac8.net
 1.yuexw.com
 1.zhev.com.cn
+1.zhuangxiu567.com
 1.zou114.com
 1.zouning.net
 1.zuowenjun.com
@@ -382,6 +384,8 @@
 5pb266.com
 5pub.com
 5rxk.cn
+5tbiec.cn
+5tps.vip
 5x0f.cn
 5y9nfpes.52pk.com
 5yw4n.cn
@@ -422,6 +426,7 @@
 6yush.cn
 6yw7j.cn
 700ok.net
+7011.stia.cn
 70e.me
 70lm.com
 70yst.cn
@@ -2166,6 +2171,7 @@ biluzhang.cn
 bingdiantao.com
 bingyinq.com
 biochempop.com
+biosda.com
 bitads.net
 bitmedianetwork.com
 bivitr.com
@@ -2761,6 +2767,7 @@ criteo.com
 critictruck.com
 croissed.info
 crowdgravity.com
+crptgate.com
 crtv.mate1.com
 crwdcntrl.net
 cryptaloot.pro
@@ -3255,6 +3262,7 @@ dnskuu.com
 dnvus.com
 docksalmon.com
 dodatova.com
+dog1.verystream.com
 dojx47ab4dyxi.cloudfront.net
 dokaboka.com
 domaining.in
@@ -3374,6 +3382,7 @@ dzais.com
 dzisou.com
 dzjzg.com
 e2e.mashable.com
+e2e.pcmag.com
 e647ob.cn
 e7001.com
 e7002.com
@@ -4670,6 +4679,7 @@ jsm.39yst.com
 jsm.9939.com
 jsmwd.com
 jspg.cc
+js.ruiwen.com
 js.shangxueba.com
 jss.tvzhe.com
 jssumei.cn
@@ -5296,6 +5306,7 @@ mmhhjt.com
 mmismm.com
 mmkvi.com
 mmpuh.cn
+mms.graziadaily.co.uk
 mmstat.com
 mmtro.com
 mmwdwg.cn
@@ -5685,6 +5696,7 @@ oxado.com
 oxcash.com
 oxen.hillcountrytexas.com
 ox-i.cordillera.tv
+p1.zhongyoo.com
 p1.zhumengwl.com
 p2.dnvod.tv
 p3.dnvod.tv
