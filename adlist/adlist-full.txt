@@ -20971,6 +20971,7 @@ audit.303br.net.76823.9517.302br.net
 audit3.median.hu
 audit.median.hu
 auditonline.hu
+audit.quantcast.mgr.consensu.org
 audit.webinform.hu
 a.udorik.com
 aud.pubmatic.com
@@ -38834,7 +38835,6 @@ qualityclickcontrol.com
 qualitylegion.com
 quansj.cn
 quantcast.com
-quantcast.mgr.consensu.org
 quantcount.com
 quantserve.com
 quantummetric.com
