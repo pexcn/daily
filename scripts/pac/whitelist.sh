@@ -40,7 +40,7 @@ function dist_release() {
 
 function clean_up() {
   rm -r $TMP_DIR
-  echo "[pac -> whitelist]: OK."
+  echo "[pac/whitelist]: OK."
 }
 
 fetch_data
