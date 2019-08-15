@@ -1,1 +1,3 @@
 tools/* linguist-vendored
+template/pac/* linguist-vendored
+test/* linguist-vendored
