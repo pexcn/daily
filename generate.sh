@@ -1,35 +1,64 @@
 #!/bin/bash -e
 
-# advertisement list
-bash scripts/adlist/adlist.sh
+pre() {
+  local count=$(ls -1 scripts/pre/*.sh 2>/dev/null | wc -l)
+  if [ $count == 0 ]; then
+    return
+  fi
 
-# gfw domain list
-bash scripts/gfwlist/gfwlist.sh
+  for file in scripts/pre/*.sh; do
+    "$file"
+  done
+}
 
-# china domain list
-bash scripts/chinalist/chinalist.sh
+post() {
+  local count=$(ls -1 scripts/post/*.sh 2>/dev/null | wc -l)
+  if [ $count == 0 ]; then
+    return
+  fi
 
-# alexa top list
-bash scripts/alexa/alexa.sh
+  for file in scripts/post/*.sh
+  do
+    "$file"
+  done
+}
 
-# ------------------------------
+run() {
+  # advertisement list
+  scripts/adlist/adlist.sh
 
-# adblock
-bash scripts/adblock/adblock.sh
+  # gfw domain list
+  scripts/gfwlist/gfwlist.sh
 
-# blacklist
-bash scripts/blacklist/blacklist.sh
+  # china domain list
+  scripts/chinalist/chinalist.sh
 
-# chnroute
-bash scripts/chnroute/chnroute.sh
+  # alexa top list
+  scripts/alexa/alexa.sh
 
-# safelist
-bash scripts/safelist/safelist.sh
+  # ------------------------------ #
 
-# pac
-bash scripts/pac/gfwlist.sh
-bash scripts/pac/whitelist.sh
+  # adblock
+  scripts/adblock/adblock.sh
 
-# shadowrocket
-bash scripts/shadowrocket/gfwlist.sh
-bash scripts/shadowrocket/whitelist.sh
+  # blacklist
+  scripts/blacklist/blacklist.sh
+
+  # chnroute
+  scripts/chnroute/chnroute.sh
+
+  # safelist
+  scripts/safelist/safelist.sh
+
+  # pac
+  scripts/pac/gfwlist.sh
+  scripts/pac/whitelist.sh
+
+  # shadowrocket
+  scripts/shadowrocket/gfwlist.sh
+  scripts/shadowrocket/whitelist.sh
+}
+
+pre
+run
+post
