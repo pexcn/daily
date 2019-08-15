@@ -1,6 +1,8 @@
 #!/bin/bash -e
 
 pre() {
+  echo "========== PRE START =========="
+
   local count=$(ls -1 scripts/pre/*.sh 2>/dev/null | wc -l)
   if [ $count == 0 ]; then
     return
@@ -9,9 +11,13 @@ pre() {
   for file in scripts/pre/*.sh; do
     "$file"
   done
+
+  echo "=========== PRE END ==========="
 }
 
 post() {
+  echo "========== POST START =========="
+
   local count=$(ls -1 scripts/post/*.sh 2>/dev/null | wc -l)
   if [ $count == 0 ]; then
     return
@@ -21,9 +27,13 @@ post() {
   do
     "$file"
   done
+
+  echo "========== POST END =========="
 }
 
 run() {
+  echo "========== RUN START =========="
+
   # advertisement list
   scripts/adlist/adlist.sh
 
@@ -57,6 +67,8 @@ run() {
   # shadowrocket
   scripts/shadowrocket/gfwlist.sh
   scripts/shadowrocket/whitelist.sh
+
+  echo "========== RUN END =========="
 }
 
 pre

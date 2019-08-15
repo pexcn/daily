@@ -7,7 +7,7 @@ DIST_FILE="whitelist.conf"
 
 CHINA_LIST_SRC="$CUR_DIR/dist/chinalist/chinalist.txt"
 CHINA_LIST=$(basename $CHINA_LIST_SRC)
-TOP_LIST_SRC="$CUR_DIR/dist/alexa/top-cn-2000.txt"
+TOP_LIST_SRC="$CUR_DIR/dist/alexa/top-cn.txt"
 TOP_LIST=$(basename $TOP_LIST_SRC)
 
 function fetch_data() {
@@ -27,7 +27,7 @@ function gen_whitelist_config() {
 
   local tmplist="whitelist.tmp"
 
-  grep -Fx -f $CHINA_LIST $TOP_LIST > $tmplist
+  grep -Fx -f $CHINA_LIST $TOP_LIST | head -2000 > $tmplist
   sed -i "s/^/DOMAIN-SUFFIX,/" $tmplist
   sed -i "s/$/,DIRECT/" $tmplist
   sed -i "s/___WHITELIST_DOMAINS_PLACEHOLDER___/cat $tmplist/e" $DIST_FILE
