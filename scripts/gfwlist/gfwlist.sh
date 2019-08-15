@@ -7,6 +7,8 @@ DIST_FILE="gfwlist.txt"
 
 GFWLIST_URL="https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt"
 GFWLIST="gfwlist-origin.txt"
+TOP_LIST_SRC="$CUR_DIR/dist/alexa/top.txt"
+TOP_LIST=$(basename $TOP_LIST_SRC)
 
 function fetch_data() {
   cd $TMP_DIR
@@ -15,6 +17,7 @@ function fetch_data() {
 
   cp $gfwlist_extras_template .
   curl -sSL $GFWLIST_URL | base64 -d > $GFWLIST
+  cp $TOP_LIST_SRC $TOP_LIST
 
   cd $CUR_DIR
 }
@@ -24,6 +27,8 @@ function gen_gfw_domain_list() {
 
   local gfwlist_tmp="gfwlist.tmp"
   local gfwlist_extras="gfwlist-extras.txt"
+  local gfwlist_part_1="gfwlist_part_1.tmp"
+  local gfwlist_part_2="gfwlist_part_2.tmp"
 
   # patterns from @cokebar/gfwlist2dnsmasq
   local ignore_pattern='^\!|\[|^@@|(https?://){0,1}[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+'
@@ -38,7 +43,12 @@ function gen_gfw_domain_list() {
       grep -E $domain_pattern |
       sed -r $wildcard_pattern > $gfwlist_tmp
   cat $gfwlist_extras >> $gfwlist_tmp
-  cat $gfwlist_tmp | sort | uniq > $DIST_FILE
+  sort -u -o $gfwlist_tmp $gfwlist_tmp
+
+  grep -Fx -f $gfwlist_tmp $TOP_LIST > $gfwlist_part_1
+  sort $gfwlist_tmp $TOP_LIST $TOP_LIST | uniq -u > $gfwlist_part_2
+
+  cat $gfwlist_part_1 $gfwlist_part_2 > $DIST_FILE
 
   cd $CUR_DIR
 }
