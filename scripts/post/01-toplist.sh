@@ -2,4 +2,4 @@
 
 rm -r dist/toplist
 
-echo "[POST]: Finished."
+echo "[toplist]: removed."

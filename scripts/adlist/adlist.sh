@@ -16,6 +16,9 @@ ABPFX_LIST="abpfx.txt"
 YOYO_LIST="yoyo.txt"
 ADAWAY_LIST="adaway.txt"
 
+TOPLIST_SRC="$CUR_DIR/dist/toplist/toplist.txt"
+TOPLIST=$(basename $TOPLIST_SRC)
+
 function fetch_data() {
   cd $TMP_DIR
 
@@ -23,6 +26,7 @@ function fetch_data() {
   curl -sSL $ABPFX_URL > $ABPFX_LIST
   curl -sSL $YOYO_URL > $YOYO_LIST
   curl -sSL $ADAWAY_URL > $ADAWAY_LIST
+  cp $TOPLIST_SRC $TOPLIST
 
   cd $CUR_DIR
 }
@@ -35,13 +39,29 @@ function gen_adlist() {
   local yoyo_content="yoyo_content.tmp"
   local adaway_content="adaway_content.tmp"
 
+  local adlist_tmp="adlist.tmp"
+  local adlist_part_1="adlist_part_1.tmp"
+  local adlist_part_2="adlist_part_2.tmp"
+  local adlist_full_tmp="adlist-full.tmp"
+  local adlist_full_part_1="adlist-full_part_1.tmp"
+  local adlist_full_part_2="adlist-full_part_2.tmp"
+
   cat $EASY_LIST | grep ^\|\|[^\*]*\^$ | sed -e "s/||//" -e "s/\^//" > $easylist_content
   cat $ABPFX_LIST | grep ^\|\|[^\*]*\^$ | sed -e "s/||//" -e "s/\^//" > $abpfx_content
   cat $YOYO_LIST | grep -E "^127.0.0.1" | sed "s/127.0.0.1 //" > $yoyo_content
   cat $ADAWAY_LIST | sed $"s/\r$//" | grep -E "^127.0.0.1" | grep -v "#" | sed "s/127.0.0.1\t//" > $adaway_content
 
-  cat $easylist_content $abpfx_content $yoyo_content | sort -u > $DIST_FILE
-  cat $easylist_content $abpfx_content $yoyo_content $adaway_content | sort -u > $DIST_FILE_FULL
+  cat $easylist_content $abpfx_content $yoyo_content | sort -u > $adlist_tmp
+  cat $easylist_content $abpfx_content $yoyo_content $adaway_content | sort -u > $adlist_full_tmp
+
+  # sort by toplist
+  grep -Fx -f $adlist_tmp $TOPLIST > $adlist_part_1
+  sort $adlist_tmp $TOPLIST $TOPLIST | uniq -u > $adlist_part_2
+  cat $adlist_part_1 $adlist_part_2 > $DIST_FILE
+
+  grep -Fx -f $adlist_full_tmp $TOPLIST > $adlist_full_part_1
+  sort $adlist_full_tmp $TOPLIST $TOPLIST | uniq -u > $adlist_full_part_2
+  cat $adlist_full_part_1 $adlist_full_part_2 > $DIST_FILE_FULL
 
   cd $CUR_DIR
 }

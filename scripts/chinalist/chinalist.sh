@@ -22,8 +22,8 @@ function gen_chinalist() {
   cd $TMP_DIR
 
   local chinalist_tmp="chinalist.tmp"
-  local chinalist_part_1="chinalist_part_1"
-  local chinalist_part_2="chinalist_part_2"
+  local chinalist_part_1="chinalist_part_1.tmp"
+  local chinalist_part_2="chinalist_part_2.tmp"
 
   curl -sSL $CHINA_DOMAINS_URL $APPLE_DOMAINS_URL |
       # exclude comments
