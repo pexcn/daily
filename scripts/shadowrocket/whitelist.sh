@@ -24,7 +24,7 @@ function gen_whitelist_config() {
 
   local tmplist="whitelist.tmp"
 
-  head -2500 $CHINA_LIST > $tmplist
+  head -2000 $CHINA_LIST > $tmplist
   sed -i "s/^/DOMAIN-SUFFIX,/" $tmplist
   sed -i "s/$/,DIRECT/" $tmplist
   sed -i "s/___WHITELIST_DOMAINS_PLACEHOLDER___/cat $tmplist/e" $DIST_FILE
