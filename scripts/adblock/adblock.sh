@@ -21,7 +21,7 @@ function gen_adblock_list() {
 
   local adblock_tmp="adblock.tmp"
 
-  sed -e "s/^/address=\//" -e "s/$/\/127.0.0.1/" $ADLIST > $adblock_tmp
+  sed -e "s/^/server=\//" -e "s/$/\//" $ADLIST > $adblock_tmp
   sed -i "1i#\n# Update: $(date +'%Y-%m-%d %T')\n#\n" $adblock_tmp
   head -5004 $adblock_tmp > $DIST_FILE
 
