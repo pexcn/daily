@@ -40,8 +40,8 @@ function gen_adlist() {
   cat $YOYO_LIST | grep -E "^127.0.0.1" | sed "s/127.0.0.1 //" > $yoyo_content
   cat $ADAWAY_LIST | sed $"s/\r$//" | grep -E "^127.0.0.1" | grep -v "#" | sed "s/127.0.0.1\t//" > $adaway_content
 
-  cat $easylist_content $abpfx_content $yoyo_content | sort | uniq > $DIST_FILE
-  cat $easylist_content $abpfx_content $yoyo_content $adaway_content | sort | uniq > $DIST_FILE_FULL
+  cat $easylist_content $abpfx_content $yoyo_content | sort -u > $DIST_FILE
+  cat $easylist_content $abpfx_content $yoyo_content $adaway_content | sort -u > $DIST_FILE_FULL
 
   cd $CUR_DIR
 }
