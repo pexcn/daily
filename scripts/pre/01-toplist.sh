@@ -22,7 +22,7 @@ function dist_release() {
 
 function clean_up() {
   rm -r $TMP_DIR
-  echo "[toplist]: OK."
+  echo "[toplist]: prepared."
 }
 
 gen_toplist
