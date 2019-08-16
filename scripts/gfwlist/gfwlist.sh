@@ -7,8 +7,8 @@ DIST_FILE="gfwlist.txt"
 
 GFWLIST_URL="https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt"
 GFWLIST="gfwlist-origin.txt"
-TOP_LIST_SRC="$CUR_DIR/dist/alexa/top.txt"
-TOP_LIST=$(basename $TOP_LIST_SRC)
+TOPLIST_SRC="$CUR_DIR/dist/toplist/toplist.txt"
+TOPLIST=$(basename $TOPLIST_SRC)
 
 function fetch_data() {
   cd $TMP_DIR
@@ -17,7 +17,7 @@ function fetch_data() {
 
   cp $gfwlist_extras_template .
   curl -sSL $GFWLIST_URL | base64 -d > $GFWLIST
-  cp $TOP_LIST_SRC $TOP_LIST
+  cp $TOPLIST_SRC $TOPLIST
 
   cd $CUR_DIR
 }
@@ -45,8 +45,9 @@ function gen_gfw_domain_list() {
   cat $gfwlist_extras >> $gfwlist_tmp
   sort -u -o $gfwlist_tmp $gfwlist_tmp
 
-  grep -Fx -f $gfwlist_tmp $TOP_LIST > $gfwlist_part_1
-  sort $gfwlist_tmp $TOP_LIST $TOP_LIST | uniq -u > $gfwlist_part_2
+  # sort by toplist
+  grep -Fx -f $gfwlist_tmp $TOPLIST > $gfwlist_part_1
+  sort $gfwlist_tmp $TOPLIST $TOPLIST | uniq -u > $gfwlist_part_2
 
   cat $gfwlist_part_1 $gfwlist_part_2 > $DIST_FILE
 

@@ -36,9 +36,6 @@ run() {
   # china domain list
   scripts/chinalist/chinalist.sh
 
-  # alexa top list
-  scripts/alexa/alexa.sh
-
   # gfw domain list
   scripts/gfwlist/gfwlist.sh
 
