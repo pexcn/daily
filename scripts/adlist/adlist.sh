@@ -20,10 +20,10 @@ TOPLIST=$(basename $TOPLIST_SRC)
 function fetch_data() {
   cd $TMP_DIR
 
-  curl -sSL $ADAWAY_URL > $ADAWAY_LIST
-  curl -sSL $EASYLIST_URL > $EASY_LIST
+  curl -sSL -k $ADAWAY_URL > $ADAWAY_LIST
+  curl -sSL -k $EASYLIST_URL > $EASY_LIST
   curl -sSL -k $YOYO_URL > $YOYO_LIST
-  curl -sSL $DISCONNECT_URL > $DISCONNECT_LIST
+  curl -sSL -k $DISCONNECT_URL > $DISCONNECT_LIST
   cp $TOPLIST_SRC $TOPLIST
 
   cd $CUR_DIR
