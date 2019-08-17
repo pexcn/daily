@@ -10,7 +10,7 @@ pre() {
   for file in scripts/pre/*.sh; do
     "$file"
   done
-  echo "============ PRE END ============"
+  echo "============ PRE END ============" && echo
 }
 
 post() {
@@ -24,7 +24,7 @@ post() {
   do
     "$file"
   done
-  echo "============ POST END ============"
+  echo "============ POST END ============" && echo
 }
 
 run() {
@@ -61,7 +61,7 @@ run() {
   scripts/shadowrocket/gfwlist.sh
   scripts/shadowrocket/whitelist.sh
 
-  echo "============ RUN END ============"
+  echo "============ RUN END ============" && echo
 }
 
 pre
