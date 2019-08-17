@@ -19,11 +19,8 @@ function fetch_data() {
 function gen_adblock_list() {
   cd $TMP_DIR
 
-  local adblock_tmp="adblock.tmp"
-
-  sed -e "s/^/server=\//" -e "s/$/\//" $ADLIST > $adblock_tmp
-  sed -i "1i#\n# Update: $(date +'%Y-%m-%d %T')\n#\n" $adblock_tmp
-  head -5004 $adblock_tmp > $DIST_FILE
+  sed -e "s/^/server=\//" -e "s/$/\//" $ADLIST > $DIST_FILE
+  sed -i "1i#\n# Update: $(date +'%Y-%m-%d %T')\n#\n" $DIST_FILE
 
   cd $CUR_DIR
 }
