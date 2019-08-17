@@ -20,7 +20,6 @@ See [docs](docs).
   - [`blacklist`](https://github.com/pexcn/daily/tree/gh-pages/blacklist)
   - [`gfwlist`](https://github.com/pexcn/daily/tree/gh-pages/gfwlist)
   - [`chinalist`](https://github.com/pexcn/daily/tree/gh-pages/chinalist)
-  - [`alexa`](https://github.com/pexcn/daily/tree/gh-pages/alexa)
 
 Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisCatus/SwitchyOmega).
 
