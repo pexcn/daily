@@ -38,10 +38,10 @@ function gen_gfw_domain_list() {
   local wildcard_pattern='s#^(([a-zA-Z0-9]*\*[-a-zA-Z0-9]*)?(\.))?([a-zA-Z0-9][-a-zA-Z0-9]*(\.[a-zA-Z0-9][-a-zA-Z0-9]*)+)(\*)?#\4#g'
 
   grep -vE $ignore_pattern $GFWLIST |
-      sed -r $head_filter_pattern |
-      sed -r $tail_filter_pattern |
-      grep -E $domain_pattern |
-      sed -r $wildcard_pattern > $gfwlist_tmp
+    sed -r $head_filter_pattern |
+    sed -r $tail_filter_pattern |
+    grep -E $domain_pattern |
+    sed -r $wildcard_pattern > $gfwlist_tmp
   cat $gfwlist_extras >> $gfwlist_tmp
   sort -u -o $gfwlist_tmp $gfwlist_tmp
 

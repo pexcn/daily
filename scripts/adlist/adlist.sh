@@ -41,8 +41,8 @@ function gen_adlist() {
   local adlist_part_1="adlist_part_1.tmp"
   local adlist_part_2="adlist_part_2.tmp"
 
-  cat $ADAWAY_LIST | sed $"s/\r$//" | sed '/^$/d' | grep -v "^#"  | grep -v "localhost" | cut -d ' ' -f 2 > $adaway_content
-  cat $EASY_LIST | grep ^\|\|[^\*]*\^$ | sed -e "s/||//" -e "s/\^//" > $easylist_content
+  cat $ADAWAY_LIST | sed $'s/\r$//' | sed '/^$/d' | grep -v "^#"  | grep -v "localhost" | cut -d ' ' -f 2 > $adaway_content
+  cat $EASY_LIST | grep ^\|\|[^\*]*\^$ | sed -e 's/||//' -e 's/\^//' > $easylist_content
   cat $YOYO_LIST > $yoyo_content
   cat $DISCONNECT_LIST | sed '1,3d' | sed '/^$/d' | grep -v "#" > $disconnect_content
 

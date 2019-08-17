@@ -19,7 +19,10 @@ function fetch_data() {
 function gen_adblock_list() {
   cd $TMP_DIR
 
-  sed -e "s/^/server=\//" -e "s/$/\//" $ADLIST > $DIST_FILE
+  local ipv4_regex="[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}"
+
+  sed -e "s/^/server=\//" -e "s/$/\//" $ADLIST |
+    grep -v "$ipv4_regex" > $DIST_FILE
   sed -i "1i#\n# Update: $(date +'%Y-%m-%d %T')\n#\n" $DIST_FILE
 
   cd $CUR_DIR
