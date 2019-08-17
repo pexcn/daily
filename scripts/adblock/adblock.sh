@@ -2,16 +2,15 @@
 
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/adblock.XXXXXX)
-DIST_DIR="$CUR_DIR/dist/adblock"
-DIST_FILE="adblock.conf"
 
-ADLIST_SRC="$CUR_DIR/dist/adlist/adlist.txt"
-ADLIST=$(basename $ADLIST_SRC)
+DIST_FILE="dist/adblock/adblock.conf"
+DIST_DIR="$(dirname $DIST_FILE)"
+DIST_NAME="$(basename $DIST_FILE)"
 
 function fetch_data() {
   cd $TMP_DIR
 
-  cp $ADLIST_SRC $ADLIST
+  cp $CUR_DIR/dist/adlist/adlist.txt .
 
   cd $CUR_DIR
 }
@@ -21,16 +20,26 @@ function gen_adblock_list() {
 
   local ipv4_regex="[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}"
 
-  sed -e "s/^/server=\//" -e "s/$/\//" $ADLIST |
-    grep -v "$ipv4_regex" > $DIST_FILE
-  sed -i "1i#\n# Update: $(date +'%Y-%m-%d %T')\n#\n" $DIST_FILE
+  # date
+  cat <<- EOF > $DIST_NAME
+	#
+	# Update: $(date +'%Y-%m-%d %T')
+	#
+
+	EOF
+
+  cat adlist.txt |
+    # convert to dnsmasq format
+    sed -e "s/^/server=\//" -e "s/$/\//" |
+	# ignore ipv4 address
+    grep -v "$ipv4_regex" >> $DIST_NAME
 
   cd $CUR_DIR
 }
 
 function dist_release() {
   mkdir -p $DIST_DIR
-  cp $TMP_DIR/$DIST_FILE $DIST_DIR
+  cp $TMP_DIR/$DIST_NAME $DIST_FILE
 }
 
 function clean_up() {
