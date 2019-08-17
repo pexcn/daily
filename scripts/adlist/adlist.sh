@@ -6,8 +6,7 @@ DIST_DIR="$CUR_DIR/dist/adlist"
 DIST_FILE="adlist.txt"
 
 EASYLIST_URL="https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt"
-YOYO_URL="https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext"
-
+YOYO_URL="https://pgl.yoyo.org/adservers/serverlist.php?hostformat=nohtml&showintro=0&mimetype=plaintext"
 EASY_LIST="easylistchina.txt"
 YOYO_LIST="yoyo.txt"
 
@@ -35,7 +34,7 @@ function gen_adlist() {
   local adlist_part_2="adlist_part_2.tmp"
 
   cat $EASY_LIST | grep ^\|\|[^\*]*\^$ | sed -e "s/||//" -e "s/\^//" > $easylist_content
-  cat $YOYO_LIST | grep -E "^127.0.0.1" | sed "s/127.0.0.1 //" > $yoyo_content
+  cat $YOYO_LIST > $yoyo_content
 
   cat $easylist_content $yoyo_content | sort -u > $adlist_tmp
 
