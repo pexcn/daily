@@ -24,7 +24,7 @@ function fetch_data() {
 
   curl -sSL $EASYLIST_URL > $EASY_LIST
   curl -sSL $ABPFX_URL > $ABPFX_LIST
-  curl -sSL $YOYO_URL > $YOYO_LIST
+  curl -ksSL $YOYO_URL > $YOYO_LIST
   curl -sSL $ADAWAY_URL > $ADAWAY_LIST
   cp $TOPLIST_SRC $TOPLIST
 
