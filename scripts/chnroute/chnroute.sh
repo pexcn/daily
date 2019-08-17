@@ -41,7 +41,7 @@ function gen_ipv6_chnroute() {
 
   local apnic_v6="apnic_v6.tmp"
 
-  cat $APNIC_LIST | grep ipv6 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > ${apnic_v6}
+  cat $APNIC_LIST | grep ipv6 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, $5) }' > ${apnic_v6}
 
   mv $apnic_v6 $DIST_FILE_IPV6
 
