@@ -3216,6 +3216,7 @@ d2gz6iop9uxobu.cloudfront.net
 d2hap2bsh1k9lw.cloudfront.net
 d2hcjk8asp3td7.cloudfront.net
 d2ipklohrie3lo.cloudfront.net
+d2kr2fnkbj2h4c.cloudfront.net
 d2mic0r0bo3i6z.cloudfront.net
 d2mq0uzafv8ytp.cloudfront.net
 d2muzdhs7lpmo0.cloudfront.net
