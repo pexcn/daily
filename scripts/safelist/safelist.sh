@@ -2,32 +2,42 @@
 
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/safelist.XXXXXX)
-DIST_DIR="$CUR_DIR/dist/safelist"
-DIST_FILE="safelist.conf"
 
-TABOO_LIST_SRC="$CUR_DIR/dist/gfwlist/gfwlist.txt"
-TABOO_LIST="taboolist.txt"
+DIST_FILE="dist/safelist/safelist.conf"
+DIST_DIR="$(dirname $DIST_FILE)"
+DIST_NAME="$(basename $DIST_FILE)"
+
+# format: IPV4_ADDRESS[#PORT]
+TRUST_DNS_SERVER="127.0.0.1#5300"
 
 function fetch_data() {
   cd $TMP_DIR
 
-  cp $TABOO_LIST_SRC $TABOO_LIST
+  cp $CUR_DIR/dist/gfwlist/gfwlist.txt warnlist.txt
 
   cd $CUR_DIR
 }
 
-function gen_safe_list() {
+function gen_safelist() {
   cd $TMP_DIR
 
-  sed -e "s/^/server=\//" -e "s/$/\/127.0.0.1#5300/" $TABOO_LIST > $DIST_FILE
-  sed -i "1i#\n# Update: $(date +'%Y-%m-%d %T')\n#\n" $DIST_FILE
+  # date
+  cat <<- EOF > $DIST_NAME
+	#
+	# Update: $(date +'%Y-%m-%d %T')
+	#
+
+	EOF
+
+  # convert to dnsmasq format
+  sed -e "s/^/server=\//" -e "s/$/\/$TRUST_DNS_SERVER/" warnlist.txt >> $DIST_NAME
 
   cd $CUR_DIR
 }
 
 function dist_release() {
   mkdir -p $DIST_DIR
-  cp $TMP_DIR/$DIST_FILE $DIST_DIR
+  cp $TMP_DIR/$DIST_NAME $DIST_FILE
 }
 
 function clean_up() {
@@ -36,6 +46,6 @@ function clean_up() {
 }
 
 fetch_data
-gen_safe_list
+gen_safelist
 dist_release
 clean_up
