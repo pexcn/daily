@@ -2,22 +2,19 @@
 
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/gfwlist.XXXXXX)
-DIST_DIR="$CUR_DIR/dist/gfwlist"
-DIST_FILE="gfwlist.txt"
+
+DIST_FILE="dist/gfwlist/gfwlist.txt"
+DIST_DIR="$(dirname $DIST_FILE)"
+DIST_NAME="$(basename $DIST_FILE)"
 
 GFWLIST_URL="https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt"
-GFWLIST="gfwlist-origin.txt"
-TOPLIST_SRC="$CUR_DIR/dist/toplist/toplist.txt"
-TOPLIST=$(basename $TOPLIST_SRC)
 
 function fetch_data() {
   cd $TMP_DIR
 
-  local gfwlist_extras_template="$CUR_DIR/template/gfwlist/gfwlist-extras.txt"
-
-  cp $gfwlist_extras_template .
-  curl -sSL $GFWLIST_URL | base64 -d > $GFWLIST
-  cp $TOPLIST_SRC $TOPLIST
+  curl -sSL --connect-timeout 10 $GFWLIST_URL | base64 -d > gfwlist.raw
+  cp $CUR_DIR/template/gfwlist/gfwlist-extras.txt .
+  cp $CUR_DIR/dist/toplist/toplist.txt .
 
   cd $CUR_DIR
 }
@@ -26,7 +23,6 @@ function gen_gfw_domain_list() {
   cd $TMP_DIR
 
   local gfwlist_tmp="gfwlist.tmp"
-  local gfwlist_extras="gfwlist-extras.txt"
   local gfwlist_part_1="gfwlist_part_1.tmp"
   local gfwlist_part_2="gfwlist_part_2.tmp"
 
@@ -37,26 +33,28 @@ function gen_gfw_domain_list() {
   local domain_pattern='([a-zA-Z0-9][-a-zA-Z0-9]*(\.[a-zA-Z0-9][-a-zA-Z0-9]*)+)'
   local wildcard_pattern='s#^(([a-zA-Z0-9]*\*[-a-zA-Z0-9]*)?(\.))?([a-zA-Z0-9][-a-zA-Z0-9]*(\.[a-zA-Z0-9][-a-zA-Z0-9]*)+)(\*)?#\4#g'
 
-  grep -vE $ignore_pattern $GFWLIST |
+  # gfwlist filter
+  grep -vE $ignore_pattern gfwlist.raw |
     sed -r $head_filter_pattern |
     sed -r $tail_filter_pattern |
     grep -E $domain_pattern |
     sed -r $wildcard_pattern > $gfwlist_tmp
-  cat $gfwlist_extras >> $gfwlist_tmp
-  sort -u -o $gfwlist_tmp $gfwlist_tmp
+  # append gfwlist extras, sort unique in-place
+  sort -u $gfwlist_tmp gfwlist-extras.txt -o $gfwlist_tmp
 
+  # find intersection set
+  grep -Fx -f $gfwlist_tmp toplist.txt > $gfwlist_part_1
+  # find difference set
+  sort $gfwlist_tmp toplist.txt toplist.txt | uniq -u > $gfwlist_part_2
   # sort by toplist
-  grep -Fx -f $gfwlist_tmp $TOPLIST > $gfwlist_part_1
-  sort $gfwlist_tmp $TOPLIST $TOPLIST | uniq -u > $gfwlist_part_2
-
-  cat $gfwlist_part_1 $gfwlist_part_2 > $DIST_FILE
+  cat $gfwlist_part_1 $gfwlist_part_2 > $DIST_NAME
 
   cd $CUR_DIR
 }
 
 function dist_release() {
   mkdir -p $DIST_DIR
-  cp $TMP_DIR/$DIST_FILE $DIST_DIR
+  cp $TMP_DIR/$DIST_NAME $DIST_FILE
 }
 
 function clean_up() {
