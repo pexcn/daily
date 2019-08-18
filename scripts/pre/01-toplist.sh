@@ -2,22 +2,28 @@
 
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/toplist.XXXXXX)
-DIST_DIR="$CUR_DIR/dist/toplist"
-DIST_FILE="toplist.txt"
+
+DIST_FILE="dist/toplist/toplist.txt"
+DIST_DIR="$(dirname $DIST_FILE)"
+DIST_NAME="$(basename $DIST_FILE)"
 
 TOPLIST_URL="https://s3.amazonaws.com/alexa-static/top-1m.csv.zip"
 
 function gen_toplist() {
   cd $TMP_DIR
 
-  curl -sSL $TOPLIST_URL | gunzip | awk -F ',' '{print $2}' > $DIST_FILE
+  curl -sSL --connect-timeout 10 $TOPLIST_URL |
+    # unzip
+    gunzip |
+    # extract
+    awk -F ',' '{print $2}' > $DIST_NAME
 
   cd $CUR_DIR
 }
 
 function dist_release() {
   mkdir -p $DIST_DIR
-  cp $TMP_DIR/$DIST_FILE $DIST_DIR
+  cp $TMP_DIR/$DIST_NAME $DIST_FILE
 }
 
 function clean_up() {
