@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash
 
 pre() {
   local count=$(ls -1 scripts/pre/*.sh 2>/dev/null | wc -l)
