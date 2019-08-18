@@ -2,19 +2,16 @@
 
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/pac.XXXXXX)
-DIST_DIR="$CUR_DIR/dist/pac"
-DIST_FILE="gfwlist.pac"
 
-GFW_DOMAIN_LIST_SRC="$CUR_DIR/dist/gfwlist/gfwlist.txt"
-GFW_DOMAIN_LIST=$(basename $GFW_DOMAIN_LIST_SRC)
+DIST_FILE="dist/pac/gfwlist.pac"
+DIST_DIR="$(dirname $DIST_FILE)"
+DIST_NAME="$(basename $DIST_FILE)"
 
 function fetch_data() {
   cd $TMP_DIR
 
-  local pac_template="$CUR_DIR/template/pac/gfwlist.pac"
-
-  cp $pac_template .
-  cp $GFW_DOMAIN_LIST_SRC $GFW_DOMAIN_LIST 
+  cp $CUR_DIR/template/pac/gfwlist.template .
+  cp $CUR_DIR/dist/gfwlist/gfwlist.txt .
 
   cd $CUR_DIR
 }
@@ -22,19 +19,30 @@ function fetch_data() {
 function gen_gfwlist_pac() {
   cd $TMP_DIR
 
-  sed -i 's/^/  "/' $GFW_DOMAIN_LIST
-  sed -i 's/$/": 1,/' $GFW_DOMAIN_LIST
-  sed -i '$ s/": 1,/": 1/g' $GFW_DOMAIN_LIST
+  local gfwlist_tmp="gfwlist.tmp"
 
-  sed -i "s/___GFWLIST_DOMAINS_PLACEHOLDER___/cat $GFW_DOMAIN_LIST/e" $DIST_FILE
-  sed -i "s/___UPDATE_TIME_PLACEHOLDER___/$(date +'%Y-%m-%d %T')/g" $DIST_FILE
+  # generate content
+  sed -e 's/^/  "/' -e 's/$/": 1,/' gfwlist.txt |
+    # remove the last line of ','
+    sed '$ s/": 1,/": 1/g' > $gfwlist_tmp
+
+  # date
+  cat <<- EOF > $DIST_NAME
+	//
+	// Update: $(date +'%Y-%m-%d %T')
+	//
+
+	EOF
+
+  # replace content
+  sed "s/___GFWLIST_DOMAINS_PLACEHOLDER___/cat $gfwlist_tmp/e" gfwlist.template >> $DIST_NAME
 
   cd $CUR_DIR
 }
 
 function dist_release() {
   mkdir -p $DIST_DIR
-  cp $TMP_DIR/$DIST_FILE $DIST_DIR
+  cp $TMP_DIR/$DIST_NAME $DIST_FILE
 }
 
 function clean_up() {
