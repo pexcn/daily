@@ -2,18 +2,20 @@
 
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/chinalist.XXXXXX)
-DIST_DIR="$CUR_DIR/dist/chinalist"
-DIST_FILE="chinalist.txt"
 
-CHINA_DOMAINS_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf"
-APPLE_DOMAINS_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/apple.china.conf"
-TOPLIST_SRC="$CUR_DIR/dist/toplist/toplist.txt"
-TOPLIST=$(basename $TOPLIST_SRC)
+DIST_FILE="dist/chinalist/chinalist.txt"
+DIST_DIR="$(dirname $DIST_FILE)"
+DIST_NAME="$(basename $DIST_FILE)"
+
+CHINA_DOMAIN_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf"
+APPLE_DOMAIN_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/apple.china.conf"
 
 function fetch_data() {
   cd $TMP_DIR
 
-  cp $TOPLIST_SRC $TOPLIST
+  curl -sSL --connect-timeout 10 $CHINA_DOMAIN_URL -o china.conf
+  curl -sSL --connect-timeout 10 $APPLE_DOMAIN_URL -o apple.conf
+  cp $CUR_DIR/dist/toplist/toplist.txt .
 
   cd $CUR_DIR
 }
@@ -25,27 +27,29 @@ function gen_chinalist() {
   local chinalist_part_1="chinalist_part_1.tmp"
   local chinalist_part_2="chinalist_part_2.tmp"
 
-  curl -sSL $CHINA_DOMAINS_URL $APPLE_DOMAINS_URL |
-      # exclude comments
+  cat china.conf apple.conf |
+      # ignore comments
       sed "/#/d" |
       # extract domains
       awk '{split($0, arr, "/"); print arr[2]}' |
       # exclude TLDs
       grep "\." |
+      # sort unique
       sort -u > $chinalist_tmp
 
+  # find intersection set
+  grep -Fx -f $chinalist_tmp toplist.txt > $chinalist_part_1
+  # find difference set
+  sort $chinalist_tmp toplist.txt toplist.txt | uniq -u > $chinalist_part_2
   # sort by toplist
-  grep -Fx -f $chinalist_tmp $TOPLIST > $chinalist_part_1
-  sort $chinalist_tmp $TOPLIST $TOPLIST | uniq -u > $chinalist_part_2
-
-  cat $chinalist_part_1 $chinalist_part_2 > $DIST_FILE
+  cat $chinalist_part_1 $chinalist_part_2 > $DIST_NAME
 
   cd $CUR_DIR
 }
 
 function dist_release() {
   mkdir -p $DIST_DIR
-  cp $TMP_DIR/$DIST_FILE $DIST_DIR
+  cp $TMP_DIR/$DIST_NAME $DIST_FILE
 }
 
 function clean_up() {
