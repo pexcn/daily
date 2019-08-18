@@ -11,6 +11,7 @@ addons:
   apt:
     packages:
       - aggregate
+      - git
 
 env:
   global:
@@ -22,7 +23,7 @@ script:
 
 deploy:
   provider: pages
-  local-dir: dist
+  local-dir: release
   target-branch: gh-pages
   keep-history: true
   skip-cleanup: true
