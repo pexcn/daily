@@ -24,7 +24,7 @@ function gen_gfwlist_pac() {
   # generate content
   sed -e 's/^/  "/' -e 's/$/": 1,/' gfwlist.txt |
     # remove the last line of ','
-    sed '$ s/": 1,/": 1/g' > $gfwlist_tmp
+    sed '$ s/.$//g' > $gfwlist_tmp
 
   # date
   cat <<- EOF > $DIST_NAME

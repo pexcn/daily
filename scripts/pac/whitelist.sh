@@ -2,19 +2,16 @@
 
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/pac.XXXXXX)
-DIST_DIR="$CUR_DIR/dist/pac"
-DIST_FILE="whitelist.pac"
 
-CHINA_LIST_SRC="$CUR_DIR/dist/chinalist/chinalist.txt"
-CHINA_LIST=$(basename $CHINA_LIST_SRC)
+DIST_FILE="dist/pac/whitelist.pac"
+DIST_DIR="$(dirname $DIST_FILE)"
+DIST_NAME="$(basename $DIST_FILE)"
 
 function fetch_data() {
   cd $TMP_DIR
 
-  local pac_template="$CUR_DIR/template/pac/whitelist.pac"
-
-  cp $pac_template .
-  cp $CHINA_LIST_SRC $CHINA_LIST
+  cp $CUR_DIR/template/pac/whitelist.template .
+  cp $CUR_DIR/dist/chinalist/chinalist.txt .
 
   cd $CUR_DIR
 }
@@ -22,20 +19,30 @@ function fetch_data() {
 function gen_whitelist_pac() {
   cd $TMP_DIR
 
-  sed -i 's/^/  "/' $CHINA_LIST
-  sed -i 's/$/": 1,/' $CHINA_LIST
+  local chinalist_tmp="chinalist.tmp"
 
-  sed -i '$ s/.$//g' $CHINA_LIST
+  # generate content
+  sed -e 's/^/  "/' -e 's/$/": 1,/' chinalist.txt |
+    # remove the last line of ','
+    sed '$ s/.$//g' > $chinalist_tmp
 
-  sed -i "s/___CHINA_DOMAINS_PLACEHOLDER___/cat $CHINA_LIST/e" $DIST_FILE
-  sed -i "s/___UPDATE_TIME_PLACEHOLDER___/$(date +'%Y-%m-%d %T')/g" $DIST_FILE
+  # date
+  cat <<- EOF > $DIST_NAME
+	//
+	// Update: $(date +'%Y-%m-%d %T')
+	//
+
+	EOF
+
+  # replace content
+  sed "s/___CHINA_DOMAINS_PLACEHOLDER___/cat $chinalist_tmp/e" whitelist.template >> $DIST_NAME
 
   cd $CUR_DIR
 }
 
 function dist_release() {
   mkdir -p $DIST_DIR
-  cp $TMP_DIR/$DIST_FILE $DIST_DIR
+  cp $TMP_DIR/$DIST_NAME $DIST_FILE
 }
 
 function clean_up() {
