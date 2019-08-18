@@ -2,19 +2,16 @@
 
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/shadowrocket.XXXXXX)
-DIST_DIR="$CUR_DIR/dist/shadowrocket"
-DIST_FILE="whitelist.conf"
 
-CHINA_LIST_SRC="$CUR_DIR/dist/chinalist/chinalist.txt"
-CHINA_LIST=$(basename $CHINA_LIST_SRC)
+DIST_FILE="dist/shadowrocket/whitelist.conf"
+DIST_DIR="$(dirname $DIST_FILE)"
+DIST_NAME="$(basename $DIST_FILE)"
 
 function fetch_data() {
   cd $TMP_DIR
 
-  local config_template="$CUR_DIR/template/shadowrocket/whitelist.conf"
-
-  cp $config_template .
-  cp $CHINA_LIST_SRC $CHINA_LIST
+  cp $CUR_DIR/template/shadowrocket/whitelist.template .
+  cp $CUR_DIR/dist/chinalist/chinalist.txt .
 
   cd $CUR_DIR
 }
@@ -22,20 +19,30 @@ function fetch_data() {
 function gen_whitelist_config() {
   cd $TMP_DIR
 
-  local tmplist="whitelist.tmp"
+  local chinalist_tmp="chinalist.tmp"
 
-  head -2000 $CHINA_LIST > $tmplist
-  sed -i "s/^/DOMAIN-SUFFIX,/" $tmplist
-  sed -i "s/$/,DIRECT/" $tmplist
-  sed -i "s/___WHITELIST_DOMAINS_PLACEHOLDER___/cat $tmplist/e" $DIST_FILE
-  sed -i "s/___UPDATE_TIME_PLACEHOLDER___/$(date +'%Y-%m-%d %T')/g" $DIST_FILE
+  # limit 2000 entries
+  head -2000 chinalist.txt |
+    # generate content
+    sed -e 's/^/DOMAIN-SUFFIX,/' -e 's/$/,DIRECT/' > $chinalist_tmp
+
+  # date
+  cat <<- EOF > $DIST_NAME
+	#
+	# Update: $(date +'%Y-%m-%d %T')
+	#
+
+	EOF
+
+  # replace content
+  sed "s/___WHITELIST_DOMAINS_PLACEHOLDER___/cat $chinalist_tmp/e" whitelist.template >> $DIST_NAME
 
   cd $CUR_DIR
 }
 
 function dist_release() {
   mkdir -p $DIST_DIR
-  cp $TMP_DIR/$DIST_FILE $DIST_DIR
+  cp $TMP_DIR/$DIST_NAME $DIST_FILE
 }
 
 function clean_up() {
