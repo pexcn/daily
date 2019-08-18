@@ -13,8 +13,8 @@ APPLE_DOMAIN_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/a
 function fetch_data() {
   cd $TMP_DIR
 
-  curl -sSL --connect-timeout 10 $CHINA_DOMAIN_URL -o china.conf
-  curl -sSL --connect-timeout 10 $APPLE_DOMAIN_URL -o apple.conf
+  curl -sSL -4 --connect-timeout 10 $CHINA_DOMAIN_URL -o china.conf
+  curl -sSL -4 --connect-timeout 10 $APPLE_DOMAIN_URL -o apple.conf
   cp $CUR_DIR/dist/toplist/toplist.txt .
 
   cd $CUR_DIR

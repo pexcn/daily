@@ -15,8 +15,8 @@ SERVER_DNS="114.114.114.114"
 function fetch_data() {
   cd $TMP_DIR
 
-  curl -sSL --connect-timeout 10 $BLACKLIST_URL -o blacklist.txt
-  curl -sSL --connect-timeout 10 $EXCLUDE_URL -o blacklist-exclude.txt
+  curl -sSL -4 --connect-timeout 10 $BLACKLIST_URL -o blacklist.txt
+  curl -sSL -4 --connect-timeout 10 $EXCLUDE_URL -o blacklist-exclude.txt
 
   cd $CUR_DIR
 }

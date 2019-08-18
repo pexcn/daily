@@ -12,7 +12,7 @@ TOPLIST_URL="https://s3.amazonaws.com/alexa-static/top-1m.csv.zip"
 function gen_toplist() {
   cd $TMP_DIR
 
-  curl -sSL --connect-timeout 10 $TOPLIST_URL |
+  curl -sSL -4 --connect-timeout 10 $TOPLIST_URL |
     # unzip
     gunzip |
     # extract

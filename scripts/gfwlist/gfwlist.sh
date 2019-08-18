@@ -12,7 +12,7 @@ GFWLIST_URL="https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt"
 function fetch_data() {
   cd $TMP_DIR
 
-  curl -sSL --connect-timeout 10 $GFWLIST_URL | base64 -d > gfwlist.raw
+  curl -sSL -4 --connect-timeout 10 $GFWLIST_URL | base64 -d > gfwlist.raw
   cp $CUR_DIR/template/gfwlist/gfwlist-extras.txt .
   cp $CUR_DIR/dist/toplist/toplist.txt .
 

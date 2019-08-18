@@ -17,8 +17,8 @@ IPIP_LIST="ipip.txt"
 function fetch_data() {
   cd $TMP_DIR
 
-  curl -sSL --connect-timeout 10 $APNIC_URL -o apnic.txt
-  curl -sSL --connect-timeout 10 $IPIP_URL -o ipip.txt
+  curl -sSL -4 --connect-timeout 10 $APNIC_URL -o apnic.txt
+  curl -sSL -4 --connect-timeout 10 $IPIP_URL -o ipip.txt
 
   cd $CUR_DIR
 }
