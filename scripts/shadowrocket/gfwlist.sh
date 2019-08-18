@@ -2,19 +2,16 @@
 
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/shadowrocket.XXXXXX)
-DIST_DIR="$CUR_DIR/dist/shadowrocket"
-DIST_FILE="gfwlist.conf"
 
-GFW_DOMAIN_LIST_SRC="$CUR_DIR/dist/gfwlist/gfwlist.txt"
-GFW_DOMAIN_LIST=$(basename $GFW_DOMAIN_LIST_SRC)
+DIST_FILE="dist/shadowrocket/gfwlist.conf"
+DIST_DIR="$(dirname $DIST_FILE)"
+DIST_NAME="$(basename $DIST_FILE)"
 
 function fetch_data() {
   cd $TMP_DIR
 
-  local config_template="$CUR_DIR/template/shadowrocket/gfwlist.conf"
-
-  cp $config_template .
-  cp $GFW_DOMAIN_LIST_SRC $GFW_DOMAIN_LIST 
+  cp $CUR_DIR/template/shadowrocket/gfwlist.template .
+  cp $CUR_DIR/dist/gfwlist/gfwlist.txt .
 
   cd $CUR_DIR
 }
@@ -22,18 +19,28 @@ function fetch_data() {
 function gen_gfwlist_config() {
   cd $TMP_DIR
 
-  sed -i "s/^/DOMAIN-SUFFIX,/" $GFW_DOMAIN_LIST
-  sed -i "s/$/,PROXY,force-remote-dns/" $GFW_DOMAIN_LIST
+  local gfwlist_tmp="gfwlist.tmp"
 
-  sed -i "s/___GFWLIST_DOMAINS_PLACEHOLDER___/cat $GFW_DOMAIN_LIST/e" $DIST_FILE
-  sed -i "s/___UPDATE_TIME_PLACEHOLDER___/$(date +'%Y-%m-%d %T')/g" $DIST_FILE
+  # generate content
+  sed -e 's/^/DOMAIN-SUFFIX,/' -e 's/$/,PROXY,force-remote-dns/' gfwlist.txt > $gfwlist_tmp
+
+  # date
+  cat <<- EOF > $DIST_NAME
+	#
+	# Update: $(date +'%Y-%m-%d %T')
+	#
+
+	EOF
+
+  # replace content
+  sed "s/___GFWLIST_DOMAINS_PLACEHOLDER___/cat $gfwlist_tmp/e" gfwlist.template >> $DIST_NAME
 
   cd $CUR_DIR
 }
 
 function dist_release() {
   mkdir -p $DIST_DIR
-  cp $TMP_DIR/$DIST_FILE $DIST_DIR
+  cp $TMP_DIR/$DIST_NAME $DIST_FILE
 }
 
 function clean_up() {
