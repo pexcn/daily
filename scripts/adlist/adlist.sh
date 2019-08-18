@@ -15,10 +15,10 @@ DISCONNECT_URL="https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising
 function fetch_data() {
   cd $TMP_DIR
 
-  curl -sSL -k --connect-timeout 10 -o adaway.txt $ADAWAY_URL
-  curl -sSL -k --connect-timeout 10 -o easylist.txt $EASYLIST_URL
-  curl -sSL -k --connect-timeout 10 -o yoyo.txt $YOYO_URL
-  curl -sSL -k --connect-timeout 10 -o disconnect.txt $DISCONNECT_URL
+  curl -sSL -k --connect-timeout 10 $ADAWAY_URL -o adaway.txt
+  curl -sSL -k --connect-timeout 10 $EASYLIST_URL -o easylist.txt
+  curl -sSL -k --connect-timeout 10 $YOYO_URL -o yoyo.txt
+  curl -sSL -k --connect-timeout 10 $DISCONNECT_URL -o disconnect.txt
   cp $CUR_DIR/dist/toplist/toplist.txt .
 
   cd $CUR_DIR
