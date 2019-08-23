@@ -6,8 +6,6 @@ This script can be automatically generate something what I needed every day.
 
 ## Usage
 
-See [docs](docs).
-
 - [`chnroute/chnroute.txt`](https://pexcn.me/daily/chnroute/chnroute.txt)
 - [`adblock/adblock.conf`](https://pexcn.me/daily/adblock/adblock.conf)
 - [`safelist/safelist.conf`](https://pexcn.me/daily/safelist/safelist.conf)
