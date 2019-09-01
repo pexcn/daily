@@ -28,16 +28,19 @@ Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisC
 
 ```bash
 # adblock
-0 3 * * * <path/to/adblock_script>
+0 3 * * * </path/to/adblock_script>
 
-# chnroute (chinadns)
-1 3 * * * <path/to/chnroute_chinadns_script>
+# chinadns
+1 3 * * * </path/to/chinadns_script>
 
-# chnroute (cleandns)
-2 3 * * * <path/to/chnroute_cleandns_script>
+# chinadns-ng
+2 3 * * * </path/to/chinadns-ng_script>
+
+# cleandns
+3 3 * * * </path/to/cleandns_script>
 
 # safelist
-3 3 * * * <path/to/safelist_script>
+4 3 * * * </path/to/safelist_script>
 ```
 
 ## Credits
