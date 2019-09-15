@@ -2946,6 +2946,7 @@ biz.gexing.com
 bizographics.com
 biz.weibo.com
 bjbrtc.com
+bj-bytsk.com
 bjdianyue.com
 bjeai.com
 bjedpt.com
@@ -5466,6 +5467,7 @@ install.365-stream.com
 instantmadness.com
 instinctiveads.com
 instrumentsponge.com
+insuf.cn
 intelliads.com
 intellitxt.com
 intentmedia.com
@@ -5750,7 +5752,6 @@ jyjhkz.com
 jystea.com
 jzntxs.com
 k12shequ.com
-k.16vcd.com
 k1.wanwenwan.cn
 k2team.kyiv.ua
 k5ai3c.cn
@@ -8776,6 +8777,7 @@ wxktv.cn
 wxmg2016.com
 wxstatic.cn
 wxvsj.com.cn
+wxxfqc.com
 wyhzzy.com
 wysara.pw
 wyttech.cn
