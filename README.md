@@ -7,6 +7,7 @@ This script can be automatically generate something what I needed every day.
 ## Usage
 
 - [`chnroute/chnroute.txt`](https://pexcn.me/daily/chnroute/chnroute.txt)
+- [`gfwlist/gfwlist.txt`](https://pexcn.me/daily/gfwlist/gfwlist.txt)
 - [`adblock/adblock.conf`](https://pexcn.me/daily/adblock/adblock.conf)
 - [`safelist/safelist.conf`](https://pexcn.me/daily/safelist/safelist.conf)
 - [`pac/gfwlist.pac`](https://pexcn.me/daily/pac/gfwlist.pac)
@@ -16,7 +17,6 @@ This script can be automatically generate something what I needed every day.
 - More:
   - [`adlist`](https://github.com/pexcn/daily/tree/gh-pages/adlist)
   - [`blacklist`](https://github.com/pexcn/daily/tree/gh-pages/blacklist)
-  - [`gfwlist`](https://github.com/pexcn/daily/tree/gh-pages/gfwlist)
   - [`chinalist`](https://github.com/pexcn/daily/tree/gh-pages/chinalist)
 
 Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisCatus/SwitchyOmega).
@@ -30,11 +30,11 @@ Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisC
 # adblock
 0 3 * * * </path/to/adblock_script>
 
-# chinadns
-1 3 * * * </path/to/chinadns_script>
-
 # chinadns-ng
-2 3 * * * </path/to/chinadns-ng_script>
+1 3 * * * </path/to/chinadns-ng_script>
+
+# chinadns
+2 3 * * * </path/to/chinadns_script>
 
 # cleandns
 3 3 * * * </path/to/cleandns_script>
