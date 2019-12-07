@@ -1,3 +1,15 @@
+himg.bdimg.com
+webmap0.bdimg.com
+webmap1.bdimg.com
+mapsv0.bdimg.com
+mapsv1.bdimg.com
+map.baidu.com
+maponline3.bdimg.com
+maponline0.bdimg.com
+maponline1.bdimg.com
+maponline2.bdimg.com
+fex.bdstatic.com
+ss0.bdstatic.com
 tmall.com
 baidu.com
 qq.com
