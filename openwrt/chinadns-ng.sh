@@ -6,7 +6,7 @@ TARGET_URL_2="https://pexcn.me/daily/chnroute/chnroute-v6.txt"
 TARGET_PATH_2="/etc/chinadns-ng/chnroute6.txt"
 TARGET_URL_3="https://pexcn.me/daily/gfwlist/gfwlist.txt"
 TARGET_PATH_3="/etc/chinadns-ng/gfwlist.txt"
-TARGET_URL_4="https://pexcn.me/daily/chinalist/chinalist.txt"
+TARGET_URL_4="https://pexcn.me/daily/chinalist/chinalist-lite.txt"
 TARGET_PATH_4="/etc/chinadns-ng/chinalist.txt"
 TEMP_FILE="/tmp/$(date +%s).tmp"
 
