@@ -4,8 +4,10 @@ CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/chinalist.XXXXXX)
 
 DIST_FILE="dist/chinalist/chinalist.txt"
+DIST_FILE_LITE="dist/chinalist/chinalist-lite.txt"
 DIST_DIR="$(dirname $DIST_FILE)"
 DIST_NAME="$(basename $DIST_FILE)"
+DIST_NAME_LITE="$(basename $DIST_FILE_LITE)"
 
 CHINA_DOMAIN_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf"
 APPLE_DOMAIN_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/apple.china.conf"
@@ -44,12 +46,16 @@ function gen_chinalist() {
   # sort by toplist
   cat $chinalist_part_1 $chinalist_part_2 > $DIST_NAME
 
+  # make part 1 as lite version
+  cp $chinalist_part_1 $DIST_NAME_LITE
+
   cd $CUR_DIR
 }
 
 function dist_release() {
   mkdir -p $DIST_DIR
   cp $TMP_DIR/$DIST_NAME $DIST_FILE
+  cp $TMP_DIR/$DIST_NAME_LITE $DIST_FILE_LITE
 }
 
 function clean_up() {
