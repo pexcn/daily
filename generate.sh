@@ -47,9 +47,6 @@ run() {
   # chnroute
   scripts/chnroute/chnroute.sh
 
-  # safelist
-  scripts/safelist/safelist.sh
-
   # pac
   scripts/pac/gfwlist.sh
   scripts/pac/whitelist.sh
