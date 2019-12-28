@@ -44,9 +44,6 @@ run() {
   # adblock
   scripts/adblock/adblock.sh
 
-  # blacklist
-  scripts/blacklist/blacklist.sh
-
   # chnroute
   scripts/chnroute/chnroute.sh
 
