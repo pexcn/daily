@@ -6,16 +6,15 @@ This script can be automatically generate something what I needed every day.
 
 ## Usage
 
+- [`adlist/adlist.txt`](https://pexcn.me/daily/adlist/adlist.txt)
+- [`adblock/adblock.conf`](https://pexcn.me/daily/adblock/adblock.conf)
 - [`chnroute/chnroute.txt`](https://pexcn.me/daily/chnroute/chnroute.txt)
 - [`gfwlist/gfwlist.txt`](https://pexcn.me/daily/gfwlist/gfwlist.txt)
-- [`adblock/adblock.conf`](https://pexcn.me/daily/adblock/adblock.conf)
+- [`chinalist/chinalist.txt`](https://pexcn.me/daily/chinalist/chinalist.txt)
 - [`pac/gfwlist.pac`](https://pexcn.me/daily/pac/gfwlist.pac)
 - [`pac/whitelist.pac`](https://pexcn.me/daily/pac/whitelist.pac)
 - [`shadowrocket/gfwlist.conf`](https://pexcn.me/daily/shadowrocket/gfwlist.conf)
 - [`shadowrocket/whitelist.conf`](https://pexcn.me/daily/shadowrocket/whitelist.conf)
-- More
-  - [`adlist`](https://github.com/pexcn/daily/tree/gh-pages/adlist)
-  - [`chinalist`](https://github.com/pexcn/daily/tree/gh-pages/chinalist)
 
 Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisCatus/SwitchyOmega).
 
