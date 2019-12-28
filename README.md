@@ -9,14 +9,12 @@ This script can be automatically generate something what I needed every day.
 - [`chnroute/chnroute.txt`](https://pexcn.me/daily/chnroute/chnroute.txt)
 - [`gfwlist/gfwlist.txt`](https://pexcn.me/daily/gfwlist/gfwlist.txt)
 - [`adblock/adblock.conf`](https://pexcn.me/daily/adblock/adblock.conf)
-- [`safelist/safelist.conf`](https://pexcn.me/daily/safelist/safelist.conf)
 - [`pac/gfwlist.pac`](https://pexcn.me/daily/pac/gfwlist.pac)
 - [`pac/whitelist.pac`](https://pexcn.me/daily/pac/whitelist.pac)
 - [`shadowrocket/gfwlist.conf`](https://pexcn.me/daily/shadowrocket/gfwlist.conf)
 - [`shadowrocket/whitelist.conf`](https://pexcn.me/daily/shadowrocket/whitelist.conf)
-- More:
+- More
   - [`adlist`](https://github.com/pexcn/daily/tree/gh-pages/adlist)
-  - [`blacklist`](https://github.com/pexcn/daily/tree/gh-pages/blacklist)
   - [`chinalist`](https://github.com/pexcn/daily/tree/gh-pages/chinalist)
 
 Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisCatus/SwitchyOmega).
@@ -35,12 +33,6 @@ Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisC
 
 # chinadns
 2 3 * * * </path/to/chinadns_script>
-
-# cleandns
-3 3 * * * </path/to/cleandns_script>
-
-# safelist
-4 3 * * * </path/to/safelist_script>
 ```
 
 ## Credits
