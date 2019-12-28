@@ -11,12 +11,14 @@ DIST_NAME_LITE="$(basename $DIST_FILE_LITE)"
 
 CHINA_DOMAIN_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf"
 APPLE_DOMAIN_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/apple.china.conf"
+GOOGLE_DOMAIN_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/google.china.conf"
 
 function fetch_data() {
   cd $TMP_DIR
 
   curl -sSL -4 --connect-timeout 10 $CHINA_DOMAIN_URL -o china.conf
   curl -sSL -4 --connect-timeout 10 $APPLE_DOMAIN_URL -o apple.conf
+  curl -sSL -4 --connect-timeout 10 $GOOGLE_DOMAIN_URL -o google.conf
   cp $CUR_DIR/dist/toplist/toplist.txt .
 
   cd $CUR_DIR
@@ -29,7 +31,7 @@ function gen_chinalist() {
   local chinalist_part_1="chinalist_part_1.tmp"
   local chinalist_part_2="chinalist_part_2.tmp"
 
-  cat china.conf apple.conf |
+  cat china.conf apple.conf google.conf |
       # ignore comments
       sed "/#/d" |
       # extract domains
