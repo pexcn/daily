@@ -4,6 +4,8 @@
 
 This script can be automatically generate something what I needed every day.
 
+> Telegram Group: https://t.me/daily_scripts
+
 ## Usage
 
 - [`adlist/adlist.txt`](https://pexcn.me/daily/adlist/adlist.txt)
@@ -51,7 +53,7 @@ Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisC
 ## License
 
 ```
-Copyright (C) 2018-2019, pexcn <i@pexcn.me>
+Copyright (C) 2018-2020, pexcn <i@pexcn.me>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
