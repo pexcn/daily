@@ -53,7 +53,7 @@ Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisC
 ## License
 
 ```
-Copyright (C) 2018-2020, pexcn <i@pexcn.me>
+Copyright (C) 2018 - 2020, pexcn <i@pexcn.me>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
