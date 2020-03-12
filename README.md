@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/pexcn/daily.svg?branch=master)](https://travis-ci.org/pexcn/daily)
 
-This script can be automatically generate something what I needed every day.
+This script can be automatically generate something what you needed every day.
 
 > Telegram Group: https://t.me/daily_scripts
 
