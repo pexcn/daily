@@ -1,4 +1,5 @@
 #!/bin/sh -e
+set -o pipefail
 
 TARGET_URL_1="https://pexcn.me/daily/chnroute/chnroute.txt"
 TARGET_PATH_1="/etc/chinadns-ng/chnroute.txt"

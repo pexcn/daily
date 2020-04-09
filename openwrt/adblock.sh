@@ -1,4 +1,5 @@
 #!/bin/sh -e
+set -o pipefail
 
 TARGET_URL="https://pexcn.me/daily/adblock/adblock.conf"
 TARGET_PATH="/etc/dnsmasq.d/adblock.conf"

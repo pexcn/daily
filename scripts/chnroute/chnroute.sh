@@ -1,4 +1,5 @@
 #!/bin/bash -e
+set -o pipefail
 
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/chnroute.XXXXXX)

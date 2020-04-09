@@ -1,4 +1,5 @@
 #!/bin/bash -e
+set -o pipefail
 
 git clone https://github.com/pexcn/daily.git release -b gh-pages --single-branch --depth 1 --quiet
 cd release && rm -rf .git && cd ..
