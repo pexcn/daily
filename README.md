@@ -4,25 +4,23 @@
 
 This script can be automatically generate something what you needed every day.
 
-> Telegram Group: https://t.me/daily_scripts
-
 ## Usage
 
-- [`adlist/adlist.txt`](https://pexcn.me/daily/adlist/adlist.txt)
-- [`adblock/adblock.conf`](https://pexcn.me/daily/adblock/adblock.conf)
-- [`chnroute/chnroute.txt`](https://pexcn.me/daily/chnroute/chnroute.txt)
-- [`gfwlist/gfwlist.txt`](https://pexcn.me/daily/gfwlist/gfwlist.txt)
-- [`chinalist/chinalist.txt`](https://pexcn.me/daily/chinalist/chinalist.txt)
-- [`pac/gfwlist.pac`](https://pexcn.me/daily/pac/gfwlist.pac)
-- [`pac/whitelist.pac`](https://pexcn.me/daily/pac/whitelist.pac)
-- [`shadowrocket/gfwlist.conf`](https://pexcn.me/daily/shadowrocket/gfwlist.conf)
-- [`shadowrocket/whitelist.conf`](https://pexcn.me/daily/shadowrocket/whitelist.conf)
+- [`adlist/adlist.txt`](https://github.com/pexcn/daily/raw/gh-pages/adlist/adlist.txt)
+- [`adblock/adblock.conf`](https://github.com/pexcn/daily/raw/gh-pages/adblock/adblock.conf)
+- [`chnroute/chnroute.txt`](https://github.com/pexcn/daily/raw/gh-pages/chnroute/chnroute.txt)
+- [`gfwlist/gfwlist.txt`](https://github.com/pexcn/daily/raw/gh-pages/gfwlist/gfwlist.txt)
+- [`chinalist/chinalist.txt`](https://github.com/pexcn/daily/raw/gh-pages/chinalist/chinalist.txt)
+- [`pac/gfwlist.pac`](https://github.com/pexcn/daily/raw/gh-pages/pac/gfwlist.pac)
+- [`pac/whitelist.pac`](https://github.com/pexcn/daily/raw/gh-pages/pac/whitelist.pac)
+- [`shadowrocket/gfwlist.conf`](https://github.com/pexcn/daily/raw/gh-pages/shadowrocket/gfwlist.conf)
+- [`shadowrocket/whitelist.conf`](https://github.com/pexcn/daily/raw/gh-pages/shadowrocket/whitelist.conf)
 
 Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisCatus/SwitchyOmega).
 
-### OpenWRT
+### OpenWrt
 
-1. Save your needed [`scripts`](openwrt) into OpenWRT.
+1. Save your needed [`scripts`](openwrt) into OpenWrt.
 2. Add the following cron jobs.
 
 ```bash
@@ -53,7 +51,7 @@ Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisC
 ## License
 
 ```
-Copyright (C) 2018 - 2020, pexcn <i@pexcn.me>
+Copyright (C) 2018-2020, pexcn <i@pexcn.me>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
