@@ -4428,8 +4428,6 @@ aiode.cn
 aio.lp.mydas.mobi
 ai-personalization-prod-static.demandbase.com
 aiqua-sdk.c.appier.net
-airbrake-github.airbrake.io
-airbrake-gitlab.airbrake.io
 airpushmarketing.s3.amazonaws.com
 airsanguages.info
 airstossiplarge.info
@@ -4988,7 +4986,6 @@ api.ad.wazzapps.org
 api.ad.xiaomi.com
 api.adzmedia.com
 api.agoda.com.edgekey.net
-api.airbrake.io
 api.airpush.com
 api.alphonso.tv
 api.altamob.com
@@ -6287,7 +6284,6 @@ bd.czxuexi.com
 b.de.inmobi.com
 bd.ershenghuo.com
 bdg-analytics.appspot.com
-bd.gdyjs.com
 bdgg.qjy168.com
 bdiae.com
 bdimg.share.baidu.com
@@ -10835,6 +10831,7 @@ gdt.qq.com
 gdunt.com
 gdwbetvn888.com
 gdwviet.com
+gdyjs.com
 g.dyntrk.com
 ge95.com
 gearwom.de
@@ -10987,7 +10984,6 @@ g.kuwo.cn
 gky73.cn
 gladiatorbugs.com
 glance.inmobi.com
-glassbox.aircanada.ca
 glasszz.com
 glb-ads.atwola.adtechus.com
 glb-ads.legacy.adtechus.com
@@ -12829,7 +12825,6 @@ jsd.supersonicads.com
 js.duotegame.com
 jsf.cnlinfo.net
 js.fout.jp
-js.gdyjs.com
 js.genieessp.com
 js.gleam.io
 js.hdzog.com
@@ -18716,7 +18711,6 @@ ssl.hit.stat24.com
 ssl-i.cdn.openx.com
 ss.linksynergy.com
 ssl-i.xx.openx.com
-ssljscdn.airbrake.io
 ssl.kaptcha.com
 ssl.ligatus.com
 ssl.linksynergy.com
