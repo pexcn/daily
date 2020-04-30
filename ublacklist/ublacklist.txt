@@ -1,0 +1,2 @@
+*://*.lanzhouyangsheng.com/*
+*://*.blog.csdn.net/*
