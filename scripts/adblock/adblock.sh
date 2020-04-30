@@ -8,7 +8,7 @@ DIST_FILE="dist/adblock/adblock.conf"
 DIST_DIR="$(dirname $DIST_FILE)"
 DIST_NAME="$(basename $DIST_FILE)"
 
-function fetch_data() {
+fetch_data() {
   cd $TMP_DIR
 
   cp $CUR_DIR/dist/adlist/adlist.txt .
@@ -16,7 +16,7 @@ function fetch_data() {
   cd $CUR_DIR
 }
 
-function gen_adblock_list() {
+gen_adblock_list() {
   cd $TMP_DIR
 
   local ipv4_regex="[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}"
@@ -38,12 +38,12 @@ function gen_adblock_list() {
   cd $CUR_DIR
 }
 
-function dist_release() {
+dist_release() {
   mkdir -p $DIST_DIR
   cp $TMP_DIR/$DIST_NAME $DIST_FILE
 }
 
-function clean_up() {
+clean_up() {
   rm -r $TMP_DIR
   echo "[adblock]: OK."
 }

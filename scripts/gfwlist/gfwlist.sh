@@ -10,7 +10,7 @@ DIST_NAME="$(basename $DIST_FILE)"
 
 GFWLIST_URL="https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt"
 
-function fetch_data() {
+fetch_data() {
   cd $TMP_DIR
 
   curl -sSL -4 --connect-timeout 10 $GFWLIST_URL | base64 -d > gfwlist.raw
@@ -20,7 +20,7 @@ function fetch_data() {
   cd $CUR_DIR
 }
 
-function gen_gfw_domain_list() {
+gen_gfw_domain_list() {
   cd $TMP_DIR
 
   local gfwlist_tmp="gfwlist.tmp"
@@ -53,12 +53,12 @@ function gen_gfw_domain_list() {
   cd $CUR_DIR
 }
 
-function dist_release() {
+dist_release() {
   mkdir -p $DIST_DIR
   cp $TMP_DIR/$DIST_NAME $DIST_FILE
 }
 
-function clean_up() {
+clean_up() {
   rm -r $TMP_DIR
   echo "[gfwlist]: OK."
 }

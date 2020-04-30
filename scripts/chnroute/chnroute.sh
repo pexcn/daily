@@ -15,7 +15,7 @@ IPIP_URL="https://github.com/17mon/china_ip_list/raw/master/china_ip_list.txt"
 APNIC_LIST="apnic.txt"
 IPIP_LIST="ipip.txt"
 
-function fetch_data() {
+fetch_data() {
   cd $TMP_DIR
 
   curl -sSL -4 --connect-timeout 10 $APNIC_URL -o apnic.txt
@@ -24,7 +24,7 @@ function fetch_data() {
   cd $CUR_DIR
 }
 
-function gen_ipv4_chnroute() {
+gen_ipv4_chnroute() {
   cd $TMP_DIR
 
   local apnic_tmp="apnic.tmp"
@@ -37,7 +37,7 @@ function gen_ipv4_chnroute() {
   cd $CUR_DIR
 }
 
-function gen_ipv6_chnroute() {
+gen_ipv6_chnroute() {
   cd $TMP_DIR
 
   cat apnic.txt | grep ipv6 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, $5) }' > $DIST_NAME_IPV6
@@ -45,13 +45,13 @@ function gen_ipv6_chnroute() {
   cd $CUR_DIR
 }
 
-function dist_release() {
+dist_release() {
   mkdir -p $DIST_DIR
   cp $TMP_DIR/$DIST_NAME_IPV4 $DIST_FILE_IPV4
   cp $TMP_DIR/$DIST_NAME_IPV6 $DIST_FILE_IPV6
 }
 
-function clean_up() {
+clean_up() {
   rm -r $TMP_DIR
   echo "[chnroute]: OK."
 }

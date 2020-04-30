@@ -10,7 +10,7 @@ DIST_NAME="$(basename $DIST_FILE)"
 
 TOPLIST_URL="https://s3.amazonaws.com/alexa-static/top-1m.csv.zip"
 
-function gen_toplist() {
+gen_toplist() {
   cd $TMP_DIR
 
   curl -sSL -4 --connect-timeout 10 $TOPLIST_URL |
@@ -22,12 +22,12 @@ function gen_toplist() {
   cd $CUR_DIR
 }
 
-function dist_release() {
+dist_release() {
   mkdir -p $DIST_DIR
   cp $TMP_DIR/$DIST_NAME $DIST_FILE
 }
 
-function clean_up() {
+clean_up() {
   rm -r $TMP_DIR
   echo "[toplist]: prepared."
 }

@@ -14,7 +14,7 @@ CHINA_DOMAIN_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/a
 APPLE_DOMAIN_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/apple.china.conf"
 GOOGLE_DOMAIN_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/google.china.conf"
 
-function fetch_data() {
+fetch_data() {
   cd $TMP_DIR
 
   curl -sSL -4 --connect-timeout 10 $CHINA_DOMAIN_URL -o china.conf
@@ -25,7 +25,7 @@ function fetch_data() {
   cd $CUR_DIR
 }
 
-function gen_chinalist() {
+gen_chinalist() {
   cd $TMP_DIR
 
   local chinalist_tmp="chinalist.tmp"
@@ -55,13 +55,13 @@ function gen_chinalist() {
   cd $CUR_DIR
 }
 
-function dist_release() {
+dist_release() {
   mkdir -p $DIST_DIR
   cp $TMP_DIR/$DIST_NAME $DIST_FILE
   cp $TMP_DIR/$DIST_NAME_LITE $DIST_FILE_LITE
 }
 
-function clean_up() {
+clean_up() {
   rm -r $TMP_DIR
   echo "[chinalist]: OK."
 }

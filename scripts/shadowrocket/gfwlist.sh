@@ -8,7 +8,7 @@ DIST_FILE="dist/shadowrocket/gfwlist.conf"
 DIST_DIR="$(dirname $DIST_FILE)"
 DIST_NAME="$(basename $DIST_FILE)"
 
-function fetch_data() {
+fetch_data() {
   cd $TMP_DIR
 
   cp $CUR_DIR/template/shadowrocket/gfwlist.template .
@@ -17,7 +17,7 @@ function fetch_data() {
   cd $CUR_DIR
 }
 
-function gen_gfwlist_config() {
+gen_gfwlist_config() {
   cd $TMP_DIR
 
   local gfwlist_tmp="gfwlist.tmp"
@@ -39,12 +39,12 @@ function gen_gfwlist_config() {
   cd $CUR_DIR
 }
 
-function dist_release() {
+dist_release() {
   mkdir -p $DIST_DIR
   cp $TMP_DIR/$DIST_NAME $DIST_FILE
 }
 
-function clean_up() {
+clean_up() {
   rm -r $TMP_DIR
   echo "[shadowrocket/gfwlist]: OK."
 }

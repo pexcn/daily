@@ -10,7 +10,7 @@ DIST_NAME="$(basename $DIST_FILE)"
 
 UBLACKLIST_URL="https://raw.githubusercontent.com/pexcn/ublacklist/master/ublacklist.txt"
 
-function fetch_data() {
+fetch_data() {
   cd $TMP_DIR
 
   curl -sSL -4 --connect-timeout 10 $UBLACKLIST_URL -o ublacklist.txt
@@ -18,7 +18,7 @@ function fetch_data() {
   cd $CUR_DIR
 }
 
-function gen_ublacklist() {
+gen_ublacklist() {
   cd $TMP_DIR
 
   sed -i ublacklist.txt \
@@ -29,12 +29,12 @@ function gen_ublacklist() {
   cd $CUR_DIR
 }
 
-function dist_release() {
+dist_release() {
   mkdir -p $DIST_DIR
   cp $TMP_DIR/$DIST_NAME $DIST_FILE
 }
 
-function clean_up() {
+clean_up() {
   rm -r $TMP_DIR
   echo "[ublacklist]: OK."
 }
