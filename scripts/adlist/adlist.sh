@@ -41,8 +41,8 @@ gen_adlist() {
   cat adaway.txt |
     # convert to unix format
     sed $'s/\r$//' |
-    # ignore empty lines
-    sed '/^$/d' |
+    # ignore empty lines (containing tab or space)
+    sed '/^[[:space:]]*$/d' |
     # ignore comment lines
     grep -v "^#" |
     # ignore `localhost`
@@ -63,10 +63,10 @@ gen_adlist() {
   cat disconnect.txt |
     # ignore 1-3 lines
     sed '1,3d' |
-    # ignore empty lines
-    sed '/^$/d' |
+    # ignore empty lines (containing tab or space)
+    sed '/^[[:space:]]*$/d' |
     # ignore comment lines
-    grep -v "#" > $disconnect_tmp
+    grep -v "^#" > $disconnect_tmp
 
   # merge all list and sort unique
   cat $adaway_tmp $easylist_tmp $yoyo_tmp $disconnect_tmp | sort -u > $adlist_tmp
