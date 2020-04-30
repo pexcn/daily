@@ -55,6 +55,9 @@ run() {
   scripts/shadowrocket/gfwlist.sh
   scripts/shadowrocket/whitelist.sh
 
+  # ublacklist
+  scripts/ublacklist/ublacklist.sh
+
   echo "============ RUN END ============" && echo
 }
 
