@@ -1,3 +1,5 @@
 *://*.lanzhouyangsheng.com/*
 *://*.kafan.cn/*
 *://*.blog.csdn.net/*
+*://*.mofish.work/*
+*://*.0335auto.cn/*
