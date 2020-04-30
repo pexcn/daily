@@ -15,12 +15,13 @@ This script can be automatically generate something what you needed every day.
 - [`pac/whitelist.pac`](https://github.com/pexcn/daily/raw/gh-pages/pac/whitelist.pac)
 - [`shadowrocket/gfwlist.conf`](https://github.com/pexcn/daily/raw/gh-pages/shadowrocket/gfwlist.conf)
 - [`shadowrocket/whitelist.conf`](https://github.com/pexcn/daily/raw/gh-pages/shadowrocket/whitelist.conf)
+- ['ublacklist/ublacklist.txt'](https://github.com/pexcn/daily/raw/gh-pages/ublacklist/ublacklist.txt)
 
 Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisCatus/SwitchyOmega).
 
 ### OpenWrt
 
-1. Save your needed [`scripts`](openwrt) into OpenWrt.
+1. Put the [`scripts`](openwrt) into OpenWrt.
 2. Add the following cron jobs.
 
 ```bash
