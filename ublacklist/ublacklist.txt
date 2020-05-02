@@ -3,3 +3,9 @@
 *://*.blog.csdn.net/*
 *://*.mofish.work/*
 *://*.0335auto.cn/*
+*://*.sm3ha.com/*
+*://*.dndnha.club/*
+*://*.nghmaty.com/*
+*://*.linkabdwap.com/*
+*://*.abdwap.cc/*
+*://*.arabic-songs.download/*
