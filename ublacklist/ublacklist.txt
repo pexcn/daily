@@ -9,3 +9,6 @@
 *://*.linkabdwap.com/*
 *://*.abdwap.cc/*
 *://*.arabic-songs.download/*
+*://*.yiyult.com/*
+*://*.888777.xyz/*
+*://*.mp3quack.com/*
