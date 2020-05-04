@@ -11,13 +11,13 @@ TARGET_URL_4="https://pexcn.me/daily/chinalist/chinalist.txt"
 TARGET_PATH_4="/etc/chinadns-ng/chinalist.txt"
 TEMP_FILE="/tmp/$(date +%s).tmp"
 
-wget $TARGET_URL_1 -O $TEMP_FILE -T 10 --no-cookies --no-hsts
+wget $TARGET_URL_1 -O $TEMP_FILE -T 10 --no-cookies --no-hsts -nv
 mkdir -p $(dirname $TARGET_PATH_1) && mv -f $TEMP_FILE $TARGET_PATH_1
-wget $TARGET_URL_2 -O $TEMP_FILE -T 10 --no-cookies --no-hsts
+wget $TARGET_URL_2 -O $TEMP_FILE -T 10 --no-cookies --no-hsts -nv
 mkdir -p $(dirname $TARGET_PATH_2) && mv -f $TEMP_FILE $TARGET_PATH_2
-wget $TARGET_URL_3 -O $TEMP_FILE -T 10 --no-cookies --no-hsts
+wget $TARGET_URL_3 -O $TEMP_FILE -T 10 --no-cookies --no-hsts -nv
 mkdir -p $(dirname $TARGET_PATH_3) && mv -f $TEMP_FILE $TARGET_PATH_3
-wget $TARGET_URL_4 -O $TEMP_FILE -T 10 --no-cookies --no-hsts
+wget $TARGET_URL_4 -O $TEMP_FILE -T 10 --no-cookies --no-hsts -nv
 mkdir -p $(dirname $TARGET_PATH_4) && mv -f $TEMP_FILE $TARGET_PATH_4
 
 /etc/init.d/chinadns-ng restart

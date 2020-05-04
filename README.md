@@ -6,16 +6,16 @@ This script can be automatically generate something what you needed every day.
 
 ## Lists
 
-- [`adlist/adlist.txt`](https://github.com/pexcn/daily/raw/gh-pages/adlist/adlist.txt)
-- [`adblock/adblock.conf`](https://github.com/pexcn/daily/raw/gh-pages/adblock/adblock.conf)
-- [`chnroute/chnroute.txt`](https://github.com/pexcn/daily/raw/gh-pages/chnroute/chnroute.txt)
-- [`gfwlist/gfwlist.txt`](https://github.com/pexcn/daily/raw/gh-pages/gfwlist/gfwlist.txt)
-- [`chinalist/chinalist.txt`](https://github.com/pexcn/daily/raw/gh-pages/chinalist/chinalist.txt)
-- [`pac/gfwlist.pac`](https://github.com/pexcn/daily/raw/gh-pages/pac/gfwlist.pac)
-- [`pac/whitelist.pac`](https://github.com/pexcn/daily/raw/gh-pages/pac/whitelist.pac)
-- [`shadowrocket/gfwlist.conf`](https://github.com/pexcn/daily/raw/gh-pages/shadowrocket/gfwlist.conf)
-- [`shadowrocket/whitelist.conf`](https://github.com/pexcn/daily/raw/gh-pages/shadowrocket/whitelist.conf)
-- [`ublacklist/ublacklist.txt`](https://github.com/pexcn/daily/raw/gh-pages/ublacklist/ublacklist.txt)
+- [`adlist/adlist.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/adlist/adlist.txt)
+- [`adblock/adblock.conf`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/adblock/adblock.conf)
+- [`chnroute/chnroute.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/chnroute/chnroute.txt)
+- [`gfwlist/gfwlist.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/gfwlist/gfwlist.txt)
+- [`chinalist/chinalist.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/chinalist/chinalist.txt)
+- [`pac/gfwlist.pac`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/pac/gfwlist.pac)
+- [`pac/whitelist.pac`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/pac/whitelist.pac)
+- [`shadowrocket/gfwlist.conf`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/shadowrocket/gfwlist.conf)
+- [`shadowrocket/whitelist.conf`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/shadowrocket/whitelist.conf)
+- [`ublacklist/ublacklist.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/ublacklist/ublacklist.txt)
 
 Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisCatus/SwitchyOmega).
 
