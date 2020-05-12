@@ -12,8 +12,6 @@ DIST_NAME_IPV6="$(basename $DIST_FILE_IPV6)"
 
 APNIC_URL="https://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
 IPIP_URL="https://github.com/17mon/china_ip_list/raw/master/china_ip_list.txt"
-APNIC_LIST="apnic.txt"
-IPIP_LIST="ipip.txt"
 
 fetch_data() {
   cd $TMP_DIR
