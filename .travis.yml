@@ -24,6 +24,7 @@ script:
 
 deploy:
   edge: true
+  strategy: git
   provider: pages
   local_dir: release
   target_branch: gh-pages
