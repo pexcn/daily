@@ -1,10 +1,8 @@
 #!/bin/bash
 
 pre() {
-  local count=$(ls -1 scripts/pre/*.sh 2>/dev/null | wc -l)
-  if [ $count == 0 ]; then
-    return
-  fi
+  local count=$(find scripts/pre -maxdepth 1 -type f -iname "*.sh" | wc -l)
+  [ $count == 0 ] && return
 
   for file in scripts/pre/*.sh
   do
@@ -13,10 +11,8 @@ pre() {
 }
 
 post() {
-  local count=$(ls -1 scripts/post/*.sh 2>/dev/null | wc -l)
-  if [ $count == 0 ]; then
-    return
-  fi
+  local count=$(find scripts/post -maxdepth 1 -type f -iname "*.sh" | wc -l)
+  [ $count == 0 ] && return
 
   for file in scripts/post/*.sh
   do
