@@ -41,7 +41,7 @@ gen_ipv6_chnroute() {
   local apnic_tmp="apnic6.tmp"
 
   cat apnic.txt | grep ipv6 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, $5) }' > $apnic_tmp
-  $CUR_DIR/tools/netaggregate/netaggregate < $apnic_tmp > $DIST_NAME_IPV6
+  $CUR_DIR/tools/ip-dedup/obj/ip-dedup -6 < $apnic_tmp > $DIST_NAME_IPV6
 
   cd $CUR_DIR
 }
