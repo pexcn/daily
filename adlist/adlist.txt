@@ -1556,6 +1556,7 @@ warlog.ru
 30913.api.swrve.com
 30913.content.swrve.com
 30ads.com
+30yo.xyz
 31026.api.swrve.com
 31026.content.swrve.com
 3133a.xyz
@@ -9447,6 +9448,7 @@ dl.cm.ksmobile.com
 dl.conviva.com
 dldsrs.com
 dleke.com
+dlevisionexpr.site
 dl.fotoable.com
 dlhygj.com
 d.ligatus.com
@@ -18197,6 +18199,7 @@ sdycd.com
 sdytsh.com
 se-02.adtomafusion.com
 sea.advertising.yahoo.com
+seaboblit.com
 se.ads.justpremium.com
 search.batmobi.net
 searchfeast.com
@@ -20077,6 +20080,7 @@ theonsiteline.com
 the-ozone-project.com
 therapistla.com
 therichkids.com
+thernouverge.site
 thescenseproject.com
 thescore-d.openx.net
 thesecretlocation.api.swrve.com
