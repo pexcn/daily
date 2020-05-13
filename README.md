@@ -45,6 +45,7 @@ Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisC
 - [@breakwa11/gfw_whitelist](https://github.com/breakwa11/gfw_whitelist)
 - [@breakwa11/GFWList2PAC](https://github.com/breakwa11/GFWList2PAC)
 - [@Leask/Flora_Pac](https://github.com/Leask/Flora_Pac)
+- [@dywisor/ip-dedup](https://github.com/dywisor/ip-dedup)
 - [@afpd/netaggregate](https://github.com/afpd/netaggregate)
 - [aggregate](https://ftp.isc.org/isc/aggregate/)
 - [cidrmerge](http://cidrmerge.sourceforge.net)
