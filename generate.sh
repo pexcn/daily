@@ -6,11 +6,10 @@ pre() {
     return
   fi
 
-  echo "=========== PRE START ==========="
-  for file in scripts/pre/*.sh; do
+  for file in scripts/pre/*.sh
+  do
     "$file"
   done
-  echo "============ PRE END ============" && echo
 }
 
 post() {
@@ -19,18 +18,14 @@ post() {
     return
   fi
 
-  echo "=========== POST START ==========="
   for file in scripts/post/*.sh
   do
     "$file"
   done
-  echo "============ POST END ============" && echo
 }
 
 run() {
-  echo "=========== RUN START ==========="
-
-  # advertisement list
+  # ad domain list
   scripts/adlist/adlist.sh
 
   # china domain list
@@ -39,7 +34,7 @@ run() {
   # gfw domain list
   scripts/gfwlist/gfwlist.sh
 
-  # ------------------------------ #
+  # ------------------------------
 
   # adblock
   scripts/adblock/adblock.sh
@@ -57,8 +52,6 @@ run() {
 
   # ublacklist
   scripts/ublacklist/ublacklist.sh
-
-  echo "============ RUN END ============" && echo
 }
 
 pre
