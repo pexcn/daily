@@ -19,8 +19,14 @@ compare_and_delete() {
   cd $CUR_DIR
 }
 
+clean_up() {
+  rm -r $TMP_DIR
+  echo "[compare]: finished."
+}
+
 compare_and_delete adblock/adblock.conf 3
 compare_and_delete pac/gfwlist.pac 3
 compare_and_delete pac/whitelist.pac 3
 compare_and_delete shadowrocket/gfwlist.conf 3
 compare_and_delete shadowrocket/whitelist.conf 3
+clean_up
