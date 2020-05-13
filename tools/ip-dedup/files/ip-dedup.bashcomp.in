@@ -1,0 +1,228 @@
+#!/bin/bash
+# -*- coding: utf-8 -*-
+
+_ip_dedup_comp() {
+    COMPREPLY=()
+
+    local -a SHORTOPTS=(
+        '-4'
+        '-6'
+        '-a'
+        '-B'    # <N> : int, 1..32
+        '-C'    # <N> : int, 1..64
+        '-c'
+        '-D'    # <DIR>
+        '-h'
+        '-i'
+        '-k'
+        '-L'
+        '-l'
+        '-o'    # <FILE>
+        '-p'    # <FILE>
+        '-s'
+    )
+
+    local cur
+    local prev
+    _get_comp_words_by_ref cur prev
+
+    local -a words
+    local k
+    local infile_rel
+    local datadir
+    local have_pos_arg
+    local want_input_file_comp
+    local want_datafile_comp
+    local want_shortopt_comp
+
+    datadir='@@IPDEDUP_DATADIR@@'
+    have_pos_arg=''
+    want_input_file_comp=''
+    want_datafile_comp=''
+    want_shortopt_comp=''
+
+    # peek at cmdv:
+    # - get datadir
+    # - check if a positional arg is present -> suppress shortopt completion
+    # - check for terminating options -> no comp suggestions
+    #
+    set -- "${COMP_WORDS[@]}"
+    [[ $# -eq 0 ]] || shift     # skip program name
+    while [[ $# -gt 1 ]]; do    # do not peek at current word
+        case "${1}" in
+            '')
+                have_pos_arg='true'
+                break
+            ;;
+
+            '--')
+                have_pos_arg='true'     # sort of
+                break
+            ;;
+
+            '--'*)
+                # no longopts supported
+                return 0
+            ;;
+
+            '-')
+                have_pos_arg='true'
+                break
+            ;;
+
+            '-'*)
+                k="${1#\-}"
+                shift
+
+                case "${k}" in
+                    *[hL]*)
+                        # terminating options -- leave COMPREPLY empty
+                        return 0
+                    ;;
+
+                    *[BCop])
+                        [[ $# -eq 0 ]] || shift
+                    ;;
+
+                    *'D')
+                        datadir="${1-}"
+                        [[ $# -eq 0 ]] || shift
+                    ;;
+                esac
+            ;;
+
+            *)
+                have_pos_arg='true'
+                break
+            ;;
+        esac
+    done
+
+    if [[ -n "${have_pos_arg}" ]]; then
+        # complete pos args only
+        want_input_file_comp='true'
+
+    else
+        # check if cur ends with a terminating option -> no comp suggests
+        # However, for option strings like "-sLC",
+        # produce suggestions to get a syntactically valid cmdv
+        case "${cur}" in
+            '-'*[hL])
+                # terminating options -- leave COMPREPLY empty
+                return 0
+            ;;
+        esac
+
+        # complete cur depending on prev
+        case "${prev}" in
+            '-'*'B')
+                words=( {1..32} )
+                COMPREPLY+=( $( compgen -o nosort -W "${words[*]}" -- "${cur}" ) )
+            ;;
+
+            '-'*'C')
+                words=( {1..64} )
+                COMPREPLY+=( $( compgen -o nosort -W "${words[*]}" -- "${cur}" ) )
+            ;;
+
+            '-'*'D')
+                # options with <DIR> arg
+                _filedir -d
+            ;;
+
+            '-'*[op])
+                # options with <FILE> arg where FILE refers to a network list file
+                want_input_file_comp='true'
+            ;;
+
+            *)
+                # complete cur, regarless of prev
+                case "${cur}" in
+                    '-')
+                        COMPREPLY+=( '-' )
+                        want_shortopt_comp='true'
+                    ;;
+
+                    '-'*[BCDop])
+                        COMPREPLY+=( "${cur}" )
+                    ;;
+
+                    '-'*)
+                        words=( "${cur}" )
+                        for k in "${SHORTOPTS[@]}"; do
+                            case "${cur}" in
+                                *"${k#\-}"*) : ;;
+                                *) words+=( "${cur}${k#\-}" ) ;;
+                            esac
+                        done
+                        COMPREPLY+=( "${words[@]}" )
+                    ;;
+
+                    *)
+                        [[ -n "${cur}" ]] || COMPREPLY+=( '-' )
+                        want_shortopt_comp='true'
+                        want_input_file_comp='true'
+                    ;;
+                esac
+            ;;
+        esac
+    fi
+
+    # delayed completion: shortopts
+    if [[ -n "${want_shortopt_comp}" ]]; then
+        COMPREPLY+=( $( compgen -W "${SHORTOPTS[*]}" -- "${cur}" ) )
+    fi
+
+    # delayed completion: input files
+    if [[ -n "${want_input_file_comp}" ]]; then
+        case "${cur}" in
+            '')
+                # could be regular file or from datadir
+                _filedir
+                want_datafile_comp='true'
+            ;;
+            '@'*)
+                # datadir file
+                want_datafile_comp='true'
+            ;;
+            *)
+                # regular file only
+                _filedir
+            ;;
+        esac
+    fi
+
+    # super-delayed completion: datadir files
+    if [[ -n "${want_datafile_comp}" ]] && [[ -n "${datadir}" ]]; then
+        # determine relative dirpath for find, depending on cur
+        case "${cur}" in
+            @?*/*)
+                infile_rel="${cur#@}"
+                infile_rel="${infile_rel%/*}"
+                infile_rel="./${infile_rel#/}"
+            ;;
+            *)
+                infile_rel='.'
+            ;;
+        esac
+
+        # create words list:
+        # - @dir/
+        # - @file
+        words=(
+            $(
+                {
+                    if cd -- "${datadir}"; then
+                        find "${infile_rel}" -mindepth 1 -maxdepth 1 -type d -not -name '.*' | sed -r -e 's=^[.]/=@=' -e 's=$=/=' | sort
+
+                        find "${infile_rel}" -mindepth 1 -maxdepth 1 \( -type f -or -type l \) -not -name '.*' | sed -r -e 's=^[.]/=@=' | sort
+                    fi
+                } 2>/dev/null
+            )
+        )
+
+        COMPREPLY+=( $( compgen -W "${words[*]}" -- "${cur}" ) )
+    fi
+}
+
+complete -o nosort -F _ip_dedup_comp ip-dedup

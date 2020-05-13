@@ -1,0 +1,50 @@
+# rfc6890, rfc3330
+
+# rfc1122: This host on this network
+0.0.0.0/8
+
+# rfc1918: Private-Use
+10.0.0.0/8
+
+# rfc6598: Shared Address Space
+100.64.0.0/10
+
+# rfc1122: Loopback
+127.0.0.0/8
+
+# rfc3927: Link Local
+169.254.0.0/16
+
+# rfc1918: Private-Use
+172.16.0.0/12
+
+# rfc6890: IETF Protocol Assignments
+192.0.0.0/24
+
+# rfc6333: DS-Lite
+#  redundant
+192.0.0.0/29
+
+# rfc5737: Documentation (TEST-NET-1)
+192.0.2.0/24
+
+# rfc1918: Private-Use
+192.168.0.0/16
+
+# rfc2544: Benchmarking
+198.18.0.0/15
+
+# rfc5737: Documentation (TEST-NET-2)
+198.51.100.0/24
+
+# rfc5737: Documentation (TEST-NET-3)
+203.0.113.0/24
+
+# Multicast
+224.0.0.0/4
+
+# rfc1112: Reserved
+240.0.0.0/4
+
+# rfc0919: Limited Broadcast
+255.255.255.255/32
