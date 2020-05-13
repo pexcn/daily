@@ -12,3 +12,4 @@
 *://*.yiyult.com/*
 *://*.888777.xyz/*
 *://*.mp3quack.com/*
+*://*.qastack.cn/*
