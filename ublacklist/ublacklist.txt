@@ -13,3 +13,9 @@
 *://*.888777.xyz/*
 *://*.mp3quack.com/*
 *://*.qastack.cn/*
+*://*.chinapz.org/*
+*://*.sss67.com/*
+*://*.xinhexinli.com/*
+*://*.urnca.com/*
+*://*.zhipanyou.com/*
+*://*.qfjhb.cn/*
