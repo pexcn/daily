@@ -1,6 +1,7 @@
 # Daily
 
-[![Build Status](https://travis-ci.org/pexcn/daily.svg?branch=master)](https://travis-ci.org/pexcn/daily)
+[![Build Status](https://img.shields.io/travis/pexcn/daily/master?style=flat-square)](https://travis-ci.org/pexcn/daily)
+[![CDN](https://data.jsdelivr.com/v1/package/gh/pexcn/daily/badge/day)](https://cdn.jsdelivr.net/gh/pexcn/daily@gh-pages/)
 
 This script can be automatically generate something what you needed every day.
 
@@ -21,7 +22,7 @@ Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisC
 
 ### Tips
 
-Visit via [jsDelivr](https://cdn.jsdelivr.net/gh/pexcn/daily@gh-pages/) CDN.
+Visit via [jsDelivr CDN](https://cdn.jsdelivr.net/gh/pexcn/daily@gh-pages/).
 
 ### OpenWrt
 
