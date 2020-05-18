@@ -149,6 +149,7 @@ dable.io
 optmd.com
 fullstory.com
 sitescout.com
+acdcdn.com
 displayvertising.com
 adreactor.com
 auxml.com
@@ -1946,9 +1947,6 @@ dimfarlow.com
 6612151.cn
 6612152.cn
 66.212.56.229
-664d-87fs-6yda-oifx.easylist-to.xyz
-664d-87fs-6yda-oify.easylist-to.xyz
-664d-87fs-6yda-oifz.easylist-to.xyz
 664gp.com
 6656.deeplink.mobileapptracking.com
 6660.eu-api.swrve.com
@@ -2141,7 +2139,6 @@ dimfarlow.com
 8tduqa3h42y5.com
 8ucdn.com
 8ue4.xyz
-8uhgc44hfdd4-87hvd4-jhggcg.easylist-to.xyz
 8v61j.cn
 8v7wg.com
 8xkr.xyz
@@ -5413,6 +5410,7 @@ app.agendize.com
 app-analytics.snapchat.com
 appapi.dlangemobile.com
 app.appsflyer.com
+apparentsav.club
 appbaqend.com
 app.bm23.com
 appboycdn.com
@@ -6462,6 +6460,7 @@ bentengcn.com
 bepolite.eu
 be.proximus.com
 berfd.xyz
+berningbegi.club
 berp.com
 berry-1001.adgoji.com
 bersmanatomic.site
@@ -6894,6 +6893,7 @@ bypbwm.cn
 byujf.cn
 bzclk.baidu.com
 c00162-dl.urbanairship.com
+c0z.xyz
 c1.4qx.net
 c19f2.cn
 c1.adform.net
@@ -9762,6 +9762,7 @@ eas.almamedia.fi
 east5.mobileadtrading.com
 easyads.bg
 easydownloadnow.com
+easylist-to.xyz
 eatetrisblitz.api.swrve.com
 eb13489b89db.com
 eb2.3lift.com
@@ -10018,6 +10019,7 @@ engine.sponsorpay.com
 engine.spotscenered.info
 engine.voodoo-ads.io
 engine.widespace.com
+englingedrxa.club
 eng.localytics.com
 engppdoqrtivjd.com
 enhance-config.fgl.com
@@ -11657,6 +11659,7 @@ hengshui1.com
 hentaicounter.com
 herbalaffiliateprogram.com
 hercules.iad.appboy.com
+hesepd.cn
 hesterinoc.info
 hesxz.com
 hexagon-analytics.com
@@ -11712,7 +11715,6 @@ hincludingse.site
 hiorange1.jobui.com
 hiram.iad-03.braze.com
 hirovivi.com
-his6-3wjb-89jw-mshh.easylist-to.xyz
 hissq.com
 histlingklakson.site
 historicalrequest.com
@@ -17807,7 +17809,6 @@ s1.anybunny.tv
 s1.doubleclick.net
 s1.download123.com
 s1.dugoogle.com
-s1.easylist-to.xyz
 s1.hualaoye.com
 s1magnettvcom.maynemyltf.netdna-cdn.com
 s1.qiqutt.cn
@@ -17818,7 +17819,6 @@ s1.wesiedu.com
 s.206ads.com
 s20dh7e9dh.com
 s24hc8xzag.com
-s2.easylist-to.xyz
 s2.go-mpulse.net
 s2.mopub.com
 s2mvd.cn
@@ -20997,6 +20997,7 @@ unanimis.com
 unanimis.co.uk
 unarmedindustry.com
 uncoached-d.openx.net
+undedfracted.club
 undedsunbese.site
 underclick.ru
 underdogmedia-d.openx.net
