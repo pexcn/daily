@@ -19,6 +19,10 @@ This script can be automatically generate something what you needed every day.
 
 Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisCatus/SwitchyOmega).
 
+### Tips
+
+Visit via [jsDelivr](https://cdn.jsdelivr.net/gh/pexcn/daily@gh-pages/) CDN.
+
 ### OpenWrt
 
 1. Put the [`scripts`](openwrt) into OpenWrt.
