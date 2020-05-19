@@ -7468,7 +7468,6 @@ cdn.vdopia.com
 cdn.viglink.com
 cdn-webview-pge.unityads.unity3d.com
 cdnwidget.com
-cdn.wootric.com
 cdn.wpm.neustar.biz
 cdn.wuyou.ca
 cdn.zarget.com
@@ -10839,6 +10838,7 @@ fun-adx.admaster.com.cn
 fun.adx.admaster.com.cn
 fun.content.ninjakiwi.com
 functionalcrown.com
+fundardsesaz.club
 fundingchoices.google.com
 funklicks.com
 funpageexchange.com
@@ -11368,6 +11368,7 @@ granticaffodily.club
 grapeshot.co.uk
 graphs.amung.us
 graunada.com
+greatmentef.club
 greatvideos.xyz
 grebanise.pw
 gredinatib.info
