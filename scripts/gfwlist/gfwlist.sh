@@ -9,12 +9,13 @@ DIST_DIR="$(dirname $DIST_FILE)"
 DIST_NAME="$(basename $DIST_FILE)"
 
 GFWLIST_URL="https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt"
+GFWLIST_EXTRAS_URL="https://github.com/pexcn/gfwlist-extras/raw/master/gfwlist-extras.txt"
 
 fetch_data() {
   cd $TMP_DIR
 
   curl -sSL -4 --connect-timeout 10 $GFWLIST_URL | base64 -d > gfwlist.raw
-  cp $CUR_DIR/template/gfwlist/gfwlist-extras.txt .
+  curl -sSL -4 --connect-timeout 10 $GFWLIST_EXTRAS_URL -o gfwlist-extras.txt
   cp $CUR_DIR/dist/toplist/toplist.txt .
 
   cd $CUR_DIR
@@ -24,6 +25,7 @@ gen_gfw_domain_list() {
   cd $TMP_DIR
 
   local gfwlist_tmp="gfwlist.tmp"
+  local gfwlist_extras_tmp="gfwlist-extras.tmp"
   local gfwlist_part_1="gfwlist_part_1.tmp"
   local gfwlist_part_2="gfwlist_part_2.tmp"
 
@@ -40,8 +42,10 @@ gen_gfw_domain_list() {
     sed -r $tail_filter_pattern |
     grep -E $domain_pattern |
     sed -r $wildcard_pattern > $gfwlist_tmp
-  # append gfwlist extras, sort unique in-place
-  sort -u $gfwlist_tmp gfwlist-extras.txt -o $gfwlist_tmp
+  # gfwlist-extras filter
+  sed -e '/^$/d' -e '/^#/ d' gfwlist-extras.txt > $gfwlist_extras_tmp
+  # mix gfwlist and gfwlist-extras, sort unique in-place
+  sort -u $gfwlist_tmp $gfwlist_extras_tmp -o $gfwlist_tmp
 
   # find intersection set
   grep -Fx -f $gfwlist_tmp toplist.txt > $gfwlist_part_1
