@@ -41,6 +41,7 @@ google.es
 bbc.co.uk
 soundcloud.com
 tumblr.com
+discord.com
 daum.net
 google.com.tw
 shutterstock.com
@@ -106,6 +107,7 @@ google.gr
 dcard.tw
 reuters.com
 xfinity.com
+shopee.tw
 sourceforge.net
 eksisozluk.com
 google.com.ua
@@ -142,6 +144,7 @@ kknews.cc
 ptt.cc
 google.co.za
 mega.nz
+bild.de
 redtube.com
 google.com.my
 google.be
@@ -153,6 +156,7 @@ plurk.com
 pixiv.net
 nownews.com
 apkpure.com
+feedly.com
 android.com
 newtalk.tw
 depositphotos.com
@@ -197,6 +201,7 @@ xm.com
 snapchat.com
 binance.com
 google.co.ma
+welt.de
 otto.de
 lemonde.fr
 cna.com.tw
@@ -228,6 +233,7 @@ deezer.com
 google.cz
 efukt.com
 e-hentai.org
+archiveofourown.org
 google.com.bd
 nat.gov.tw
 band.us
@@ -266,6 +272,7 @@ google.sk
 togetter.com
 gmail.com
 jcpenney.com
+faz.net
 eporner.com
 google.com.ec
 nordvpn.com
@@ -281,6 +288,7 @@ viber.com
 economist.com
 google.dk
 expressvpn.com
+inoreader.com
 imagefap.com
 meetup.com
 tnaflix.com
@@ -474,6 +482,7 @@ pscp.tv
 myreadingmanga.info
 staticflickr.com
 googlesource.com
+mubi.com
 gumroad.com
 google.com.om
 nhi.gov.tw
@@ -535,6 +544,7 @@ surrenderat20.net
 yidio.com
 google.cat
 google.com.pg
+themoviedb.org
 sketchappsources.com
 cointiger.com
 tt1069.com
@@ -696,6 +706,7 @@ wsj.net
 teddysun.com
 google.sn
 torrentz.eu
+6parkbbs.com
 apkmonk.com
 storify.com
 twiends.com
@@ -1141,6 +1152,7 @@ omnitalk.com
 google.tg
 thinkgeek.com
 englishforeveryone.org
+cato.org
 blogcatalog.com
 twicsy.com
 bbnradio.org
@@ -1778,6 +1790,7 @@ anthonycalzadilla.com
 anti1984.com
 antichristendom.com
 antiwave.net
+ao3.org
 aobo.com.au
 aofriend.com
 aofriend.com.au
@@ -1805,6 +1818,7 @@ appsocks.net
 appspot.com
 appsto.re
 app.tutanota.com
+archiveofourown.com
 archives.gov.tw
 arctosia.com
 areca-backup.org
