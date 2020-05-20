@@ -44,6 +44,7 @@ Visit via [jsDelivr CDN](https://cdn.jsdelivr.net/gh/pexcn/daily@gh-pages/).
 
 - [@shadowsocks/ChinaDNS](https://github.com/shadowsocks/ChinaDNS)
 - [@felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
+- [@gfwlist/gfwlist](https://github.com/gfwlist/gfwlist)
 - [@cokebar/gfwlist2dnsmasq](https://github.com/cokebar/gfwlist2dnsmasq)
 - [@rssnsj/network-feeds](https://github.com/rssnsj/network-feeds)
 - [@R0uter/gfw_domain_whitelist](https://github.com/R0uter/gfw_domain_whitelist)

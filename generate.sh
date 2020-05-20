@@ -20,7 +20,7 @@ post() {
   done
 }
 
-run() {
+main() {
   # ad domain list
   scripts/adlist/adlist.sh
 
@@ -51,5 +51,5 @@ run() {
 }
 
 pre
-run
+main
 post
