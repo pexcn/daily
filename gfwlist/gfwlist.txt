@@ -81,6 +81,7 @@ hulu.com
 dailymotion.com
 xnxx.com
 fc2.com
+cnbc.com
 behance.net
 google.co.id
 messenger.com
@@ -118,6 +119,7 @@ costco.com
 wattpad.com
 elpais.com
 9gag.com
+uptodown.com
 google.co.ve
 google.ro
 zippyshare.com
@@ -174,6 +176,7 @@ nyaa.si
 v2ex.com
 pandora.com
 nhentai.net
+protonmail.com
 123rf.com
 google.pt
 beeg.com
@@ -238,6 +241,7 @@ google.com.bd
 nat.gov.tw
 band.us
 fnac.com
+mail.com
 cbsnews.com
 fbsbx.com
 txxx.com
@@ -250,6 +254,7 @@ smh.com.au
 google.com.kw
 google.ie
 google.co.ao
+straitstimes.com
 avgle.com
 localbitcoins.com
 euronews.com
@@ -295,6 +300,7 @@ tnaflix.com
 google.com.qa
 radiko.jp
 thenewslens.com
+channelnewsasia.com
 umich.edu
 google.com.ng
 alternativeto.net
@@ -339,6 +345,7 @@ wikiwiki.jp
 google.com.cu
 blogimg.jp
 pinterest.ca
+noxinfluencer.com
 google.com.sv
 uchicago.edu
 hkjc.com
@@ -356,6 +363,7 @@ pinterest.co.uk
 hclips.com
 hitomi.la
 r18.com
+telegra.ph
 upornia.com
 manta.com
 kobo.com
@@ -422,6 +430,7 @@ google.com.bo
 howtoforge.com
 rarbgprx.org
 google.com.py
+radio.garden
 diigo.com
 apkmirror.com
 youtube-nocookie.com
@@ -514,6 +523,7 @@ google.com.af
 me.me
 whoer.net
 booktopia.com.au
+bangkokpost.com
 konachan.com
 rfa.org
 protonvpn.com
@@ -584,6 +594,7 @@ google.hn
 crackle.com
 dish.com
 pinterest.dk
+nationalinterest.org
 tunnelbear.com
 hmv.co.jp
 pytorch.org
@@ -712,6 +723,7 @@ storify.com
 twiends.com
 google.tm
 zenmate.com
+thetvdb.com
 riseup.net
 cyberghostvpn.com
 porntube.com
@@ -775,6 +787,7 @@ twittbot.net
 avaaz.org
 google.td
 webrtc.org
+archive.md
 uyghurpress.com
 toppornsites.com
 mvdis.gov.tw
@@ -786,6 +799,7 @@ backpackers.com.tw
 esurance.com
 youngpornvideos.com
 fnac.be
+archive.vn
 daftporn.com
 taiwanjobs.gov.tw
 dfas.mil
@@ -798,6 +812,7 @@ flickriver.com
 oursogo.com
 4everproxy.com
 dynu.com
+apkcombo.com
 partypoker.com
 domains.google
 177pic.info
@@ -890,6 +905,7 @@ hotspotshield.com
 baramangaonline.com
 exploader.net
 himemix.com
+kadokawa.co.jp
 meyou.jp
 epa.gov.tw
 softether.org
@@ -988,6 +1004,8 @@ stat.gov.tw
 wnacg.com
 google.ml
 rolia.net
+archive.ph
+vivaldi.net
 marc.info
 supchina.com
 alwaysdata.com
@@ -1401,6 +1419,7 @@ democrats.org
 dns1.us
 dojin.com
 episcopalchurch.org
+gnews.org
 identi.ca
 imgchili.net
 insidevoa.com
@@ -2782,6 +2801,7 @@ fangong.org
 fanhaodang.com
 fan-qiang.com
 fanqianghou.com
+fanqiang.network
 fanqiang.tk
 fanqiangyakexi.net
 fanqiangzhe.com
@@ -3024,6 +3044,7 @@ gifree.com
 giga-web.jp
 girlbanker.com
 gist.github.com
+githubusercontent.com
 git.io
 gjczz.com
 glass8.eu
@@ -3313,6 +3334,7 @@ hmonghot.com
 hmvdigital.ca
 hmvdigital.com
 hnjhj.com
+hojemacau.com.mo
 holymountaincn.com
 homeperversion.com
 home.sina.com
@@ -3817,6 +3839,7 @@ mergersandinquisitions.org
 meridian-trust.org
 meripet.biz
 meripet.com
+merlinblog.xyz
 meshrep.com
 mesotw.com
 metarthunter.com
@@ -4406,6 +4429,7 @@ red-lang.org
 referer.us
 reflectivecode.com
 registry.google
+reimu.net
 relaxbbs.com
 relay.com.tw
 releaseinternational.org
@@ -4445,6 +4469,7 @@ rotten.com
 rsdlmonitor.com
 rsf-chinese.org
 rsgamen.org
+rsshub.app
 rssmeme.com
 rthklive2-lh.akamaihd.net
 rthk.org.hk
