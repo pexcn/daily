@@ -1,11 +1,8 @@
 #!/bin/sh -e
 set -o pipefail
 
-TARGET_URL="https://pexcn.me/daily/adblock/adblock.conf"
-TARGET_PATH="/etc/dnsmasq.d/adblock.conf"
-TEMP_FILE="/tmp/$(date +%s).tmp"
-
-wget $TARGET_URL -O $TEMP_FILE -T 10 --no-cookies --no-hsts -nv
-mkdir -p $(dirname $TARGET_PATH) && mv -f $TEMP_FILE $TARGET_PATH
+[ -d /etc/dnsmasq.d ] || mkdir /etc/dnsmasq.d
+wget https://pexcn.me/daily/adblock/adblock.conf -O /tmp/adblock.conf.tmp
+mv -f /tmp/adblock.conf.tmp /etc/dnsmasq.d/adblock.conf
 
 /etc/init.d/dnsmasq restart
