@@ -1,6 +1,6 @@
-*://*.lanzhouyangsheng.com/*
-*://*.kafan.cn/*
 *://*.blog.csdn.net/*
+*://*.kafan.cn/*
+*://*.lanzhouyangsheng.com/*
 *://*.mofish.work/*
 *://*.0335auto.cn/*
 *://*.sm3ha.com/*
@@ -19,3 +19,6 @@
 *://*.urnca.com/*
 *://*.zhipanyou.com/*
 *://*.qfjhb.cn/*
+*://*.oneho.cn/*
+*://*.hotbak.net/*
+*://*.ddhyl.cn/*
