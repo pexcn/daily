@@ -22,3 +22,6 @@
 *://*.oneho.cn/*
 *://*.hotbak.net/*
 *://*.ddhyl.cn/*
+*://*.nghmaty.club/*
+*://*.arabsongs.download/*
+*://*.koraline-tv.com/*
