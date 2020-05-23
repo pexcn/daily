@@ -4,61 +4,56 @@ set -o pipefail
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/chnroute.XXXXXX)
 
-DIST_FILE_IPV4="dist/chnroute/chnroute.txt"
-DIST_FILE_IPV6="dist/chnroute/chnroute-v6.txt"
-DIST_DIR="$(dirname $DIST_FILE_IPV4)"
-DIST_NAME_IPV4="$(basename $DIST_FILE_IPV4)"
-DIST_NAME_IPV6="$(basename $DIST_FILE_IPV6)"
+SRC_URL_1="https://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
+SRC_URL_2="https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt"
+DEST_FILE_1="dist/chnroute/chnroute.txt"
+DEST_FILE_2="dist/chnroute/chnroute-v6.txt"
 
-APNIC_URL="https://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
-IPIP_URL="https://github.com/17mon/china_ip_list/raw/master/china_ip_list.txt"
-
-fetch_data() {
+fetch_src() {
   cd $TMP_DIR
 
-  curl -sSL -4 --connect-timeout 10 $APNIC_URL -o apnic.txt
-  curl -sSL -4 --connect-timeout 10 $IPIP_URL -o ipip.txt
+  curl -sSL $SRC_URL_1 -o apnic.txt
+  curl -sSL $SRC_URL_2 -o ipip.txt
 
   cd $CUR_DIR
 }
 
-gen_ipv4_chnroute() {
+gen_chnroute_v4() {
   cd $TMP_DIR
 
-  local apnic_tmp="apnic.tmp"
-  local ipip_tmp="ipip.tmp"
-
-  cat apnic.txt | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > $apnic_tmp
-  cat ipip.txt > $ipip_tmp
-  cat $apnic_tmp $ipip_tmp | $CUR_DIR/tools/ip-dedup/obj/ip-dedup -4 > $DIST_NAME_IPV4
+  # convert to cidr format
+  cat apnic.txt | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > apnic.tmp
+  # add newline to end of file only if doesn't exist
+  sed '$a\' ipip.txt > ipip.tmp
+  # ipv4 cidr merge
+  cat apnic.tmp ipip.tmp | $CUR_DIR/tools/ip-dedup/obj/ip-dedup -4 > chnroute.txt
 
   cd $CUR_DIR
 }
 
-gen_ipv6_chnroute() {
+gen_chnroute_v6() {
   cd $TMP_DIR
 
-  local apnic_tmp="apnic6.tmp"
-
-  cat apnic.txt | grep ipv6 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, $5) }' > $apnic_tmp
-  $CUR_DIR/tools/ip-dedup/obj/ip-dedup -6 < $apnic_tmp > $DIST_NAME_IPV6
+  # convert to cidr format
+  cat apnic.txt | grep ipv6 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, $5) }' > apnic6.tmp
+  # ipv6 cidr merge
+  $CUR_DIR/tools/ip-dedup/obj/ip-dedup -6 < apnic6.tmp > chnroute-v6.txt
 
   cd $CUR_DIR
 }
 
-dist_release() {
-  mkdir -p $DIST_DIR
-  cp $TMP_DIR/$DIST_NAME_IPV4 $DIST_FILE_IPV4
-  cp $TMP_DIR/$DIST_NAME_IPV6 $DIST_FILE_IPV6
+copy_dest() {
+  install -D $TMP_DIR/chnroute.txt $DEST_FILE_1
+  install -D $TMP_DIR/chnroute-v6.txt $DEST_FILE_2
 }
 
 clean_up() {
   rm -r $TMP_DIR
-  echo "[chnroute]: OK."
+  echo "[$(basename $0 .sh)]: ok."
 }
 
-fetch_data
-gen_ipv4_chnroute
-gen_ipv6_chnroute
-dist_release
+fetch_src
+gen_chnroute_v4
+gen_chnroute_v6
+copy_dest
 clean_up
