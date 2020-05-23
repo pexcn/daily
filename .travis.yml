@@ -11,7 +11,7 @@ notifications:
 addons:
   apt:
     packages:
-      - aggregate
+      - curl
       - git
       - gcc
       - g++

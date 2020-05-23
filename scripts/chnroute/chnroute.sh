@@ -30,7 +30,7 @@ gen_ipv4_chnroute() {
 
   cat apnic.txt | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > $apnic_tmp
   cat ipip.txt > $ipip_tmp
-  cat $apnic_tmp $ipip_tmp | aggregate -q > $DIST_NAME_IPV4
+  cat $apnic_tmp $ipip_tmp | $CUR_DIR/tools/ip-dedup/obj/ip-dedup -4 > $DIST_NAME_IPV4
 
   cd $CUR_DIR
 }
