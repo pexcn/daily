@@ -46,6 +46,9 @@ main() {
   scripts/shadowrocket/gfwlist.sh
   scripts/shadowrocket/whitelist.sh
 
+  # trackerlist
+  scripts/trackerlist/trackerlist.sh
+
   # ublacklist
   scripts/ublacklist/ublacklist.sh
 }

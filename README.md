@@ -16,6 +16,7 @@ This script can be automatically generate something what you needed every day.
 - [`pac/whitelist.pac`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/pac/whitelist.pac)
 - [`shadowrocket/gfwlist.conf`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/shadowrocket/gfwlist.conf)
 - [`shadowrocket/whitelist.conf`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/shadowrocket/whitelist.conf)
+- [`trackerlist/all.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/trackerlist/all.txt)
 - [`ublacklist/ublacklist.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/ublacklist/ublacklist.txt)
 
 Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisCatus/SwitchyOmega).
@@ -46,6 +47,7 @@ Visit via [jsDelivr CDN](https://cdn.jsdelivr.net/gh/pexcn/daily@gh-pages/).
 - [apnic](https://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest)
 - [dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
 - [gfwlist](https://github.com/gfwlist/gfwlist)
+- [trackerslist](https://github.com/ngosang/trackerslist)
 - [ublacklist](https://github.com/pexcn/ublacklist)
 - [ip-dedup](https://github.com/dywisor/ip-dedup)
 - [netaggregate](https://github.com/afpd/netaggregate)
