@@ -1,0 +1,13 @@
+# aggregate
+aggregate/Makefile
+aggregate/config.cache
+aggregate/config.log
+aggregate/config.status
+aggregate/aggregate
+aggregate/*.o
+aggregate/*.exe
+
+# cidrmerge
+cidrmerge/cidrmerge
+cidrmerge/*.o
+cidrmerge/*.exe

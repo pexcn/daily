@@ -1,8 +1,0 @@
-Makefile
-config.cache
-config.log
-config.status
-
-aggregate
-*.o
-*.exe
