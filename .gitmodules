@@ -1,3 +1,6 @@
 [submodule "tools/netaggregate"]
 	path = tools/netaggregate
 	url = https://github.com/afpd/netaggregate.git
+[submodule "tools/ip-dedup"]
+	path = tools/ip-dedup
+	url = https://github.com/dywisor/ip-dedup.git

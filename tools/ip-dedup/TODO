@@ -1,7 +1,0 @@
-* documentation
-* maybe create a .so lib
-* Python bindings
-* optionally split IPv4/IPv6 output
-* parse hex str
-* use inet_pton(3) as alternative parser
-* purge: combined insert/invert => walk down create sibling
