@@ -4,61 +4,59 @@ set -o pipefail
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/trackerlist.XXXXXX)
 
-DIST_DIR="dist/trackerlist"
-DIST_FILE_ALL="dist/trackerlist/all.txt"
-DIST_FILE_BEST="dist/trackerlist/best.txt"
+SRC_URL_1="https://ngosang.github.io/trackerslist/trackers_all.txt"
+SRC_URL_2="https://ngosang.github.io/trackerslist/trackers_best.txt"
+SRC_URL_3="https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all.txt"
+SRC_URL_4="https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/best.txt"
+DEST_FILE_1="dist/trackerlist/all.txt"
+DEST_FILE_2="dist/trackerlist/best.txt"
+DEST_FILE_3="dist/trackerlist/aria2/all.txt"
+DEST_FILE_4="dist/trackerlist/aria2/best.txt"
 
-DIST_DIR_ARIA2="dist/trackerlist/aria2"
-DIST_FILE_ALL_ARIA2="dist/trackerlist/aria2/all.txt"
-DIST_FILE_BEST_ARIA2="dist/trackerlist/aria2/best.txt"
-
-TRACKER_URL_ALL_1="https://ngosang.github.io/trackerslist/trackers_all.txt"
-TRACKER_URL_ALL_2="https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all.txt"
-TRACKER_URL_BEST_1="https://ngosang.github.io/trackerslist/trackers_best.txt"
-TRACKER_URL_BEST_2="https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/best.txt"
-
-fetch_data() {
+fetch_src() {
   cd $TMP_DIR
 
-  curl -sSL --connect-timeout 10 $TRACKER_URL_ALL_1 -o all_1.txt
-  curl -sSL --connect-timeout 10 $TRACKER_URL_ALL_2 -o all_2.txt
-  curl -sSL --connect-timeout 10 $TRACKER_URL_BEST_1 -o best_1.txt
-  curl -sSL --connect-timeout 10 $TRACKER_URL_BEST_2 -o best_2.txt
+  curl -sSL $SRC_URL_1 -o all_1.txt
+  curl -sSL $SRC_URL_2 -o best_1.txt
+  curl -sSL $SRC_URL_3 -o all_2.txt
+  curl -sSL $SRC_URL_4 -o best_2.txt
 
   cd $CUR_DIR
 }
 
-gen_trackerlist() {
+gen_list() {
   cd $TMP_DIR
 
-  # remove empty lines & add newline to end of file
-  sed -e '/^$/d' -e '$a\' -i all_*.txt best_*.txt
+  # add newline to end of file only if doesn't exist
+  sed -i '$a\' all_*.txt best_*.txt
+
+  # remove empty lines containing tab or space
+  sed -i '/^[[:space:]]*$/d' all_*.txt best_*.txt
 
   # remove duplicates without sorting
   awk '!x[$0]++' all_*.txt > all.txt
   awk '!x[$0]++' best_*.txt > best.txt
 
-  # aria2 version
-  cat all.txt | xargs echo -n | tr ' ' ',' > all.aria2
-  cat best.txt | xargs echo -n | tr ' ' ',' > best.aria2
+  # create aria2 version
+  cat all.txt | xargs echo -n | tr ' ' ',' > all_aria2.txt
+  cat best.txt | xargs echo -n | tr ' ' ',' > best_aria2.txt
 
   cd $CUR_DIR
 }
 
-dist_release() {
-  mkdir -p $DIST_DIR $DIST_DIR_ARIA2
-  cp $TMP_DIR/all.txt $DIST_FILE_ALL
-  cp $TMP_DIR/best.txt $DIST_FILE_BEST
-  cp $TMP_DIR/all.aria2 $DIST_FILE_ALL_ARIA2
-  cp $TMP_DIR/best.aria2 $DIST_FILE_BEST_ARIA2
+copy_dest() {
+  install -D $TMP_DIR/all.txt $DEST_FILE_1
+  install -D $TMP_DIR/best.txt $DEST_FILE_2
+  install -D $TMP_DIR/all_aria2.txt $DEST_FILE_3
+  install -D $TMP_DIR/best_aria2.txt $DEST_FILE_4
 }
 
 clean_up() {
   rm -r $TMP_DIR
-  echo "[trackerlist]: OK."
+  echo "[$(basename $0 .sh)]: ok."
 }
 
-fetch_data
-gen_trackerlist
-dist_release
+fetch_src
+gen_list
+copy_dest
 clean_up
