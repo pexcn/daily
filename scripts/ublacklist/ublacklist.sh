@@ -4,42 +4,38 @@ set -o pipefail
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/ublacklist.XXXXXX)
 
-DIST_FILE="dist/ublacklist/ublacklist.txt"
-DIST_DIR="$(dirname $DIST_FILE)"
-DIST_NAME="$(basename $DIST_FILE)"
+SRC_URL="https://raw.githubusercontent.com/pexcn/ublacklist/master/ublacklist.txt"
+DEST_FILE="dist/ublacklist/ublacklist.txt"
 
-UBLACKLIST_URL="https://raw.githubusercontent.com/pexcn/ublacklist/master/ublacklist.txt"
-
-fetch_data() {
+fetch_src() {
   cd $TMP_DIR
 
-  curl -sSL -4 --connect-timeout 10 $UBLACKLIST_URL -o ublacklist.txt
+  curl -sSL $SRC_URL -o ublacklist.txt
 
   cd $CUR_DIR
 }
 
-gen_ublacklist() {
+gen_list() {
   cd $TMP_DIR
 
-  sed -i ublacklist.txt \
-    -e '/^$/d' \
-    -e '/^#/ d' \
-    -e 's/^/*:\/\/*./' -e 's/$/\/*/'
+  # remove empty and comment lines
+  sed -i -e '/^$/d' -e '/^#/ d' ublacklist.txt
+  # convert to ublacklist format
+  sed -i -e 's/^/*:\/\/*./' -e 's/$/\/*/' ublacklist.txt
 
   cd $CUR_DIR
 }
 
-dist_release() {
-  mkdir -p $DIST_DIR
-  cp $TMP_DIR/$DIST_NAME $DIST_FILE
+copy_dest() {
+  install -D $TMP_DIR/ublacklist.txt $DEST_FILE
 }
 
 clean_up() {
   rm -r $TMP_DIR
-  echo "[ublacklist]: OK."
+  echo "[$(basename $0 .sh)]: ok."
 }
 
-fetch_data
-gen_ublacklist
-dist_release
+fetch_src
+gen_list
+copy_dest
 clean_up
