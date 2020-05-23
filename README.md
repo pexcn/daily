@@ -42,17 +42,13 @@ Visit via [jsDelivr CDN](https://cdn.jsdelivr.net/gh/pexcn/daily@gh-pages/).
 
 ## Credits
 
-- [@shadowsocks/ChinaDNS](https://github.com/shadowsocks/ChinaDNS)
-- [@felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
-- [@gfwlist/gfwlist](https://github.com/gfwlist/gfwlist)
-- [@cokebar/gfwlist2dnsmasq](https://github.com/cokebar/gfwlist2dnsmasq)
-- [@rssnsj/network-feeds](https://github.com/rssnsj/network-feeds)
-- [@R0uter/gfw_domain_whitelist](https://github.com/R0uter/gfw_domain_whitelist)
-- [@breakwa11/gfw_whitelist](https://github.com/breakwa11/gfw_whitelist)
-- [@breakwa11/GFWList2PAC](https://github.com/breakwa11/GFWList2PAC)
-- [@Leask/Flora_Pac](https://github.com/Leask/Flora_Pac)
-- [@dywisor/ip-dedup](https://github.com/dywisor/ip-dedup)
-- [@afpd/netaggregate](https://github.com/afpd/netaggregate)
+- [alexa-static](https://s3.amazonaws.com/alexa-static/top-1m.csv.zip)
+- [apnic](https://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest)
+- [dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
+- [gfwlist](https://github.com/gfwlist/gfwlist)
+- [ublacklist](https://github.com/pexcn/ublacklist)
+- [ip-dedup](https://github.com/dywisor/ip-dedup)
+- [netaggregate](https://github.com/afpd/netaggregate)
 - [aggregate](https://ftp.isc.org/isc/aggregate/)
 - [cidrmerge](http://cidrmerge.sourceforge.net)
 

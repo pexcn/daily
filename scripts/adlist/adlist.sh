@@ -8,7 +8,7 @@ DIST_FILE="dist/adlist/adlist.txt"
 DIST_DIR="$(dirname $DIST_FILE)"
 DIST_NAME="$(basename $DIST_FILE)"
 
-ADAWAY_URL="https://adaway.org/hosts.txt"
+ADAWAY_URL="https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt"
 EASYLIST_URL="https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt"
 YOYO_URL="https://pgl.yoyo.org/adservers/serverlist.php?hostformat=nohtml&showintro=0&mimetype=plaintext"
 DISCONNECT_URL="https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt"
