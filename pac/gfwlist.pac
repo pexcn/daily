@@ -1,5 +1,5 @@
 //
-// Update: 2020-05-23 07:25:28
+// Update: 2020-05-23 13:31:25
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -98,6 +98,7 @@ const gfwlist_domains = {
   "scribd.com": 1,
   "xnxx.com": 1,
   "t.me": 1,
+  "wikimedia.org": 1,
   "kakao.com": 1,
   "google.co.kr": 1,
   "goodreads.com": 1,
