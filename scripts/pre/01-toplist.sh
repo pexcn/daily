@@ -4,27 +4,23 @@ set -o pipefail
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/toplist.XXXXXX)
 
-DIST_FILE="dist/toplist/toplist.txt"
-DIST_DIR="$(dirname $DIST_FILE)"
-DIST_NAME="$(basename $DIST_FILE)"
+SRC_URL="https://s3.amazonaws.com/alexa-static/top-1m.csv.zip"
+DEST_FILE="dist/toplist/toplist.txt"
 
-TOPLIST_URL="https://s3.amazonaws.com/alexa-static/top-1m.csv.zip"
-
-gen_toplist() {
+gen_list() {
   cd $TMP_DIR
 
-  curl -sSL -4 --connect-timeout 10 $TOPLIST_URL |
+  curl -sSL $SRC_URL |
     # unzip
     gunzip |
-    # extract
-    awk -F ',' '{print $2}' > $DIST_NAME
+    # extract domain
+    awk -F ',' '{print $2}' > toplist.txt
 
   cd $CUR_DIR
 }
 
-dist_release() {
-  mkdir -p $DIST_DIR
-  cp $TMP_DIR/$DIST_NAME $DIST_FILE
+copy_dest() {
+  install -D $TMP_DIR/toplist.txt $DEST_FILE
 }
 
 clean_up() {
@@ -32,6 +28,6 @@ clean_up() {
   echo "[toplist]: prepared."
 }
 
-gen_toplist
-dist_release
+gen_list
+copy_dest
 clean_up
