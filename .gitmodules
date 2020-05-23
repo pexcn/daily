@@ -1,0 +1,3 @@
+[submodule "tools/netaggregate"]
+	path = tools/netaggregate
+	url = https://github.com/afpd/netaggregate.git
