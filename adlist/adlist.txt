@@ -1930,6 +1930,7 @@ numbers.md
 5mcwl.pw
 5pb266.com
 5pub.com
+5q68n.cn
 5q80n.cn
 5rxk.cn
 5t4o.cn
@@ -4560,6 +4561,7 @@ alexa-sitestats.s3.amazonaws.com
 algorix.co
 alhistoriousg.info
 ali2a.xyz
+ali2d.xyz
 alicmayuns.com
 alifixed.cn
 a.ligatus.com
@@ -10062,6 +10064,7 @@ engine.awaps.net
 engine-dsa.fyber.com
 engine.espace.netavenir.com
 engine.fyber.com
+engine.laweekly.com
 engine.liveintercept.com
 enginenetwork.com
 engine.sponsorpay.com
@@ -11879,6 +11882,7 @@ hotrank.com.tw
 houanjijuxie.cn
 houdaolj.com
 hounicuy.com
+hourselflosu.site
 housandady.site
 houseads-prod.elasticbeanstalk.com
 houseads.ttpsdk.info
