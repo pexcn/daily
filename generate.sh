@@ -1,20 +1,20 @@
 #!/bin/bash
 
 pre() {
-  local count=$(find scripts/pre -maxdepth 1 -type f -iname "*.sh" | wc -l)
+  local count=$(find scripts/_pre_ -maxdepth 1 -type f -iname "*.sh" | wc -l)
   [ $count == 0 ] && return
 
-  for file in scripts/pre/*.sh
+  for file in scripts/_pre_/*.sh
   do
     "$file"
   done
 }
 
 post() {
-  local count=$(find scripts/post -maxdepth 1 -type f -iname "*.sh" | wc -l)
+  local count=$(find scripts/_post_ -maxdepth 1 -type f -iname "*.sh" | wc -l)
   [ $count == 0 ] && return
 
-  for file in scripts/post/*.sh
+  for file in scripts/_post_/*.sh
   do
     "$file"
   done
