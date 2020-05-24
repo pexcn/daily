@@ -32,13 +32,13 @@ Visit via [jsDelivr CDN](https://cdn.jsdelivr.net/gh/pexcn/daily@gh-pages/).
 
 ```bash
 # adblock
-0 3 * * * </path/to/adblock_script>
+0 3 * * * /path/to/adblock_script.sh
 
 # chinadns-ng
-1 3 * * * </path/to/chinadns-ng_script>
+1 3 * * * /path/to/chinadns-ng_script.sh
 
 # chinadns
-2 3 * * * </path/to/chinadns_script>
+2 3 * * * /path/to/chinadns_script.sh
 ```
 
 ## Credits
