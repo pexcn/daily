@@ -4,32 +4,25 @@ set -o pipefail
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/gfwlist.XXXXXX)
 
-DIST_FILE="dist/gfwlist/gfwlist.txt"
-DIST_DIR="$(dirname $DIST_FILE)"
-DIST_NAME="$(basename $DIST_FILE)"
+SRC_URL_1="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
+SRC_URL_2="https://raw.githubusercontent.com/pexcn/gfwlist-extras/master/gfwlist-extras.txt"
+SRC_FILE="$CUR_DIR/dist/toplist/toplist.txt"
+DEST_FILE="dist/gfwlist/gfwlist.txt"
 
-GFWLIST_URL="https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt"
-GFWLIST_EXTRAS_URL="https://github.com/pexcn/gfwlist-extras/raw/master/gfwlist-extras.txt"
-
-fetch_data() {
+fetch_src() {
   cd $TMP_DIR
 
-  curl -sSL -4 --connect-timeout 10 $GFWLIST_URL | base64 -d > gfwlist.raw
-  curl -sSL -4 --connect-timeout 10 $GFWLIST_EXTRAS_URL -o gfwlist-extras.txt
-  cp $CUR_DIR/dist/toplist/toplist.txt .
+  curl -sSL $SRC_URL_1 | base64 -d > gfwlist-plain.txt
+  curl -sSL $SRC_URL_2 -o gfwlist-extras.txt
+  cp $SRC_FILE .
 
   cd $CUR_DIR
 }
 
-gen_gfw_domain_list() {
+gen_list() {
   cd $TMP_DIR
 
-  local gfwlist_tmp="gfwlist.tmp"
-  local gfwlist_extras_tmp="gfwlist-extras.tmp"
-  local gfwlist_part_1="gfwlist_part_1.tmp"
-  local gfwlist_part_2="gfwlist_part_2.tmp"
-
-  # patterns from @cokebar/gfwlist2dnsmasq
+  # patterns from @cokebar/gfwlist2dnsmasq#3b5e3560ede7d1b0a1d02157576822752c48e671
   local ignore_pattern='^\!|\[|^@@|(https?://){0,1}[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+'
   local head_filter_pattern='s#^(\|\|?)?(https?://)?##g'
   local tail_filter_pattern='s#/.*$|%2F.*$##g'
@@ -37,37 +30,36 @@ gen_gfw_domain_list() {
   local wildcard_pattern='s#^(([a-zA-Z0-9]*\*[-a-zA-Z0-9]*)?(\.))?([a-zA-Z0-9][-a-zA-Z0-9]*(\.[a-zA-Z0-9][-a-zA-Z0-9]*)+)(\*[a-zA-Z0-9]*)?#\4#g'
 
   # gfwlist filter
-  grep -vE $ignore_pattern gfwlist.raw |
+  grep -vE $ignore_pattern gfwlist-plain.txt |
     sed -r $head_filter_pattern |
     sed -r $tail_filter_pattern |
     grep -E $domain_pattern |
-    sed -r $wildcard_pattern > $gfwlist_tmp
+    sed -r $wildcard_pattern > gfwlist-plain.tmp
   # gfwlist-extras filter
-  sed -e '/^$/d' -e '/^#/ d' gfwlist-extras.txt > $gfwlist_extras_tmp
-  # mix gfwlist and gfwlist-extras, sort unique in-place
-  sort -u $gfwlist_tmp $gfwlist_extras_tmp -o $gfwlist_tmp
+  sed -e '/^$/d' -e '/^#/ d' gfwlist-extras.txt > gfwlist-extras.tmp
+  # merge gfwlist and gfwlist-extras with sort & uniq
+  sort -u gfwlist-plain.tmp gfwlist-extras.tmp -o gfwlist.tmp
 
   # find intersection set
-  grep -Fx -f $gfwlist_tmp toplist.txt > $gfwlist_part_1
+  grep -Fx -f gfwlist.tmp toplist.txt > gfwlist_head.tmp
   # find difference set
-  sort $gfwlist_tmp toplist.txt toplist.txt | uniq -u > $gfwlist_part_2
-  # sort by toplist
-  cat $gfwlist_part_1 $gfwlist_part_2 > $DIST_NAME
+  grep -Fxv -f toplist.txt gfwlist.tmp > gfwlist_tail.tmp
+  # merge to gfwlist
+  cat gfwlist_head.tmp gfwlist_tail.tmp > gfwlist.txt
 
   cd $CUR_DIR
 }
 
-dist_release() {
-  mkdir -p $DIST_DIR
-  cp $TMP_DIR/$DIST_NAME $DIST_FILE
+copy_dest() {
+  install -D $TMP_DIR/gfwlist.txt $DEST_FILE
 }
 
 clean_up() {
   rm -r $TMP_DIR
-  echo "[gfwlist]: OK."
+  echo "[$(basename $0 .sh)]: done."
 }
 
-fetch_data
-gen_gfw_domain_list
-dist_release
+fetch_src
+gen_list
+copy_dest
 clean_up

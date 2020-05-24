@@ -32,7 +32,7 @@ copy_dest() {
 
 clean_up() {
   rm -r $TMP_DIR
-  echo "[$(basename $0 .sh)]: ok."
+  echo "[$(basename $0 .sh)]: done."
 }
 
 fetch_src
