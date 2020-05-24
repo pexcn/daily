@@ -4,94 +4,99 @@ set -o pipefail
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/adlist.XXXXXX)
 
-DIST_FILE="dist/adlist/adlist.txt"
-DIST_DIR="$(dirname $DIST_FILE)"
-DIST_NAME="$(basename $DIST_FILE)"
+SRC_URL_1="https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt"
+SRC_URL_2="https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt"
+SRC_URL_3="https://pgl.yoyo.org/adservers/serverlist.php?hostformat=nohtml&showintro=0&mimetype=plaintext"
+SRC_URL_4="https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt"
+SRC_FILE="$CUR_DIR/dist/toplist/toplist.txt"
+DEST_FILE="dist/adlist/adlist.txt"
 
-ADAWAY_URL="https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt"
-EASYLIST_URL="https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt"
-YOYO_URL="https://pgl.yoyo.org/adservers/serverlist.php?hostformat=nohtml&showintro=0&mimetype=plaintext"
-DISCONNECT_URL="https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt"
-
-fetch_data() {
+fetch_src() {
   cd $TMP_DIR
 
-  curl -sSL -k -4 --connect-timeout 10 $ADAWAY_URL -o adaway.txt
-  curl -sSL -k -4 --connect-timeout 10 $EASYLIST_URL -o easylist.txt
-  curl -sSL -k -4 --connect-timeout 10 $YOYO_URL -o yoyo.txt
-  curl -sSL -k -4 --connect-timeout 10 $DISCONNECT_URL -o disconnect.txt
-  cp $CUR_DIR/dist/toplist/toplist.txt .
+  curl -sSLk4 $SRC_URL_1 -o adaway.txt
+  curl -sSLk4 $SRC_URL_2 -o easylist.txt
+  curl -sSLk4 $SRC_URL_3 -o yoyo.txt
+  curl -sSLk4 $SRC_URL_4 -o disconnect.txt
+  cp $SRC_FILE .
 
   cd $CUR_DIR
 }
 
-gen_adlist() {
+gen_list() {
   cd $TMP_DIR
 
-  local adaway_tmp="adaway.tmp"
-  local easylist_tmp="easylist.tmp"
-  local yoyo_tmp="yoyo.tmp"
-  local disconnect_tmp="disconnect.tmp"
+  local ipv4_regex="[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}"
 
-  local adlist_tmp="adlist.tmp"
-  local adlist_part_1="adlist_part_1.tmp"
-  local adlist_part_2="adlist_part_2.tmp"
-
+  #
   # adaway
+  #
   cat adaway.txt |
-    # convert to unix format
-    sed $'s/\r$//' |
-    # ignore empty lines (containing tab or space)
+    # remove empty lines containing tab or space
     sed '/^[[:space:]]*$/d' |
-    # ignore comment lines
-    grep -v "^#" |
-    # ignore `localhost`
-    grep -v "localhost" |
-    cut -d ' ' -f 2 > $adaway_tmp
+    # remove comment lines
+    sed '/^#/ d' |
+    # remove " localhost"
+    sed '/ localhost/d' |
+    # use space or tab as delimiter to extract domain
+    awk '{print $2}' > adaway.tmp
 
+  #
   # easylist
+  #
   cat easylist.txt |
-    # extract domains
-    grep ^\|\|[^\*]*\^$ |
-    # clean domains
-    sed -e 's/||//' -e 's/\^//' > $easylist_tmp
+    # extract domain
+    grep -E '^\|\|[^\*]*\^$' |
+    sed -e 's/||//' -e 's/\^//' |
+    # remove ipv4 address
+    grep -v "$ipv4_regex" |
+    # remove duplicates
+    awk '!x[$0]++' > easylist.tmp
 
+  #
   # yoyo
-  cat yoyo.txt > $yoyo_tmp
+  #
+  cat yoyo.txt > yoyo.tmp
 
+  #
   # disconnect
+  #
   cat disconnect.txt |
-    # ignore 1-3 lines
+    # remove 1-3 lines
     sed '1,3d' |
-    # ignore empty lines (containing tab or space)
+    # remove empty lines containing tab or space
     sed '/^[[:space:]]*$/d' |
-    # ignore comment lines
-    grep -v "^#" > $disconnect_tmp
+    # remove comment lines
+    sed '/^#/ d' |
+    # add newline to end of file only if doesn't exist
+    sed '$a\' > disconnect.tmp
 
-  # merge all list and sort unique
-  cat $adaway_tmp $easylist_tmp $yoyo_tmp $disconnect_tmp | sort -u > $adlist_tmp
+  # merge all list and remove duplicates
+  cat adaway.tmp easylist.tmp yoyo.tmp disconnect.tmp | awk '!x[$0]++' > adlist.tmp
 
-  # find intersection set
-  grep -Fx -f $adlist_tmp toplist.txt > $adlist_part_1
-  # find difference set
-  sort $adlist_tmp toplist.txt toplist.txt | uniq -u > $adlist_part_2
+  #
   # sort by toplist
-  cat $adlist_part_1 $adlist_part_2 > $DIST_NAME
+  #
+  # find intersection set
+  grep -Fx -f adlist.tmp toplist.txt > adlist_head.tmp
+  # find difference set
+  grep -Fxv -f toplist.txt adlist.tmp > adlist_tail.tmp
+  # merge to adlist
+  cat adlist_head.tmp adlist_tail.tmp > adlist.txt
 
   cd $CUR_DIR
 }
 
-dist_release() {
-  mkdir -p $DIST_DIR
-  cp $TMP_DIR/$DIST_NAME $DIST_FILE
+copy_dest() {
+  install -D $TMP_DIR/adlist.txt $DEST_FILE
 }
 
 clean_up() {
   rm -r $TMP_DIR
-  echo "[adlist]: OK."
+  echo "[$(basename $0 .sh)]: done."
 }
 
-fetch_data
-gen_adlist
-dist_release
+fetch_src
+gen_list
+copy_dest
 clean_up
