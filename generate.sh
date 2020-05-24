@@ -44,8 +44,7 @@ main() {
   scripts/pac/pac.sh
 
   # shadowrocket
-  scripts/shadowrocket/gfwlist.sh
-  scripts/shadowrocket/whitelist.sh
+  scripts/shadowrocket/shadowrocket.sh
 
   # trackerlist
   scripts/trackerlist/trackerlist.sh
