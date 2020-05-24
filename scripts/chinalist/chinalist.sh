@@ -4,69 +4,62 @@ set -o pipefail
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/chinalist.XXXXXX)
 
-DIST_FILE="dist/chinalist/chinalist.txt"
-DIST_FILE_LITE="dist/chinalist/chinalist-lite.txt"
-DIST_DIR="$(dirname $DIST_FILE)"
-DIST_NAME="$(basename $DIST_FILE)"
-DIST_NAME_LITE="$(basename $DIST_FILE_LITE)"
+SRC_URL_1="https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf"
+SRC_URL_2="https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf"
+SRC_URL_3="https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf"
+SRC_FILE="$CUR_DIR/dist/toplist/toplist.txt"
+DEST_FILE_1="dist/chinalist/chinalist.txt"
+DEST_FILE_2="dist/chinalist/chinalist-lite.txt"
 
-CHINA_DOMAIN_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/accelerated-domains.china.conf"
-APPLE_DOMAIN_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/apple.china.conf"
-GOOGLE_DOMAIN_URL="https://github.com/felixonmars/dnsmasq-china-list/raw/master/google.china.conf"
-
-fetch_data() {
+fetch_src() {
   cd $TMP_DIR
 
-  curl -sSL -4 --connect-timeout 10 $CHINA_DOMAIN_URL -o china.conf
-  curl -sSL -4 --connect-timeout 10 $APPLE_DOMAIN_URL -o apple.conf
-  curl -sSL -4 --connect-timeout 10 $GOOGLE_DOMAIN_URL -o google.conf
-  cp $CUR_DIR/dist/toplist/toplist.txt .
+  curl -sSL $SRC_URL_1 -o apple.conf
+  curl -sSL $SRC_URL_2 -o google.conf
+  curl -sSL $SRC_URL_3 -o china.conf
+  cp $SRC_FILE .
 
   cd $CUR_DIR
 }
 
-gen_chinalist() {
+gen_list() {
   cd $TMP_DIR
 
-  local chinalist_tmp="chinalist.tmp"
-  local chinalist_part_1="chinalist_part_1.tmp"
-  local chinalist_part_2="chinalist_part_2.tmp"
-
-  cat china.conf apple.conf google.conf |
-      # ignore comments
-      sed "/#/d" |
-      # extract domains
-      awk '{split($0, arr, "/"); print arr[2]}' |
-      # exclude TLDs
-      grep "\." |
-      # sort unique
-      sort -u > $chinalist_tmp
+  cat apple.conf google.conf china.conf |
+    # remove empty lines containing tab or space
+    sed '/^[[:space:]]*$/d' |
+    # remove comment lines
+    sed '/^#/ d' |
+    # extract domains
+    awk '{split($0, arr, "/"); print arr[2]}' |
+    # remove TLDs
+    grep "\." |
+    # remove duplicates
+    awk '!x[$0]++' > chinalist.tmp
 
   # find intersection set
-  grep -Fx -f $chinalist_tmp toplist.txt > $chinalist_part_1
+  grep -Fx -f chinalist.tmp toplist.txt > chinalist_head.tmp
   # find difference set
-  sort $chinalist_tmp toplist.txt toplist.txt | uniq -u > $chinalist_part_2
-  # sort by toplist
-  cat $chinalist_part_1 $chinalist_part_2 > $DIST_NAME
-
-  # make part 1 as lite version
-  cp $chinalist_part_1 $DIST_NAME_LITE
+  grep -Fxv -f toplist.txt chinalist.tmp > chinalist_tail.tmp
+  # merge to chinalist
+  cat chinalist_head.tmp chinalist_tail.tmp > chinalist.txt
+  # make chinalist head part as lite version
+  cat chinalist_head.tmp > chinalist-lite.txt
 
   cd $CUR_DIR
 }
 
-dist_release() {
-  mkdir -p $DIST_DIR
-  cp $TMP_DIR/$DIST_NAME $DIST_FILE
-  cp $TMP_DIR/$DIST_NAME_LITE $DIST_FILE_LITE
+copy_dest() {
+  install -D $TMP_DIR/chinalist.txt $DEST_FILE_1
+  install -D $TMP_DIR/chinalist-lite.txt $DEST_FILE_2
 }
 
 clean_up() {
   rm -r $TMP_DIR
-  echo "[chinalist]: OK."
+  echo "[$(basename $0 .sh)]: done."
 }
 
-fetch_data
-gen_chinalist
-dist_release
+fetch_src
+gen_list
+copy_dest
 clean_up

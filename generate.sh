@@ -8,6 +8,7 @@ pre() {
   do
     "$file"
   done
+  echo "[pre]: done."
 }
 
 post() {
@@ -18,6 +19,7 @@ post() {
   do
     "$file"
   done
+  echo "[post]: done."
 }
 
 main() {
