@@ -21,7 +21,6 @@ compare_and_delete() {
 
 clean_up() {
   rm -r $TMP_DIR
-  echo "[compare]: finished."
 }
 
 compare_and_delete adblock/adblock.conf 3

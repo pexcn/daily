@@ -25,7 +25,6 @@ copy_dest() {
 
 clean_up() {
   rm -r $TMP_DIR
-  echo "[toplist]: prepared."
 }
 
 gen_list
