@@ -4,7 +4,7 @@ const direct = "DIRECT;";
 const hasOwnProperty = Object.hasOwnProperty;
 
 const china_domains = {
-  ___CHINA_DOMAINS_PLACEHOLDER___
+  ___CHINALIST_PLACEHOLDER___
 };
 
 const subnet_ips = [

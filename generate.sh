@@ -41,8 +41,7 @@ main() {
   scripts/chnroute/chnroute.sh
 
   # pac
-  scripts/pac/gfwlist.sh
-  scripts/pac/whitelist.sh
+  scripts/pac/pac.sh
 
   # shadowrocket
   scripts/shadowrocket/gfwlist.sh
