@@ -8,7 +8,9 @@ diff_delete() {
   local dist_file="$1"
   local release_file="$2"
   local skip_offset=$(("$3"+1))
-  cmp -s <(tail -n +$skip_offset $dist_file) <(tail -n +$skip_offset $release_file) && rm $dist_file
+  if cmp -s <(tail -n +$skip_offset $dist_file) <(tail -n +$skip_offset $release_file); then
+    rm $dist_file
+  fi
 }
 
 clone_release() {
