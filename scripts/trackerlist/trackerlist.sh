@@ -8,10 +8,10 @@ SRC_URL_1="https://ngosang.github.io/trackerslist/trackers_all.txt"
 SRC_URL_2="https://ngosang.github.io/trackerslist/trackers_best.txt"
 SRC_URL_3="https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all.txt"
 SRC_URL_4="https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/best.txt"
-DEST_FILE_1="dist/trackerlist/all.txt"
-DEST_FILE_2="dist/trackerlist/best.txt"
-DEST_FILE_3="dist/trackerlist/aria2/all.txt"
-DEST_FILE_4="dist/trackerlist/aria2/best.txt"
+DEST_FILE_1="dist/trackerlist/trackerlist.txt"
+DEST_FILE_2="dist/trackerlist/trackerlist-best.txt"
+DEST_FILE_3="dist/trackerlist/trackerlist-aria2.txt"
+DEST_FILE_4="dist/trackerlist/trackerlist-best-aria2.txt"
 
 fetch_src() {
   cd $TMP_DIR
