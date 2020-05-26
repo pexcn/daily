@@ -36,8 +36,8 @@ gen_list() {
     sed '/^[[:space:]]*$/d' |
     # remove comment lines
     sed '/^#/ d' |
-    # remove " localhost"
-    sed '/ localhost/d' |
+    # remove localhost
+    sed '/[[:space:]]localhost/d' |
     # use space or tab as delimiter to extract domain
     awk '{print $2}' > adaway.tmp
 
@@ -45,6 +45,8 @@ gen_list() {
   # easylist
   #
   cat easylist.txt |
+    # add newline to end of file
+    sed '$a\' |
     # extract domain
     grep -E '^\|\|[^\*]*\^$' |
     sed -e 's/||//' -e 's/\^//' |
@@ -62,14 +64,14 @@ gen_list() {
   # disconnect
   #
   cat disconnect.txt |
+    # add newline to end of file
+    sed '$a\' |
     # remove 1-3 lines
     sed '1,3d' |
     # remove empty lines containing tab or space
     sed '/^[[:space:]]*$/d' |
     # remove comment lines
-    sed '/^#/ d' |
-    # add newline to end of file only if doesn't exist
-    sed '$a\' > disconnect.tmp
+    sed '/^#/ d' > disconnect.tmp
 
   # merge all list and remove duplicates
   cat adaway.tmp easylist.tmp yoyo.tmp disconnect.tmp | awk '!x[$0]++' > adlist.tmp
