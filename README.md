@@ -10,13 +10,18 @@ This script can be automatically generate something what you needed every day.
 - [`adlist/adlist.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/adlist/adlist.txt)
 - [`adblock/adblock.conf`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/adblock/adblock.conf)
 - [`chnroute/chnroute.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/chnroute/chnroute.txt)
+- [`chnroute/chnroute-v6.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/chnroute/chnroute-v6.txt)
 - [`chinalist/chinalist.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/chinalist/chinalist.txt)
+- [`chinalist/chinalist-lite.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/chinalist/chinalist-lite.txt)
 - [`gfwlist/gfwlist.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/gfwlist/gfwlist.txt)
 - [`pac/gfwlist.pac`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/pac/gfwlist.pac)
 - [`pac/whitelist.pac`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/pac/whitelist.pac)
 - [`shadowrocket/gfwlist.conf`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/shadowrocket/gfwlist.conf)
 - [`shadowrocket/whitelist.conf`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/shadowrocket/whitelist.conf)
 - [`trackerlist/trackerlist.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/trackerlist/trackerlist.txt)
+- [`trackerlist/trackerlist-best.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/trackerlist/trackerlist-best.txt)
+- [`trackerlist/trackerlist-aria2.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/trackerlist/trackerlist-aria2.txt)
+- [`trackerlist/trackerlist-best-aria2.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/trackerlist/trackerlist-best-aria2.txt)
 - [`ublacklist/ublacklist.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/ublacklist/ublacklist.txt)
 
 Note: The PAC list is only designed for [SwithcyOmega](https://github.com/FelisCatus/SwitchyOmega).
