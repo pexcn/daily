@@ -26,7 +26,7 @@ gen_list() {
   cd $TMP_DIR
 
   cat apple.conf google.conf china.conf |
-    # remove empty lines containing tab or space
+    # remove empty lines
     sed '/^[[:space:]]*$/d' |
     # remove comment lines
     sed '/^#/ d' |
@@ -43,7 +43,7 @@ gen_list() {
   grep -Fxv -f toplist.txt chinalist.tmp > chinalist_tail.tmp
   # merge to chinalist
   cat chinalist_head.tmp chinalist_tail.tmp > chinalist.txt
-  # make chinalist head part as lite version
+  # lite version
   cat chinalist_head.tmp > chinalist-lite.txt
 
   cd $CUR_DIR

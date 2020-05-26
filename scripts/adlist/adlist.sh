@@ -32,7 +32,7 @@ gen_list() {
   # adaway
   #
   cat adaway.txt |
-    # remove empty lines containing tab or space
+    # remove empty lines
     sed '/^[[:space:]]*$/d' |
     # remove comment lines
     sed '/^#/ d' |
@@ -45,7 +45,7 @@ gen_list() {
   # easylist
   #
   cat easylist.txt |
-    # add newline to end of file
+    # add newline to end of file only if newline doesn't exist
     sed '$a\' |
     # extract domain
     grep -E '^\|\|[^\*]*\^$' |
@@ -64,11 +64,11 @@ gen_list() {
   # disconnect
   #
   cat disconnect.txt |
-    # add newline to end of file
+    # add newline to end of file only if newline doesn't exist
     sed '$a\' |
     # remove 1-3 lines
     sed '1,3d' |
-    # remove empty lines containing tab or space
+    # remove empty lines
     sed '/^[[:space:]]*$/d' |
     # remove comment lines
     sed '/^#/ d' > disconnect.tmp
@@ -77,7 +77,7 @@ gen_list() {
   cat adaway.tmp easylist.tmp yoyo.tmp disconnect.tmp | awk '!x[$0]++' > adlist.tmp
 
   #
-  # sort by toplist
+  # sorting by toplist
   #
   # find intersection set
   grep -Fx -f adlist.tmp toplist.txt > adlist_head.tmp

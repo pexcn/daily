@@ -18,12 +18,12 @@ fetch_src() {
   cd $CUR_DIR
 }
 
-gen_chnroute_v4() {
+gen_list_v4() {
   cd $TMP_DIR
 
   # convert to cidr format
   cat apnic.txt | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > apnic.tmp
-  # add newline to end of file only if doesn't exist
+  # add newline to end of file only if newline doesn't exist
   sed '$a\' ipip.txt > ipip.tmp
   # ipv4 cidr merge
   cat apnic.tmp ipip.tmp | $CUR_DIR/tools/ip-dedup/obj/ip-dedup -4 > chnroute.txt
@@ -31,7 +31,7 @@ gen_chnroute_v4() {
   cd $CUR_DIR
 }
 
-gen_chnroute_v6() {
+gen_list_v6() {
   cd $TMP_DIR
 
   # convert to cidr format
@@ -53,7 +53,7 @@ clean_up() {
 }
 
 fetch_src
-gen_chnroute_v4
-gen_chnroute_v6
+gen_list_v4
+gen_list_v6
 copy_dest
 clean_up

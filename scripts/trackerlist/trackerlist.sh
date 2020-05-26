@@ -27,7 +27,7 @@ fetch_src() {
 gen_list() {
   cd $TMP_DIR
 
-  # append newline to end of file only if newline doesn't exist
+  # add newline to end of file only if newline doesn't exist
   sed -i '$a\' all-1.txt all-2.txt best-1.txt best-2.txt
 
   # remove empty lines
