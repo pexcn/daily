@@ -26,7 +26,7 @@ This script can be automatically generate something what you needed every day.
 - [`trackerlist/trackerlist-best-aria2.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/trackerlist/trackerlist-best-aria2.txt)
 - [`ublacklist/ublacklist.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/ublacklist/ublacklist.txt)
 
-Note: The [`pac`](https://github.com/pexcn/daily/tree/gh-pages/pac) list is only designed for [SwithcyOmega](https://github.com/FelisCatus/SwitchyOmega).
+***Note: The [`pac`](https://github.com/pexcn/daily/tree/gh-pages/pac) list is only designed for [SwithcyOmega](https://github.com/FelisCatus/SwitchyOmega).***
 
 ### Tips
 
