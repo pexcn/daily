@@ -25,3 +25,5 @@
 *://*.nghmaty.club/*
 *://*.arabsongs.download/*
 *://*.koraline-tv.com/*
+*://*.coder.work/*
+*://*.code5.cn/*
