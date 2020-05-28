@@ -27,3 +27,4 @@
 *://*.koraline-tv.com/*
 *://*.coder.work/*
 *://*.code5.cn/*
+*://*.projectred.top/*
