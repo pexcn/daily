@@ -42,7 +42,11 @@ gen_list() {
     sed '/^$/d' > tld-extras.txt
 
   # merge to tldlist
-  cat iana-tlds.txt publicsuffix-tlds.txt tld-extras.txt | awk '!x[$0]++' > tldlist.txt
+  cat iana-tlds.txt publicsuffix-tlds.txt tld-extras.txt | awk '!x[$0]++' |
+    # sorting from longest to shortest
+    awk '{ print length($0) " " $0 }' |
+    sort -r -n |
+    cut -d ' ' -f 2 > tldlist.txt
 
   cd $CUR_DIR
 }
