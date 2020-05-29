@@ -1,0 +1,110 @@
+# bd
+com.bd
+co.bd
+org.bd
+info.bd
+net.bd
+edu.bd
+ac.bd
+mil.bd
+gov.bd
+tv.bd
+sw.bd
+
+# .er
+com.er
+edu.er
+gov.er
+mil.er
+net.er
+org.er
+ind.er
+
+# .mm
+com.mm
+net.mm
+edu.mm
+org.mm
+gov.mm
+
+# .np
+com.np
+edu.np
+gov.np
+mil.np
+org.np
+net.np
+aero.np
+asia.np
+biz.np
+coop.np
+info.np
+jobs.np
+mobi.np
+museum.np
+name.np
+pro.np
+services.np
+travel.np
+
+# .kh
+com.kh
+per.kh
+edu.kh
+gov.kh
+mil.kh
+net.kh
+org.kh
+
+# .pg
+com.pg
+net.pg
+ac.pg
+gov.pg
+mil.pg
+org.pg
+
+# .jm
+com.jm
+net.jm
+org.jm
+edu.jm
+gov.jm
+mil.jm
+
+# .ye
+com.ye
+co.ye
+ltd.ye
+me.ye
+net.ye
+org.ye
+plc.ye
+gov.ye
+
+# .ck
+co.ck
+org.ck
+edu.ck
+gov.ck
+net.ck
+gen.ck
+biz.ck
+info.ck
+
+# .fk
+co.fk
+org.fk
+gov.fk
+ac.fk
+nom.fk
+net.fk
+
+# .tv
+co.tv
+com.tv
+net.tv
+org.tv
+
+# .uk
+com.uk
