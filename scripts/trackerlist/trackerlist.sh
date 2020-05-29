@@ -45,10 +45,10 @@ gen_list() {
 }
 
 copy_dest() {
-  install -D $TMP_DIR/all.txt $DEST_FILE_1
-  install -D $TMP_DIR/best.txt $DEST_FILE_2
-  install -D $TMP_DIR/all-aria2.txt $DEST_FILE_3
-  install -D $TMP_DIR/best-aria2.txt $DEST_FILE_4
+  install -D -m 644 $TMP_DIR/all.txt $DEST_FILE_1
+  install -D -m 644 $TMP_DIR/best.txt $DEST_FILE_2
+  install -D -m 644 $TMP_DIR/all-aria2.txt $DEST_FILE_3
+  install -D -m 644 $TMP_DIR/best-aria2.txt $DEST_FILE_4
 }
 
 clean_up() {

@@ -90,7 +90,7 @@ gen_list() {
 }
 
 copy_dest() {
-  install -D $TMP_DIR/adlist.txt $DEST_FILE
+  install -D -m 644 $TMP_DIR/adlist.txt $DEST_FILE
 }
 
 clean_up() {

@@ -40,7 +40,7 @@ gen_list() {
 }
 
 copy_dest() {
-  install -D $TMP_DIR/tldlist.txt $DEST_FILE
+  install -D -m 644 $TMP_DIR/tldlist.txt $DEST_FILE
 }
 
 clean_up() {

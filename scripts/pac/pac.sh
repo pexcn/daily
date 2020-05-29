@@ -61,8 +61,8 @@ gen_list() {
 }
 
 copy_dest() {
-  install -D $TMP_DIR/gfwlist.pac $DEST_FILE_1
-  install -D $TMP_DIR/whitelist.pac $DEST_FILE_2
+  install -D -m 644 $TMP_DIR/gfwlist.pac $DEST_FILE_1
+  install -D -m 644 $TMP_DIR/whitelist.pac $DEST_FILE_2
 }
 
 clean_up() {

@@ -43,8 +43,8 @@ gen_list_v6() {
 }
 
 copy_dest() {
-  install -D $TMP_DIR/chnroute.txt $DEST_FILE_1
-  install -D $TMP_DIR/chnroute-v6.txt $DEST_FILE_2
+  install -D -m 644 $TMP_DIR/chnroute.txt $DEST_FILE_1
+  install -D -m 644 $TMP_DIR/chnroute-v6.txt $DEST_FILE_2
 }
 
 clean_up() {

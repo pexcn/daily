@@ -50,8 +50,8 @@ gen_list() {
 }
 
 copy_dest() {
-  install -D $TMP_DIR/chinalist.txt $DEST_FILE_1
-  install -D $TMP_DIR/chinalist-lite.txt $DEST_FILE_2
+  install -D -m 644 $TMP_DIR/chinalist.txt $DEST_FILE_1
+  install -D -m 644 $TMP_DIR/chinalist-lite.txt $DEST_FILE_2
 }
 
 clean_up() {
