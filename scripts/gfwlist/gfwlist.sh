@@ -6,18 +6,15 @@ TMP_DIR=$(mktemp -d /tmp/gfwlist.XXXXXX)
 
 SRC_URL_1="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
 SRC_URL_2="https://raw.githubusercontent.com/pexcn/gfwlist-extras/master/gfwlist-extras.txt"
-SRC_FILE_1="$CUR_DIR/dist/toplist/toplist.txt"
-SRC_FILE_2="$CUR_DIR/dist/tldlist/tldlist.txt"
-DEST_FILE_1="dist/gfwlist/gfwlist.txt"
-DEST_FILE_2="dist/gfwlist/gfwlist-root.txt"
+SRC_FILE="$CUR_DIR/dist/toplist/toplist.txt"
+DEST_FILE="dist/gfwlist/gfwlist.txt"
 
 fetch_src() {
   cd $TMP_DIR
 
   curl -sSL $SRC_URL_1 | base64 -d > gfwlist-plain.txt
   curl -sSL $SRC_URL_2 -o gfwlist-extras.txt
-  cp $SRC_FILE_1 .
-  cp $SRC_FILE_2 .
+  cp $SRC_FILE .
 
   cd $CUR_DIR
 }
@@ -50,17 +47,11 @@ gen_list() {
   # merge to gfwlist
   cat gfwlist_head.tmp gfwlist_tail.tmp > gfwlist.txt
 
-  # root domain version
-  local tlds_regex=$(cat tldlist.txt | tr '\n' '|' | sed '$ s/.$//')
-  local root_domain_regex="([^\.]+)\.($tlds_regex)$"
-  grep -Po $root_domain_regex gfwlist.txt | awk '!x[$0]++' > gfwlist-root.txt
-
   cd $CUR_DIR
 }
 
 copy_dest() {
-  install -D -m 644 $TMP_DIR/gfwlist.txt $DEST_FILE_1
-  install -D -m 644 $TMP_DIR/gfwlist-root.txt $DEST_FILE_2
+  install -D -m 644 $TMP_DIR/gfwlist.txt $DEST_FILE
 }
 
 clean_up() {
