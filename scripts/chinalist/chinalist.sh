@@ -7,11 +7,9 @@ TMP_DIR=$(mktemp -d /tmp/chinalist.XXXXXX)
 SRC_URL_1="https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf"
 SRC_URL_2="https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf"
 SRC_URL_3="https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf"
-SRC_FILE_1="$CUR_DIR/dist/toplist/toplist.txt"
-SRC_FILE_2="$CUR_DIR/dist/tldlist/tldlist.txt"
+SRC_FILE="$CUR_DIR/dist/toplist/toplist.txt"
 DEST_FILE_1="dist/chinalist/chinalist.txt"
 DEST_FILE_2="dist/chinalist/chinalist-lite.txt"
-DEST_FILE_3="dist/chinalist/chinalist-root.txt"
 
 fetch_src() {
   cd $TMP_DIR
@@ -19,8 +17,7 @@ fetch_src() {
   curl -sSL $SRC_URL_1 -o apple.conf
   curl -sSL $SRC_URL_2 -o google.conf
   curl -sSL $SRC_URL_3 -o china.conf
-  cp $SRC_FILE_1 .
-  cp $SRC_FILE_2 .
+  cp $SRC_FILE .
 
   cd $CUR_DIR
 }
@@ -50,18 +47,12 @@ gen_list() {
   # lite version
   cat chinalist_head.tmp > chinalist-lite.txt
 
-  # root domain version
-  local tlds_regex=$(cat tldlist.txt | tr '\n' '|' | sed '$ s/.$//')
-  local root_domain_regex="([^\.]+)\.($tlds_regex)$"
-  grep -Po $root_domain_regex chinalist.txt | awk '!x[$0]++' > chinalist-root.txt
-
   cd $CUR_DIR
 }
 
 copy_dest() {
   install -D -m 644 $TMP_DIR/chinalist.txt $DEST_FILE_1
   install -D -m 644 $TMP_DIR/chinalist-lite.txt $DEST_FILE_2
-  install -D -m 644 $TMP_DIR/chinalist-root.txt $DEST_FILE_3
 }
 
 clean_up() {
