@@ -43,6 +43,7 @@ gen_list() {
   grep -Fxv -f toplist.txt chinalist.tmp > chinalist_tail.tmp
   # merge to chinalist
   cat chinalist_head.tmp chinalist_tail.tmp > chinalist.txt
+
   # lite version
   cat chinalist_head.tmp > chinalist-lite.txt
 
