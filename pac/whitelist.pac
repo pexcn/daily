@@ -1,5 +1,5 @@
 //
-// Update: 2020-05-29 17:11:05
+// Update: 2020-05-29 21:28:17
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -3850,6 +3850,7 @@ const china_domains = {
   "7wkw.com": 1,
   "abang.com": 1,
   "micstatic.com": 1,
+  "xc88i3x.vip": 1,
   "ccplay.cc": 1,
   "jide.com": 1,
   "10besty.com": 1,
@@ -3911,7 +3912,6 @@ const china_domains = {
   "zoomeye.org": 1,
   "210997.com": 1,
   "51hwzy.com": 1,
-  "biquge.se": 1,
   "bugjia.net": 1,
   "chemm.com": 1,
   "jiyifa.com": 1,
@@ -28936,6 +28936,7 @@ const china_domains = {
   "finebi.com": 1,
   "fineidc.com": 1,
   "finelybook.com": 1,
+  "finepj.com": 1,
   "finer2.com": 1,
   "finereporthelp.com": 1,
   "finetopix.com": 1,
@@ -29020,6 +29021,7 @@ const china_domains = {
   "fj87fjmv.xyz": 1,
   "fjacg.com": 1,
   "fjanlian.com": 1,
+  "fjba.xyz": 1,
   "fjber.com": 1,
   "fjbinlong.com": 1,
   "fjccdn.net": 1,
@@ -30763,7 +30765,6 @@ const china_domains = {
   "ght.me": 1,
   "ghui.me": 1,
   "ghzs666.com": 1,
-  "gi-space.hk": 1,
   "giaimg.com": 1,
   "giant-cycling-lifestyle.com": 1,
   "giantcdn.com": 1,
@@ -36061,6 +36062,7 @@ const china_domains = {
   "hyz86.com": 1,
   "hyzcservice.com": 1,
   "hyzhutie.com": 1,
+  "hyzm.cc": 1,
   "hyzqxsb.com": 1,
   "hz-etest.com": 1,
   "hz-gn.com": 1,
@@ -36907,6 +36909,7 @@ const china_domains = {
   "iguzal.com": 1,
   "igwfmc.com": 1,
   "ih5games.com": 1,
+  "ihaier.co": 1,
   "ihaier.com": 1,
   "ihaima.com": 1,
   "ihaiu.com": 1,
@@ -48034,6 +48037,7 @@ const china_domains = {
   "muyu1993.com": 1,
   "muyuanfoods.com": 1,
   "muyutech.com": 1,
+  "muzhi.us": 1,
   "muzhibus.com": 1,
   "muzhigame.com": 1,
   "muzhisky.com": 1,
@@ -68939,6 +68943,7 @@ const china_domains = {
   "xminfoport.com": 1,
   "xmisp.com": 1,
   "xmitic.com": 1,
+  "xmj.app": 1,
   "xmjgjy.com": 1,
   "xmjhome.com": 1,
   "xmjim.com": 1,
@@ -73786,7 +73791,6 @@ const china_domains = {
   "zhengjie.com": 1,
   "zhengmeng.net": 1,
   "zhengpinle.com": 1,
-  "zhengquanqihuo.com": 1,
   "zhengruioi.com": 1,
   "zhengshihf.com": 1,
   "zhengshuhezi.com": 1,

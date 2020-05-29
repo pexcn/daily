@@ -20170,6 +20170,7 @@ ad.iinfo.cz
 ad.ilove.ch
 ad.infoseek.com
 ad.intl.xiaomi.com
+ad.jacotei.com.br
 ad.jamster.co.uk
 ad.jetsoftware.com
 ad.keenspace.com
@@ -20204,6 +20205,7 @@ ad.weatherbug.com
 ad.wsod.com
 ad.wz.cz
 ad.xiaomi.com
+ad.xmovies8.si
 ad.xrea.com
 ad.yadro.ru
 ad.yourmedia.com
