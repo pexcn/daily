@@ -14,7 +14,6 @@ This script can be automatically generate something what you needed every day.
 - [`chnroute/chnroute.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/chnroute/chnroute.txt)
 - [`chnroute/chnroute-v6.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/chnroute/chnroute-v6.txt)
 - [`chinalist/chinalist.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/chinalist/chinalist.txt)
-- [`chinalist/chinalist-lite.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/chinalist/chinalist-lite.txt)
 - [`gfwlist/gfwlist.txt`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/gfwlist/gfwlist.txt)
 - [`pac/gfwlist.pac`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/pac/gfwlist.pac)
 - [`pac/whitelist.pac`](https://raw.githubusercontent.com/pexcn/daily/gh-pages/pac/whitelist.pac)

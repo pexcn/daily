@@ -8,8 +8,7 @@ SRC_URL_1="https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/mast
 SRC_URL_2="https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf"
 SRC_URL_3="https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf"
 SRC_FILE="$CUR_DIR/dist/toplist/toplist.txt"
-DEST_FILE_1="dist/chinalist/chinalist.txt"
-DEST_FILE_2="dist/chinalist/chinalist-lite.txt"
+DEST_FILE="dist/chinalist/chinalist.txt"
 
 fetch_src() {
   cd $TMP_DIR
@@ -44,15 +43,11 @@ gen_list() {
   # merge to chinalist
   cat chinalist_head.tmp chinalist_tail.tmp > chinalist.txt
 
-  # lite version
-  cat chinalist_head.tmp > chinalist-lite.txt
-
   cd $CUR_DIR
 }
 
 copy_dest() {
-  install -D -m 644 $TMP_DIR/chinalist.txt $DEST_FILE_1
-  install -D -m 644 $TMP_DIR/chinalist-lite.txt $DEST_FILE_2
+  install -D -m 644 $TMP_DIR/chinalist.txt $DEST_FILE
 }
 
 clean_up() {
