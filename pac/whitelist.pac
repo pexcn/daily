@@ -1,5 +1,5 @@
 //
-// Update: 2020-06-01 00:51:39
+// Update: 2020-06-01 21:49:09
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -9115,7 +9115,6 @@ const china_domains = {
   "5395.com": 1,
   "5396vvv.com": 1,
   "5399.com": 1,
-  "539art.com": 1,
   "539km.com": 1,
   "53chewu.com": 1,
   "53info.com": 1,
@@ -14230,7 +14229,6 @@ const china_domains = {
   "appyxxy.com": 1,
   "appzhonghua.com": 1,
   "appzhu.com": 1,
-  "aprender-a-bailar.com": 1,
   "apsgo.com": 1,
   "apt-blog.net": 1,
   "apt.so": 1,
@@ -16357,7 +16355,6 @@ const china_domains = {
   "biquga.com": 1,
   "biquge.cm": 1,
   "biquge.cz": 1,
-  "biquge.jp": 1,
   "biquge.la": 1,
   "biquge.lu": 1,
   "biquge.vip": 1,
@@ -16923,7 +16920,6 @@ const china_domains = {
   "bld-hotel.com": 1,
   "bldimg.com": 1,
   "bldz.com": 1,
-  "bleachcn.net": 1,
   "bleatingsheep.org": 1,
   "bleege.com": 1,
   "blemall.com": 1,
@@ -17539,7 +17535,6 @@ const china_domains = {
   "btv.org": 1,
   "btvcd.net": 1,
   "btw877.icu": 1,
-  "btwmb.com": 1,
   "btwob.net": 1,
   "btxl8.com": 1,
   "bty168.com": 1,
@@ -35490,7 +35485,6 @@ const china_domains = {
   "hustgroup.net": 1,
   "hustlife.com": 1,
   "hustlzp.com": 1,
-  "hustmaths.com": 1,
   "hustnews.com": 1,
   "hustoj.com": 1,
   "hustonline.net": 1,
@@ -38512,7 +38506,6 @@ const china_domains = {
   "jhctbank.com": 1,
   "jhdqz.com": 1,
   "jhdxjk.com": 1,
-  "jheasy.com": 1,
   "jhfl.com": 1,
   "jhforever.com": 1,
   "jhfshm.com": 1,
@@ -44865,7 +44858,6 @@ const china_domains = {
   "luhehospital.com": 1,
   "luhongfu.com": 1,
   "luics.com": 1,
-  "luispaixaomartins.net": 1,
   "luisvuttion.com": 1,
   "lujianmei.com": 1,
   "lujianxin.com": 1,
@@ -47492,7 +47484,6 @@ const china_domains = {
   "moviemore.com": 1,
   "movieppp.com": 1,
   "moviewg.com": 1,
-  "movingshop.org": 1,
   "movit-tech.com": 1,
   "movshow.com": 1,
   "mowan123.com": 1,
@@ -48401,7 +48392,6 @@ const china_domains = {
   "nbkc-rp.com": 1,
   "nbmao.com": 1,
   "nbmedicalsystem.com": 1,
-  "nbnnbb.com": 1,
   "nbow.net": 1,
   "nbpolytheatre.com": 1,
   "nbprido.com": 1,
