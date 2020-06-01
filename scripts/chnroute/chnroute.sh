@@ -6,6 +6,7 @@ TMP_DIR=$(mktemp -d /tmp/chnroute.XXXXXX)
 
 SRC_URL_1="https://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
 SRC_URL_2="https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt"
+SRC_URL_3="https://www.ipdeny.com/ipv6/ipaddresses/blocks/cn.zone"
 DEST_FILE_1="dist/chnroute/chnroute.txt"
 DEST_FILE_2="dist/chnroute/chnroute-v6.txt"
 
@@ -14,6 +15,7 @@ fetch_src() {
 
   curl -sSL $SRC_URL_1 -o apnic.txt
   curl -sSL $SRC_URL_2 -o ipip.txt
+  curl -sSL $SRC_URL_3 -o ipdeny.txt
 
   cd $CUR_DIR
 }
@@ -36,8 +38,9 @@ gen_list_v6() {
 
   # convert to cidr format
   cat apnic.txt | grep ipv6 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, $5) }' > apnic6.tmp
+  cat ipdeny.txt > ipdeny6.tmp
   # ipv6 cidr merge
-  $CUR_DIR/tools/ip-dedup/obj/ip-dedup -6 < apnic6.tmp > chnroute-v6.txt
+  cat apnic6.tmp ipdeny6.tmp | $CUR_DIR/tools/ip-dedup/obj/ip-dedup -6 > chnroute-v6.txt
 
   cd $CUR_DIR
 }
