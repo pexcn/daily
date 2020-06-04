@@ -28,3 +28,5 @@
 *://*.coder.work/*
 *://*.code5.cn/*
 *://*.projectred.top/*
+*://*.qu02.com/*
+*://*.fydqw.com/*
