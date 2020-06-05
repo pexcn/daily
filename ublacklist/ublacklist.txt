@@ -30,3 +30,4 @@
 *://*.projectred.top/*
 *://*.qu02.com/*
 *://*.fydqw.com/*
+*://*.cctsuzhou.cn/*
