@@ -31,3 +31,5 @@
 *://*.qu02.com/*
 *://*.fydqw.com/*
 *://*.cctsuzhou.cn/*
+*://*.juxun.org/*
+*://*.nbyoho.com/*
