@@ -1,8 +1,8 @@
 udp://tracker.coppersurfer.tk:6969/announce
 udp://tracker.opentrackr.org:1337/announce
 udp://tracker.leechers-paradise.org:6969/announce
+udp://tracker.internetwarriors.net:1337/announce
 udp://p4p.arenabg.ch:1337/announce
-http://p4p.arenabg.com:1337/announce
 udp://9.rarbg.to:2710/announce
 udp://9.rarbg.me:2710/announce
 udp://exodus.desync.com:6969/announce
@@ -14,16 +14,17 @@ udp://tracker.torrent.eu.org:451/announce
 udp://tracker.moeking.me:6969/announce
 udp://tracker3.itzmx.com:6961/announce
 http://tracker1.itzmx.com:8080/announce
-http://tracker.nyap2p.com:8080/announce
 udp://ipv4.tracker.harry.lu:80/announce
 udp://bt2.archive.org:6969/announce
 udp://bt1.archive.org:6969/announce
+udp://retracker.akado-ural.ru:80/announce
 http://0205.uptm.ch:6969/announce
 http://dn42.smrsh.net:6969/announce
 http://h4.trakx.nibba.trade:80/announce
 http://ns3107607.ip-54-36-126.eu:6969/announce
 http://rt.tace.ru:80/announce
 http://share.camoe.cn:8080/announce
+http://t.nyaatracker.com:80/announce
 http://torrent.nwps.ws:80/announce
 http://torrenttracker.nwc.acsalaska.net:6969/announce
 http://tr.cili001.com:8070/announce
@@ -32,6 +33,8 @@ http://tracker.bt4g.com:2095/announce
 http://tracker.files.fm:6969/announce
 http://tracker.gbitt.info:80/announce
 http://tracker.ipv6tracker.ru:80/announce
+http://tracker.nyap2p.com:8080/announce
+http://tracker.tfile.co:80/announce
 http://tracker.trackerfix.com:80/announce
 http://tracker2.itzmx.com:6961/announce
 http://tracker3.itzmx.com:6961/announce
@@ -94,7 +97,6 @@ udp://opentracker.i2p.rocks:6969/announce
 udp://public-tracker.zooki.xyz:6969/announce
 udp://public.publictracker.xyz:6969/announce
 udp://publictracker.xyz:6969/announce
-udp://retracker.akado-ural.ru:80/announce
 udp://retracker.local.msn-net.ru:6969/announce
 udp://rutorrent.frontline-mod.com:6969/announce
 udp://sd-161673.dedibox.fr:6969/announce
@@ -111,7 +113,6 @@ udp://tracker.0o.is:6969/announce
 udp://tracker.army:6969/announce
 udp://tracker.beeimg.com:6969/announce
 udp://tracker.birkenwald.de:6969/announce
-udp://tracker.dler.org:6969/announce
 udp://tracker.ds.is:6969/announce
 udp://tracker.dyne.org:6969/announce
 udp://tracker.fileparadise.in:1337/announce
