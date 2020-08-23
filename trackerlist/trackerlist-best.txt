@@ -23,7 +23,6 @@ http://dn42.smrsh.net:6969/announce
 http://h4.trakx.nibba.trade:80/announce
 http://ipv6-publictracker.zooki.xyz:6969/announce
 http://share.camoe.cn:8080/announce
-http://t.nyaatracker.com:80/announce
 http://tr.cili001.com:8070/announce
 http://tracker.anonwebz.xyz:8080/announce
 http://tracker.bt4g.com:2095/announce

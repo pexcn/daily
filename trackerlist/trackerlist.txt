@@ -184,10 +184,8 @@ http://tracker.dler.org:6969/announce
 http://t.acg.rip:6699/announce
 http://open.acgnxtracker.com:80/announce
 http://ankeschwarz.net:6969/announce
-http://104.238.198.186:8000/announce
 http://1337.abcvg.info:80/announce
 http://178.175.143.27:80/announce
-http://62.210.202.61:80/announce
 http://78.30.254.12:2710/announce
 http://91.217.91.21:3218/announce
 http://93.92.64.5:80/announce
@@ -219,9 +217,9 @@ http://tracker.files.fm:6969/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.kuroy.me:5944/announce
 http://tracker.moeking.me:6969/announce
-http://tracker.tfile.co:80/announce
+http://tracker.torrentyorg.pl:80/announce
 http://tracker.trackerfix.com:80/announce
-http://tracker.uw0.xyz:6969/announce
+http://www.wareztorrent.com:80/announce
 https://2.tracker.eu.org:443/announce
 https://3.tracker.eu.org:443/announce
 https://open.kickasstracker.com:443/announce
