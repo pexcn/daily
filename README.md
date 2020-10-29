@@ -27,9 +27,9 @@ This script can be automatically generate something what you needed every day.
 
 ***Note: The [`pac`](https://github.com/pexcn/daily/tree/gh-pages/pac) list is only designed for [SwithcyOmega](https://github.com/FelisCatus/SwitchyOmega).***
 
-### Tips
+### ~~Tips~~
 
-Visit via [jsDelivr CDN](https://cdn.jsdelivr.net/gh/pexcn/daily@gh-pages/).
+~~Visit via [jsDelivr CDN](https://cdn.jsdelivr.net/gh/pexcn/daily@gh-pages/).~~
 
 ### OpenWrt
 
