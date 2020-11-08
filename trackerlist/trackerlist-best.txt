@@ -44,11 +44,11 @@ https://tracker.foreverpirates.co:443/announce
 https://tracker.gbitt.info:443/announce
 https://tracker.imgoingto.icu:443/announce
 https://tracker.lilithraws.cf:443/announce
+https://tracker.magnetoo.io:443/announce
 https://tracker.nitrix.me:443/announce
 https://tracker.parrotlinux.org:443/announce
 https://tracker.sloppyta.co:443/announce
 https://tracker.tamersunion.org:443/announce
-https://tracker6.lelux.fi:443/announce
 https://trakx.herokuapp.com:443/announce
 udp://10.rarbg.me:80/announce
 udp://12.rarbg.me:80/announce
@@ -108,7 +108,6 @@ udp://tracker.birkenwald.de:6969/announce
 udp://tracker.dler.org:6969/announce
 udp://tracker.dyne.org:6969/announce
 udp://tracker.gbitt.info:80/announce
-udp://tracker.internetwarriors.net:1337/announce
 udp://tracker.kamigami.org:2710/announce
 udp://tracker.opentrackr.org:1337/announce
 udp://tracker.publictracker.xyz:6969/announce
