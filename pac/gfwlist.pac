@@ -1,5 +1,5 @@
 //
-// Update: 2020-11-19 03:10:01
+// Update: 2020-11-20 03:55:06
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -2427,7 +2427,6 @@ const gfwlist_domains = {
   "aojiao.org": 1,
   "aomiwang.com": 1,
   "video.ap.org": 1,
-  "apkdler.com": 1,
   "apkplz.com": 1,
   "aplusvpn.com": 1,
   "appdownloader.net": 1,

@@ -9768,7 +9768,6 @@ vm5apis.com
 vmweb.net
 lib.vmweb.net
 sync.vmweb.net
-a.vnecdn.net
 imgraovat.vnecdn.net
 vnet.cn
 imsapi.vnet.cn
@@ -13029,12 +13028,15 @@ lpsgc.cn
 yi71.com.cn
 runkao.net
 watakaw133.xyz
-gbzumh.cn
-ywqpgy.com
-b83pmp.cn
-hbkhqc.com
-gng5.cn
-vq7736.com
+clxxkz.com.cn
+jinshzx.com
+maimaias.cn
+toujing7.top
+hp0hnj.cn
+enq5ur.cn
+ziyeaiying.com
+xiachouchou.com
+gflcsiot.com
 01w47q.cn
 0217qpineuxbcdhopswkvf.xyz
 0224fqpowiuxybnmvdfghj.xyz
@@ -13319,6 +13321,7 @@ ayues.com
 b0lc.cn
 b2b5.net
 b54ah.cn
+b83pmp.cn
 babalink.net
 babalink.top
 baful.net
@@ -13718,6 +13721,7 @@ ganggao123456.com
 gaohuduo.cn
 gb686.cn
 gbeik.com
+gbzumh.cn
 gc8fjz.cn
 gcaog.com
 gdfc0563.com
@@ -13746,6 +13750,7 @@ glpen08.com
 gmuqa.cn
 gmxyorg.cn
 gneusqa.cn
+gng5.cn
 gnmbd.top
 gnncc.cc
 gobali.cn
@@ -13813,6 +13818,7 @@ hatbiz.cn
 hawbfa.com
 hbbww.com
 hbhxqcw.com
+hbkhqc.com
 hblanghun.cn
 hbnygj.com
 hbttcc.com
@@ -14744,6 +14750,7 @@ vjuer.com
 vkjnd.com
 vkuay.com
 voterlin.cn
+vq7736.com
 vvnna.com
 vwb4p.cn
 w13qh.cn
@@ -15005,6 +15012,7 @@ yunl1.com
 yushengyuancaishui.com
 yuxiny.com
 ywbwsm.com
+ywqpgy.com
 ywqum.cn
 ywxtmox.cn
 yxhxs.com
@@ -19227,6 +19235,7 @@ irqtkzvyhmmtyw.com
 irritatebeing.com
 irritatecheaplyintrigue.com
 irtyf.com
+irxqmnmmow.com
 isekvtjiahm.com
 isffnlbsuyinnv.com
 isfxsiooyjad.com
@@ -19682,6 +19691,7 @@ kjkwrmwdyhi.com
 kjlahwtvckpaci.com
 kjlvutytm.com
 kjrjvvxcg.com
+kjvbobnqoms.com
 kjzprdqjrhjz.com
 kka20si.xyz
 kkdvvaonvkmll.com
@@ -28265,6 +28275,7 @@ sendmepixel.com
 sensismediasmart.com.au
 separatesilver.com
 serv0.com
+servads.net
 servadsdisrupt.com
 servedby-buysellads.com
 servedbyadbutler.com
