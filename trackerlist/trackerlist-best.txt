@@ -10,13 +10,13 @@ udp://p4p.arenabg.ch:1337/announce
 http://p4p.arenabg.com:1337/announce
 udp://tracker3.itzmx.com:6961/announce
 http://tracker1.itzmx.com:8080/announce
-udp://open.stealth.si:80/announce
 udp://tracker.torrent.eu.org:451/announce
 udp://tracker.tiny-vps.com:6969/announce
-udp://tracker.ds.is:6969/announce
+udp://open.stealth.si:80/announce
 udp://tracker.zerobytes.xyz:1337/announce
-udp://retracker.lanta-net.ru:2710/announce
+udp://tracker.ds.is:6969/announce
 udp://open.demonii.si:1337/announce
+udp://retracker.lanta-net.ru:2710/announce
 http://open.acgnxtracker.com:80/announce
 http://1337.abcvg.info:80/announce
 http://5rt.tace.ru:60889/announce
@@ -35,6 +35,7 @@ http://tracker.dutchtracking.nl:80/announce
 http://tracker.files.fm:6969/announce
 http://tracker.gbitt.info:80/announce
 http://tracker.ipv6tracker.ru:80/announce
+http://tracker.sakurato.xyz:23333/announce
 http://tracker.trackerfix.com:80/announce
 http://tracker.vraphim.com:6969/announce
 http://tracker2.itzmx.com:6961/announce
@@ -62,6 +63,7 @@ udp://cdn-1.gamecoast.org:6969/announce
 udp://cdn-2.gamecoast.org:6969/announce
 udp://daveking.com:6969/announce
 udp://discord.heihachi.pw:6969/announce
+udp://dns.mercax.com:53/announce
 udp://edu.uifr.ru:6969/announce
 udp://engplus.ru:6969/announce
 udp://fe.dealclub.de:6969/announce
@@ -74,7 +76,6 @@ udp://movies.zsw.ca:6969/announce
 udp://mts.tvbit.co:6969/announce
 udp://nagios.tks.sumy.ua:80/announce
 udp://open.demonii.com:1337/announce
-udp://opentor.org:2710/announce
 udp://opentracker.i2p.rocks:6969/announce
 udp://p4p.arenabg.com:1337/announce
 udp://retracker.hotplug.ru:2710/announce
@@ -94,7 +95,6 @@ udp://tracker.dler.org:6969/announce
 udp://tracker.e-utp.net:6969/announce
 udp://tracker.lelux.fi:6969/announce
 udp://tracker.moeking.me:6969/announce
-udp://tracker.publictracker.xyz:6969/announce
 udp://tracker.shkinev.me:6969/announce
 udp://tracker.sigterm.xyz:6969/announce
 udp://tracker.uw0.xyz:6969/announce
@@ -109,5 +109,4 @@ udp://udp-tracker.shittyurl.org:6969/announce
 udp://us-tracker.publictracker.xyz:6969/announce
 udp://valakas.rollo.dnsabr.com:2710/announce
 udp://vibe.community:6969/announce
-udp://wassermann.online:6969/announce
 udp://www.torrent.eu.org:451/announce
