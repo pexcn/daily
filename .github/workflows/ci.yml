@@ -3,11 +3,25 @@ name: CI
 on:
   push:
     branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  schedule:
+    # workwaround for cannot set timezone, cron will start on Asia/Taipei 02:00
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+env:
+  TZ: Asia/Taipei
 
 jobs:
   build:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: true
       - name: Build
         run: ./generate.sh
+      - name: Deploy
+        if: github.event_name == 'push'
+        run: true
