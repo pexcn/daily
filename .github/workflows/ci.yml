@@ -25,8 +25,9 @@ jobs:
       - name: Deploy
         if: github.event_name == 'schedule' || github.event_name == 'push'
         run: |
+          cd release
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add .
           git commit -m "$(date '+%Y-%m-%d %H:%M:%S')" || true
-          git push origin gh-pages
+          git push https://$(echo $GITHUB_REPOSITORY | cut -d '/' -f 1):${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY.git gh-pages
