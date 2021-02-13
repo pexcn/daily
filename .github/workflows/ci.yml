@@ -21,10 +21,13 @@ jobs:
         with:
           submodules: true
       - name: Build
-        run: ./generate.sh
-      - name: Deploy
-        if: github.event_name == 'push'
         run: |
+          ./generate.sh
           ls -al
           pwd
           whoami
+          ls -al release
+      - name: Deploy
+        if: github.event_name == 'push'
+        run: |
+          echo
