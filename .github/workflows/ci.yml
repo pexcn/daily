@@ -23,8 +23,7 @@ jobs:
       - name: Build
         run: |
           ./generate.sh
-          echo $GITHUB_ENV
-          echo $GITHUB_CONTEXT
+          echo $GITHUB_ACTOR
           echo $GITHUB_REPOSITORY
       - name: Deploy
         if: github.event_name == 'push'
