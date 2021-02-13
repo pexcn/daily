@@ -23,6 +23,7 @@ jobs:
       - name: Build
         run: |
           ./generate.sh
+          git config -l
           echo $GITHUB_ENV
           echo $GITHUB_CONTEXT
       - name: Deploy
