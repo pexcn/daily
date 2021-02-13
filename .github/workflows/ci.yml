@@ -22,6 +22,6 @@ jobs:
           submodules: true
       - name: Build
         run: ./generate.sh
-#      - name: Deploy
-#        if: github.event_name == 'push'
-#        run: true
+      - name: Deploy
+        if: github.event_name == 'push'
+        run: true
