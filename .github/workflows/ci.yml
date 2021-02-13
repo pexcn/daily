@@ -24,4 +24,7 @@ jobs:
         run: ./generate.sh
       - name: Deploy
         if: github.event_name == 'push'
-        run: true
+        run: |
+          ls -al
+          pwd
+          whoami
