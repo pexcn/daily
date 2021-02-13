@@ -24,7 +24,8 @@ jobs:
         run: |
           ./generate.sh
           GITHUB_USERNAME=$(echo $GITHUB_REPOSITORY | cut -d '/' -f 1)
-          echo $GITHUB_USERNAME
+          git add .
+          git commit -m "$(date '+%Y-%m-%d %H:%M:%S')"
       - name: Deploy
         if: github.event_name == 'push'
         run: |
