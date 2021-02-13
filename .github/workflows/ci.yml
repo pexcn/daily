@@ -21,18 +21,15 @@ jobs:
         with:
           submodules: true
       - name: Build
-        run: |
-          ./generate.sh
-
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-
-          git add .
-          git commit -m "$(date '+%Y-%m-%d %H:%M:%S')"
-          #GITHUB_USERNAME=$(echo $GITHUB_REPOSITORY | cut -d '/' -f 1)
-          #git push https://${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY.git gh-pages
-          git push origin gh-pages
+        run: ./generate.sh
       - name: Deploy
         if: github.event_name == 'push'
         run: |
-          echo
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add .
+          git commit -m "$(date '+%Y-%m-%d %H:%M:%S')"
+          git push origin gh-pages
+
+          #GITHUB_USERNAME=$(echo $GITHUB_REPOSITORY | cut -d '/' -f 1)
+          #git push https://${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY.git gh-pages
