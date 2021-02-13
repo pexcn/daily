@@ -23,8 +23,8 @@ jobs:
       - name: Build
         run: |
           ./generate.sh
-          echo $GITHUB_ACTOR
-          echo $GITHUB_REPOSITORY
+          GITHUB_USERNAME=$(echo $GITHUB_REPOSITORY | cut -d '/' -f 1)
+          echo $GITHUB_USERNAME
       - name: Deploy
         if: github.event_name == 'push'
         run: |
