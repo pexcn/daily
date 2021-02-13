@@ -1,6 +1,6 @@
 # 📅 Daily
 
-[![Build Status](https://img.shields.io/travis/pexcn/daily/master?style=flat-square)](https://travis-ci.org/pexcn/daily)
+[![CI](https://github.com/pexcn/daily/workflows/CI/badge.svg)](https://github.com/pexcn/daily/actions)
 [![CDN](https://data.jsdelivr.com/v1/package/gh/pexcn/daily/badge/day)](https://cdn.jsdelivr.net/gh/pexcn/daily@gh-pages/)
 
 This script can be automatically generate something what you needed every day.
