@@ -23,7 +23,7 @@ jobs:
       - name: Build
         run: ./generate.sh
       - name: Deploy
-        if: github.event_name == 'schedule' || github.event_name == 'push'
+        if: github.event_name == 'schedule'
         run: |
           cd release
           git config user.name github-actions[bot]
