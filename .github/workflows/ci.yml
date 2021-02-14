@@ -30,4 +30,4 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add .
           git commit -m "$(date '+%Y-%m-%d %H:%M:%S')" || true
-          git push https://$(echo $GITHUB_REPOSITORY | cut -d '/' -f 1):${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY.git gh-pages
+          git push https://${{ github.repository_owner }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git gh-pages
