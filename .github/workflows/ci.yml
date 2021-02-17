@@ -26,7 +26,11 @@ jobs:
       - name: Deploy
         if: github.event_name == 'schedule'
         run: |
-          cd release
+          # update gh-pages
+          git clone https://github.com/${{ github.repository }}.git gh-pages -b gh-pages --depth 1 --single-branch
+          cp -rf dist/* gh-pages
+          # push to gh-pages
+          cd gh-pages
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add .
