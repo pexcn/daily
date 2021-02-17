@@ -25,11 +25,10 @@ clean_dist() {
   delete_dist_if_eq_release dist/shadowrocket/whitelist.conf release/shadowrocket/whitelist.conf 4
 }
 
-copy_dist() {
-  # avoid losing files when scripts execute failed
-  cp -rf dist/* release
+clean_up() {
+  rm -r release
 }
 
 clone_release
 clean_dist
-copy_dist
+clean_up
