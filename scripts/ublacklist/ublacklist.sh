@@ -4,7 +4,7 @@ set -o pipefail
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/ublacklist.XXXXXX)
 
-SRC_URL="https://raw.githubusercontent.com/pexcn/ublacklist/master/ublacklist.txt"
+SRC_URL="https://raw.githubusercontent.com/pexcn/daily-extras/master/ublacklist.txt"
 DEST_FILE="dist/ublacklist/ublacklist.txt"
 
 fetch_src() {

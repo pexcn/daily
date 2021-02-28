@@ -5,7 +5,7 @@ CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/gfwlist.XXXXXX)
 
 SRC_URL_1="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
-SRC_URL_2="https://raw.githubusercontent.com/pexcn/gfwlist-extras/master/gfwlist-extras.txt"
+SRC_URL_2="https://raw.githubusercontent.com/pexcn/daily-extras/master/gfwlist-extras.txt"
 SRC_FILE="$CUR_DIR/dist/toplist/toplist.txt"
 DEST_FILE="dist/gfwlist/gfwlist.txt"
 
