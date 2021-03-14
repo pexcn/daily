@@ -4,8 +4,9 @@ udp://exodus.desync.com:6969/announce
 udp://www.torrent.eu.org:451/announce
 udp://tracker.torrent.eu.org:451/announce
 udp://tracker.tiny-vps.com:6969/announce
+udp://tracker.cyberia.is:6969/announce
 udp://retracker.lanta-net.ru:2710/announce
-udp://zephir.monocul.us:6969/announce
+udp://open.stealth.si:80/announce
 udp://vibe.community:6969/announce
 udp://valakas.rollo.dnsabr.com:2710/announce
 udp://u.wwwww.wtf:1/announce
@@ -16,7 +17,6 @@ udp://tracker.uw0.xyz:6969/announce
 udp://tracker.shkinev.me:6969/announce
 udp://tracker.moeking.me:6969/announce
 udp://tracker.lelux.fi:6969/announce
-udp://tracker.cyberia.is:6969/announce
 udp://tracker.army:6969/announce
 http://1337.abcvg.info:80/announce
 http://bt.okmp3.ru:2710/announce
@@ -37,7 +37,6 @@ http://tracker.gbitt.info:80/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.noobsubs.net:80/announce
 http://tracker.trackerfix.com:80/announce
-http://tracker1.itzmx.com:8080/announce
 http://trk.publictracker.xyz:6969/announce
 http://vps02.net.orel.ru:80/announce
 http://www.all4nothin.net:80/announce.php
@@ -69,6 +68,7 @@ udp://fe.dealclub.de:6969/announce
 udp://free-tracker.zooki.xyz:6969/announce
 udp://free.publictracker.xyz:6969/announce
 udp://inferno.demonoid.is:3391/announce
+udp://ipv4.tracker.harry.lu:80/announce
 udp://ipv6.tracker.zerobytes.xyz:16661/announce
 udp://line-net.ru:6969/announce
 udp://ln.mtahost.co:6969/announce
@@ -79,7 +79,6 @@ udp://nagios.tks.sumy.ua:80/announce
 udp://newtoncity.org:6969/announce
 udp://open.demonii.com:1337/announce
 udp://open.publictracker.xyz:6969/announce
-udp://open.stealth.si:80/announce
 udp://opentor.org:2710/announce
 udp://opentracker.i2p.rocks:6969/announce
 udp://p4p.arenabg.com:1337/announce
@@ -96,8 +95,7 @@ udp://tracker.altrosky.nl:6969/announce
 udp://tracker.beeimg.com:6969/announce
 udp://tracker.birkenwald.de:6969/announce
 udp://tracker.e-utp.net:6969/announce
-udp://tracker1.bt.moack.co.kr:80/announce
-udp://tracker2.itzmx.com:6961/announce
+udp://tracker4.itzmx.com:2710/announce
 udp://udp-tracker.shittyurl.org:6969/announce
 udp://us-tracker.publictracker.xyz:6969/announce
 udp://vibe.sleepyinternetfun.xyz:1738/announce
