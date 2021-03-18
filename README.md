@@ -38,13 +38,13 @@ This script can be automatically generate something what you needed every day.
 
 ```bash
 # adblock
-0 3 * * * /path/to/adblock_script.sh
+0 3 * * * /path/to/adblock.sh
 
 # chinadns-ng
-1 3 * * * /path/to/chinadns-ng_script.sh
+1 3 * * * /path/to/chinadns-ng.sh
 
 # chinadns
-2 3 * * * /path/to/chinadns_script.sh
+2 3 * * * /path/to/chinadns.sh
 ```
 
 ## 🙌 Credits
