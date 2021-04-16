@@ -1,5 +1,5 @@
 //
-// Update: 2021-04-17 01:07:59
+// Update: 2021-04-17 02:28:18
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -4700,6 +4700,7 @@ const gfwlist_domains = {
   "phosphation13.rssing.com": 1,
   "rssmeme.com": 1,
   "rthk.org.hk": 1,
+  "rti.tw": 1,
   "rtycminnesota.org": 1,
   "rukor.org": 1,
   "runbtx.com": 1,
