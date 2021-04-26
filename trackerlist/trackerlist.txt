@@ -130,6 +130,7 @@ http://t.acg.rip:6699/announce
 http://retracker.sevstar.net:2710/announce
 http://open.acgnxtracker.com:80/announce
 http://bt.100.pet:2710/announce
+http://104.238.198.186:8000/announce
 http://1337.abcvg.info:80/announce
 http://185.148.3.231:80/announce
 http://193.37.214.12:6969/announce
@@ -150,7 +151,8 @@ http://atrack.pow7.com:80/announce
 http://baibako.tv:80/announce
 http://big-boss-tracker.net:80/announce.php
 http://bithq.org:80/announce.php
-http://bt-tracker.gamexp.ru:2710/announce
+http://bt.1000.pet:2712/announce
+http://bt.3dmgame.com:2710/announce
 http://bt.ali213.net:8080/announce
 http://bt.edwardk.info:4040/announce
 http://bt.firebit.org:2710/announce
@@ -160,6 +162,7 @@ http://bt.zlofenix.org:81/announce
 http://bt2.edwardk.info:6969/announce
 http://bttracker.debian.org:6969/announce
 http://btx.anifilm.tv:80/announce.php
+http://concen.org:6969/announce
 http://data-bg.net:80/announce.php
 http://datascene.net:80/announce.php
 http://filetracker.xyz:11451/announce
@@ -175,7 +178,6 @@ http://openbittorrent.com:80/announce
 http://opentracker.xyz:80/announce
 http://proaudiotorrents.org:80/announce.php
 http://retracker.hotplug.ru:2710/announce
-http://retracker.telecom.by:80/announce
 http://secure.pow7.com:80/announce
 http://share.camoe.cn:8080/announce
 http://siambit.com:80/announce.php
@@ -202,19 +204,16 @@ http://tracker.gcvchp.com:2710/announce
 http://tracker.gigatorrents.ws:2710/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.minglong.org:8080/announce
-http://tracker.openbittorrent.com:80/announce
 http://tracker.pow7.com:80/announce
 http://tracker.pussytorrents.org:3000/announce
 http://tracker.shittyurl.org:80/announce
 http://tracker.tambovnet.org:80/announce.php
 http://tracker.tasvideos.org:6969/announce
-http://tracker.tfile.me:80/announce
 http://tracker.trackerfix.com:80/announce
 http://tracker.xdvdz.com:2710/announce
 http://tracker.yoshi210.com:6969/announce
 http://tracker3.dler.org:2710/announce
 http://www.all4nothin.net:80/announce.php
-http://www.bitseduce.com:80/announce.php
 http://www.biztorrents.com:80/announce.php
 http://www.legittorrents.info:80/announce.php
 http://www.thetradersden.org/forums/tracker:80/announce.php
@@ -233,6 +232,7 @@ https://tracker.lilithraws.cf:443/announce
 udp://103.196.36.31:6969/announce
 udp://103.30.17.23:6969/announce
 udp://104.238.159.144:6969/announce
+udp://104.238.198.186:8000/announce
 udp://104.244.153.245:6969/announce
 udp://104.244.72.77:1337/announce
 udp://109.248.43.36:6969/announce
@@ -250,6 +250,7 @@ udp://159.65.202.134:6969/announce
 udp://159.69.208.124:6969/announce
 udp://163.172.170.127:6969/announce
 udp://167.179.77.133:1/announce
+udp://173.212.223.237:6969/announce
 udp://176.123.5.238:3391/announce
 udp://178.159.40.252:6969/announce
 udp://185.181.60.67:80/announce
@@ -264,6 +265,7 @@ udp://199.195.249.193:1337/announce
 udp://199.217.118.72:6969/announce
 udp://205.185.121.146:6969/announce
 udp://208.83.20.20:6969/announce
+udp://209.141.45.244:1337/announce
 udp://209.141.59.16:6969/announce
 udp://212.1.226.176:2710/announce
 udp://212.83.181.109:6969/announce
@@ -274,6 +276,7 @@ udp://45.33.83.49:6969/announce
 udp://45.56.65.82:54123/announce
 udp://45.76.92.209:6969/announce
 udp://45.77.100.109:6969/announce
+udp://46.101.244.237:6969/announce
 udp://46.148.18.250:2710/announce
 udp://46.148.18.254:2710/announce
 udp://47.ip-51-68-199.eu:6969/announce
@@ -338,4 +341,5 @@ udp://tracker.yoshi210.com:6969/announce
 udp://tracker2.indowebster.com:6969/announce
 udp://www.mvgroup.org:2710/announce
 ws://tracker.nighthawk.pw:4201/announce
+ws://tracker.sloppyta.co:80/announce
 wss://tracker.openwebtorrent.com:443/announce

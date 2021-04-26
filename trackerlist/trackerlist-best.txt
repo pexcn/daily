@@ -31,7 +31,6 @@ http://tracker-cdn.moeking.me:2095/announce
 http://tracker.anirena.com:80/announce
 http://tracker.anirena.com:80/b16a15d9a238d1f59178d3614b857290/announce
 http://tracker.bt4g.com:2095/announce
-http://tracker.darmowy-torrent.pl:80/announce
 http://tracker.files.fm:6969/announce
 http://tracker.gbitt.info:80/announce
 http://tracker.ipv6tracker.ru:80/announce
@@ -88,7 +87,6 @@ udp://tracker.birkenwald.de:6969/announce
 udp://tracker.monitorit4.me:6969/announce
 udp://tracker.nighthawk.pw:2052/announce
 udp://tracker.nrx.me:6969/announce
-udp://tracker.openbittorrent.com:80/announce
 udp://tracker.shkinev.me:6969/announce
 udp://tracker.theoks.net:6969/announce
 udp://tracker.uw0.xyz:6969/announce
