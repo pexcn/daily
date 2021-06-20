@@ -21,7 +21,7 @@ udp://tsundere.pw:6969/announce
 http://bt.rghost.net:80/announce
 http://carbon-bonsai-621.appspot.com:80/announce
 http://explodie.org:6969/announce
-http://fxtt.ru:80/announce
+http://googer.cc:1337/announce
 http://kinorun.com:80/announce.php
 http://milanesitracker.tekcities.com:80/announce
 http://nyaa.tracker.wf:7777/announce
@@ -38,6 +38,7 @@ http://tracker-cdn.moeking.me:2095/announce
 http://tracker.files.fm:6969/announce
 http://tracker.ipv6tracker.org:80/announce
 http://tracker.ipv6tracker.ru:80/announce
+http://tracker.opentrackr.org:1337/announce
 http://tracker.tfile.co:80/announce
 http://tracker.tfile.me:80/announce
 http://tracker.trackerfix.com:80/announce
@@ -78,12 +79,15 @@ udp://tracker.beeimg.com:6969/announce
 udp://tracker.birkenwald.de:6969/announce
 udp://tracker.blacksparrowmedia.net:6969/announce
 udp://tracker.dler.com:6969/announce
+udp://tracker.internetwarriors.net:1337/announce
 udp://tracker.nrx.me:6969/announce
 udp://tracker.shkinev.me:6969/announce
 udp://tracker.theoks.net:6969/announce
 udp://tracker.uw0.xyz:6969/announce
 udp://tracker.zerobytes.xyz:1337/announce
+udp://tracker0.ufibox.com:6969/announce
 udp://tracker1.bt.moack.co.kr:80/announce
 udp://tracker2.dler.com:80/announce
+udp://tracker2.dler.org:80/announce
 udp://tracker4.itzmx.com:2710/announce
 udp://udp-tracker.shittyurl.org:6969/announce
