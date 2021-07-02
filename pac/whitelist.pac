@@ -1,5 +1,5 @@
 //
-// Update: 2021-07-02 22:45:27
+// Update: 2021-07-02 22:49:43
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -68829,7 +68829,8 @@ const china_domains = {
   "zzzzhong.com": 1,
   "zzzzmall.com": 1,
   "local.pexcn.me": 1,
-  "ite1024.com": 1
+  "ite1024.com": 1,
+  "logs.gettoby.com": 1
 };
 
 const subnet_ips = [
