@@ -49,6 +49,8 @@ https://mytracker.fly.dev:443/announce
 https://opentracker.xyz:443/announce
 https://tr.torland.ga:443/announce
 https://tracker.coalition.space:443/announce
+https://tracker.iriseden.eu:443/announce
+https://tracker.iriseden.fr:443/announce
 https://tracker.lilithraws.cf:443/announce
 https://tracker.nitrix.me:443/announce
 https://tracker.tamersunion.org:443/announce
@@ -64,6 +66,7 @@ udp://discord.heihachi.pw:6969/announce
 udp://engplus.ru:6969/announce
 udp://explodie.org:6969/announce
 udp://fe.dealclub.de:6969/announce
+udp://ipv4.tracker.harry.lu:80/announce
 udp://ipv6.tracker.zerobytes.xyz:16661/announce
 udp://mail.realliferpg.de:6969/announce
 udp://movies.zsw.ca:6969/announce
