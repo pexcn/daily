@@ -15,7 +15,7 @@ fetch_src() {
 
   curl -sSL $SRC_URL_1 -o apnic.txt
   curl -sSL $SRC_URL_2 -o ipip-v4.txt
-  curl -sSL $SRC_URL_3 -o ipdeny-v6.txt
+  curl -sSLk $SRC_URL_3 -o ipdeny-v6.txt
 
   cd $CUR_DIR
 }
