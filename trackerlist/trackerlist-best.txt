@@ -50,6 +50,7 @@ https://tracker.gbitt.info:443/announce
 https://tracker.imgoingto.icu:443/announce
 https://tracker.kuroy.me:443/announce
 https://tracker.lilithraws.cf:443/announce
+https://tracker.nanoha.org:443/announce
 https://tracker.nitrix.me:443/announce
 https://tracker.tamersunion.org:443/announce
 https://trackme.theom.nz:443/announce
@@ -61,9 +62,7 @@ udp://bubu.mapfactor.com:6969/announce
 udp://code2chicken.nl:6969/announce
 udp://discord.heihachi.pw:6969/announce
 udp://engplus.ru:6969/announce
-udp://explodie.org:6969/announce
 udp://fe.dealclub.de:6969/announce
-udp://ipv4.tracker.harry.lu:80/announce
 udp://mail.realliferpg.de:6969/announce
 udp://movies.zsw.ca:6969/announce
 udp://open.demonii.com:1337/announce
@@ -71,14 +70,15 @@ udp://p4p.arenabg.com:1337/announce
 udp://thetracker.org:80/announce
 udp://tracker.0x.tf:6969/announce
 udp://tracker.altrosky.nl:6969/announce
+udp://tracker.bitsearch.to:1337/announce
 udp://tracker.blacksparrowmedia.net:6969/announce
 udp://tracker.haynet.io:6969/announce
 udp://tracker.jordan.im:6969/announce
 udp://tracker.ololosh.space:6969/announce
+udp://tracker.tvunderground.org.ru:3218/announce
 udp://tracker0.ufibox.com:6969/announce
 udp://tracker1.bt.moack.co.kr:80/announce
 udp://tracker2.dler.com:80/announce
 udp://tracker4.itzmx.com:2710/announce
 udp://vibe.community:6969/announce
 udp://vibe.sleepyinternetfun.xyz:1738/announce
-udp://wassermann.online:6969/announce
