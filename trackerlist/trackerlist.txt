@@ -123,7 +123,6 @@ http://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 http://all4nothin.net:80/announce.php
 http://bt.rghost.net:80/announce
 http://fxtt.ru:80/announce
-http://ipv4announce.sktorrent.eu:6969/announce
 http://milanesitracker.tekcities.com:80/announce
 http://ns349743.ip-91-121-106.eu:80/announce
 http://nyaa.tracker.wf:7777/announce
@@ -138,7 +137,6 @@ http://tracker.birkenwald.de:6969/announce
 http://tracker.bittor.pw:1337/announce
 http://tracker.corpscorp.online:80/announce
 http://tracker.gbitt.info:80/announce
-http://tracker.internetwarriors.net:1337/announce
 http://tracker.ipv6tracker.org:80/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.tfile.me:80/announce
@@ -155,7 +153,7 @@ https://tracker.parrotsec.org:443/announce
 udp://212.1.226.176:2710/announce
 udp://52.58.128.163:6969/announce
 udp://78.30.254.12:2710/announce
-udp://9.rarbg.com:2790/announce
+udp://9.rarbg.com:2930/announce
 udp://9.rarbg.me:2710/announce
 udp://9.rarbg.to:2710/announce
 udp://91.216.110.52:451/announce
@@ -184,7 +182,6 @@ udp://tracker.cyberia.is:6969/announce
 udp://tracker.dler.com:6969/announce
 udp://tracker.eddie4.nl:6969/announce
 udp://tracker.flashtorrents.org:6969/announce
-udp://tracker.grepler.com:6969/announce
 udp://tracker.halfchub.club:6969/announce
 udp://tracker.internetwarriors.net:1337/announce
 udp://tracker.kuroy.me:5944/announce
