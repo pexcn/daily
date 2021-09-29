@@ -60,6 +60,7 @@ udp://bt.oiyo.tk:6969/announce
 udp://bubu.mapfactor.com:6969/announce
 udp://code2chicken.nl:6969/announce
 udp://discord.heihachi.pw:6969/announce
+udp://edu.uifr.ru:6969/announce
 udp://engplus.ru:6969/announce
 udp://explodie.org:6969/announce
 udp://fe.dealclub.de:6969/announce
@@ -77,12 +78,12 @@ udp://tracker.altrosky.nl:6969/announce
 udp://tracker.army:6969/announce
 udp://tracker.beeimg.com:6969/announce
 udp://tracker.birkenwald.de:6969/announce
+udp://tracker.blacksparrowmedia.net:6969/announce
 udp://tracker.breizh.pm:6969/announce
 udp://tracker.cyberia.is:6969/announce
 udp://tracker.dler.com:6969/announce
 udp://tracker.jordan.im:6969/announce
 udp://tracker.moeking.eu.org:6969/announce
-udp://tracker.monitorit4.me:6969/announce
 udp://tracker.ololosh.space:6969/announce
 udp://tracker.theoks.net:6969/announce
 udp://tracker.tiny-vps.com:6969/announce
