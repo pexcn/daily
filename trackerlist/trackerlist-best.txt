@@ -41,6 +41,7 @@ udp://9.rarbg.to:2830/announce
 udp://9.rarbg.to:2990/announce
 udp://abufinzio.monocul.us:6969/announce
 udp://bt.oiyo.tk:6969/announce
+udp://bubu.mapfactor.com:6969/announce
 udp://code2chicken.nl:6969/announce
 udp://discord.heihachi.pw:6969/announce
 udp://engplus.ru:6969/announce
@@ -52,6 +53,7 @@ udp://jeremylee.sh:6969/announce
 udp://mail.realliferpg.de:6969/announce
 udp://movies.zsw.ca:6969/announce
 udp://open.demonii.com:1337/announce
+udp://open.tracker.cl:1337/announce
 udp://opentor.org:2710/announce
 udp://p4p.arenabg.com:1337/announce
 udp://retracker.hotplug.ru:2710/announce
