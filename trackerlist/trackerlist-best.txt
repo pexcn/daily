@@ -77,6 +77,7 @@ udp://tracker0.ufibox.com:6969/announce
 udp://tracker1.bt.moack.co.kr:80/announce
 udp://tracker2.dler.com:80/announce
 udp://u.wwwww.wtf:1/announce
+udp://udp-tracker.shittyurl.org:6969/announce
 udp://vibe.community:6969/announce
 udp://wassermann.online:6969/announce
 wss://tracker.openwebtorrent.com:443/announce
