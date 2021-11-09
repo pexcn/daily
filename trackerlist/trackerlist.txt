@@ -110,7 +110,6 @@ http://open.acgnxtracker.com:80/announce
 http://fxtt.ru:80/announce
 http://bt.ipfs.ga:2095/announce
 http://1337.abcvg.info:80/announce
-http://78.30.254.12:2710/announce
 http://[2001:1b10:1000:8101:0:242:ac11:2]:6969/announce
 http://[2001:470:1:189:0:1:2:3]:6969/announce
 http://[2a04:ac00:1:3dd8::1:2710]:2710/announce
@@ -131,6 +130,7 @@ http://tracker.birkenwald.de:6969/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.gbitt.info:80/announce
 http://tracker.ipv6tracker.ru:80/announce
+http://tracker.loadbt.com:6969/announce
 http://tracker.tfile.me:80/announce
 http://tracker.torrentyorg.pl:80/announce
 http://www.all4nothin.net:80/announce.php
@@ -142,16 +142,18 @@ https://tracker.parrotsec.org:443/announce
 udp://212.1.226.176:2710/announce
 udp://52.58.128.163:6969/announce
 udp://78.30.254.12:2710/announce
-udp://9.rarbg.com:2850/announce
+udp://9.rarbg.com:2950/announce
 udp://91.216.110.52:451/announce
 udp://[2001:1b10:1000:8101:0:242:ac11:2]:6969/announce
 udp://[2001:470:1:189:0:1:2:3]:6969/announce
 udp://[2a03:7220:8083:cd00::1]:451/announce
 udp://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 udp://[2a0f:e586:f:f::220]:6969/announce
+udp://bclearning.top:6969/announce
 udp://ipv6.tracker.monitorit4.me:6969/announce
 udp://ipv6.tracker.zerobytes.xyz:16661/announce
 udp://open.demonii.com:1337/announce
+udp://open.publictracker.xyz:6969/announce
 udp://p4p.arenabg.com:1337/announce
 udp://retracker.hotplug.ru:2710/announce
 udp://tracker-de.ololosh.space:6969/announce
@@ -162,6 +164,7 @@ udp://tracker.dler.com:6969/announce
 udp://tracker.moeking.eu.org:6969/announce
 udp://tracker.trafficmgr.net:6969/announce
 udp://tracker.uw0.xyz:6969/announce
+udp://tracker.zemoj.com:6969/announce
 udp://tracker1.itzmx.com:8080/announce
 udp://tracker2.dler.com:80/announce
 udp://tracker2.itzmx.com:6961/announce
