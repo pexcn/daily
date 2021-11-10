@@ -142,7 +142,7 @@ https://tracker.parrotsec.org:443/announce
 udp://212.1.226.176:2710/announce
 udp://52.58.128.163:6969/announce
 udp://78.30.254.12:2710/announce
-udp://9.rarbg.com:2950/announce
+udp://9.rarbg.com:2970/announce
 udp://91.216.110.52:451/announce
 udp://[2001:1b10:1000:8101:0:242:ac11:2]:6969/announce
 udp://[2001:470:1:189:0:1:2:3]:6969/announce
