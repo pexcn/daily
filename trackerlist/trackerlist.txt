@@ -122,6 +122,7 @@ http://opentracker.xyz:80/announce
 http://pow7.com:80/announce
 http://retracker.hotplug.ru:2710/announce
 http://share.camoe.cn:8080/announce
+http://tk.nvacg.org:3333/announce
 http://torrent-team.net:80/announce.php
 http://torrentzilla.org:80/announce
 http://torrentzilla.org:80/announce.php
@@ -140,7 +141,7 @@ https://tracker.parrotsec.org:443/announce
 udp://212.1.226.176:2710/announce
 udp://52.58.128.163:6969/announce
 udp://78.30.254.12:2710/announce
-udp://9.rarbg.com:2940/announce
+udp://9.rarbg.com:2830/announce
 udp://91.216.110.52:451/announce
 udp://[2001:1b10:1000:8101:0:242:ac11:2]:6969/announce
 udp://[2001:470:1:189:0:1:2:3]:6969/announce
@@ -153,7 +154,7 @@ udp://ipv6.tracker.zerobytes.xyz:16661/announce
 udp://open.demonii.com:1337/announce
 udp://p4p.arenabg.com:1337/announce
 udp://retracker.hotplug.ru:2710/announce
-udp://tr2.ysagin.top:2710/announce
+udp://tr.bangumi.moe:6969/announce
 udp://tracker-de.ololosh.space:6969/announce
 udp://tracker.auctor.tv:6969/announce
 udp://tracker.beeimg.com:6969/announce
