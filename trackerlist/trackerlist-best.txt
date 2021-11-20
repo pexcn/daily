@@ -35,6 +35,7 @@ http://tr.cili001.com:8070/announce
 http://tracker.files.fm:6969/announce
 http://tracker.gbitt.info:80/announce
 http://tracker.ipv6tracker.ru:80/announce
+http://tracker.nucozer-tracker.ml:2710/announce
 http://tracker.tfile.me:80/announce
 http://tracker.torrentyorg.pl:80/announce
 http://vps02.net.orel.ru:80/announce
@@ -64,6 +65,7 @@ udp://jeremylee.sh:6969/announce
 udp://mail.realliferpg.de:6969/announce
 udp://movies.zsw.ca:6969/announce
 udp://open.demonii.com:1337/announce
+udp://open.stealth.si:80/announce
 udp://opentor.org:2710/announce
 udp://p4p.arenabg.com:1337/announce
 udp://retracker.hotplug.ru:2710/announce
