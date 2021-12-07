@@ -25,7 +25,6 @@ http://mediaclub.tv:80/announce.php
 http://milanesitracker.tekcities.com:80/announce
 http://nyaa.tracker.wf:7777/announce
 http://open.acgnxtracker.com:80/announce
-http://openbittorrent.com:80/announce
 http://opentracker.xyz:80/announce
 http://share.camoe.cn:8080/announce
 http://t.nyaatracker.com:80/announce
@@ -37,6 +36,7 @@ http://vps02.net.orel.ru:80/announce
 http://www.all4nothin.net:80/announce.php
 https://1337.abcvg.info:443/announce
 https://carbon-bonsai-621.appspot.com:443/announce
+https://t.btcland.xyz:443/announce
 https://tr.burnabyhighstar.com:443/announce
 https://tr.fuckbitcoin.xyz:443/announce
 https://tr.highstar.shop:443/announce
@@ -50,6 +50,7 @@ https://tracker.parrotsec.org:443/announce
 https://tracker.tamersunion.org:443/announce
 https://trackme.theom.nz:443/announce
 udp://6ahddutb1ucc3cp.ru:6969/announce
+udp://bttracker.sylphix.com:6969/announce
 udp://bubu.mapfactor.com:6969/announce
 udp://code2chicken.nl:6969/announce
 udp://discord.heihachi.pw:6969/announce
