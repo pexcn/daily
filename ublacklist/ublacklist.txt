@@ -34,3 +34,4 @@
 *://*.juxun.org/*
 *://*.nbyoho.com/*
 *://*.da-quan.net/*
+*://*.www.aliyun.com/sswd//*
