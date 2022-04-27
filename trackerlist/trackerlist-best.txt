@@ -8,15 +8,15 @@ https://opentracker.i2p.rocks:443/announce
 udp://www.torrent.eu.org:451/announce
 udp://tracker.torrent.eu.org:451/announce
 udp://open.stealth.si:80/announce
-udp://ipv4.tracker.harry.lu:80/announce
 udp://exodus.desync.com:6969/announce
+udp://opentor.org:2710/announce
+udp://ipv4.tracker.harry.lu:80/announce
 udp://tracker.tiny-vps.com:6969/announce
-udp://tracker.dler.org:6969/announce
 udp://explodie.org:6969/announce
+udp://tracker.dler.org:6969/announce
 udp://tracker1.bt.moack.co.kr:80/announce
 udp://tracker.zerobytes.xyz:1337/announce
 udp://tracker.theoks.net:6969/announce
-udp://tracker.srv00.com:6969/announce
 udp://tracker.monitorit4.me:6969/announce
 http://1337.abcvg.info:80/announce
 http://i-p-v-6.tk:6969/announce
@@ -27,8 +27,10 @@ http://nyaa.tracker.wf:7777/announce
 http://open.acgnxtracker.com:80/announce
 http://opentracker.xyz:80/announce
 http://share.camoe.cn:8080/announce
+http://t.nyaatracker.com:80/announce
 http://t.overflow.biz:6969/announce
 http://t.publictracker.xyz:6969/announce
+http://tr.cili001.com:8070/announce
 http://tracker.files.fm:6969/announce
 http://tracker.gbitt.info:80/announce
 http://tracker.ipv6tracker.ru:80/announce
@@ -56,7 +58,6 @@ udp://open.demonii.com:1337/announce
 udp://open.dstud.io:6969/announce
 udp://open.free-tracker.ga:6969/announce
 udp://open.tracker.ink:6969/announce
-udp://opentor.org:2710/announce
 udp://p4p.arenabg.com:1337/announce
 udp://public.publictracker.xyz:6969/announce
 udp://retracker.hotplug.ru:2710/announce
