@@ -8,16 +8,16 @@ http://tracker.openbittorrent.com:80/announce
 udp://www.torrent.eu.org:451/announce
 udp://tracker.torrent.eu.org:451/announce
 udp://open.stealth.si:80/announce
-udp://tracker.tiny-vps.com:6969/announce
 udp://ipv4.tracker.harry.lu:80/announce
 udp://exodus.desync.com:6969/announce
+udp://tracker.tiny-vps.com:6969/announce
 udp://tracker.moeking.me:6969/announce
-udp://tracker.loadbt.com:6969/announce
 udp://tracker.dler.org:6969/announce
 udp://explodie.org:6969/announce
 udp://bt.oiyo.tk:6969/announce
 https://tracker.nanoha.org:443/announce
 https://tracker.lilithraws.org:443/announce
+https://tracker.baka.ink:443/announce
 http://1337.abcvg.info:80/announce
 http://fxtt.ru:80/announce
 http://milanesitracker.tekcities.com:80/announce
@@ -28,6 +28,7 @@ http://share.camoe.cn:8080/announce
 http://t.acg.rip:6699/announce
 http://t.nyaatracker.com:80/announce
 http://t.overflow.biz:6969/announce
+http://tracker.aeerso.space:6969/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.edkj.club:6969/announce
 http://tracker.files.fm:6969/announce
@@ -44,7 +45,6 @@ https://tr.abiir.top:443/announce
 https://tr.burnabyhighstar.com:443/announce
 https://tr.ready4.icu:443/announce
 https://tracker.babico.name.tr:443/announce
-https://tracker.baka.ink:443/announce
 https://tracker.dmhy.pw:443/announce
 https://tracker.imgoingto.icu:443/announce
 https://tracker.lilithraws.cf:443/announce
@@ -54,7 +54,6 @@ https://trackme.theom.nz:443/announce
 udp://960303.xyz:6969/announce
 udp://fe.dealclub.de:6969/announce
 udp://ipv6.babico.name.tr:8000/announce
-udp://mirror.aptus.co.tz:6969/announce
 udp://movies.zsw.ca:6969/announce
 udp://oldboystudy.com:6969/announce
 udp://open.demonii.com:1337/announce
