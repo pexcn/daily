@@ -2293,7 +2293,6 @@ goupuzi.com
 hivi.com
 tianqijun.com
 cirmall.com
-51nb.com
 hunliji.com
 tskscn.com
 2haohr.com
@@ -3066,6 +3065,7 @@ acg18s.com
 qlchat.com
 ztedevices.com
 masadora.jp
+moonton.com
 arrowos.net
 qjmotor.com
 dragonest.com
@@ -3717,6 +3717,7 @@ jk51.com
 tophub.today
 avicone.com
 hdchd.cc
+buckydrop.com
 zuifuli.com
 fanyigou.com
 letv.com
@@ -4941,6 +4942,7 @@ xiziwang.net
 camcard.com
 guang.com
 heitao.com
+hkexpressworld.com
 jiuhuar.com
 jundacheng.com
 kargocard.com
@@ -23308,7 +23310,6 @@ dlosri.com
 dlpuwan.com
 dlrjtz.com
 dlrkb.com
-dlrspace.com
 dlsjcsb.com
 dlsqb.com
 dlssa.com
@@ -24848,7 +24849,9 @@ efount.com
 efpp.com
 efucms.com
 efueloil.com
+efuncn.com
 efunent.com
+efunq.com
 efwang.com
 efwh.com
 efy-tech.com
@@ -26105,6 +26108,7 @@ feiffy.cc
 feifustudio.com
 feige.ee
 feigo.fun
+feihe.com
 feihu.me
 feihuo.com
 feihutaoke.com
@@ -26570,6 +26574,7 @@ fliggy.hk
 flintos.com
 flip.fun
 fliplus.com
+floatingislandapps.com
 flooc.com
 floorb2b.com
 florentiavillage.com
@@ -29216,6 +29221,7 @@ h5data.com
 h5ds.com
 h5eco.com
 h5gamecdn.club
+h5gdvip.com
 h5in.net
 h5jun.com
 h5king.com
@@ -29750,7 +29756,6 @@ haotougu.com
 haotu.net
 haotui.com
 haotukankan.com
-haotxt.com
 haouc.com
 haowa.com
 haowaicaijing.com
@@ -30639,7 +30644,6 @@ hi0755.net
 hi1718.com
 hi2000.com
 hi2000.net
-hi8090.com
 hiapk.com
 hiavr.com
 hibea.com
@@ -34613,6 +34617,7 @@ jcloudec.com
 jcloudedge.com
 jcloudgslb.com
 jcloudimg.com
+jcloudimg.net
 jcloudlb.com
 jcloudstatic.com
 jclps.com
@@ -35915,6 +35920,7 @@ joenchen.com
 johhan.com
 johnardo.com
 johnwatsondev.com
+johogames.com
 joiest.com
 joinchitchat.com
 joindata.net
@@ -37772,6 +37778,7 @@ ku86.com
 ku8ku8.com
 ku90.com
 ku9377.com
+ku987.com
 kuabaobao.com
 kuacg.com
 kuafugame.com
@@ -43204,7 +43211,6 @@ ndnslab.com
 ndoo.net
 ndscsoft.com
 ndser.net
-ndtinfo.net
 nduoa.com
 nduotuan.com
 ndvs87d.com
@@ -44798,6 +44804,7 @@ paishanglai.net
 paishi.com
 paiwo.co
 paixie.net
+paixueche.net
 paiyiws.com
 paizhe.com
 pajkb.com
@@ -45182,6 +45189,7 @@ pgsqldb.org
 pgyidc.com
 pgzs.com
 pgzx.net
+ph-fc.com
 phalapi.net
 phaser-china.com
 phdwu.com
@@ -51918,6 +51926,7 @@ supei.com
 super-mall.shop
 super-mt.com
 superbrowser.hk
+superbuyy.com
 supercrm.com
 superdns.net
 superfix.com
@@ -59796,6 +59805,7 @@ xinghuo100.com
 xinghuo365.com
 xinghuogroup.com
 xinghuoxiaoshuo.com
+xingjijy.com
 xingjuhe.com
 xingkeduo.com
 xingkong.com
@@ -63289,6 +63299,7 @@ yunbeitech.com
 yunbiao.tv
 yunbiaosoft.com
 yunbiaowulian.com
+yunbiaozhun.com
 yunbiji.com
 yunbook.vip
 yunbook123.com
