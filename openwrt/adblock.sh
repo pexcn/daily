@@ -1,5 +1,4 @@
 #!/bin/sh -e
-set -o pipefail
 
 [ -d /etc/dnsmasq.d ] || mkdir /etc/dnsmasq.d
 wget https://pexcn.me/daily/adblock/adblock.conf -O /tmp/adblock.conf.tmp

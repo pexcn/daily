@@ -1,5 +1,4 @@
 #!/bin/sh -e
-set -o pipefail
 
 [ -d /etc/chinadns-ng ] || mkdir /etc/chinadns-ng
 
