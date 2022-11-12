@@ -1,14 +1,13 @@
 udp://tracker.opentrackr.org:1337/announce
-udp://9.rarbg.com:2810/announce
+udp://open.tracker.cl:1337/announce
+udp://tracker.torrent.eu.org:451/announce
 udp://opentracker.i2p.rocks:6969/announce
 udp://open.stealth.si:80/announce
+udp://9.rarbg.com:2810/announce
 https://opentracker.i2p.rocks:443/announce
-udp://tracker.torrent.eu.org:451/announce
 http://tracker.openbittorrent.com:80/announce
-udp://tracker1.bt.moack.co.kr:80/announce
 udp://tracker.tiny-vps.com:6969/announce
 udp://tracker.moeking.me:6969/announce
-udp://tracker.dler.org:6969/announce
 udp://p4p.arenabg.com:1337/announce
 udp://open.demonii.com:1337/announce
 udp://movies.zsw.ca:6969/announce
@@ -18,6 +17,7 @@ udp://exodus.desync.com:6969/announce
 https://tracker.nanoha.org:443/announce
 https://tracker.lilithraws.org:443/announce
 https://tracker.cyber-hub.net:443/announce
+https://tr.burnabyhighstar.com:443/announce
 http://1337.abcvg.info:80/announce
 http://fxtt.ru:80/announce
 http://nyaa.tracker.wf:7777/announce
@@ -27,11 +27,13 @@ http://t.acg.rip:6699/announce
 http://t.nyaatracker.com:80/announce
 http://t.overflow.biz:6969/announce
 http://torrentsmd.com:8080/announce
+http://tr.cili001.com:8070/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.electro-torrent.pl:80/announce
 http://tracker.files.fm:6969/announce
 http://tracker.gbitt.info:80/announce
 http://tracker.ipv6tracker.ru:80/announce
+http://tracker3.itzmx.com:6961/announce
 http://tracker4.itzmx.com:2710/announce
 http://trackme.theom.nz:80/announce
 http://www.all4nothin.net:80/announce.php
@@ -39,7 +41,6 @@ http://www.wareztorrent.com:80/announce
 https://1337.abcvg.info:443/announce
 https://tr.abiir.top:443/announce
 https://tr.abir.ga:443/announce
-https://tr.burnabyhighstar.com:443/announce
 https://tr.fuckbitcoin.xyz:443/announce
 https://tracker.foreverpirates.co:443/announce
 https://tracker.gbitt.info:443/announce
