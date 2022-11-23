@@ -1,5 +1,6 @@
 udp://tracker.opentrackr.org:1337/announce
 udp://9.rarbg.com:2810/announce
+udp://tracker.openbittorrent.com:6969/announce
 udp://opentracker.i2p.rocks:6969/announce
 https://opentracker.i2p.rocks:443/announce
 http://tracker.openbittorrent.com:80/announce
@@ -14,13 +15,12 @@ udp://movies.zsw.ca:6969/announce
 udp://ipv4.tracker.harry.lu:80/announce
 udp://explodie.org:6969/announce
 udp://exodus.desync.com:6969/announce
-https://tracker1.520.jp:443/announce
+https://tracker2.ctix.cn:443/announce
 https://tracker.nanoha.org:443/announce
 https://tracker.lilithraws.org:443/announce
-https://tracker.jiesen.life:8443/announce
-http://107.189.10.20.sslip.io:7777/announce
 http://1337.abcvg.info:80/announce
 http://bt.okmp3.ru:2710/announce
+http://bz.tracker.bz:80/announce
 http://fxtt.ru:80/announce
 http://incine.ru:6969/announce
 http://nyaa.tracker.wf:7777/announce
@@ -39,7 +39,9 @@ http://tracker.files.fm:6969/announce
 http://tracker.gbitt.info:80/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.noobsubs.net:80/announce
+http://tracker.sakurato.art:23333/announce
 http://trackme.theom.nz:80/announce
+http://v6-tracker.0g.cx:6969/announce
 http://www.all4nothin.net:80/announce.php
 http://www.wareztorrent.com:80/announce
 https://1337.abcvg.info:443/announce
@@ -51,11 +53,13 @@ https://tracker.cyber-hub.net:443/announce
 https://tracker.foreverpirates.co:443/announce
 https://tracker.gbitt.info:443/announce
 https://tracker.imgoingto.icu:443/announce
+https://tracker.jiesen.life:8443/announce
 https://tracker.kuroy.me:443/announce
 https://tracker.lilithraws.cf:443/announce
 https://tracker.loligirl.cn:443/announce
 https://tracker.m-team.cc:443/announce.php
 https://tracker.tamersunion.org:443/announce
+https://tracker1.520.jp:443/announce
 https://trackme.theom.nz:443/announce
 udp://6ahddutb1ucc3cp.ru:6969/announce
 udp://94-227-232-84.access.telenet.be:6969/announce
@@ -70,11 +74,11 @@ udp://f1sh.de:6969/announce
 udp://fe.dealclub.de:6969/announce
 udp://htz3.noho.st:6969/announce
 udp://laze.cc:6969/announce
+udp://leefafa.tk:6969/announce
 udp://mail.artixlinux.org:6969/announce
 udp://mirror.aptus.co.tz:6969/announce
 udp://moonburrow.club:6969/announce
 udp://open.dstud.io:6969/announce
-udp://open.free-tracker.ga:6969/announce
 udp://open.publictracker.xyz:6969/announce
 udp://open.tracker.ink:6969/announce
 udp://opentor.org:2710/announce
@@ -99,7 +103,6 @@ udp://tracker.auctor.tv:6969/announce
 udp://tracker.beeimg.com:6969/announce
 udp://tracker.birkenwald.de:6969/announce
 udp://tracker.bitsearch.to:1337/announce
-udp://tracker.cubonegro.xyz:6969/announce
 udp://tracker.cyberia.is:6969/announce
 udp://tracker.dler.com:6969/announce
 udp://tracker.jonaslsa.com:6969/announce
