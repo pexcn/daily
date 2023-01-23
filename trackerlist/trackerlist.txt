@@ -14,9 +14,7 @@ https://tracker.nanoha.org:443/announce
 https://tracker.lilithraws.org:443/announce
 https://tr.burnabyhighstar.com:443/announce
 https://opentracker.i2p.rocks:443/announce
-http://tracker.mywaifu.best:6969/announce
 http://tracker.dler.org:6969/announce
-http://bt.okmp3.ru:2710/announce
 udp://zecircle.xyz:6969/announce
 udp://www.peckservers.com:9000/announce
 udp://wepzone.net:6969/announce
@@ -31,6 +29,7 @@ udp://tracker1.bt.moack.co.kr:80/announce
 udp://tracker.theoks.net:6969/announce
 udp://tracker.tcp.exchange:6969/announce
 udp://tracker.srv00.com:6969/announce
+udp://tracker.skyts.net:6969/announce
 udp://tracker.skynetcloud.site:6969/announce
 udp://tracker.qu.ax:6969/announce
 udp://tracker.publictracker.xyz:6969/announce
@@ -38,7 +37,6 @@ udp://tracker.pimpmyworld.to:6969/announce
 udp://tracker.openbtba.com:6969/announce
 udp://tracker.monitorit4.me:6969/announce
 udp://tracker.moeking.me:6969/announce
-udp://tracker.lelux.fi:6969/announce
 udp://tracker.leech.ie:1337/announce
 udp://tracker.joybomb.tw:6969/announce
 udp://tracker.jonaslsa.com:6969/announce
@@ -56,7 +54,6 @@ udp://thouvenin.cloud:6969/announce
 udp://themaninashed.com:6969/announce
 udp://thagoat.rocks:6969/announce
 udp://tamas3.ynh.fr:6969/announce
-udp://stargrave.org:6969/announce
 udp://slicie.icon256.com:8000/announce
 udp://sanincode.com:6969/announce
 udp://run.publictracker.xyz:6969/announce
@@ -111,14 +108,13 @@ https://tracker.gbitt.info:443/announce
 https://tracker.foreverpirates.co:443/announce
 https://tracker.expli.top:443/announce
 https://t1.hloli.org:443/announce
-http://www.peckservers.com:9000/announce
 http://wepzone.net:6969/announce
 http://vps02.net.orel.ru:80/announce
 http://tracker3.ctix.cn:8080/announce
 http://tracker2.dler.org:80/announce
+http://tracker1.bt.moack.co.kr:80/announce
 http://tracker.skyts.net:6969/announce
 http://tracker.qu.ax:6969/announce
-http://tracker.lelux.fi:80/announce
 http://tracker.gbitt.info:80/announce
 http://tracker.files.fm:6969/announce
 http://tracker.edkj.club:6969/announce
@@ -129,6 +125,8 @@ http://p2p.0g.cx:6969/announce
 http://open.tracker.ink:6969/announce
 http://open.acgnxtracker.com:80/announce
 http://incine.ru:6969/announce
+http://fosstorrents.com:6969/announce
+http://bt.okmp3.ru:2710/announce
 http://107.189.10.20.sslip.io:7777/announce
 http://1337.abcvg.info:80/announce
 http://207.241.226.111:6969/announce
@@ -140,9 +138,9 @@ http://chouchou.top:8080/announce
 http://i-p-v-6.tk:6969/announce
 http://ipv6.1337.cx:6969/announce
 http://ipv6.govt.hu:6969/announce
+http://movies.zsw.ca:6969/announce
 http://nyaa.tracker.wf:7777/announce
 http://open-v6.demonoid.ch:6969/announce
-http://open.acgtracker.com:1096/announce
 http://retracker.hotplug.ru:2710/announce
 http://share.camoe.cn:8080/announce
 http://t.nyaatracker.com:80/announce
@@ -183,6 +181,7 @@ udp://open.publictracker.xyz:6969/announce
 udp://opentor.org:2710/announce
 udp://retracker.hotplug.ru:2710/announce
 udp://retracker.lanta-net.ru:2710/announce
+udp://stargrave.org:6969/announce
 udp://static.54.161.216.95.clients.your-server.de:6969/announce
 udp://sx.xxtor.com:6969/announce
 udp://t.133335.xyz:6969/announce
@@ -192,10 +191,8 @@ udp://tracker.birkenwald.de:6969/announce
 udp://tracker.cyberia.is:6969/announce
 udp://tracker.dler.com:6969/announce
 udp://tracker.filemail.com:6969/announce
-udp://tracker.skyts.net:6969/announce
 udp://tracker.swateam.org.uk:2710/announce
 udp://tracker.tiny-vps.com:6969/announce
-udp://tracker.yangxiaoguozi.cn:6969/announce
 udp://tracker2.dler.com:80/announce
 udp://u4.trakx.crim.ist:1337/announce
 udp://www.torrent.eu.org:451/announce
