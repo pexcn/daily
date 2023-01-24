@@ -1,4 +1,3 @@
-*://*.blog.csdn.net/*
 *://*.kafan.cn/*
 *://*.lanzhouyangsheng.com/*
 *://*.mofish.work/*
