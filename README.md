@@ -66,7 +66,7 @@ This script can be automatically generate something what you needed every day.
 ## 📝 License
 
 ```
-Copyright (C) 2018-2022, pexcn <i@pexcn.me>
+Copyright (C) 2018-2023, pexcn <pexcn97@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
