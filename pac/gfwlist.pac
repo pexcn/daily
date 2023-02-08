@@ -1,5 +1,5 @@
 //
-// Update: 2023-02-02 02:16:59
+// Update: 2023-02-09 02:17:34
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -18,6 +18,7 @@ const gfwlist_domains = {
   "linkedin.com": 1,
   "reddit.com": 1,
   "whatsapp.com": 1,
+  "openai.com": 1,
   "xvideos.com": 1,
   "pornhub.com": 1,
   "github.com": 1,
@@ -160,7 +161,6 @@ const gfwlist_domains = {
   "ameblo.jp": 1,
   "wikiwiki.jp": 1,
   "reuters.com": 1,
-  "raw.githubusercontent.com": 1,
   "zaobao.com": 1,
   "udn.com": 1,
   "upornia.com": 1,
@@ -246,6 +246,7 @@ const gfwlist_domains = {
   "myfreecams.com": 1,
   "depositphotos.com": 1,
   "exhentai.org": 1,
+  "you.com": 1,
   "wikiwand.com": 1,
   "hostloc.com": 1,
   "alternativeto.net": 1,
@@ -407,6 +408,7 @@ const gfwlist_domains = {
   "archive.ph": 1,
   "google.cl": 1,
   "jkforum.net": 1,
+  "interactivebrokers.com": 1,
   "kknews.cc": 1,
   "newyorker.com": 1,
   "chromium.org": 1,
@@ -714,6 +716,7 @@ const gfwlist_domains = {
   "pbworks.com": 1,
   "ftvnews.com.tw": 1,
   "quoracdn.net": 1,
+  "threadreaderapp.com": 1,
   "sendspace.com": 1,
   "bithumb.com": 1,
   "googleapps.com": 1,
@@ -5273,6 +5276,7 @@ const gfwlist_domains = {
   "spike.com": 1,
   "spotflux.com": 1,
   "spring4u.info": 1,
+  "springwood.me": 1,
   "sproutcore.com": 1,
   "sproxy.info": 1,
   "squirrelvpn.com": 1,

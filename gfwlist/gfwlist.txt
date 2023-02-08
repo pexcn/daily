@@ -8,6 +8,7 @@ instagram.com
 linkedin.com
 reddit.com
 whatsapp.com
+openai.com
 xvideos.com
 pornhub.com
 github.com
@@ -150,7 +151,6 @@ opensea.io
 ameblo.jp
 wikiwiki.jp
 reuters.com
-raw.githubusercontent.com
 zaobao.com
 udn.com
 upornia.com
@@ -236,6 +236,7 @@ umich.edu
 myfreecams.com
 depositphotos.com
 exhentai.org
+you.com
 wikiwand.com
 hostloc.com
 alternativeto.net
@@ -397,6 +398,7 @@ whoer.net
 archive.ph
 google.cl
 jkforum.net
+interactivebrokers.com
 kknews.cc
 newyorker.com
 chromium.org
@@ -704,6 +706,7 @@ nhi.gov.tw
 pbworks.com
 ftvnews.com.tw
 quoracdn.net
+threadreaderapp.com
 sendspace.com
 bithumb.com
 googleapps.com
@@ -5263,6 +5266,7 @@ spideroak.com
 spike.com
 spotflux.com
 spring4u.info
+springwood.me
 sproutcore.com
 sproxy.info
 squirrelvpn.com
