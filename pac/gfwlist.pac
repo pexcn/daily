@@ -1,5 +1,5 @@
 //
-// Update: 2023-02-09 02:17:34
+// Update: 2023-03-02 02:18:01
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -1088,6 +1088,7 @@ const gfwlist_domains = {
   "superpages.com": 1,
   "dynu.com": 1,
   "sketchappsources.com": 1,
+  "aei.org": 1,
   "safety.google": 1,
   "myav.com.tw": 1,
   "xxxymovies.com": 1,
