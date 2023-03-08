@@ -1,11 +1,9 @@
 udp://tracker.opentrackr.org:1337/announce
 udp://tracker.openbittorrent.com:6969/announce
 udp://9.rarbg.com:2810/announce
+http://tracker.openbittorrent.com:80/announce
 udp://opentracker.i2p.rocks:6969/announce
 https://opentracker.i2p.rocks:443/announce
-http://tracker.openbittorrent.com:80/announce
-udp://open.stealth.si:80/announce
-udp://tracker2.dler.org:80/announce
 udp://tracker1.bt.moack.co.kr:80/announce
 udp://tracker.torrent.eu.org:451/announce
 udp://tracker.tiny-vps.com:6969/announce
@@ -15,9 +13,11 @@ udp://tracker.publictracker.xyz:6969/announce
 udp://tracker.monitorit4.me:6969/announce
 udp://tracker.moeking.me:6969/announce
 udp://tracker.lelux.fi:6969/announce
-udp://tracker.dler.org:6969/announce
+udp://tracker.bittor.pw:1337/announce
 udp://tracker.altrosky.nl:6969/announce
 udp://tracker-udp.gbitt.info:80/announce
+udp://public.tracker.vraphim.com:6969/announce
+udp://p4p.arenabg.com:1337/announce
 http://1337.abcvg.info:80/announce
 http://bt.okmp3.ru:2710/announce
 http://nyaa.tracker.wf:7777/announce
@@ -32,6 +32,7 @@ http://tracker.files.fm:6969/announce
 http://tracker.gbitt.info:80/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.mywaifu.best:6969/announce
+http://tracker.skyts.net:6969/announce
 http://trackme.theom.nz:80/announce
 http://v6-tracker.0g.cx:6969/announce
 http://www.all4nothin.net:80/announce.php
@@ -39,6 +40,7 @@ http://www.wareztorrent.com:80/announce
 https://1337.abcvg.info:443/announce
 https://tr.abiir.top:443/announce
 https://tr.burnabyhighstar.com:443/announce
+https://tracker.expli.top:443/announce
 https://tracker.foreverpirates.co:443/announce
 https://tracker.gbitt.info:443/announce
 https://tracker.imgoingto.icu:443/announce
@@ -55,7 +57,6 @@ udp://astrr.ru:6969/announce
 udp://boysbitte.be:6969/announce
 udp://bt.ktrackers.com:6666/announce
 udp://bt1.archive.org:6969/announce
-udp://cutscloud.duckdns.org:6969/announce
 udp://dns.xxtor.com:53/announce
 udp://epider.me:6969/announce
 udp://exodus.desync.com:6969/announce
@@ -69,9 +70,9 @@ udp://movies.zsw.ca:6969/announce
 udp://open.demonii.com:1337/announce
 udp://open.dstud.io:6969/announce
 udp://open.publictracker.xyz:6969/announce
+udp://open.stealth.si:80/announce
 udp://open.tracker.ink:6969/announce
 udp://opentor.org:2710/announce
-udp://p4p.arenabg.com:1337/announce
 udp://private.anonseed.com:6969/announce
 udp://public.publictracker.xyz:6969/announce
 udp://run.publictracker.xyz:6969/announce
@@ -90,7 +91,6 @@ udp://tracker.auctor.tv:6969/announce
 udp://tracker.beeimg.com:6969/announce
 udp://tracker.birkenwald.de:6969/announce
 udp://tracker.bitsearch.to:1337/announce
-udp://tracker.bittor.pw:1337/announce
 udp://tracker.ccp.ovh:6969/announce
 udp://tracker.cyberia.is:6969/announce
 udp://tracker.dler.com:6969/announce
