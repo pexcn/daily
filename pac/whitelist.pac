@@ -1,5 +1,5 @@
 //
-// Update: 2023-03-12 02:15:35
+// Update: 2023-03-13 02:16:02
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -11371,7 +11371,6 @@ const china_domains = {
   "99weiqi.com": 1,
   "99wuxian.com": 1,
   "99xr.com": 1,
-  "99xxg.com": 1,
   "99xyx.com": 1,
   "99yoo.com": 1,
   "99youmeng.com": 1,
@@ -12216,6 +12215,7 @@ const china_domains = {
   "airchinajet.com": 1,
   "airchinamedia.com": 1,
   "aircourses.com": 1,
+  "airdoc.com": 1,
   "airdropin.com": 1,
   "airen1314.com": 1,
   "airj.website": 1,
@@ -14594,6 +14594,7 @@ const china_domains = {
   "bgsdyz.com": 1,
   "bgteach.com": 1,
   "bguai.com": 1,
+  "bgwcsz.com": 1,
   "bgwl.net": 1,
   "bgyfhyx.com": 1,
   "bh.sb": 1,
@@ -17851,6 +17852,7 @@ const china_domains = {
   "chinagiftsfair.com": 1,
   "chinagoldcoin.net": 1,
   "chinagoldgroup.com": 1,
+  "chinagongcheng.com": 1,
   "chinagov.pw": 1,
   "chinagp.net": 1,
   "chinagps.cc": 1,
@@ -30655,6 +30657,7 @@ const china_domains = {
   "huodonghui.net": 1,
   "huodongju.com": 1,
   "huodongju.net": 1,
+  "huodongpro.com": 1,
   "huodongquan.net": 1,
   "huodongshu.com": 1,
   "huodongwang.com": 1,
@@ -32574,6 +32577,7 @@ const china_domains = {
   "ismdeep.com": 1,
   "isme.pub": 1,
   "isming.me": 1,
+  "ismx8.com": 1,
   "iso-est.com": 1,
   "iso-iso9000.com": 1,
   "isobar.tech": 1,
@@ -36799,6 +36803,7 @@ const china_domains = {
   "lanting123.com": 1,
   "lanuss.com": 1,
   "lanvige.com": 1,
+  "lanwoncloudfilm.com": 1,
   "lanxicy.com": 1,
   "lanxinbase.com": 1,
   "lanxiniu.com": 1,
@@ -42841,7 +42846,6 @@ const china_domains = {
   "orz.asia": 1,
   "orz123.com": 1,
   "orz520.com": 1,
-  "orzice.com": 1,
   "orzjoy.com": 1,
   "os-easy.com": 1,
   "os-v.com": 1,
@@ -52980,6 +52984,7 @@ const china_domains = {
   "twcczhu.com": 1,
   "twd2.me": 1,
   "twd2.net": 1,
+  "tweakboxapp.com": 1,
   "tweakcube.com": 1,
   "twguozao.com": 1,
   "twh5.com": 1,
@@ -58708,7 +58713,6 @@ const china_domains = {
   "xqsbw.com": 1,
   "xqship.com": 1,
   "xqtesting.com": 1,
-  "xqwggg.com": 1,
   "xqwww.com": 1,
   "xqyk024.com": 1,
   "xrcch.com": 1,
