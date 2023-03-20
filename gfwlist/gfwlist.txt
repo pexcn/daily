@@ -46,7 +46,6 @@ ok.ru
 google.de
 nytimes.com
 tumblr.com
-notion.so
 bbc.com
 w3schools.com
 medium.com
@@ -136,7 +135,6 @@ eksisozluk.com
 slideshare.net
 ptt.cc
 webpkgcache.com
-cnbc.com
 google.com.au
 motherless.com
 wsj.com
@@ -270,7 +268,6 @@ dmhy.org
 free.fr
 startpage.com
 nbcnews.com
-mail.com
 nordstrom.com
 google.com.sg
 gofundme.com
@@ -510,7 +507,6 @@ google.be
 myspace.com
 archives.gov
 ggpht.com
-archive.md
 brill.com
 technews.tw
 google.hu
@@ -684,7 +680,6 @@ sex8.cc
 read01.com
 google.co.ug
 tronscan.org
-reimu.net
 hkjc.com
 scriptspot.com
 google.ee
@@ -827,7 +822,6 @@ caochangqing.com
 vilavpn.com
 xiuren.org
 bitfinex.com
-archive.vn
 spankingtube.com
 google.co.nz
 bloglovin.com
@@ -879,7 +873,6 @@ erodoujinlog.com
 briian.com
 theinitium.com
 mastodon.social
-merlinblog.xyz
 tinychat.com
 canalporno.com
 codeshare.io
@@ -910,9 +903,7 @@ asg.to
 ftx.com
 dailyview.tw
 thediplomat.com
-justmysocks.net
 yam.com
-vivaldi.net
 thehun.net
 martau.com
 hwinfo.com
@@ -1036,7 +1027,6 @@ wearn.com
 feeder.co
 wealth.com.tw
 freedomhouse.org
-pornstarbyface.com
 google.com.cu
 wsj.net
 yesasia.com
@@ -1141,7 +1131,6 @@ kik.com
 virtualrealporn.com
 culture.tw
 cato.org
-evozi.com
 vpnhub.com
 grow.google
 wwitv.com
@@ -1234,7 +1223,6 @@ business-humanrights.org
 metro.taipei
 nokogiri.org
 inmediahk.net
-protonmail.com
 bandwagonhost.com
 horrorporn.com
 partycasino.com
@@ -1296,7 +1284,6 @@ openvpn.org
 tunnelblick.net
 riseup.net
 avidemux.org
-wtfast.com
 videopress.com
 anobii.com
 huayuworld.org
@@ -1500,7 +1487,6 @@ teddysun.com
 topsy.com
 truveo.com
 asianage.com
-androidapksfree.com
 google.ad
 javmobile.net
 wingamestore.com
@@ -1518,7 +1504,6 @@ theatrum-belli.com
 toptip.ca
 tubegals.com
 yourtrap.com
-lih.kg
 bbnradio.org
 tv.com
 bnrmetal.com
@@ -1815,11 +1800,19 @@ blogspot.am
 blogspot.ba
 blogspot.be
 blogspot.bg
+blogspot.bj
 blogspot.ca
 blogspot.cat
+blogspot.cf
 blogspot.ch
 blogspot.cl
+blogspot.co.at
+blogspot.co.id
+blogspot.co.il
+blogspot.co.ke
+blogspot.co.nz
 blogspot.co.uk
+blogspot.co.za
 blogspot.com.ar
 blogspot.com.au
 blogspot.com.br
@@ -1833,6 +1826,7 @@ blogspot.com.mt
 blogspot.com.ng
 blogspot.com.tr
 blogspot.com.uy
+blogspot.cv
 blogspot.cz
 blogspot.de
 blogspot.dk
@@ -1861,7 +1855,9 @@ blogspot.no
 blogspot.pe
 blogspot.pt
 blogspot.qa
+blogspot.re
 blogspot.ro
+blogspot.rs
 blogspot.ru
 blogspot.se
 blogspot.sg
@@ -1918,29 +1914,6 @@ google.to
 google.vg
 google.vu
 google.ws
-ao3.org
-hojemacau.com.mo
-fanqiang.network
-meirifuli.org
-github.io
-fantv.hk
-kingkong.com.tw
-watchout.tw
-paofuyun.me
-conair.me
-zind.cloud
-limbopro.xyz
-n3ro.net
-n3ro.live
-nexitcore.com
-nexitally.com
-caijinglengyan.com
-2049bbs.xyz
-yuetwanlauseng.com
-sinoinsider.com
-huhangfei.com
-spark.adobe.com
-maying.co
 agnesb.fr
 altrec.com
 angela-merkel.de
@@ -2761,6 +2734,7 @@ anthonycalzadilla.com
 anti1984.com
 antichristendom.com
 antiwave.net
+ao3.org
 aobo.com.au
 aofriend.com
 aofriend.com.au
@@ -2974,6 +2948,7 @@ cablegatesearch.net
 cachinese.com
 cacnw.com
 cahr.org.tw
+caijinglengyan.com
 calgarychinese.ca
 calgarychinese.com
 calgarychinese.net
@@ -3486,6 +3461,7 @@ fangongheike.com
 fanhaolou.com
 fanqiang.tk
 fanqianghou.com
+fantv.hk
 faproxy.com
 fawanghuihui.org
 fanqiangyakexi.net
@@ -3495,6 +3471,7 @@ fan-qiang.com
 fangbinxing.com
 fangmincn.org
 fanhaodang.com
+fanqiang.network
 fanswong.com
 fanyue.info
 farwestchina.com
@@ -3724,6 +3701,7 @@ girlbanker.com
 git.io
 softwaredownload.gitbooks.io
 raw.githack.com
+github.io
 gizlen.net
 gjczz.com
 globaljihad.net
@@ -3961,6 +3939,7 @@ hkzone.org
 hmonghot.com
 hnjhj.com
 hnntube.com
+hojemacau.com.mo
 holymountaincn.com
 holyspiritspeaks.org
 derekhsu.homeip.net
@@ -4009,6 +3988,7 @@ huaxin.ph
 hugoroy.eu
 huhaitai.com
 huhamhire.com
+huhangfei.com
 huiyi.in
 humanrightspressawards.org
 hungerstrikeforaids.org
@@ -5191,6 +5171,7 @@ sinomontreal.ca
 sinonet.ca
 sinopitt.info
 sinoants.com
+sinoinsider.com
 sierrafriendsoftibet.org
 sis.xxx
 site90.net
@@ -5880,6 +5861,7 @@ want-daily.com
 wapedia.mobi
 waselpro.com
 watchinese.com
+watchout.tw
 makzhou.warehouse333.com
 washeng.net
 watch8x.com
