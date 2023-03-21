@@ -6,6 +6,7 @@ TMP_DIR=$(mktemp -d /tmp/gfwlist.XXXXXX)
 
 SRC_URL_1="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
 SRC_URL_2="https://raw.githubusercontent.com/pexcn/daily-extras/master/gfwlist-extras.txt"
+SRC_URL_3="https://raw.githubusercontent.com/gfwlist/gfwlist_hk/master/gfwlist_hk.txt"
 SRC_FILE="$CUR_DIR/dist/toplist/toplist.txt"
 DEST_FILE="dist/gfwlist/gfwlist.txt"
 
@@ -14,6 +15,7 @@ fetch_src() {
 
   curl -sSL $SRC_URL_1 | base64 -d > gfwlist-plain.txt
   curl -sSL $SRC_URL_2 -o gfwlist-extras.txt
+  curl -sSL $SRC_URL_3 | base64 -d > gfwlist-hk-plain.txt
   cp $SRC_FILE .
 
   cd $CUR_DIR
@@ -37,8 +39,14 @@ gen_list() {
     sed -r $wildcard_pattern > gfwlist-plain.tmp
   # gfwlist-extras filter
   sed -e '/^$/d' -e '/^#/ d' gfwlist-extras.txt > gfwlist-extras.tmp
+  # gfwlist-hk filter
+  grep -vE $ignore_pattern gfwlist-hk-plain.txt |
+    sed -r $head_filter_pattern |
+    sed -r $tail_filter_pattern |
+    grep -E $domain_pattern |
+    sed -r $wildcard_pattern > gfwlist-hk-plain.tmp
   # merge and remove duplicates
-  cat gfwlist-extras.tmp gfwlist-plain.tmp | awk '!x[$0]++' > gfwlist.tmp
+  cat gfwlist-extras.tmp gfwlist-plain.tmp gfwlist-hk-plain.tmp | awk '!x[$0]++' > gfwlist.tmp
 
   # find intersection set
   grep -Fx -f gfwlist.tmp toplist.txt > gfwlist_head.tmp
