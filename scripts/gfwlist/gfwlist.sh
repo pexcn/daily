@@ -14,7 +14,6 @@ fetch_src() {
 
   curl -sSL $SRC_URL_1 | base64 -d > gfwlist-plain.txt
   curl -sSL $SRC_URL_2 -o gfwlist-extras.txt
-  curl -sSL $SRC_URL_3 | base64 -d > gfwlist-hk-plain.txt
   cp $SRC_FILE .
 
   cd $CUR_DIR
