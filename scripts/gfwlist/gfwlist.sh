@@ -37,8 +37,12 @@ gen_list() {
     sed -r $wildcard_pattern > gfwlist-plain.tmp
   # gfwlist-extras filter
   sed -e '/^$/d' -e '/^#/ d' gfwlist-extras.txt > gfwlist-extras.tmp
-  # merge and remove duplicates
-  cat gfwlist-extras.tmp gfwlist-plain.tmp | awk '!x[$0]++' > gfwlist.tmp
+  # merge lists
+  cat gfwlist-extras.tmp gfwlist-plain.tmp |
+    # remove duplicates
+    awk '!x[$0]++' |
+    # exclude .cn domains
+    sed '/.cn$/d' > gfwlist.tmp
 
   # find intersection set
   grep -Fx -f gfwlist.tmp toplist.txt > gfwlist_head.tmp
