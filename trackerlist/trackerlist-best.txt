@@ -1,7 +1,6 @@
 udp://tracker.opentrackr.org:1337/announce
 udp://opentracker.i2p.rocks:6969/announce
 https://opentracker.i2p.rocks:443/announce
-udp://open.demonii.com:1337/announce
 udp://tracker.openbittorrent.com:6969/announce
 http://tracker.openbittorrent.com:80/announce
 udp://9.rarbg.com:2810/announce
@@ -9,15 +8,16 @@ udp://exodus.desync.com:6969/announce
 udp://open.stealth.si:80/announce
 udp://tracker.torrent.eu.org:451/announce
 udp://tracker.moeking.me:6969/announce
+udp://explodie.org:6969/announce
 https://tracker.tamersunion.org:443/announce
 udp://tracker1.bt.moack.co.kr:80/announce
 udp://tracker.bitsearch.to:1337/announce
 udp://tracker.altrosky.nl:6969/announce
 udp://tracker-udp.gbitt.info:80/announce
 udp://movies.zsw.ca:6969/announce
-udp://explodie.org:6969/announce
 https://tracker.gbitt.info:443/announce
 http://tracker.gbitt.info:80/announce
+udp://tracker.tiny-vps.com:6969/announce
 http://1337.abcvg.info:80/announce
 http://bt.endpot.com:80/announce
 http://bt.okmp3.ru:2710/announce
@@ -35,7 +35,6 @@ http://tracker.files.fm:6969/announce
 http://tracker.mywaifu.best:6969/announce
 http://tracker.renfei.net:8080/announce
 http://tracker.tfile.co:80/announce
-http://trackme.theom.nz:80/announce
 http://v6-tracker.0g.cx:6969/announce
 http://www.all4nothin.net:80/announce.php
 http://www.wareztorrent.com:80/announce
@@ -48,13 +47,11 @@ https://tracker.kuroy.me:443/announce
 https://tracker.lilithraws.cf:443/announce
 https://tracker.loligirl.cn:443/announce
 https://tracker1.520.jp:443/announce
-https://trackme.theom.nz:443/announce
 udp://aarsen.me:6969/announce
 udp://acxx.de:6969/announce
 udp://aegir.sexy:6969/announce
 udp://astrr.ru:6969/announce
 udp://bedro.cloud:6969/announce
-udp://boysbitte.be:6969/announce
 udp://bt.ktrackers.com:6666/announce
 udp://bt1.archive.org:6969/announce
 udp://epider.me:6969/announce
@@ -64,6 +61,7 @@ udp://laze.cc:6969/announce
 udp://linfan.moe:6969/announce
 udp://mail.artixlinux.org:6969/announce
 udp://moonburrow.club:6969/announce
+udp://open.demonii.com:1337/announce
 udp://open.dstud.io:6969/announce
 udp://open.tracker.ink:6969/announce
 udp://opentor.org:2710/announce
@@ -71,6 +69,7 @@ udp://opentracker.io:6969/announce
 udp://p4p.arenabg.com:1337/announce
 udp://private.anonseed.com:6969/announce
 udp://retracker01-msk-virt.corbina.net:80/announce
+udp://run.publictracker.xyz:6969/announce
 udp://sanincode.com:6969/announce
 udp://static.54.161.216.95.clients.your-server.de:6969/announce
 udp://t.133335.xyz:6969/announce
