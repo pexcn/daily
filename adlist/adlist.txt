@@ -9211,8 +9211,10 @@ segment-data-us-east.zqtk.net
 beacon.ztgame.com
 zwaar.org
 log-collector.svctr.zynga.com
+0776.red
 08u6q.com
 1136999.com
+1512a.com
 18so.vip
 230579.top
 39nw.com
@@ -9223,6 +9225,7 @@ log-collector.svctr.zynga.com
 8b4v.cn
 92ph.cn
 9itan.cc
+9vs0.cn
 aaaaa288.com
 aaaaa556.com
 aaaaa599.com
@@ -9251,6 +9254,7 @@ bekco.xyz
 betgdr.xyz
 bkae.top
 blxfqq.com
+bovhzz.xyz
 bqcxgbm.cn
 brkzczn.cn
 bwwlw.cn
@@ -9296,6 +9300,7 @@ fthqzxq.cn
 fvzljv.xyz
 fweia.xyz
 fzcsd33.com
+gaokao.asia
 giold.xyz
 gpqicw.xyz
 gwvzgjb.cn
@@ -9312,12 +9317,15 @@ hhrnxr.xyz
 himeneko.ink
 hsrgnac.cn
 huaweinnd.top
+hunlimd.cn
 hxes.cn
 hxpmbb.xyz
 hxtiojs.cn
 hzoijcm.cn
+iaacua.xyz
 icesfeathers.fun
 iepda.xyz
+iidjo.xyz
 ijnuhb.top
 imu2021.site
 ioiksw.cn
@@ -9339,6 +9347,7 @@ kfocoq.xyz
 kingsunsky.ltd
 kkgytur.cn
 kkylx.xyz
+kmlxlkz.cn
 kpqdkg.xyz
 kucoa.xyz
 kzjqraj.cn
@@ -9405,6 +9414,7 @@ sisjwol.xyz
 sjalipa.cn
 skluff.com
 smailes.pro
+smmmqq.com
 sozrrkx.xyz
 szsbiw.xyz
 tc911.vip
@@ -9422,6 +9432,7 @@ umcpebi.cn
 uqelxct.cn
 uqymady.cn
 uu5731uu.com
+uu7819uu.com
 uwhreur.cn
 v0cf.xyz
 vel7.xyz
@@ -9440,12 +9451,14 @@ wdygoi.xyz
 web4023.top
 weeqmcq.cn
 whbn.xyz
+wjaqc.xyz
 wvwl.cn
 wwgqqq.com
 xbvmrx.xyz
 xcaukve.cn
 xckyqq.com
 xiaochen1.cn
+xiaoliublog.icu
 xingyang.in
 xiod.xyz
 xlxknf.xyz
@@ -9462,6 +9475,7 @@ yulingaa.xyz
 zbvchabjbcj.com
 zdkdwk.buzz
 zdlnhv.xyz
+zdyuoae.xyz
 zhalinyyds.com
 zhemu.xyz
 zhouduanyyds.com
@@ -16857,6 +16871,7 @@ hdsrc-a.akamaihd.net
 3daed168ad.com
 3de3ac5082.com
 3dfcff2ec15099df0a24ad2cee74f21a.com
+3e090c38bd.com
 3eb8f81779.com
 3ed2b6b7c4.com
 3ed671e3c0.com
@@ -18879,6 +18894,7 @@ arenalitteraccommodation.com
 arengboard.com
 arethegrav.com.ua
 arethegravk.xyz
+arfacqwifvp.com
 argentslv.digital
 arguebakery.com
 arguerepetition.com
@@ -19910,6 +19926,7 @@ benzolescabrin.com
 beonixom.com
 beparaspr.com
 bepunenchant.store
+bergallgenion.com
 berhima.xyz
 berkshiretoday.xyz
 berlipurplin.com
@@ -20718,6 +20735,7 @@ caesaw.com
 caffleklismos.website
 caglaikr.net
 caimoasy.net
+cainismlungee.uno
 caipowho.net
 cairalei.com
 caiteesh.net
@@ -23560,6 +23578,7 @@ erosyndc.com
 erovation.com
 errely.com
 ersfohiplaceof.xyz
+ershniff.com
 ersislaqands.com
 erstartirrel.buzz
 erthmefeyauk.xyz
@@ -26146,6 +26165,7 @@ injectlocum.com
 injusticeamend.com
 inkestyle.net
 inkingleran.com
+inklestutted.com
 inklinkor.com
 inkornesto.com
 inktad.com
@@ -29591,6 +29611,7 @@ orpheushooven.com
 orquideassp.com
 orrabxofvju.com
 orricesoxhlet.com
+orrisesdepute.com
 orrsuxapg.com
 orthitepetrous.com
 orthronsmatter.com
@@ -31597,6 +31618,7 @@ recorderbenefactortriggers.com
 recordervesttasting.com
 recordingfilessuperintend.com
 recordingshipping.com
+recoupsamakebe.com
 recoverhatred.com
 recreationhiddenmosque.com
 rectanthenwirit.com
@@ -32429,6 +32451,7 @@ savingdownrightmitten.com
 saviourketonic.com
 saweatherco.com
 sawedhindgut.com
+sawfishdiapsid.com
 sawmontlookups.com
 sawmonwhomble.com
 sawsdaggly.com
@@ -36050,6 +36073,7 @@ winfreeprize.online
 wingads.com
 wingerssetiger.com
 wingersunbrand.com
+winiermarrier.com
 winneradsmedia.com
 winnersolutions.net
 winningdotaltar.com
@@ -36395,6 +36419,7 @@ xijojwonz.com
 xilbalar.com
 xilqhukky.com
 xineday.com
+xiryrnrz.com
 xissidearm.com
 xiwwhyobp.com
 xjqpxitqkaeodwi.xyz
@@ -36541,6 +36566,7 @@ yazcash.com
 ybmnptiuj.xyz
 ycadenevery.xyz
 yceml.net
+yclost.com
 yctamonieomgb.com
 yczrgigyspm.com
 ydenknowled.com
@@ -36979,6 +37005,7 @@ ads.saymedia.com
 ads.sportradar.com
 adsales.snidigital.com
 adserving.unibet.com
+adtechvideo.s3.amazonaws.com
 advast.sibnet.ru
 aff.bstatic.com
 affiliate.heureka.cz
@@ -37633,6 +37660,7 @@ dmmzkfd82wayn.cloudfront.net
 dmz3nd5oywtsw.cloudfront.net
 dn0qt3r0xannq.cloudfront.net
 dn3uy6cx65ujf.cloudfront.net
+dn6rwwtxa647p.cloudfront.net
 dn9uzzhcwc0ya.cloudfront.net
 dne6rbzy5csnc.cloudfront.net
 dnf06i4y06g13.cloudfront.net
