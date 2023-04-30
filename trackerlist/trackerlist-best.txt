@@ -12,12 +12,12 @@ udp://tracker.moeking.me:6969/announce
 https://tracker.tamersunion.org:443/announce
 udp://tracker.bitsearch.to:1337/announce
 udp://tracker-udp.gbitt.info:80/announce
-udp://movies.zsw.ca:6969/announce
+udp://explodie.org:6969/announce
 https://tracker.gbitt.info:443/announce
 http://tracker.gbitt.info:80/announce
-http://open.acgnxtracker.com:80/announce
 udp://tracker1.bt.moack.co.kr:80/announce
-udp://tracker.altrosky.nl:6969/announce
+udp://tracker.tiny-vps.com:6969/announce
+udp://tracker.theoks.net:6969/announce
 http://1337.abcvg.info:80/announce
 http://bt.okmp3.ru:2710/announce
 http://nyaa.tracker.wf:7777/announce
@@ -30,8 +30,10 @@ http://torrentsmd.com:8080/announce
 http://tr.cili001.com:8070/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.files.fm:6969/announce
+http://tracker.ipv6tracker.ru:80/announce
 http://tracker.mywaifu.best:6969/announce
 http://tracker.renfei.net:8080/announce
+http://tracker.skyts.net:6969/announce
 http://tracker.tfile.co:80/announce
 http://v6-tracker.0g.cx:6969/announce
 http://www.all4nothin.net:80/announce.php
@@ -59,6 +61,7 @@ udp://laze.cc:6969/announce
 udp://linfan.moe:6969/announce
 udp://mail.artixlinux.org:6969/announce
 udp://moonburrow.club:6969/announce
+udp://movies.zsw.ca:6969/announce
 udp://new-line.net:6969/announce
 udp://open.dstud.io:6969/announce
 udp://open.tracker.ink:6969/announce
@@ -78,6 +81,7 @@ udp://thinking.duckdns.org:6969/announce
 udp://thouvenin.cloud:6969/announce
 udp://torrents.artixlinux.org:6969/announce
 udp://tracker.4.babico.name.tr:3131/announce
+udp://tracker.altrosky.nl:6969/announce
 udp://tracker.artixlinux.org:6969/announce
 udp://tracker.auctor.tv:6969/announce
 udp://tracker.beeimg.com:6969/announce
@@ -92,7 +96,6 @@ udp://tracker.monitorit4.me:6969/announce
 udp://tracker.pimpmyworld.to:6969/announce
 udp://tracker.skyts.net:6969/announce
 udp://tracker.srv00.com:6969/announce
-udp://tracker.theoks.net:6969/announce
 udp://tracker2.dler.com:80/announce
 udp://tracker6.lelux.fi:6969/announce
 udp://u4.trakx.crim.ist:1337/announce
