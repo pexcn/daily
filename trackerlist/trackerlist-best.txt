@@ -11,11 +11,11 @@ udp://tracker.torrent.eu.org:451/announce
 udp://tracker.moeking.me:6969/announce
 https://tracker.tamersunion.org:443/announce
 udp://tracker1.bt.moack.co.kr:80/announce
-udp://tracker.bitsearch.to:1337/announce
-udp://p4p.arenabg.com:1337/announce
 udp://tracker.theoks.net:6969/announce
+udp://tracker.bitsearch.to:1337/announce
 udp://tracker.altrosky.nl:6969/announce
 udp://tracker-udp.gbitt.info:80/announce
+udp://p4p.arenabg.com:1337/announce
 udp://movies.zsw.ca:6969/announce
 udp://explodie.org:6969/announce
 http://1337.abcvg.info:80/announce
@@ -25,7 +25,6 @@ http://open.tracker.ink:6969/announce
 http://p2p.0g.cx:6969/announce
 http://share.camoe.cn:8080/announce
 http://t.acg.rip:6699/announce
-http://t.nyaatracker.com:80/announce
 http://torrentsmd.com:8080/announce
 http://tr.cili001.com:8070/announce
 http://tracker.bt4g.com:2095/announce
@@ -35,8 +34,10 @@ http://tracker.ipv6tracker.ru:80/announce
 http://tracker.k.vu:6969/announce
 http://tracker.mywaifu.best:6969/announce
 http://tracker.renfei.net:8080/announce
+http://tracker.skyts.net:6969/announce
 http://tracker.tfile.co:80/announce
 http://v6-tracker.0g.cx:6969/announce
+http://vps-dd0a0715.vps.ovh.net:6969/announce
 http://www.all4nothin.net:80/announce.php
 http://www.wareztorrent.com:80/announce
 https://1337.abcvg.info:443/announce
@@ -58,7 +59,6 @@ udp://bt1.archive.org:6969/announce
 udp://epider.me:6969/announce
 udp://htz3.noho.st:6969/announce
 udp://ipv6.tracker.monitorit4.me:6969/announce
-udp://laze.cc:6969/announce
 udp://linfan.moe:6969/announce
 udp://mail.artixlinux.org:6969/announce
 udp://moonburrow.club:6969/announce
@@ -81,7 +81,6 @@ udp://torrents.artixlinux.org:6969/announce
 udp://tracker.4.babico.name.tr:3131/announce
 udp://tracker.artixlinux.org:6969/announce
 udp://tracker.auctor.tv:6969/announce
-udp://tracker.beeimg.com:6969/announce
 udp://tracker.birkenwald.de:6969/announce
 udp://tracker.cyberia.is:6969/announce
 udp://tracker.dler.com:6969/announce
