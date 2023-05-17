@@ -8512,6 +8512,7 @@ log-collector.svctr.zynga.com
 4cjh.xyz
 5251m.xyz
 52qd.club
+54ha.cn
 5xur.top
 7067.top
 7xwx.cn
@@ -8535,6 +8536,7 @@ aaaaa882.com
 aagomsi.xyz
 aamv.vip
 acbe.club
+accid.xyz
 aceik.xyz
 acqc9.com
 acsc10.com
@@ -8585,6 +8587,7 @@ bqdyqq.com
 brkzczn.cn
 bwwlw.cn
 campu.ltd
+caozhixiong.cn
 cbhwekr.cn
 ccohayo.xyz
 cdcc3.com
@@ -8617,6 +8620,7 @@ cvmesi.xyz
 d7dzf.xyz
 d86n.top
 dcdf4.com
+dcnytdpke.xyz
 dcqs4.com
 ddkep.xyz
 ddlipf.xyz
@@ -8702,10 +8706,12 @@ hhrnxr.xyz
 himeneko.ink
 hldwdz.xyz
 hoiea.xyz
+hontont.com
 hsili.ltd
 hsrgnac.cn
 huangji1.cn
 huaweinnd.top
+huishengqihang.xyz
 hunlimd.cn
 hvfubp.xyz
 hwhefj.xyz
@@ -8747,11 +8753,13 @@ jnmaeun.xyz
 jntxvf.xyz
 joplopr.cn
 jqueryboots.net
+jquerydns.com
 jrtwi.xyz
 jrzaht.xyz
 jstimiz.xyz
 jvkckeg.cn
 jvmxrug.xyz
+jwandla.top
 jwjdpab.cn
 jwronx.xyz
 jxncs1.com
@@ -8784,6 +8792,7 @@ lianxi.link
 linuozhiyao.xyz
 lmlzht.xyz
 lnnjnv.xyz
+lorenop.icu
 lqglqq.com
 luckydino.ren
 ludie.xyz
@@ -8792,6 +8801,7 @@ lwtqqq.com
 lxbbs.fun
 lxyl66.cn
 mahao1.cn
+majunguo.cn
 maoqxyl.xyz
 mc3369.xyz
 mdqhyxe.cn
@@ -8811,6 +8821,7 @@ mueid.xyz
 mxknqq.com
 nagmopd.cn
 naned.xyz
+ncyksuw.xyz
 ncyx.ltd
 ndqzqmb.xyz
 nedes.xyz
@@ -8822,6 +8833,7 @@ nqyz.tw
 nsfdsa.xyz
 nurahf.xyz
 nvchmkw.cn
+nwandlc.top
 nwecd.xyz
 ocoda.xyz
 oimzak.xyz
@@ -8850,6 +8862,7 @@ poiqwnekb.com
 poopd.xyz
 poppy.fit
 poqwnllkm.com
+ppjttn.xyz
 ppshop.club
 pqldzp.xyz
 pqxyqq.com
@@ -8930,6 +8943,7 @@ tqdpqq.com
 ttpybz.xyz
 tuhipkz.xyz
 turifb.xyz
+twbqqq.com
 twnafj.xyz
 txphjl.xyz
 tzmhqll.cn
@@ -8982,6 +8996,7 @@ wgzgzmu.cn
 whbn.xyz
 windyang.xyz
 wjaqc.xyz
+wjtij.top
 wkzrqq.com
 wqweiog.xyz
 wsoxwa.xyz
@@ -9000,6 +9015,7 @@ xcaukve.cn
 xckyqq.com
 xcysqq.com
 xghnqq.com
+xiangfenyabu.xyz
 xiaobixiaobi.com
 xiaochen1.cn
 xiaoliublog.icu
@@ -9014,9 +9030,11 @@ xnjvn1.com
 xnmqqq.com
 xpynqq.com
 xrkyqq.com
+xsbdj6.com
 xuanqi.ltd
 xueyugaoyuan.xyz
 xunjie.fun
+xvrvgod.xyz
 xyjcpcb.cn
 xyzyqq.com
 yanghetp.com
@@ -9064,6 +9082,7 @@ zrbabog.cn
 zrrnqq.com
 zsblog.vip
 zscgoqt.cn
+zvfaxh.xyz
 zxgko.cn
 001adafg.xyz
 003aldjads.xyz
@@ -14414,7 +14433,6 @@ hdtu.oss-cn-beijing.aliyuncs.com
 hiad.myweb.hinet.net
 lu.sogou.com
 lu.sogoucdn.com
-mgtv-bbqn.oss-cn-beijing.aliyuncs.com
 mobantong.oss-cn-hangzhou.aliyuncs.com
 penxiangge.com
 pos.baidu.com
@@ -15003,6 +15021,7 @@ cc.xiaodapei.com
 cc.xwscg.com
 cdgtw3.guapaijia.com
 cdn.haocaa.com
+cdn.sinam.top
 cdn.wenzhangba.cn
 cdn1.tvzhe.com
 cdnjs.hro-cosmetics.com
@@ -15261,6 +15280,7 @@ m1.kuanff.com
 m1.nn670.com
 m1.vodjk.com
 m1.we556.com
+m5.66077.cn
 ma1.meishij.net
 main.jiukang.org
 materiel.baizhan.net
@@ -38104,6 +38124,7 @@ engine.fxempire.com
 engine.laweekly.com
 fentent.streampiay.fun
 fentent.streampiay.me
+filehippo.com/best-recommended-apps
 gamer.mmohuts.com
 gentent.streampiay.fun
 hentent.streampiay.fun
