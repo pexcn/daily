@@ -9,15 +9,15 @@ udp://open.stealth.si:80/announce
 udp://exodus.desync.com:6969/announce
 udp://tracker.torrent.eu.org:451/announce
 udp://tracker.moeking.me:6969/announce
+udp://tracker.bitsearch.to:1337/announce
+udp://p4p.arenabg.com:1337/announce
+udp://explodie.org:6969/announce
+udp://uploads.gamecoast.net:6969/announce
 udp://tracker1.bt.moack.co.kr:80/announce
 udp://tracker.theoks.net:6969/announce
-udp://tracker.bitsearch.to:1337/announce
+udp://tracker.auctor.tv:6969/announce
 udp://tracker.altrosky.nl:6969/announce
-udp://tracker-udp.gbitt.info:80/announce
-udp://p4p.arenabg.com:1337/announce
 udp://movies.zsw.ca:6969/announce
-https://tracker.tamersunion.org:443/announce
-https://tracker.gbitt.info:443/announce
 http://1337.abcvg.info:80/announce
 http://bt.okmp3.ru:2710/announce
 http://canardscitrons.nohost.me:6969/announce
@@ -52,6 +52,7 @@ http://www.wareztorrent.com:80/announce
 https://1337.abcvg.info:443/announce
 https://tr.burnabyhighstar.com:443/announce
 https://tracker.foreverpirates.co:443/announce
+https://tracker.gbitt.info:443/announce
 https://tracker.imgoingto.icu:443/announce
 https://tracker.ipfsscan.io:443/announce
 https://tracker.jiesen.life:8443/announce
@@ -59,6 +60,7 @@ https://tracker.kuroy.me:443/announce
 https://tracker.lilithraws.cf:443/announce
 https://tracker.lilithraws.org:443/announce
 https://tracker.loligirl.cn:443/announce
+https://tracker.tamersunion.org:443/announce
 https://tracker1.520.jp:443/announce
 udp://107.182.30.76.16clouds.com:6969/announce
 udp://1c.premierzal.ru:6969/announce
@@ -66,7 +68,6 @@ udp://62-210-114-129.rev.poneytelecom.eu:6969/announce
 udp://aarsen.me:6969/announce
 udp://acxx.de:6969/announce
 udp://astrr.ru:6969/announce
-udp://astrra.space:6969/announce
 udp://bt1.archive.org:6969/announce
 udp://c-71-227-163-17.hsd1.wa.comcast.net:6969/announce
 udp://city21.pk:6969/announce
@@ -125,8 +126,6 @@ udp://tracker2.dler.com:80/announce
 udp://ts.populargamers.co.za:6969/announce
 udp://u4.trakx.crim.ist:1337/announce
 udp://u6.trakx.crim.ist:1337/announce
-udp://uploads.gamecoast.net:6969/announce
 udp://v1046920.hosted-by-vdsina.ru:6969/announce
-udp://zecircle.xyz:6969/announce
 ws://hub.bugout.link:80/announce
 wss://tracker.openwebtorrent.com:443/announce
