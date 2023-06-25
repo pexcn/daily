@@ -2,7 +2,7 @@
 // Update: 2023-03-21 22:41:12
 //
 
-const proxy = "SOCKS5 127.0.0.1:1080;";
+const proxy = "HTTPS fmt2.link.ac.cn:995;HTTPS fmt1.link.ac.cn:995;DIRECT";
 const direct = "DIRECT;";
 
 const hasOwnProperty = Object.hasOwnProperty;
