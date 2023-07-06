@@ -3457,6 +3457,7 @@ lcdwiki.com
 cdn-hotels.com
 pinpailiu.com
 cimtshow.com
+xiaohus.com
 yisell.com
 webuy.ai
 798com.com
@@ -11813,6 +11814,7 @@ adxqd.com
 adxvip.com
 adxwork.com
 adyounger.com
+adysimg.com
 adyun.com
 adzar-energy.com
 adzh.com
@@ -13165,7 +13167,6 @@ arkrdigital.com
 arkread.com
 arkteam.net
 arliki.com
-arm001.com
 arm9.net
 arm9home.net
 armbbs.net
@@ -21472,7 +21473,6 @@ dgwap.com
 dgwtrl.com
 dgxbjg.com
 dgxinde.net
-dgxinyuds.com
 dgxue.com
 dgyejia.com
 dgygpx.com
@@ -29216,7 +29216,6 @@ hijiaoshi.com
 hijoys.com
 hikailink.com
 hikcreate.com
-hikedj.com
 hiklife.com
 hikoon.com
 hikops.com
@@ -49783,6 +49782,7 @@ sscmwl.com
 sscom.vip
 ssdata.com
 ssdax.com
+ssdzg.com
 sseinfo.com
 ssf.cc
 ssgabc.com
@@ -59420,7 +59420,6 @@ yanglee.com
 yangli.com
 yanglong.pro
 yangluojob.com
-yangmaodang.org
 yangmaohao.net
 yangner.com
 yangqianguan.com
