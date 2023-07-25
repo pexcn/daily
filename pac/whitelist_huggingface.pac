@@ -9,6 +9,7 @@ const hasOwnProperty = Object.hasOwnProperty;
 
 const china_domains = {
   "baidu.com": 1,
+  "java.ai": 1,
   "huggingface.co": 1,
   "bilibili.com": 1,
   "qq.com": 1,
