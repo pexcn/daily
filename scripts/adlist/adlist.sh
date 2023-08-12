@@ -66,7 +66,7 @@ gen_list() {
   # sorting by toplist
   #
   # find intersection set
-  grep -Fx -f adlist.tmp toplist.txt > adlist_head.tmp || true
+  grep -Fx -f adlist.tmp toplist.txt > adlist_head.tmp
   # find difference set
   grep -Fxv -f toplist.txt adlist.tmp > adlist_tail.tmp
   # merge to adlist

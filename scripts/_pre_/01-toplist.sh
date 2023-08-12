@@ -14,7 +14,9 @@ gen_list() {
     # unzip
     gunzip |
     # extract domain
-    awk -F ',' '{print $2}' > toplist.txt
+    awk -F ',' '{print $2}' |
+    # convert to unix format
+    sed $'s/\r$//' > toplist.txt
 
   cd $CUR_DIR
 }
