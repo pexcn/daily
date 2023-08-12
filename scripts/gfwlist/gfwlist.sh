@@ -48,7 +48,7 @@ gen_list() {
   cat gfwlist_head.tmp gfwlist_tail.tmp > gfwlist.txt
 
   # exclude .cn domains
-  sed -i '/.cn$/d' > gfwlist.txt
+  sed -i '/.cn$/d' gfwlist.txt
 
   cd $CUR_DIR
 }
