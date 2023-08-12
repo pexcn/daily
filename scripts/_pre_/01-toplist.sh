@@ -4,7 +4,7 @@ set -o pipefail
 CUR_DIR=$(pwd)
 TMP_DIR=$(mktemp -d /tmp/toplist.XXXXXX)
 
-SRC_URL="https://s3.amazonaws.com/alexa-static/top-1m.csv.zip"
+SRC_URL="https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip"
 DEST_FILE="dist/toplist/toplist.txt"
 
 gen_list() {
