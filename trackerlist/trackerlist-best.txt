@@ -22,6 +22,7 @@ http://1337.abcvg.info:80/announce
 http://bt.okmp3.ru:2710/announce
 http://nyaa.tracker.wf:7777/announce
 http://open.acgnxtracker.com:80/announce
+http://p2p.0g.cx:6969/announce
 http://share.camoe.cn:8080/announce
 http://t.acg.rip:6699/announce
 http://t.nyaatracker.com:80/announce
@@ -31,6 +32,7 @@ http://tracker.electro-torrent.pl:80/announce
 http://tracker.files.fm:6969/announce
 http://tracker.gbitt.info:80/announce
 http://tracker.ipv6tracker.ru:80/announce
+http://tracker.mywaifu.best:6969/announce
 http://tracker.renfei.net:8080/announce
 http://tracker.tfile.co:80/announce
 http://v6-tracker.0g.cx:6969/announce
@@ -77,7 +79,6 @@ udp://p4p.arenabg.com:1337/announce
 udp://private.anonseed.com:6969/announce
 udp://public-tracker.cf:6969/announce
 udp://retracker.hotplug.ru:2710/announce
-udp://retracker01-msk-virt.corbina.net:80/announce
 udp://run-2.publictracker.xyz:6969/announce
 udp://run.publictracker.xyz:6969/announce
 udp://soundmovie.ru:6969/announce
@@ -88,6 +89,7 @@ udp://t.133335.xyz:6969/announce
 udp://thetracker.org:80/announce
 udp://thouvenin.cloud:6969/announce
 udp://tk1.trackerservers.com:8080/announce
+udp://tk1v6.trackerservers.com:8080/announce
 udp://tracker.0x7c0.com:6969/announce
 udp://tracker.birkenwald.de:6969/announce
 udp://tracker.ccp.ovh:6969/announce
@@ -103,6 +105,7 @@ udp://tracker.tryhackx.org:6969/announce
 udp://tracker2.dler.com:80/announce
 udp://ttk2.nbaonlineservice.com:6969/announce
 udp://u4.trakx.crim.ist:1337/announce
+udp://u6.trakx.crim.ist:1337/announce
 udp://vm3268418.24ssd.had.wf:6969/announce
 udp://yahor.of.by:6969/announce
 ws://hub.bugout.link:80/announce
