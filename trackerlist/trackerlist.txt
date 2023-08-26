@@ -129,9 +129,8 @@ http://[2001:1b10:1000:8101:0:242:ac11:2]:6969/announce
 http://[2a01:4f8:c012:8025::1]:8080/announce
 http://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 http://bt.okmp3.ru:2710/announce
-http://buny.uk:6969/announce
-http://movies.zsw.ca:6969/announce
 http://nyaa.tracker.wf:7777/announce
+http://p2p.0g.cx:6969/announce
 http://retracker.hotplug.ru:2710/announce
 http://share.camoe.cn:8080/announce
 http://shubt.net:2710/announce
@@ -141,8 +140,7 @@ http://tracker.birkenwald.de:6969/announce
 http://tracker.dler.com:6969/announce
 http://tracker.electro-torrent.pl:80/announce
 http://tracker.ipv6tracker.ru:80/announce
-http://tracker.nartlof.com.br:6969/announce
-http://tracker.swateam.org.uk:2710/announce
+http://tracker.skyts.net:6969/announce
 http://tracker4.itzmx.com:2710/announce
 http://v6-tracker.0g.cx:6969/announce
 http://www.all4nothin.net:80/announce.php
@@ -171,7 +169,6 @@ udp://d40969.acod.regrucolo.ru:6969/announce
 udp://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
 udp://fe.dealclub.de:6969/announce
 udp://ipv6.fuuuuuck.com:6969/announce
-udp://mikrotik2.draatman.net:6969/announce
 udp://netmap.top:6969/announce
 udp://odd-hd.fr:6969/announce
 udp://open.publictracker.xyz:6969/announce
