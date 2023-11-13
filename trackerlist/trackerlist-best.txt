@@ -24,6 +24,7 @@ http://bvarf.tracker.sh:2086/announce
 http://nyaa.tracker.wf:7777/announce
 http://open.acgnxtracker.com:80/announce
 http://open.tracker.ink:6969/announce
+http://p2p.0g.cx:6969/announce
 http://share.camoe.cn:8080/announce
 http://t.acg.rip:6699/announce
 http://t.nyaatracker.com:80/announce
@@ -98,6 +99,5 @@ udp://tracker2.dler.com:80/announce
 udp://tracker2.itzmx.com:6961/announce
 udp://ttk2.nbaonlineservice.com:6969/announce
 udp://u4.trakx.crim.ist:1337/announce
-udp://u6.trakx.crim.ist:1337/announce
 udp://y.paranoid.agency:6969/announce
 wss://tracker.openwebtorrent.com:443/announce
