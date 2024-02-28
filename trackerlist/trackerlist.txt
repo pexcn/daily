@@ -112,7 +112,6 @@ http://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 http://aboutbeautifulgallopinghorsesinthegreenpasture.online:80/announce
 http://bt.okmp3.ru:2710/announce
 http://ipv6.rer.lol:6969/announce
-http://movies.zsw.ca:6969/announce
 http://nyaa.tracker.wf:7777/announce
 http://retracker.hotplug.ru:2710/announce
 http://t.acg.rip:6699/announce
