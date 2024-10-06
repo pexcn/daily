@@ -5,6 +5,7 @@ udp://tracker.torrent.eu.org:451/announce
 udp://explodie.org:6969/announce
 udp://exodus.desync.com:6969/announce
 https://tracker.tamersunion.org:443/announce
+udp://tracker.tiny-vps.com:6969/announce
 udp://tracker.0x7c0.com:6969/announce
 udp://tracker-udp.gbitt.info:80/announce
 udp://run.publictracker.xyz:6969/announce
@@ -13,9 +14,8 @@ udp://opentracker.io:6969/announce
 udp://open.dstud.io:6969/announce
 udp://new-line.net:6969/announce
 udp://moonburrow.club:6969/announce
-http://tracker1.bt.moack.co.kr:80/announce
-udp://tracker.tiny-vps.com:6969/announce
-udp://tracker.dler.org:6969/announce
+udp://tracker2.dler.org:80/announce
+udp://tracker1.bt.moack.co.kr:80/announce
 udp://tracker.ccp.ovh:6969/announce
 udp://ryjer.com:6969/announce
 http://1337.abcvg.info:80/announce
@@ -32,6 +32,7 @@ http://tracker.tfile.co:80/announce
 http://www.all4nothin.net:80/announce.php
 http://www.wareztorrent.com:80/announce
 https://1337.abcvg.info:443/announce
+https://torrent.tracker.durukanbal.com:443/announce
 https://tr.burnabyhighstar.com:443/announce
 https://tracker.gcrenwp.top:443/announce
 https://tracker.kuroy.me:443/announce
@@ -47,6 +48,7 @@ udp://evan.im:6969/announce
 udp://martin-gebhardt.eu:25/announce
 udp://odd-hd.fr:6969/announce
 udp://open.tracker.ink:6969/announce
+udp://open.xxtor.com:3074/announce
 udp://opentor.org:2710/announce
 udp://p4p.arenabg.com:1337/announce
 udp://retracker.hotplug.ru:2710/announce
@@ -56,7 +58,9 @@ udp://thetracker.org:80/announce
 udp://tr4ck3r.duckdns.org:6969/announce
 udp://trackarr.org:6969/announce
 udp://tracker.birkenwald.de:6969/announce
+udp://tracker.breizh.pm:6969/announce
 udp://tracker.cloaka.xyz:1337/announce
+udp://tracker.cyberia.is:6969/announce
 udp://tracker.darkness.services:6969/announce
 udp://tracker.dler.com:6969/announce
 udp://tracker.doko.moe:6969/announce
