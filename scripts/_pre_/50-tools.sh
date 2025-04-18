@@ -7,5 +7,6 @@ cd ../..
 
 # https://github.com/afpd/netaggregate/pull/1
 cd tools/netaggregate
+sed -i '/#include <algorithm>/a #include <cstdint>' netaggregate.hpp
 make --silent
 cd ../..
