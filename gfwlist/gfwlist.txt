@@ -50,6 +50,7 @@ discordapp.com
 ads-twitter.com
 fbsbx.com
 github.com
+cloudflare-dns.com
 discord.gg
 godaddy.com
 disqus.com
@@ -150,6 +151,7 @@ youtu.be
 pstatic.net
 meta.com
 google.com.hk
+one.one.one.one
 app.box.com
 zoominfo.com
 google.com.my
@@ -171,7 +173,6 @@ ask.com
 google.com.co
 change.org
 rfa.org
-fast.wistia.com
 wattpad.com
 dailymail.co.uk
 www.sciencemag.org
@@ -229,6 +230,7 @@ mullvad.net
 google.at
 google.ch
 google.com.pe
+auth.openai.com
 character.ai
 google.com.ec
 weebly.com
@@ -487,6 +489,7 @@ jcpenney.com
 youporn.com
 acast.com
 a248.e.akamai.net
+audiomack.com
 spreaker.com
 sex.com
 pastebin.com
@@ -601,6 +604,7 @@ redtube.com
 gumroad.com
 xm.com
 overcast.fm
+sotwe.com
 freewechat.com
 zello.com
 redbubble.com
@@ -619,7 +623,6 @@ dw.com
 musixmatch.com
 googlecommerce.com
 fda.gov.tw
-fc2.com
 typeset.io
 123rf.com
 hk01.com
@@ -672,6 +675,7 @@ i-scmp.com
 news.ycombinator.com
 urbandictionary.com
 wow.com
+8888.google
 jable.tv
 catbox.moe
 mubi.com
@@ -717,10 +721,12 @@ channelnewsasia.com
 ibiblio.org
 bitchute.com
 chinapress.com.my
+rutracker.org
 vrchat.com
 archives.gov
 perfect-privacy.com
 torproject.org
+z-library.sk
 timesnownews.com
 on.cc
 gitbook.io
@@ -790,6 +796,7 @@ kone.com
 b.hatena.ne.jp
 opensea.io
 partypoker.com
+1lib.sk
 oann.com
 udn.com.tw
 manyvoices.news
@@ -809,7 +816,6 @@ mandiant.com
 dlsite.com
 hola.com
 momoshop.com.tw
-gotquestions.org
 sinchew.com.my
 youmaker.com
 elconfidencial.com
@@ -817,6 +823,7 @@ akinator.com
 ftchinese.com
 angularjs.org
 eksisozluk.com
+gemini.com
 exblog.jp
 thehindu.com
 nicovideo.jp
@@ -1180,6 +1187,7 @@ vocus.cc
 duck.com
 olevod.com
 t35.com
+z-lib.gd
 mypicture.info
 qhigh.com
 blogspot.com.co
@@ -1214,10 +1222,10 @@ blogspot.co.za
 blogspot.com.eg
 equinenow.com
 instanthq.com
+z-lib.ps
 alwaysdata.com
 blogspot.my
 greenpeace.org
-idope.se
 vegas.williamhill.com
 blogspot.no
 dnsrd.com
@@ -1354,6 +1362,7 @@ realitykings.com
 storj.io
 heritage.org
 ecimg.tw
+manwa.me
 jma.go.jp
 keepandshare.com
 vpngate.net
@@ -1471,6 +1480,7 @@ communitychoicecu.com
 privatetunnel.com
 smith.edu
 yam.com
+z-lib.gs
 bravotube.net
 javhub.net
 xerotica.com
@@ -1565,6 +1575,7 @@ newmitbbs.com
 pincong.rocks
 south-plus.net
 tsdr.uspto.gov
+book4you.org
 dtiblog.com
 simpleswap.io
 speakerdeck.com
@@ -1664,6 +1675,7 @@ avaaz.org
 btc.com
 chinadigitaltimes.net
 d2pass.com
+favcomic.com
 google.cc
 safervpn.com
 shooshtime.com
@@ -1673,6 +1685,7 @@ jiji.com
 pawoo.net
 putty.org
 sankei.com
+singlelogin.re
 solarsystem.nasa.gov
 vpngate.jp
 booktopia.com.au
@@ -1748,6 +1761,7 @@ hiveon.net
 marc.info
 mofa.gov.tw
 opendemocracy.net
+opendesktop.org
 pen.io
 togetter.com
 tokenlon.im
@@ -1761,6 +1775,7 @@ sspanel.net
 tibet.org
 twitpic.com
 xanga.com
+1lib.cz
 1pondo.tv
 abc.xyz
 coolstuffinc.com
@@ -1791,6 +1806,7 @@ google.io
 google.ph
 google.sg
 google.uk
+coincarp.com
 blogjav.net
 ptwxz.com
 agnesb.fr
@@ -1951,6 +1967,7 @@ xn--9pr62r24a.com
 s3.amazonaws.com
 s3-ap-southeast-1.amazonaws.com
 s3-ap-southeast-2.amazonaws.com
+s3.eu-central-1.amazonaws.com
 43110.cf
 agro.hk
 bangdream.space
@@ -2164,7 +2181,6 @@ ssl443.org
 wha.la
 www1.biz
 xxxy.biz
-cloudfront.net
 3d-game.com
 4irc.com
 b0ne.com
@@ -2367,6 +2383,47 @@ zh.wikiquote.org
 wmfusercontent.org
 blogs.yahoo.co.jp
 duckduckgo-owned-server.yahoo.net
+go-to-library.sk
+1lib.cloud
+italian-books.sk
+1lib.domains
+1lib.education
+1lib.eu
+1lib.limited
+1lib.pl
+1lib.to
+1lib.tw
+2lib.org
+3lib.net
+art1lib.com
+b-ok.africa
+b-ok.asia
+b-ok.cc
+b-ok.global
+b-ok.org
+bookfi.net
+booksc.eu
+booksc.me
+booksc.org
+booksc.xyz
+bookshome.info
+bookshome.net
+bookshome.world
+de1lib.org
+hk1lib.org
+libsolutions.app
+libsolutions.domains
+libsolutions.net
+ma1lib.org
+sg1lib.org
+singlelogin.app
+singlelogin.me
+singlelogin.site
+z-lib.org
+z-library.se
+zlib.life
+zlibcdn.com
+zlibcdn2.com
 2047.one
 2049bbs.xyz
 611study.com
@@ -2655,7 +2712,6 @@ btbit.net
 betaclouds.net
 blocktempo.com
 blockcast.it
-b-ok.cc
 forum.baby-kingdom.com
 babynet.com.hk
 backpackers.com.tw
@@ -3265,7 +3321,6 @@ dscn.info
 dstk.dk
 dtwang.org
 duanzhihu.com
-duckdns.org
 duckload.com
 duckmylife.com
 duihua.org
@@ -3397,6 +3452,7 @@ extremetube.com
 eyevio.jp
 ezpc.tk
 ezpeer.com
+fani.com
 factchecklab.org
 fuchsia.dev
 freess.org
@@ -3452,27 +3508,22 @@ fail.hk
 famunion.com
 fan-qiang.com
 fangbinxing.com
+fangeming.comffvpn.com
 fangmincn.org
 fanhaodang.com
 fanqiang.network
 fanswong.com
 fanyue.info
 farwestchina.com
-en.favotter.net
 global.ssl.fastly.net
 freetls.fastly.net
 fastssh.com
 faststone.org
-favstar.fm
 faydao.com
-fc2china.com
 fc2cn.com
-fc2blog.net
 uygur.fc2web.com
-video.fdbox.com
 fdc64.de
 fdc64.org
-fdc89.jp
 fourface.nodesnoop.com
 feelssh.com
 feer.com
@@ -3485,8 +3536,6 @@ fengzhenghu.com
 fengzhenghu.net
 fevernet.com
 ff.im
-fffff.at
-fflick.com
 ffvpn.com
 fgmtv.net
 fgmtv.org
@@ -3810,6 +3859,8 @@ guruonline.hk
 gvlib.com
 gyalwarinpoche.com
 gyatsostudio.com
+v2.hysteria.network
+h-ciyuan.com
 haiwaikan.com
 hoy.tv
 h528.com
@@ -4448,6 +4499,7 @@ lvhai.org
 lyfhk.net
 lzjscript.com
 lzmtnews.org
+news.mt.co.kr
 mergersandinquisitions.com
 m.moegirl.org
 myjs.tw
@@ -5217,6 +5269,8 @@ rushbee.com
 rusvpn.com
 ruyiseek.com
 rxhj.net
+sing-box.sagernet.org
+ssm.fun
 ssrtool.com
 ssrshare.us
 secure.shadowsocks.nu
@@ -5508,7 +5562,6 @@ tw.streetvoice.com
 strongwindpress.com
 studentsforafreetibet.org
 stupidvideos.com
-subhd.tv
 successfn.com
 panamapapers.sueddeutsche.de
 sugobbs.com
@@ -5538,6 +5591,7 @@ sysresccd.org
 blog.syx86.com
 szbbs.net
 szetowah.org.hk
+thotsbay.tv
 tunein.streamguys1.com
 tomp3.cc
 tukaani.org
@@ -6425,7 +6479,6 @@ yysub.net
 yzzk.com
 zhongzidi.com
 z-lib.io
-z-lib.org
 zacebook.com
 zalmos.com
 zannel.com
