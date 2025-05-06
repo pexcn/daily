@@ -131,8 +131,10 @@ http://retracker.hotplug.ru:2710/announce
 http://tk.greedland.net:80/announce
 http://torrent.hificode.in:6969/announce
 http://torrentsmd.com:8080/announce
+http://tracker.23794.top:6969/announce
 http://tracker.beeimg.com:6969/announce
 http://tracker.ipv6tracker.ru:80/announce
+http://tracker.lyretain.site:2710/announce
 http://tracker.netmap.top:6969/announce
 http://tracker.privateseedbox.xyz:2710/announce
 http://tracker.tritan.gg:8080/announce
@@ -142,6 +144,7 @@ http://www.wareztorrent.com:80/announce
 https://1337.abcvg.info:443/announce
 https://tr.abiir.top:443/announce
 https://tr.abir.ga:443/announce
+https://tr.nyacat.pw:443/announce
 https://tracker.aburaya.live:443/announce
 https://tracker.bjut.jp:443/announce
 https://tracker.foreverpirates.co:443/announce
@@ -158,7 +161,6 @@ udp://opentor.org:2710/announce
 udp://retracker.hotplug.ru:2710/announce
 udp://thouvenin.cloud:6969/announce
 udp://torrent.i.ng:6969/announce
-udp://tr3.ysagin.top:2715/announce
 udp://tracker-udp.gbitt.info:80/announce
 udp://tracker.breizh.pm:6969/announce
 udp://tracker.cyberia.is:6969/announce
@@ -176,5 +178,6 @@ udp://tracker2.itzmx.com:6961/announce
 udp://tracker3.itzmx.com:6961/announce
 udp://tracker4.itzmx.com:2710/announce
 udp://udp.tracker.projectk.org:23333/announce
+udp://utracker.ghostchu-services.top:6969/announce
 udp://www.torrent.eu.org:451/announce
 wss://tracker.openwebtorrent.com:443/announce
