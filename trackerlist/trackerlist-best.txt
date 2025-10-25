@@ -1,9 +1,9 @@
 udp://tracker.opentrackr.org:1337/announce
 udp://open.demonoid.ch:6969/announce
 udp://open.demonii.com:1337/announce
-udp://open.stealth.si:80/announce
 udp://tracker.torrent.eu.org:451/announce
-udp://explodie.org:6969/announce
+udp://open.stealth.si:80/announce
+udp://exodus.desync.com:6969/announce
 udp://yuki.bt.bontal.net:6969/announce
 udp://wepzone.net:6969/announce
 udp://udp.tracker.projectk.org:23333/announce
@@ -12,12 +12,12 @@ udp://tracker2.dler.org:80/announce
 udp://tracker.zupix.online:6969/announce
 udp://tracker.valete.tf:9999/announce
 udp://tracker.tvunderground.org.ru:3218/announce
+udp://tracker.tryhackx.org:6969/announce
+udp://tracker.torrust-demo.com:6969/announce
 udp://tracker.therarbg.to:6969/announce
-udp://tracker.theoks.net:6969/announce
 udp://tracker.startwork.cv:1337/announce
 udp://tracker.srv00.com:6969/announce
 udp://tracker.qu.ax:6969/announce
-udp://tracker.ololosh.space:6969/announce
 http://1337.abcvg.info:80/announce
 http://bt.okmp3.ru:2710/announce
 http://echostar.ddnsfree.com:8080/announce
@@ -41,7 +41,6 @@ https://cny.fan:443/announce
 https://t.213891.xyz:443/announce
 https://torrent.tracker.durukanbal.com:443/announce
 https://tr.abiir.top:443/announce
-https://tr.abir.ga:443/announce
 https://tr.nyacat.pw:443/announce
 https://tracker.alaskantf.com:443/announce
 https://tracker.belmult.online:443/announce
@@ -66,6 +65,7 @@ udp://martin-gebhardt.eu:25/announce
 udp://open.dstud.io:6969/announce
 udp://opentor.org:2710/announce
 udp://p4p.arenabg.com:1337/announce
+udp://rekcart.duckdns.org:15480/announce
 udp://retracker.lanta.me:2710/announce
 udp://retracker01-msk-virt.corbina.net:80/announce
 udp://torrentclub.online:54123/announce
@@ -83,7 +83,6 @@ udp://tracker.plx.im:6969/announce
 udp://tracker.rescuecrew7.com:1337/announce
 udp://tracker.skillindia.site:6969/announce
 udp://tracker.skyts.net:6969/announce
-udp://tracker.tryhackx.org:6969/announce
 udp://tracker.zupix.online:1333/announce
 udp://www.torrent.eu.org:451/announce
 wss://tracker.openwebtorrent.com:443/announce
