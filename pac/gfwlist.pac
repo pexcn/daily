@@ -1,5 +1,5 @@
 //
-// Update: 2025-11-18 15:28:26
+// Update: 2025-11-19 02:28:13
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -2487,6 +2487,7 @@ const gfwlist_domains = {
   "99cn.info": 1,
   "9bis.com": 1,
   "9bis.net": 1,
+  "ai.dev": 1,
   "adguard-vpn.com": 1,
   "aoxvpn.com": 1,
   "amuletmc.com": 1,
