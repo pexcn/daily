@@ -23,6 +23,10 @@ post() {
 }
 
 main() {
+  # toplist
+  mkdir -p dist/toplist/
+  scripts/toplist.sh > dist/toplist/toplist.txt
+
   # ad domain list
   scripts/adlist/adlist.sh
 
