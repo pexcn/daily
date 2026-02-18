@@ -1,5 +1,5 @@
 //
-// Update: 2026-02-18 02:56:27
+// Update: 2026-02-19 02:53:13
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -21,6 +21,7 @@ const gfwlist_domains = {
   "www.msn.com": 1,
   "instagram.com": 1,
   "googlevideo.com": 1,
+  "gvt1.com": 1,
   "netflix.net": 1,
   "whatsapp.net": 1,
   "ggpht.com": 1,
@@ -1973,7 +1974,6 @@ const gfwlist_domains = {
   "googleplus.com": 1,
   "googlescholar.com": 1,
   "gstatic.com": 1,
-  "gvt1.com]": 1,
   "gwtproject.org": 1,
   "html5rocks.com": 1,
   "iam.soy": 1,
@@ -3132,6 +3132,7 @@ const gfwlist_domains = {
   "lyfhk.net": 1,
   "lzjscript.com": 1,
   "lzmtnews.org": 1,
+  "mosavi.io": 1,
   "mjj.rip": 1,
   "news.mt.co.kr": 1,
   "mergersandinquisitions.com": 1,

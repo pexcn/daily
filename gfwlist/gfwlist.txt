@@ -11,6 +11,7 @@ yahoo.com
 www.msn.com
 instagram.com
 googlevideo.com
+gvt1.com
 netflix.net
 whatsapp.net
 ggpht.com
@@ -1963,7 +1964,6 @@ googleplay.com
 googleplus.com
 googlescholar.com
 gstatic.com
-gvt1.com]
 gwtproject.org
 html5rocks.com
 iam.soy
@@ -3122,6 +3122,7 @@ lvhai.org
 lyfhk.net
 lzjscript.com
 lzmtnews.org
+mosavi.io
 mjj.rip
 news.mt.co.kr
 mergersandinquisitions.com
