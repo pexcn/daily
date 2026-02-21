@@ -954,6 +954,7 @@ heritage.org
 japantimes.co.jp
 stc.com.sa
 abplive.com
+meee.com.tw
 tunnelblick.net
 foreignaffairs.com
 lihkg.com
@@ -1355,6 +1356,7 @@ westca.com
 betvictor.com
 chinadigitaltimes.net
 gettyimages.de
+opencritic.com
 play-asia.com
 pinterest.pt
 cici.com
@@ -2090,6 +2092,7 @@ zhao.1984.city
 99cn.info
 9bis.com
 9bis.net
+akile.io
 anuneko.com
 ai.dev
 aoxvpn.com
@@ -2299,6 +2302,7 @@ buzzorange.com
 bvpn.com
 bwh1.net
 bypasscensorship.org
+www.clashverge.dev
 clementine-player.org
 cchostvps.xyz
 covenantswatch.org.tw
@@ -3233,6 +3237,7 @@ myiphide.com
 mymoe.moe
 myparagliding.com
 mypopescu.com
+assets.nxtrace.org
 bbs.naixi.net
 netlify.app
 nightswatch.top

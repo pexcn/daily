@@ -1,5 +1,5 @@
 //
-// Update: 2026-02-19 02:53:13
+// Update: 2026-02-22 02:33:22
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -964,6 +964,7 @@ const gfwlist_domains = {
   "japantimes.co.jp": 1,
   "stc.com.sa": 1,
   "abplive.com": 1,
+  "meee.com.tw": 1,
   "tunnelblick.net": 1,
   "foreignaffairs.com": 1,
   "lihkg.com": 1,
@@ -1365,6 +1366,7 @@ const gfwlist_domains = {
   "betvictor.com": 1,
   "chinadigitaltimes.net": 1,
   "gettyimages.de": 1,
+  "opencritic.com": 1,
   "play-asia.com": 1,
   "pinterest.pt": 1,
   "cici.com": 1,
@@ -2100,6 +2102,7 @@ const gfwlist_domains = {
   "99cn.info": 1,
   "9bis.com": 1,
   "9bis.net": 1,
+  "akile.io": 1,
   "anuneko.com": 1,
   "ai.dev": 1,
   "aoxvpn.com": 1,
@@ -2309,6 +2312,7 @@ const gfwlist_domains = {
   "bvpn.com": 1,
   "bwh1.net": 1,
   "bypasscensorship.org": 1,
+  "www.clashverge.dev": 1,
   "clementine-player.org": 1,
   "cchostvps.xyz": 1,
   "covenantswatch.org.tw": 1,
@@ -3243,6 +3247,7 @@ const gfwlist_domains = {
   "mymoe.moe": 1,
   "myparagliding.com": 1,
   "mypopescu.com": 1,
+  "assets.nxtrace.org": 1,
   "bbs.naixi.net": 1,
   "netlify.app": 1,
   "nightswatch.top": 1,
