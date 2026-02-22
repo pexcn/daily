@@ -807,6 +807,7 @@ superpages.com
 froth.zone
 eksisozluk.com
 typepad.com
+uniswap.org
 annas-archive.li
 wikimapia.org
 bitchute.com
@@ -3679,6 +3680,7 @@ switchvpn.net
 sydneytoday.com
 sylfoundation.org
 syncback.com
+tor.eff.org
 tails.net
 terobox.com
 talkatone.com

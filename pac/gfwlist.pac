@@ -1,5 +1,5 @@
 //
-// Update: 2026-02-22 02:33:22
+// Update: 2026-02-23 02:33:57
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -817,6 +817,7 @@ const gfwlist_domains = {
   "froth.zone": 1,
   "eksisozluk.com": 1,
   "typepad.com": 1,
+  "uniswap.org": 1,
   "annas-archive.li": 1,
   "wikimapia.org": 1,
   "bitchute.com": 1,
@@ -3689,6 +3690,7 @@ const gfwlist_domains = {
   "sydneytoday.com": 1,
   "sylfoundation.org": 1,
   "syncback.com": 1,
+  "tor.eff.org": 1,
   "tails.net": 1,
   "terobox.com": 1,
   "talkatone.com": 1,
