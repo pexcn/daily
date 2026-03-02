@@ -140,7 +140,6 @@ admob.com
 line.me
 xhamster.com
 docker.com
-www.imdb.com
 app.box.com
 proton.me
 soundcloud.com
@@ -390,6 +389,7 @@ google.gg
 hsselite.com
 bsky.social
 rumble.com
+claude.com
 hbo.com
 google.ki
 google.mv
@@ -614,6 +614,7 @@ banorte.com
 nikke-kr.com
 nephobox.com
 tube8.com
+manus.im
 cyberghostvpn.com
 zello.com
 brazzers.com

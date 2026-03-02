@@ -1,5 +1,5 @@
 //
-// Update: 2026-02-25 03:00:11
+// Update: 2026-03-03 02:46:03
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -150,7 +150,6 @@ const gfwlist_domains = {
   "line.me": 1,
   "xhamster.com": 1,
   "docker.com": 1,
-  "www.imdb.com": 1,
   "app.box.com": 1,
   "proton.me": 1,
   "soundcloud.com": 1,
@@ -400,6 +399,7 @@ const gfwlist_domains = {
   "hsselite.com": 1,
   "bsky.social": 1,
   "rumble.com": 1,
+  "claude.com": 1,
   "hbo.com": 1,
   "google.ki": 1,
   "google.mv": 1,
@@ -624,6 +624,7 @@ const gfwlist_domains = {
   "nikke-kr.com": 1,
   "nephobox.com": 1,
   "tube8.com": 1,
+  "manus.im": 1,
   "cyberghostvpn.com": 1,
   "zello.com": 1,
   "brazzers.com": 1,
