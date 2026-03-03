@@ -2329,7 +2329,6 @@ playorcas.com
 chaitin.com
 helps.live
 qingting.fm
-roai.shop
 58supin.com
 alimama.com
 betaflare.com
@@ -2537,6 +2536,7 @@ futuhn.com
 haoke100.com
 hqwx.com
 zaodian.com
+zone.id
 dt830.com
 soku.com
 zhongdi168.com
@@ -2635,6 +2635,7 @@ feikua.net
 ssports.com
 tencentcloudapi.com
 umgg.biz
+us.ci
 100bt.com
 initkk.com
 anjgas.com
@@ -2656,6 +2657,7 @@ tyxcdn.com
 xiaomiyoupin.com
 abchina.com
 leju.com
+sinaapp.com
 testrust.com
 pudutech.com
 guwendao.net
@@ -2679,6 +2681,7 @@ mytokenpocket.vip
 zdnscloud.com
 zjzhengxingyiyuan.com
 2cycomic.com
+cc.cd
 fenbi.com
 tvfuwu.com
 yuanfudao.com
@@ -3285,7 +3288,6 @@ kuvun.com
 miyoushe.com
 queniupl.com
 thxflt.com
-vqyzdzcg.shop
 wondershare.jp
 www.skypixel.com
 chinaso.com
@@ -4117,7 +4119,6 @@ dawuhanapp.com
 duapp.com
 easyar.com
 famens.com
-fr0528.art
 fuguantang.com
 hhhoo.com
 lkcoffee.com
@@ -4220,7 +4221,6 @@ maibangbang.net
 mkzcdn.com
 neofussvr.sslcs.cdngc.net
 play-analytics.com
-sci-hub.shop
 znzmo.com
 chinapp.com
 chndoi.org
@@ -4314,6 +4314,7 @@ catl.com
 d1cy.com
 dev-dh.com
 gdofun.com
+heiyu.space
 hi-spider.com
 jdcdn.com
 ksbbs.com
@@ -4335,6 +4336,7 @@ horionsw.com
 iapolo.com
 jrzp.com
 jxdown.com
+nyat.app
 rednetdns.com
 seayoo.com
 skland.com
@@ -4549,6 +4551,7 @@ mofazhu.com
 scgra.com
 shuhonggz.com
 syq666.com
+vipsinaapp.com
 wshtgame.com
 yaopinnet.com
 zhaoshang100.com
@@ -5269,7 +5272,6 @@ oplay.net
 ppzhan.com
 shhuayi.com
 shufaai.com
-supermap.com
 adcdownload.apple.com.akadns.net
 adcdownload.apple.com
 cdn-cn1.apple-mapkit.com
@@ -23908,7 +23910,6 @@ cc-image.com
 cc-pharming.com
 cc-q.com
 cc-uavia.com
-cc.cd
 cc.co
 cc06040d408f65b1.com
 cc0808.com
@@ -40081,6 +40082,7 @@ fqworld.org
 fqxdw.com
 fqxs.org
 fqxsw.cc
+fr0528.art
 fr2007.com
 fractal-technology.com
 fraeco.com
@@ -49374,7 +49376,6 @@ heiyange.com
 heiyanimg.com
 heiying.cc
 heiyu.cc
-heiyu.space
 heiyunxitong.com
 heizhushoes.com
 hejia-china.com
@@ -75308,7 +75309,6 @@ ny1988.com
 ny2000.com
 nya.ink
 nyaacat.com
-nyat.app
 nyato.com
 nybai.com
 nybaidu.net
@@ -82428,6 +82428,7 @@ roadqu.com
 roadsignads.com
 roadtoempress.com
 roadwaygroup.com
+roai.shop
 roaing.com
 robam.com
 robbyant.com
@@ -83928,6 +83929,7 @@ sci-bioland.com
 sci-fifans.net
 sci-gz.com
 sci-hub.ee
+sci-hub.shop
 sci-inv.com
 sci-it.com
 scialyze.com
@@ -87645,7 +87647,6 @@ sin-jiang-law.com
 sin0sites.com
 sina-cf.com
 sina.lt
-sinaapp.com
 sinacdn.com
 sinacloud.com
 sinadaxue.com
@@ -90348,6 +90349,7 @@ superlink.mobi
 superlinkscm.com
 superlitetech.com
 superljq01.com
+supermap.com
 supermap.io
 supermapcloud.com
 supermapol.com
@@ -97057,7 +97059,6 @@ urumqimtr.com
 us-ag2-api.dji.com
 us-ex.com
 us-qianzheng.com
-us.ci
 us0.me
 usa-gam.com
 usa-idc.com
@@ -97856,7 +97857,6 @@ vipshare.com
 vipshop.com
 vipshopyao.com
 vipshou.com
-vipsinaapp.com
 vipskill.com
 vipslib.com
 vipsmt.com
@@ -98246,6 +98246,7 @@ vqs.com
 vqu.show
 vqudo.com
 vqudochina.com
+vqyzdzcg.shop
 vr-cat.com
 vr186.com
 vr2.tv
@@ -115780,7 +115781,6 @@ zonafs.com
 zonboapp.com
 zonci.com
 zone-king.com
-zone.id
 zone139.com
 zoneben.com
 zoneidc.com

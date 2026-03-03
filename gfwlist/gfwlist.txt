@@ -1,4 +1,5 @@
 google.com
+googleapis.com
 googleusercontent.com
 facebook.com
 www.bing.com
@@ -28,16 +29,19 @@ gmail.com
 pinterest.com
 tiktokv.us
 twitter.com
+withgoogle.com
 tiktokv.com
 reddit.com
 chatgpt.com
 use.typekit.net
 temu.com
+akamaihd.net
 whatsapp.com
 nflxso.net
 s.yimg.com
 pinimg.com
 android.com
+azurewebsites.net
 redditstatic.com
 amazonvideo.com
 tiktokcdn.com
@@ -57,11 +61,13 @@ cloudflare-dns.com
 fbsbx.com
 github.com
 godaddy.com
+s3.us-east-1.amazonaws.com
 gravatar.com
 redd.it
 canva.com
 discord.gg
 tiktokcdn-eu.com
+githubusercontent.com
 openai.com
 x.com
 wikipedia.org
@@ -80,17 +86,22 @@ pandora.com
 cdn.jwplayer.com
 google.co.uk
 copilot.microsoft.com
+github.io
 vimeocdn.com
 hulu.com
 discordapp.net
+appspot.com
 nytimes.com
 youtube-nocookie.com
+cloudfunctions.net
 nflxext.com
 redditspace.com
 brave.com
 nflximg.com
 wikipedia.com
 nyt.com
+s3.eu-central-1.amazonaws.com
+pages.dev
 twitch.tv
 pdst.fm
 zoominfo.com
@@ -106,7 +117,9 @@ meta.com
 bbci.co.uk
 google.com.mx
 onedrive.live.com
+workers.dev
 google.ca
+global.ssl.fastly.net
 quora.com
 fb.com
 bbc.com
@@ -115,6 +128,7 @@ naver.com
 costco.com
 addons.mozilla.org
 nytimes.map.fastly.net
+herokuapp.com
 google.ru
 etsy.com
 google.de
@@ -128,6 +142,7 @@ bit.ly
 fast.wistia.com
 theguardian.com
 githubcopilot.com
+s3-ap-southeast-1.amazonaws.com
 google.com.ph
 google.co.th
 line-apps.com
@@ -161,6 +176,7 @@ dashlane.com
 google.com.pr
 pstatic.net
 youtu.be
+blogspot.com
 secure.logmein.com
 aljazeera.com
 pornhub.com
@@ -215,6 +231,7 @@ newyorker.com
 www.skype.com
 wikisource.org
 wsj.com
+vercel.app
 google.be
 grok.com
 sndcdn.com
@@ -225,6 +242,7 @@ theatlantic.com
 google.ch
 google.com.pk
 textnow.me
+translate.goog
 google.it
 weebly.com
 google.dz
@@ -233,6 +251,7 @@ carfax.com
 dropboxapi.com
 google.co.il
 time.com
+netlify.app
 google.co.ve
 avg.com
 medium.com
@@ -410,6 +429,7 @@ google.dm
 google.gy
 google.com.ly
 google.ba
+files.oaiusercontent.com
 streamable.com
 google.sr
 google.tn
@@ -505,6 +525,7 @@ monica.im
 ledger.com
 kucoin.com
 app.smartmailcloud.com
+freetls.fastly.net
 assets.bwbx.io
 bild.de
 cloud.mail.ru
@@ -636,6 +657,7 @@ welt.de
 catbox.moe
 arte.tv
 wiktionary.org
+s3-ap-northeast-1.amazonaws.com
 flowgpt.com
 cloudflarestatus.com
 cdn.arstechnica.net
@@ -643,6 +665,7 @@ interactivebrokers.com
 500px.com
 realitykings.com
 freeterabox.com
+googlecode.com
 thetvdb.com
 google.net
 google.org
@@ -658,6 +681,7 @@ cmegroup.com
 9cache.com
 kobo.com
 static.pocketcasts.com
+s3-eu-central-1.amazonaws.com
 zamimg.com
 g.co
 softether.org
@@ -673,6 +697,7 @@ faz.net
 googleblog.com
 wenxuecity.com
 shopee.tw
+s3-ap-southeast-2.amazonaws.com
 xvideos.es
 wikibooks.org
 wikidata.org
@@ -686,11 +711,13 @@ telegra.ph
 youjizz.com
 whoer.net
 nikkei.com
+s3.ap-northeast-2.amazonaws.com
 spacex.com
 trustwallet.com
 r10s.jp
 ipfs.io
 radio.co
+gitbook.io
 tg.dev
 goldenfrog.com
 4shared.com
@@ -702,6 +729,7 @@ angularjs.org
 raindrop.io
 read01.com
 archive.ph
+carrd.co
 telega.one
 ldplayer.net
 i-scmp.com
@@ -784,6 +812,7 @@ blackmagicdesign.com
 odysee.com
 jpl.nasa.gov
 ltn.com.tw
+arena.ai
 abebooks.co.uk
 chromeexperiments.com
 smh.com.au
@@ -961,6 +990,7 @@ tunnelblick.net
 foreignaffairs.com
 lihkg.com
 token.im
+gotdns.ch
 about.me
 bahamut.com.tw
 blacked.com
@@ -1004,6 +1034,7 @@ newsblur.com
 jiji.com
 rcam.target.com
 gettyimages.in
+alwaysdata.net
 keycdn.com
 z-library.sk
 gmgn.ai
@@ -1037,6 +1068,7 @@ sundayguardianlive.com
 gov.taipei
 gettr.com
 vpnproxymaster.com
+wmflabs.org
 exhentai.org
 torlock.com
 dtic.mil
@@ -1404,7 +1436,6 @@ putty.org
 hardsextube.com
 wujieliulan.com
 graphql.org
-lexica.art
 privacyguides.org
 blogspot.jp
 google.hk
@@ -1435,6 +1466,7 @@ counter.social
 globalvoices.org
 tardigrade.io
 betterhash.net
+cloudflare-ipfs.com
 google.com.iq
 howtoforge.com
 religionnews.com
@@ -1444,6 +1476,7 @@ nat.moe
 fakku.net
 jav321.com
 mangafox.me
+withyoutube.com
 9news.com.au
 xt.com
 allmovie.com
@@ -1537,7 +1570,6 @@ blogspot.co.il
 blogspot.co.ke
 blogspot.co.nz
 blogspot.co.za
-blogspot.com
 blogspot.com.by
 blogspot.com.co
 blogspot.com.cy
@@ -1886,14 +1918,7 @@ slashine.onl
 social.datalabour.com
 payments-jp.amazon.com
 s3-ap-*.amazonaws.com
-s3.eu-central-1.amazonaws.com
-s3-eu-central-1.amazonaws.com
-s3.us-east-1.amazonaws.com
 s3-ap-northeast-2.amazonaws.com
-s3.ap-northeast-2.amazonaws.com
-s3-ap-northeast-1.amazonaws.com
-s3-ap-southeast-1.amazonaws.com
-s3-ap-southeast-2.amazonaws.com
 video.aol.com
 www.aolnews.com
 avmo.pw
@@ -1901,8 +1926,6 @@ avmoo.pw
 bbcchinese.com
 bloomberg.de
 bloombergview.com
-pages.dev
-workers.dev
 f8.com
 facebook.design
 facebook.hu
@@ -1924,19 +1947,16 @@ website.new
 slides.new
 deck.new
 presentation.new
-googleapis.com
 466453.com
 abc.xyz
 adsense.com
 agoogleaday.com
 androidify.com
 api.ai
-appspot.com
 business.page
 certificate-transparency.org
 chromecast.com
 chromestatus.com
-cloudfunctions.net
 crbug.com
 creativelab5.com
 crrev.com
@@ -1957,7 +1977,6 @@ google.vn
 googleartproject.com
 googlebot.com
 googlechinawebmaster.com
-googlecode.com
 googlearth.com
 googleearth.com
 googleideas.com
@@ -1992,15 +2011,12 @@ snapseed.com
 synergyse.com
 teachparentstech.org
 tiltbrush.com
-translate.goog
 urchin.com
 waveprotocol.org
 webmproject.org
 whatbrowser.org
 whats.new
 widevine.com
-withgoogle.com
-withyoutube.com
 x.company
 youtubegaming.com
 zynamics.com
@@ -2094,6 +2110,7 @@ zhao.1984.city
 99cn.info
 9bis.com
 9bis.net
+arweave.org
 akile.io
 anuneko.com
 ai.dev
@@ -2124,7 +2141,6 @@ download.aircrack-ng.org
 ait.org.tw
 aiweiweiblog.com
 www.ajsands.com
-akamaihd.net
 akademiye.org
 akow.org
 alabout.com
@@ -2139,7 +2155,6 @@ alldrawnsex.com
 allfinegirls.com
 allinfa.com
 alternate-tools.com
-alwaysdata.net
 alwaysvpn.com
 americangreencard.com
 amiblockedornot.com
@@ -2193,7 +2208,6 @@ avidemux.org
 avoision.com
 axureformac.com
 azirevpn.com
-azurewebsites.net
 help.byspotify.com
 bitbaby.com
 bettergpt.chat
@@ -2326,7 +2340,6 @@ caochangqing.com
 cap.org.hk
 caoporn.us
 posts.careerengine.us
-carrd.co
 cartoonmovement.com
 casatibet.org.mx
 catch22.net
@@ -2424,7 +2437,6 @@ ck101.com
 classicalguitarblog.net
 clinica-tibet.ru
 app.cloudcone.com
-cloudflare-ipfs.com
 club1069.com
 cmi.org.tw
 www.cmoinc.org
@@ -2642,8 +2654,6 @@ famunion.com
 fanqiang.network
 fanswong.com
 en.favotter.net
-global.ssl.fastly.net
-freetls.fastly.net
 fastssh.com
 faststone.org
 favstar.fm
@@ -2728,7 +2738,6 @@ gmp4.com
 gdaily.org
 gfwatch.org
 go-to-zlibrary.se
-gitbook.io
 g6hentai.com
 g-queen.com
 gabocorp.com
@@ -2766,8 +2775,6 @@ giantessnight.com
 giga-web.jp
 girlbanker.com
 softwaredownload.gitbooks.io
-github.io
-githubusercontent.com
 gizlen.net
 gjczz.com
 glarity.app
@@ -2838,7 +2845,6 @@ helloqueer.com
 helpeachpeople.com
 helpster.de
 id.heroku.com
-herokuapp.com
 heqinglian.net
 hexieshe.com
 hexieshe.xyz
@@ -3068,6 +3074,7 @@ kxsw.life
 kzaobao.com
 kzeng.info
 library-access.sk
+lexica.art
 luckymobile.ca
 ludepress.com
 lingualeo.com
@@ -3242,7 +3249,6 @@ myparagliding.com
 mypopescu.com
 assets.nxtrace.org
 bbs.naixi.net
-netlify.app
 nightswatch.top
 nbyy.tv
 newthuhole.com
@@ -3281,7 +3287,6 @@ njactb.org
 nlfreevpn.com
 nmsl.website
 nnews.eu
-gotdns.ch
 nobel.se
 nokogiri.org
 nokola.com
@@ -3298,7 +3303,6 @@ nvtongzhisheng.org
 nyaa.eu
 ooni.io
 ooni.org
-files.oaiusercontent.com
 oojj.de
 onevps.com
 october-review.org
@@ -3962,7 +3966,6 @@ vansky.com
 vcf-online.org
 vcfbuilder.org
 venetianmacao.com
-vercel.app
 verybs.com
 victimsofcommunism.org
 vid.me
@@ -4007,6 +4010,7 @@ vpnuk.info
 vpnvip.com
 vtunnel.com
 vuku.cc
+wispbyte.com
 wallzhihu.com
 wikis.tw
 weights.com
@@ -4072,7 +4076,6 @@ wiredpen.com
 wisevid.com
 witopia.net
 wjbk.org
-wmflabs.org
 wnacg.org
 wo.tc
 woeser.com
