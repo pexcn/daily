@@ -575,6 +575,7 @@ slideshare.net
 tunnelbear.com
 googlecommerce.com
 bet365.com
+economist.com
 euronews.com
 anchor.fm
 cdw.com
@@ -1041,7 +1042,6 @@ gmgn.ai
 relay.firefox.com
 solscan.io
 now.com
-zaobao.com.sg
 dongtaiwang.com
 hdzog.com
 img.ly
