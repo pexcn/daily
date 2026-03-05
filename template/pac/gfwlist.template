@@ -1,50 +1,91 @@
-const proxy = "SOCKS5 127.0.0.1:1080;";
-const direct = "DIRECT;";
+const proxy = "SOCKS5 127.0.0.1:1080";
+const direct = "DIRECT";
 
-const hasOwnProperty = Object.hasOwnProperty;
+const hasOwn = Object.hasOwn || function (obj, prop) {
+  return Object.prototype.hasOwnProperty.call(obj, prop);
+};
 
-const gfwlist_domains = {
+const gfwlistDomains = {
   ___GFWLIST_PLACEHOLDER___
 };
 
-function is_china_domain(domain) {
-  return !!dnsDomainIs(domain, ".cn");
+const CACHE_LIMIT = 4096;
+const cache = Object.create(null);
+const cacheRing = new Array(CACHE_LIMIT);
+let cachePos = 0;
+let cacheSize = 0;
+
+function cacheGet(host) {
+  return cache[host];
 }
 
-function match_domains(domain, domains) {
-  let suffix;
-  let pos = domain.lastIndexOf('.');
-  pos = domain.lastIndexOf('.', pos - 1);
-  while (1) {
-    if (pos <= 0) {
-      return hasOwnProperty.call(domains, domain);
+function cachePut(host, val) {
+  if (cache[host] !== undefined) {
+    cache[host] = val;
+    return;
+  }
+  if (cacheSize < CACHE_LIMIT) {
+    cacheRing[cacheSize++] = host;
+  } else {
+    const old = cacheRing[cachePos];
+    if (old !== undefined) {
+      delete cache[old];
     }
-    suffix = domain.substring(pos + 1);
-    if (hasOwnProperty.call(domains, suffix)) {
+    cacheRing[cachePos] = host;
+    cachePos = (cachePos + 1) % CACHE_LIMIT;
+  }
+  cache[host] = val;
+}
+
+function isCn(host) {
+  const len = host.length;
+  let end = len;
+  if (len > 0 && host.charCodeAt(len - 1) === 46) { // '.'
+    end = len - 1;
+  }
+  return end > 3
+    && host.charCodeAt(end - 3) === 46  // '.'
+    && host.charCodeAt(end - 2) === 99  // 'c'
+    && host.charCodeAt(end - 1) === 110; // 'n'
+}
+
+function matchDomains(host, domains) {
+  if (hasOwn(domains, host)) return true;
+
+  let last = host.lastIndexOf('.');
+  if (last <= 0) return false;
+
+  let pos = host.lastIndexOf('.', last - 1);
+  while (pos > 0) {
+    if (hasOwn(domains, host.substring(pos + 1))) {
       return true;
     }
-    pos = domain.lastIndexOf('.', pos - 1);
+    pos = host.lastIndexOf('.', pos - 1);
   }
+
+  return false;
 }
 
-/**
- * @return {string} Connect via direct or proxy.
- */
 function FindProxyForURL(url, host) {
   if (typeof host === 'undefined'
     || isPlainHostName(host) === true
     || host === '127.0.0.1'
-    || host === 'localhost') {
+    || host === 'localhost'
+    || host === '::1') {
     return direct;
   }
 
-  if (is_china_domain(host) === true) {
+  const cached = cacheGet(host);
+  if (cached !== undefined) {
+    return cached;
+  }
+
+  if (isCn(host) === true) {
+    cachePut(host, direct);
     return direct;
   }
 
-  if (match_domains(host, gfwlist_domains) === true) {
-    return proxy;
-  }
-
-  return direct;
+  const result = matchDomains(host, gfwlistDomains) === true ? proxy : direct;
+  cachePut(host, result);
+  return result;
 }
