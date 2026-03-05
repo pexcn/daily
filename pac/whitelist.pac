@@ -1,5 +1,5 @@
 //
-// Update: 2026-03-04 20:21:25
+// Update: 2026-03-05 11:18:06
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -9,7 +9,7 @@ const hasOwn = Object.hasOwn || function (obj, prop) {
   return Object.prototype.hasOwnProperty.call(obj, prop);
 };
 
-const china_domains = {
+const chinaDomains = {
   "ctldl.windowsupdate.com": 1,
   "itunes.apple.com": 1,
   "ocsp2.apple.com": 1,
@@ -116997,7 +116997,7 @@ const china_domains = {
   "zzzzzz.me": 1
 };
 
-const subnet_ranges = [
+const subnetRanges = [
   0, 16777216, 167772160, 184549376,
   1681915904, 1686110208, 2130706432, 2147483648,
   2851995648, 2852061184, 2886729728, 2887778304,
@@ -117009,38 +117009,37 @@ const subnet_ranges = [
   3758096384, 4294967296
 ];
 
-const _CACHE_LIMIT = 4096;
-const _cache = Object.create(null);
-const _cache_ring = new Array(_CACHE_LIMIT);
-let _cache_pos = 0;
-let _cache_size = 0;
+const CACHE_LIMIT = 4096;
+const cache = Object.create(null);
+const cacheRing = new Array(CACHE_LIMIT);
+let cachePos = 0;
+let cacheSize = 0;
 
-function _cacheGet(host) {
-  return _cache[host];
+function cacheGet(host) {
+  return cache[host];
 }
 
-function _cachePut(host, val) {
-  if (_cache[host] !== undefined) {
-    _cache[host] = val;
+function cachePut(host, val) {
+  if (cache[host] !== undefined) {
+    cache[host] = val;
     return;
   }
-  if (_cache_size < _CACHE_LIMIT) {
-    _cache_ring[_cache_size++] = host;
+  if (cacheSize < CACHE_LIMIT) {
+    cacheRing[cacheSize++] = host;
   } else {
-    const old = _cache_ring[_cache_pos];
+    const old = cacheRing[cachePos];
     if (old !== undefined) {
-      delete _cache[old];
+      delete cache[old];
     }
-    _cache_ring[_cache_pos] = host;
-    _cache_pos = (_cache_pos + 1) % _CACHE_LIMIT;
+    cacheRing[cachePos] = host;
+    cachePos = (cachePos + 1) % CACHE_LIMIT;
   }
-  _cache[host] = val;
+  cache[host] = val;
 }
 
-function _isCn(host) {
+function isCn(host) {
   const len = host.length;
   let end = len;
-  // Tolerate a trailing dot (FQDN form), e.g. "example.cn."
   if (len > 0 && host.charCodeAt(len - 1) === 46) { // '.'
     end = len - 1;
   }
@@ -117050,11 +117049,10 @@ function _isCn(host) {
     && host.charCodeAt(end - 1) === 110; // 'n'
 }
 
-function _ipv4ToUint(host) {
+function ipv4ToUint(host) {
   const colon = host.indexOf(':');
   if (colon !== -1) {
-    // If it contains ':' but no '.', assume IPv6 literal -> not IPv4.
-    if (host.indexOf('.') === -1) return null;
+    if (host.indexOf('.') === -1) return null; // host is ipv6
     host = host.substring(0, colon);
   }
 
@@ -117099,24 +117097,24 @@ function _ipv4ToUint(host) {
   return acc;
 }
 
-const _ip_table = new Array(256);
-(function _initIpTable() {
+const ipTable = new Array(256);
+(function initIpTable() {
   for (let i = 0; i < 256; i++) {
-    _ip_table[i] = [];
+    ipTable[i] = [];
   }
-  for (let i = 0; i < subnet_ranges.length; i += 2) {
-    const start = subnet_ranges[i];
-    const end = subnet_ranges[i + 1];
+  for (let i = 0; i < subnetRanges.length; i += 2) {
+    const start = subnetRanges[i];
+    const end = subnetRanges[i + 1];
     const pStart = (start >>> 24) & 0xFF;
     const pEnd = ((end - 1) >>> 24) & 0xFF;
     for (let p = pStart; p <= pEnd; p++) {
-      _ip_table[p].push(start, end);
+      ipTable[p].push(start, end);
     }
   }
 })();
 
-function _matchSubnet(ip) {
-  const ranges = _ip_table[(ip >>> 24) & 0xFF];
+function matchSubnet(ip) {
+  const ranges = ipTable[(ip >>> 24) & 0xFF];
   for (let i = 0; i < ranges.length; i += 2) {
     if (ranges[i] <= ip && ip < ranges[i + 1]) {
       return true;
@@ -117125,10 +117123,9 @@ function _matchSubnet(ip) {
   return false;
 }
 
-function _matchDomains(host, domains) {
+function matchDomains(host, domains) {
   if (hasOwn(domains, host)) return true;
 
-  // Start from the 2nd-level domain boundary to avoid checking TLD-only keys.
   let last = host.lastIndexOf('.');
   if (last <= 0) return false;
 
@@ -117152,24 +117149,24 @@ function FindProxyForURL(url, host) {
     return direct;
   }
 
-  const cached = _cacheGet(host);
+  const cached = cacheGet(host);
   if (cached !== undefined) {
     return cached;
   }
 
   let result = proxy;
-  if (_isCn(host) === true || _matchDomains(host, china_domains) === true) {
+  if (isCn(host) === true || matchDomains(host, chinaDomains) === true) {
     result = direct;
   } else {
     const c0 = host.length > 0 ? host.charCodeAt(0) : 0;
     if (c0 >= 48 && c0 <= 57) {
-      const ip = _ipv4ToUint(host);
-      if (ip !== null && _matchSubnet(ip) === true) {
+      const ip = ipv4ToUint(host);
+      if (ip !== null && matchSubnet(ip) === true) {
         result = direct;
       }
     }
   }
 
-  _cachePut(host, result);
+  cachePut(host, result);
   return result;
 }
