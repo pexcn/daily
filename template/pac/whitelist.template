@@ -9,16 +9,26 @@ const chinaDomains = {
   ___CHINALIST_PLACEHOLDER___
 };
 
-const subnetRanges = [
-  0, 16777216, 167772160, 184549376,
-  1681915904, 1686110208, 2130706432, 2147483648,
-  2851995648, 2852061184, 2886729728, 2887778304,
-  3221225472, 3221225728, 3221225984, 3221226240,
-  3223306240, 3223306496, 3224681472, 3224681728,
-  3227016704, 3227016960, 3232235520, 3232301056,
-  3232706560, 3232706816, 3323068416, 3323199488,
-  3325256704, 3325256960, 3405803776, 3405804032,
-  3758096384, 4294967296
+const SUBNET_CIDRS = [
+  "0.0.0.0/8",
+  "10.0.0.0/8",
+  "100.64.0.0/10",
+  "127.0.0.0/8",
+  "169.254.0.0/16",
+  "172.16.0.0/12",
+  "192.0.0.0/24",
+  "192.0.2.0/24",
+  "192.31.196.0/24",
+  "192.52.193.0/24",
+  "192.88.99.0/24",
+  "192.168.0.0/16",
+  "192.175.48.0/24",
+  "198.18.0.0/15",
+  "198.51.100.0/24",
+  "203.0.113.0/24",
+  "224.0.0.0/4",
+  "240.0.0.0/4",
+  "255.255.255.255/32",
 ];
 
 const CACHE_LIMIT = 4096;
@@ -114,9 +124,18 @@ const ipTable = new Array(256);
   for (let i = 0; i < 256; i++) {
     ipTable[i] = [];
   }
-  for (let i = 0; i < subnetRanges.length; i += 2) {
-    const start = subnetRanges[i];
-    const end = subnetRanges[i + 1];
+  for (let i = 0; i < SUBNET_CIDRS.length; i++) {
+    const cidr = SUBNET_CIDRS[i];
+    const slash = cidr.indexOf('/');
+    if (slash < 0) continue;
+    const ipStr = cidr.substring(0, slash);
+    const prefix = parseInt(cidr.substring(slash + 1), 10);
+    if (!(prefix >= 0 && prefix <= 32)) continue;
+    const base = ipv4ToUint(ipStr);
+    if (base === null) continue;
+    const mask = prefix === 0 ? 0 : ((0xFFFFFFFF << (32 - prefix)) >>> 0);
+    const start = (base & mask) >>> 0;
+    const end = start + Math.pow(2, 32 - prefix); // [start, end)
     const pStart = (start >>> 24) & 0xFF;
     const pEnd = ((end - 1) >>> 24) & 0xFF;
     for (let p = pStart; p <= pEnd; p++) {
