@@ -2486,6 +2486,7 @@ cynscribe.com
 ifan.cz.cc
 mike.cz.cc
 nic.cz.cc
+download.dappcdn.com
 darmau.co
 dockerstatus.com
 ddex.io
