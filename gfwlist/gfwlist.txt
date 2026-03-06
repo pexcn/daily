@@ -377,6 +377,7 @@ google.bg
 google.vg
 google.sk
 google.lk
+investing.com
 omny.fm
 patreonusercontent.com
 huluim.com
@@ -694,6 +695,7 @@ golang.org
 mubi.com
 archive.is
 archives.gov
+dns.cloudflare.com
 faz.net
 googleblog.com
 wenxuecity.com
@@ -873,6 +875,7 @@ imagevenue.com
 momoshop.com.tw
 apkmirror.com
 hotair.com
+google.dev
 wionews.com
 search.yahoo.co.jp
 bitvise.com

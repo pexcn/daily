@@ -1,5 +1,5 @@
 //
-// Update: 2026-03-06 03:14:32
+// Update: 2026-03-07 02:42:45
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080";
@@ -389,6 +389,7 @@ const gfwlistDomains = {
   "google.vg": 1,
   "google.sk": 1,
   "google.lk": 1,
+  "investing.com": 1,
   "omny.fm": 1,
   "patreonusercontent.com": 1,
   "huluim.com": 1,
@@ -706,6 +707,7 @@ const gfwlistDomains = {
   "mubi.com": 1,
   "archive.is": 1,
   "archives.gov": 1,
+  "dns.cloudflare.com": 1,
   "faz.net": 1,
   "googleblog.com": 1,
   "wenxuecity.com": 1,
@@ -885,6 +887,7 @@ const gfwlistDomains = {
   "momoshop.com.tw": 1,
   "apkmirror.com": 1,
   "hotair.com": 1,
+  "google.dev": 1,
   "wionews.com": 1,
   "search.yahoo.co.jp": 1,
   "bitvise.com": 1,
