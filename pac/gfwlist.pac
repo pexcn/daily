@@ -1,5 +1,5 @@
 //
-// Update: 2026-03-09 02:32:56
+// Update: 2026-03-15 02:36:51
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080";
@@ -962,6 +962,7 @@ const gfwlistDomains = {
   "hidemyass.com": 1,
   "knowyourmeme.com": 1,
   "wikivoyage.org": 1,
+  "xdaforums.com": 1,
   "steemit.com": 1,
   "annas-archive.org": 1,
   "books.com.tw": 1,
