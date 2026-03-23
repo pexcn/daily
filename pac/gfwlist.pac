@@ -1,5 +1,5 @@
 //
-// Update: 2026-03-23 10:00:31
+// Update: 2026-03-24 02:53:02
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080";
@@ -3503,6 +3503,7 @@ const gfwlistDomains = {
   "qstatus.com": 1,
   "qtrac.eu": 1,
   "quitccp.org": 1,
+  "s.rmimg.com": 1,
   "r0.ru": 1,
   "radio-en-ligne.fr": 1,
   "rael.org": 1,
