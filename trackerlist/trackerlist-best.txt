@@ -7,8 +7,8 @@ udp://tracker.torrent.eu.org:451/announce
 udp://tracker.theoks.net:6969/announce
 udp://tracker.srv00.com:6969/announce
 udp://tracker.qu.ax:6969/announce
-udp://tracker.plx.im:6969/announce
 udp://tracker.gmi.gd:6969/announce
+udp://tracker.corpscorp.online:80/announce
 udp://tracker.004430.xyz:1337/announce
 udp://tracker-udp.gbitt.info:80/announce
 udp://tr4ck3r.duckdns.org:6969/announce
@@ -17,9 +17,10 @@ udp://seedpeer.net:6969/announce
 udp://martin-gebhardt.eu:25/announce
 udp://leet-tracker.moe:1337/announce
 udp://ipv4announce.sktorrent.eu:6969/announce
-udp://evan.im:6969/announce
+udp://explodie.org:6969/announce
 http://1337.abcvg.info:80/announce
 http://bt1.archive.org:6969/announce
+http://bt2.archive.org:6969/announce
 http://bvarf.tracker.sh:2086/announce
 http://nyaa.tracker.wf:7777/announce
 http://torrentsmd.com:8080/announce
@@ -28,9 +29,9 @@ http://tracker.exe.in.th:6969/announce
 http://tracker.mywaifu.best:6969/announce
 http://tracker.renfei.net:8080/announce
 http://tracker.skyts.net:6969/announce
-http://tracker.tritan.gg:8080/announce
 http://tracker.xn--djrq4gl4hvoi.top:80/announce
 http://tracker3.ctix.cn:8080/announce
+http://www.wareztorrent.com:80/announce
 https://1337.abcvg.info:443/announce
 https://http1.torrust-tracker-demo.com:443/announce
 https://opentracker.8880085.xyz:443/announce
@@ -50,6 +51,7 @@ https://tracker1.520.jp:443/announce
 udp://admin.52ywp.com:6969/announce
 udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 udp://bt.rer.lol:6969/announce
+udp://evan.im:6969/announce
 udp://ns575949.ip-51-222-82.net:6969/announce
 udp://opentor.org:2710/announce
 udp://p4p.arenabg.com:1337/announce
@@ -57,7 +59,6 @@ udp://retracker.hotplug.ru:2710/announce
 udp://tracker.1h.is:1337/announce
 udp://tracker.bluefrog.pw:2710/announce
 udp://tracker.breizh.pm:6969/announce
-udp://tracker.corpscorp.online:80/announce
 udp://tracker.dler.com:6969/announce
 udp://tracker.flatuslifir.is:6969/announce
 udp://tracker.fnix.net:6969/announce
@@ -66,6 +67,7 @@ udp://tracker.ixuexi.click:6969/announce
 udp://tracker.nyaa.vc:6969/announce
 udp://tracker.opentorrent.top:6969/announce
 udp://tracker.playground.ru:6969/announce
+udp://tracker.plx.im:6969/announce
 udp://tracker.skyts.net:6969/announce
 udp://tracker.t-1.org:6969/announce
 udp://tracker.wildkat.net:6969/announce
