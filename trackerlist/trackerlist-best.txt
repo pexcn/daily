@@ -20,6 +20,7 @@ udp://evan.im:6969/announce
 udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 http://1337.abcvg.info:80/announce
 http://bt1.archive.org:6969/announce
+http://bt2.archive.org:6969/announce
 http://bvarf.tracker.sh:2086/announce
 http://nyaa.tracker.wf:7777/announce
 http://torrentsmd.com:8080/announce
@@ -53,7 +54,6 @@ udp://obey.torrentonline.cc:42069/announce
 udp://opentor.org:2710/announce
 udp://p4p.arenabg.com:1337/announce
 udp://retracker.hotplug.ru:2710/announce
-udp://seedpeer.net:6969/announce
 udp://tracker.1h.is:1337/announce
 udp://tracker.bluefrog.pw:2710/announce
 udp://tracker.breizh.pm:6969/announce
