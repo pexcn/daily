@@ -380,14 +380,11 @@ ciciai.com
 jcpenney.com
 page.link
 slideshare.net
-ss7.vzw.com
 spreaker.com
 google.bs
 you.com
-scache1.vzw.com
 googlecommerce.com
 deviantart.com
-scache2.vzw.com
 youporn.com
 podbean.com
 news18.com
@@ -464,7 +461,6 @@ walletconnect.org
 manus.im
 privateinternetaccess.com
 nordstromrack.com
-scache.vzw.com
 livemint.com
 thehindu.com
 redbubble.com

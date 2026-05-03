@@ -1,5 +1,5 @@
 //
-// Update: 2026-05-03 02:57:32
+// Update: 2026-05-04 02:57:58
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080";
@@ -392,14 +392,11 @@ const gfwlistDomains = {
   "jcpenney.com": 1,
   "page.link": 1,
   "slideshare.net": 1,
-  "ss7.vzw.com": 1,
   "spreaker.com": 1,
   "google.bs": 1,
   "you.com": 1,
-  "scache1.vzw.com": 1,
   "googlecommerce.com": 1,
   "deviantart.com": 1,
-  "scache2.vzw.com": 1,
   "youporn.com": 1,
   "podbean.com": 1,
   "news18.com": 1,
@@ -476,7 +473,6 @@ const gfwlistDomains = {
   "manus.im": 1,
   "privateinternetaccess.com": 1,
   "nordstromrack.com": 1,
-  "scache.vzw.com": 1,
   "livemint.com": 1,
   "thehindu.com": 1,
   "redbubble.com": 1,
