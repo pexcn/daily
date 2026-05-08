@@ -5,19 +5,19 @@ udp://vito-tracker.space:6969/announce
 udp://vito-tracker.duckdns.org:6969/announce
 udp://udp.tracker.projectk.org:23333/announce
 udp://tracker.torrust-demo.com:6969/announce
-udp://tracker.torrent.eu.org:451/announce
 udp://tracker.theoks.net:6969/announce
 udp://tracker.srv00.com:6969/announce
 udp://tracker.qu.ax:6969/announce
 udp://tracker.plx.im:6969/announce
 udp://tracker.gmi.gd:6969/announce
 udp://tracker.fnix.net:6969/announce
-udp://tracker.filemail.com:6969/announce
-udp://tracker.dler.org:6969/announce
 udp://tracker.corpscorp.online:80/announce
 udp://tracker.004430.xyz:1337/announce
 udp://tracker-udp.gbitt.info:80/announce
 udp://tr4ck3r.duckdns.org:6969/announce
+udp://torrents.tmtime.dev:6969/announce
+udp://martin-gebhardt.eu:25/announce
+udp://leet-tracker.moe:1337/announce
 http://1337.abcvg.info:80/announce
 http://bt1.archive.org:6969/announce
 http://bt2.archive.org:6969/announce
@@ -35,6 +35,7 @@ https://1337.abcvg.info:443/announce
 https://http1.torrust-tracker-demo.com:443/announce
 https://torrents.tmtime.dev:443/announce
 https://tr.abiir.top:443/announce
+https://tr.nyacat.pw:443/announce
 https://tracker.7471.top:443/announce
 https://tracker.kuroy.me:443/announce
 https://tracker.nekomi.cn:443/announce
@@ -45,7 +46,6 @@ https://tracker1.520.jp:443/announce
 udp://archive.torrentonline.cc:42069/announce
 udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 udp://evan.im:6969/announce
-udp://martin-gebhardt.eu:25/announce
 udp://ns575949.ip-51-222-82.net:6969/announce
 udp://open.tracker.ink:6969/announce
 udp://opentor.org:2710/announce
@@ -61,6 +61,7 @@ udp://tracker.nyaa.vc:6969/announce
 udp://tracker.opentorrent.top:6969/announce
 udp://tracker.skyts.net:6969/announce
 udp://tracker.t-1.org:6969/announce
+udp://tracker.torrent.eu.org:451/announce
 udp://tracker.tryhackx.org:6969/announce
 udp://tracker.wildkat.net:6969/announce
 udp://uabits.today:6990/announce
