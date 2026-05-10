@@ -1521,6 +1521,7 @@ xiaomi.eu
 webrtc.org
 cts.com.tw
 unmineable.com
+data18.com
 tibet.net
 theync.com
 nodeseek.com
@@ -2479,6 +2480,7 @@ cynscribe.com
 ifan.cz.cc
 mike.cz.cc
 nic.cz.cc
+dt18.com
 dot.sb
 download.dappcdn.com
 darmau.co

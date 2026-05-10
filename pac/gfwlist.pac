@@ -1,5 +1,5 @@
 //
-// Update: 2026-05-08 03:41:46
+// Update: 2026-05-11 03:02:06
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080";
@@ -1533,6 +1533,7 @@ const gfwlistDomains = {
   "webrtc.org": 1,
   "cts.com.tw": 1,
   "unmineable.com": 1,
+  "data18.com": 1,
   "tibet.net": 1,
   "theync.com": 1,
   "nodeseek.com": 1,
@@ -2491,6 +2492,7 @@ const gfwlistDomains = {
   "ifan.cz.cc": 1,
   "mike.cz.cc": 1,
   "nic.cz.cc": 1,
+  "dt18.com": 1,
   "dot.sb": 1,
   "download.dappcdn.com": 1,
   "darmau.co": 1,
