@@ -110,6 +110,7 @@ http://www.wareztorrent.com:80/announce
 https://1.tracker.eu.org:443/announce
 https://1337.abcvg.info:443/announce
 https://tr.abiir.top:443/announce
+https://tr.abir.ga:443/announce
 https://tr.burnabyhighstar.com:443/announce
 https://tracker.bug38.com:443/announce
 https://tracker.foreverpirates.co:443/announce
@@ -122,7 +123,6 @@ udp://52.58.128.163:6969/announce
 udp://93.158.213.92:6969/announce
 udp://[2a03:7220:8083:cd00::1]:451/announce
 udp://[2a04:ac00:1:3dd8::1:2710]:2710/announce
-udp://coeus.torrentonline.cc:42069/announce
 udp://ipv6.govt.hu:6969/announce
 udp://open.tracker.ink:6969/announce
 udp://opentor.org:2710/announce
@@ -137,7 +137,6 @@ udp://tracker.filemail.com:6969/announce
 udp://tracker.govt.hu:6969/announce
 udp://tracker.k.vu:6969/announce
 udp://tracker.nyaa.net:6969/announce
-udp://tracker.opentorrent.top:6969/announce
 udp://tracker.orsvarn.com:6969/announce
 udp://tracker.skyts.net:6969/announce
 udp://tracker1.itzmx.com:8080/announce
@@ -145,4 +144,5 @@ udp://tracker2.itzmx.com:6961/announce
 udp://tracker3.itzmx.com:6961/announce
 udp://tracker4.itzmx.com:2710/announce
 udp://v6.vito-tracker.space:6969/announce
+udp://whybother.torrentonline.cc:42069/announce
 wss://tracker.openwebtorrent.com:443/announce
