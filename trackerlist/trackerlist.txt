@@ -112,7 +112,6 @@ udp://tracker.filemail.com:6969/announce
 udp://tracker.flatuslifir.is:6969/announce
 udp://tracker.k.vu:6969/announce
 udp://tracker.skyts.net:6969/announce
-udp://tracker.theoks.net:6969/announce
 udp://tracker.willy.pro:6969/announce
 udp://tracker.yume-hatsuyuki.moe:6969/announce
 udp://tracker1.itzmx.com:8080/announce

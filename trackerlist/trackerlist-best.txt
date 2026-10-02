@@ -59,7 +59,6 @@ udp://tr4ck3r.duckdns.org:6969/announce
 udp://tracker.aruku.ovh:8081/announce
 udp://tracker.cn.nyaa.net:6969/announce
 udp://tracker.dler.com:6969/announce
-udp://tracker.dler.org:6969/announce
 udp://tracker.farted.net:6969/announce
 udp://tracker.ilibr.org:6969/announce
 udp://tracker.k.vu:6969/announce
@@ -67,7 +66,6 @@ udp://tracker.nyaa.net:6969/announce
 udp://tracker.opentrackr.com:6969/announce
 udp://tracker.skyts.net:6969/announce
 udp://tracker.teambelgium.net:6969/announce
-udp://tracker.theoks.net:6969/announce
 udp://tracker.torrents.observer:80/announce
 udp://tracker.willy.pro:6969/announce
 wss://tracker.openwebtorrent.com:443/announce
