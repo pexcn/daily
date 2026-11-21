@@ -60,6 +60,7 @@ udp://tr4ck3r.duckdns.org:6969/announce
 udp://tracker.alt.cx:6969/announce
 udp://tracker.cn.nyaa.net:6969/announce
 udp://tracker.dler.com:6969/announce
+udp://tracker.evergarden.uk:1914/announce
 udp://tracker.ilibr.org:6969/announce
 udp://tracker.nyaa.net:6969/announce
 udp://tracker.okade.pro:1337/announce
@@ -68,7 +69,6 @@ udp://tracker.peerfect.org:6969/announce
 udp://tracker.skyts.net:6969/announce
 udp://tracker.torrents.observer:80/announce
 udp://tracker.transfur.org:6969/announce
-udp://tracker.tryhackx.org:6969/announce
 udp://tracker.wildkat.net:6969/announce
 udp://tracker.willy.pro:6969/announce
 udp://v2.iperson.xyz:6969/announce
