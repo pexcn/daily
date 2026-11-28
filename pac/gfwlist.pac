@@ -1,5 +1,5 @@
 //
-// Update: 2026-11-27 09:29:57
+// Update: 2026-11-28 09:06:18
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080";
@@ -1684,6 +1684,7 @@ const gfwlistDomains = {
   "ubddns.org": 1,
   "howtoforge.com": 1,
   "rsshub.app": 1,
+  "spacedesk.net": 1,
   "i.111666.best": 1,
   "greatfire.org": 1,
   "darpa.mil": 1,
@@ -2310,6 +2311,7 @@ const gfwlistDomains = {
   "99cn.info": 1,
   "9bis.com": 1,
   "9bis.net": 1,
+  "aicu.cc": 1,
   "livingatlas.arcgis.com": 1,
   "aihub.top": 1,
   "accountboy.com": 1,
@@ -2699,6 +2701,7 @@ const gfwlistDomains = {
   "ifan.cz.cc": 1,
   "mike.cz.cc": 1,
   "nic.cz.cc": 1,
+  "danmakus.com": 1,
   "dh.net": 1,
   "divdyn.com": 1,
   "dt18.com": 1,

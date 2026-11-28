@@ -1672,6 +1672,7 @@ amnestyusa.org
 ubddns.org
 howtoforge.com
 rsshub.app
+spacedesk.net
 i.111666.best
 greatfire.org
 darpa.mil
@@ -2298,6 +2299,7 @@ zhao.1984.city
 99cn.info
 9bis.com
 9bis.net
+aicu.cc
 livingatlas.arcgis.com
 aihub.top
 accountboy.com
@@ -2687,6 +2689,7 @@ cynscribe.com
 ifan.cz.cc
 mike.cz.cc
 nic.cz.cc
+danmakus.com
 dh.net
 divdyn.com
 dt18.com
